@@ -17,10 +17,10 @@ video {
   float: left;
 }
         <video autoplay loop muted>
-            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.youtube.com/watch?v=kqrpvaokg-Q" type="video/mp4">
         </video>
         <video autoplay loop muted>
-            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.youtube.com/watch?v=Y6ema9jzxFw&t=5s" type="video/mp4">
         </video>
         <video autoplay loop muted>
             <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
