@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Data Umbrella
-logo: '/images/logo/du-logo.jpg'
+logo: '/images/logo/du-logo.jpg' 
 description: Data Umbrella Blog and Resources
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -13,7 +13,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 author:
   author__name: Data Umbrella
   author__bio: Community for underrepresented persons in data science. 
-  author__avatar: '/images/logo/du-logo.jpg'
+  author__avatar: '/images/logo/umb-trans.png'
 
 social:
 - {icon: "ion-logo-twitter", link: " https://twitter.com/DataUmbrella"}
