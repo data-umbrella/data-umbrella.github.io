@@ -296,19 +296,21 @@ In response to the question "*What are your favorite parts about the sprint?*"
 
 #### Some general feedback in the survey:  
 
->"I think the difficulty of contributing to open source is two-fold: 
+```text
+I think the difficulty of contributing to open source is two-fold: 
 (1) the tools: are not straightforward - `git`, `pytest`, etc. 
 (2) the knowledge: is very specific.
+```
 
->Maybe the preparation for the sprint could split the preparation into this steps. With github actions, learning the tools can be even easier."
+- Maybe the preparation for the sprint could split the preparation into this steps. With github actions, learning the tools can be even easier."
 
->I loved that. It has been my first experience in contributing with open source.
+- I loved that. It has been my first experience in contributing with open source.
 
->Overall the sprint was a good experience, the one slight "issue" I had was with the prework. I stressed a bit trying to get it all done before the deadline, but that didn't end up being important. It definitely was useful, though, I just happened to have a very busy week at work while preparing.
+- Overall the sprint was a good experience, the one slight "issue" I had was with the prework. I stressed a bit trying to get it all done before the deadline, but that didn't end up being important. It definitely was useful, though, I just happened to have a very busy week at work while preparing.
 
->I was a bit shy to talk at the end of the event. I am really thankful to all the organizers. I am a great fan of sklearn so being able to participate was fantastic. Also, a great opportunity to learn in general and to learn how to contribute. Now I will continue contributing, but this was not something I thought I could do before, the Sprint and the mentors really help me to change my mind. The videos and documentation we had to read before the sprint were very useful. 
+- I was a bit shy to talk at the end of the event. I am really thankful to all the organizers. I am a great fan of sklearn so being able to participate was fantastic. Also, a great opportunity to learn in general and to learn how to contribute. Now I will continue contributing, but this was not something I thought I could do before, the Sprint and the mentors really help me to change my mind. The videos and documentation we had to read before the sprint were very useful. 
 
->It was a really nice experience. I felt supported by the mentors and my partner, the code was appropriate. It's a great place to begin on contribute on open source.
+- It was a really nice experience. I felt supported by the mentors and my partner, the code was appropriate. It's a great place to begin on contribute on open source.
 
 
 #### Suggestions for Improvement
@@ -384,7 +386,7 @@ In response to the question "*What are your favorite parts about the sprint?*"
 
 <p float="left">
    <a href="https://www.linkedin.com/posts/karen-pal_scikitlearn-scikitlearnsprint-datascience-activity-6815275979380940801-t5b0/">
-  <img  src="../assets/images/2021-latam/karen_li.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/karen_li.png" width="99%" height="99%" style="border:0px;margin:0px">
       </a>
 </p>
 
