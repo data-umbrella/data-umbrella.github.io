@@ -1,11 +1,21 @@
 ---
 layout: post
 title:  Data Umbrella Latam 2021 Scikit Learn Sprint Report
-description: Reshama Shaikh: Summary of the Latin America Sprint, June 2021
+description: Reshama Shaikh Summary of the Latin America Sprint, June 2021
 date:   2021-07-19 15:01:35 +0300
 image:  '/images/2020-latam/latam-group-cover.png'
 tags:   [opensource, python, sprint]
 ---
+
+
+
+## Sprint Background
+This "sprint" is a hands-on hackathon where participants learn to contribute to scikit-learn, a widely-used Python open source, machine learning library.
+
+This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic region of Latin America (LATAM).  
+
+This report focuses on the summary, impact and lessons learned of the Data Umbrella LATAM scikit-learn sprint.  
+
 Author:  [Reshama Shaikh](https://reshamas.github.io)  
 
 <p float="left">
@@ -23,14 +33,6 @@ Author:  [Reshama Shaikh](https://reshamas.github.io)
   <img src="../images/2021-latam/DU_Latin_America_Sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
 </a>
 </p>
-
-
-## Sprint Background
-This "sprint" is a hands-on hackathon where participants learn to contribute to scikit-learn, a widely-used Python open source, machine learning library.
-
-This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic region of Latin America (LATAM).  
-
-This report focuses on the summary, impact and lessons learned of the Data Umbrella LATAM scikit-learn sprint.  
 
 ## Event Sponsor
 This event was funded in part by a grant from [Code for Science & Society](https://eventfund.codeforscience.org/), made possible by grant number [GBMF8449](https://www.moore.org/grant-detail?grantId=GBMF8449) from the [Gordon and Betty Moore Foundation](https://www.moore.org/).
