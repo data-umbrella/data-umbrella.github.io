@@ -5,10 +5,32 @@ permalink: /about/
 image: 
 ---
 
-This website is Data Umbrella's blog.  Please see our main website for more information:  [Data Umbrella](https://www.dataumbrella.org)
+This website is Data Umbrella's blog.  Please see our main website for more information:  [dataumbrella.org](https://www.dataumbrella.org)
 
 We have a full library of videos here: [Data Umbrella on YouTube](https://www.youtube.com/c/dataumbrella).
 
+body {
+  margin: 0px;
+}
+video {
+  width: 50%;
+  float: left;
+}
+        <video autoplay loop muted>
+            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted>
+            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted>
+            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop muted>
+            <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        
+        
+        
 <div class="gallery-box">
   <div class="gallery">
     <iframe src="https://www.youtube.com/embed/gghgYaYeG_M" width="640" height="360" frameborder="0" allowfullscreen></iframe>
