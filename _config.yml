@@ -13,7 +13,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 author:
   author__name: Data Umbrella
   author__bio: Community for underrepresented persons in data science. 
-  author__avatar: '/images/01-1.jpg'
+  author__avatar: '/images/logo/du-logo.jpg'
 
 social:
 - {icon: "ion-logo-twitter", link: " https://twitter.com/DataUmbrella"}
