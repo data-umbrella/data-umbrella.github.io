@@ -17,10 +17,13 @@ author:
 
 social:
 - {icon: "ion-logo-twitter", link: " https://twitter.com/DataUmbrella"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/c/dataumbrella"}
+- {icon: "ion-logo-linkedin", link: "www.linkedin.com/company/dataumbrella/"}
 - {icon: "ion-logo-facebook", link: "https://www.facebook.com/data.umbrella.dei"}
 - {icon: "ion-logo-instagram", link: "https://www.instagram.com/data.umbrella/"}
-- {icon: "ion-logo-linkedin", link: "www.linkedin.com/company/dataumbrella/"}
-- {icon: "ion-logo-youtube", link: "https://www.youtube.com/c/dataumbrella"}
+- {icon: "ion-logo-meetup", link: "https://www.meetup.com/data-umbrella/"}
+
+
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
