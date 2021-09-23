@@ -34,7 +34,7 @@ social:
 hero:
   hero__title: Data Umbrella 
   hero__description: We are a community for underrepresented persons in data science.
-  hero__image: '/images/01.jpg'
+  hero__image: '/images/bayes/du-background-img.jpg'
 
 
 #-------------------------------
@@ -52,13 +52,13 @@ gallery:
   gallery__columns: 3
   gallery__images:
     - alt: 'Rest'
-      url: '/images/100.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/101.jpg'
-    - alt: 'Hobby'
-      url: '/images/102.jpg'
-    - alt: 'Notes'
-      url: '/images/103.jpg'
+      url: '/images/bayes/bayes1.jpg'
+    - alt: 'Bayes'
+      url: '/images/bayes/bayes2.jpg'
+    - alt: 'Bayes2'
+      url: '/images/bayes/bayes3.jpg'
+    - alt: 'Bayes3'
+      url: '/images/bayes/bayes4.jpg'
     - alt: 'Rest'
       url: '/images/104.jpg'
     - alt: 'Hobby'
