@@ -1,8 +1,16 @@
-
+---
+layout: post
+title:  Data Umbrella Latam 2021 Scikit Learn Sprint Report
+description: Reshama Shaikh: Summary of the Latin America Sprint, June 2021
+date:   2021-07-19 15:01:35 +0300
+image:  '/images/2020-latam/latam-group-cover.png'
+tags:   [open source, python, vscode]
+---
+Author:  [Reshama Shaikh](https://reshamas.github.io)  
 
 <p float="left">
 <a href="https://twitter.com/reshamas/status/1408841488482590721">
-  <img src="../assets/images/2021-latam/latam-group-cover.png" width="99%" height="99%"/> 
+  <img src="images/2021-latam/latam-group-cover.png" width="99%" height="99%"/> 
 </a>
 </p>
 
@@ -12,7 +20,7 @@
 
 <p float="left">
    <a href="https://latam2021.dataumbrella.org/">
-  <img src="../assets/images/2021-latam/DU_Latin_America_Sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="images/2021-latam/DU_Latin_America_Sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
 </a>
 </p>
 
