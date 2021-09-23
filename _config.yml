@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Menca
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Menca personal blogging theme for Jekyll
+title: Data Umbrella
+logo: '/images/logo/du-logo.jpg'
+description: Data Umbrella Blog and Resources
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
