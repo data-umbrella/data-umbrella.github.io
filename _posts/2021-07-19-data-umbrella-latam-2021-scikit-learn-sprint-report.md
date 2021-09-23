@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Data Umbrella LATAM 2021 Scikit Learn Sprint Report
+title:  Data Umbrella LATAM 2021 scikit-learn Sprint Report
 description: Reshama Shaikh - Summary of the Latin America Sprint, June 2021
 date:   2021-07-19 15:01:35 +0300
 image:  '/images/2021-latam/latam-demog.png'
