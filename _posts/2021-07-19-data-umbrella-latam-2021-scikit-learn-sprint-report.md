@@ -41,9 +41,9 @@ This event was funded in part by a grant from [Code for Science & Society](https
 
 <p float="left">
    <a href="https://eventfund.codeforscience.org/"> </a>
-  <img src="../assets/images/2021-afme/css-logo.png" width="50%" height="50%" style="padding:1px;border:thick solid black;" align="top" />
+  <img src="../images/2021-afme/css-logo.png" width="50%" height="50%" style="padding:1px;border:thick solid black;" align="top" />
    <a href="https://www.moore.org/"></a>
-  <img src="../assets/images/2021-afme/moore-logo.jpg" width="40%" height="40%" style="padding:1px;border:thick solid black;" align="top"/> 
+  <img src="../images/2021-afme/moore-logo.jpg" width="40%" height="40%" style="padding:1px;border:thick solid black;" align="top"/> 
 </p>
 
 
@@ -70,7 +70,7 @@ Office hours were set up 2 weeks after the sprint where some of the scikit-learn
 ## Demographics
 
 <p>
- <img src="../assets/images/2021-latam/latam-demog.png" width="99%" height="99%" style="border:0px;margin:0px">
+ <img src="../images/2021-latam/latam-demog.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
 A total of 40 contributors attended the sprint. 13 of 40 (32.5%) identified as she/her.  25 of 40 (62.5%) identified as he/him. 2 of 40 (5%) identified as "they".
@@ -165,7 +165,7 @@ A [Checklist](https://docs.google.com/document/d/1QknhXDJ4qtP8Co2SfqaPGaZ8J5grsM
 This visualization shows which resources were used for sprint preparation.  Note that n=21, which represents those participants who completed the feedback survey.
 
 <p>
-  <img  src="../assets/images/2021-latam/resources-sprint-prep.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/resources-sprint-prep.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>      
 
 ## Impact
@@ -193,28 +193,28 @@ This [LATAM sprint tweet](https://twitter.com/DataUmbrella/status/13946617342758
  had ~80K+ impressions and 160+ link clicks:
 
 <p>
-  <img  src="../assets/images/2021-latam/twitter_stats.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/twitter_stats.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>  
 
 This [LATAM LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:6800434144624070656/)
  had 3200 impressions and 50 reshares:
 
 <p>
-  <img  src="../assets/images/2021-latam/li_stats.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/li_stats.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
 Google Analytics shows the reach of our marketing efforts:  
 
 <p float="left">
-  <img  src="../assets/images/2021-latam/latam_language.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/latam_language.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
 <p float="left">
-  <img  src="../assets/images/2021-latam/latam_map.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/latam_map.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
 <p float="left">
-  <img  src="../assets/images/2021-latam/latam_countries.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/latam_countries.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
 ## Challenges
@@ -225,7 +225,7 @@ Outreach was resource intensive. The communities exist, and it takes intensive n
 For those who attended the sprint, this is how they learned of the event. The main avenues were Twitter, LinkedIn and their network ("word of mouth").
 
 <p float="left">
-  <img  src="../assets/images/2021-latam/found-sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img  src="../images/2021-latam/found-sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
 ### Videos
