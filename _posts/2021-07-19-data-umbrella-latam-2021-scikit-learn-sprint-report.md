@@ -41,9 +41,9 @@ This event was funded in part by a grant from [Code for Science & Society](https
 
 <p float="left">
    <a href="https://eventfund.codeforscience.org/"> </a>
-  <img src="../images/2021-afme/css-logo.png" width="50%" height="50%" style="padding:1px;border:thick solid black;" align="top" />
+  <img src="../images/2021-latam/css-logo.png" width="50%" height="50%" style="padding:1px;border:thick solid black;" align="top" />
    <a href="https://www.moore.org/"></a>
-  <img src="../images/2021-afme/moore-logo.jpg" width="40%" height="40%" style="padding:1px;border:thick solid black;" align="top"/> 
+  <img src="../images/2021-latam/moore-logo.jpg" width="40%" height="40%" style="padding:1px;border:thick solid black;" align="top"/> 
 </p>
 
 
