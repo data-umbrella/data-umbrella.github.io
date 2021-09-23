@@ -17,7 +17,8 @@ Time series are everywhere around us. Understanding them requires taking into ac
 Bruno will be presenting a 2-day workshop at an upcoming event:
 O’Reilly Strata Data and AI Conference (New York, NY) (Sep 2020)
 
-### Workshop GitHub Repo:  [Timeseries_long](https://github.com/DataForScience/Timeseries_LL)
+### Workshop GitHub Repo
+- [Timeseries_long](https://github.com/DataForScience/Timeseries_LL)
 
 ### Related Links
 Meetup event: [Time Series Modeling: ML and Deep Learning Approaches with Python](https://www.meetup.com/nyc-uads/events/268766867/)
