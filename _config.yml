@@ -60,15 +60,15 @@ gallery:
     - alt: 'Bayes3'
       url: '/images/bayes/bayes4.jpg'
     - alt: 'Rest'
-      url: '/images/bayes/bayes5.JPG'
+      url: '/images/bayes/du-background-img.jpg'
     - alt: 'Hobby'
       url: '/images/timeseries/ts1.jpeg'
     - alt: 'Fashion'
       url: '/images/timeseries/ts2.jpeg'
     - alt: 'Notes'
-      url: '/images/bayes/du-background-img.jpg'
+      url: '/images/timeseries/ts3.jpg'
     - alt: 'Rest'
-      url: '/images/108.jpg'
+      url: '/images/timeseries/ts4.jpg'
 
 
 #-------------------------------
