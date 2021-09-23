@@ -2,10 +2,22 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/01-2.jpg'
+image: 
 ---
 
-Videos from Open Source Events
+This website is Data Umbrella's blog.  Please see our main website for more information:  [Data Umbrella](https://www.dataumbrella.org)
+
+We have a full library of videos here: [Data Umbrella on YouTube](https://www.youtube.com/c/dataumbrella).
+
+<div class="gallery-box">
+  <div class="gallery">
+    <iframe src="https://www.youtube.com/embed/gghgYaYeG_M" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/gghgYaYeG_M" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/gghgYaYeG_M" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+</div>
+
 
 <p><iframe src="https://www.youtube.com/embed/gghgYaYeG_M" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
 
@@ -15,14 +27,7 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 
 Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/102.jpg">
-    <img src="/images/105.jpg">
-    <img src="/images/107.jpg">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
+
 
 Completely synergize resource taxing relationships via premier niche markets. Cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
 
