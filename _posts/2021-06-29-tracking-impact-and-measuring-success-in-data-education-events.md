@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Tracking Impact and Measuring Success in Data Education Events
+title: Tracking impact and measuring success in data education events
 description: This post summarizes conversations surrounding these topics and provides resources to help you develop an impact strategy for your next event.
 date: 2021-06-29 15:01:35 +0300
 image: '/images/csvconf-blog.jpeg'
 tags: [education]
 ---
-
-## Full Article
 For the full article, see [Tracking Impact and Measuring Success in Data Education Events](https://eventfund.codeforscience.org/tracking-impact-and-measuring-success-in-data-education-events/) on the CS&S (Code for Science & Society) Event Fund website.  
 
 ## Authors
