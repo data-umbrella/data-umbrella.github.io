@@ -62,7 +62,7 @@ gallery:
     - alt: 'Rest'
       url: '/images/bayes/du-background-img.jpg'
     - alt: 'Hobby'
-      u  url: '/images/timeseries/ts4.jpg'
+      url: '/images/timeseries/ts4.jpg'
     - alt: 'Fashion'
       url: '/images/timeseries/ts2.jpeg'
     - alt: 'Notes'
