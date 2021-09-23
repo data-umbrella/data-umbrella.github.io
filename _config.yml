@@ -11,16 +11,16 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 #-------------------------------
 # Author Settings
 author:
-  author__name: Camelia Mendes
-  author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
+  author__name: Data Umbrella
+  author__bio: Community for underrepresented persons in data science. 
   author__avatar: '/images/01-1.jpg'
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-youtube", link: "https://youtube.com"}
+- {icon: "ion-logo-twitter", link: " https://twitter.com/DataUmbrella"}
+- {icon: "ion-logo-facebook", link: "https://www.facebook.com/data.umbrella.dei"}
+- {icon: "ion-logo-instagram", link: "https://www.instagram.com/data.umbrella/"}
+- {icon: "ion-logo-linkedin", link: "www.linkedin.com/company/dataumbrella/"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/c/dataumbrella"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -29,8 +29,8 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hey, I’m Camelia Mendes
-  hero__description: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
+  hero__title: Data Umbrella 
+  hero__description: We are a community for underrepresented persons in data science.
   hero__image: '/images/01.jpg'
 
 
