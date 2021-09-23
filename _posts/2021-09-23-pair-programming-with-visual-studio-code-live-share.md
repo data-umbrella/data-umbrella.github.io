@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  Pair Programming with Visual Studio Code Live Share
-description: Juan Martin Loyola: Pair Programming with Visual Studio Code Live Share
+description: Juan Martin Loyola - Pair Programming with Visual Studio Code Live Share
 date:   2021-09-23 15:01:35 +0300
 image:  '/images/vsc/image9.png'
 tags:   [opensource, python, vscode]
 ---
-Author:  [Juan Martin Loyola](https://jmloyola.github.io/year-archive/)  
+
 Pair programming is an amazing experience. On one hand, you and your coding partner can accomplish much more than you would working separately. On the other hand, both can learn new things about the language or framework you are working on from one another. But, mainly, solving problems and coding challenges with somebody else is a lot of fun :).
 
 This document aims to introduce the Visual Studio Code extension Live Share, which allows you to collaborate with coding buddies in real time.
+
+Author:  [Juan Martin Loyola](https://jmloyola.github.io/year-archive/)  
 
 ## Live Share
 Live Share is an extension from Visual Studio Code that allows you to collaboratively edit and debug with others in real time. It allows you to instantly share your current project, edit snippets of code at the same time or follow someone's cursor while they program.
