@@ -62,13 +62,13 @@ gallery:
     - alt: 'Rest'
       url: '/images/bayes/du-background-img.jpg'
     - alt: 'Hobby'
-      url: '/images/timeseries/ts1.jpeg'
+      u  url: '/images/timeseries/ts4.jpg'
     - alt: 'Fashion'
       url: '/images/timeseries/ts2.jpeg'
     - alt: 'Notes'
       url: '/images/timeseries/ts3.jpg'
     - alt: 'Rest'
-      url: '/images/timeseries/ts4.jpg'
+      url: '/images/timeseries/ts1.jpeg'
 
 
 #-------------------------------
