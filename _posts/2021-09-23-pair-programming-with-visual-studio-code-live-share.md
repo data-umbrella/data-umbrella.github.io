@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Pair-programming with Visual Studio Code Live Share
-description: Pair-programming with Visual Studio Code Live Share
+title:  Pair Programming with Visual Studio Code Live Share
+description: Pair Programming with Visual Studio Code Live Share
 date:   2021-09-23 15:01:35 +0300
 image:  '/images/vsc/image9.png'
 tags:   [open source, python, vscode]
