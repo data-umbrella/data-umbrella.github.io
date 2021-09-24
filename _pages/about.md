@@ -5,7 +5,7 @@ permalink: /about/
 image: 
 ---
 
-### Data Umbrella main website
+### Data Umbrella main website:   [dataumbrella.org](https://www.dataumbrella.org)  
 This website is Data Umbrella's blog.  Please see our main website for more information:  [dataumbrella.org](https://www.dataumbrella.org)  
 
 ### Our Event Videos
