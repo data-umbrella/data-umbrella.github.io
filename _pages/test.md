@@ -1,9 +1,12 @@
 ---
 layout: page
-title: Test
-permalink: /test/
+title: 
 image: '/images/17.jpg'
 ---
+
+
+permalink: /test/
+
 
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
 
