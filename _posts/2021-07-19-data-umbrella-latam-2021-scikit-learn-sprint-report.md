@@ -7,7 +7,7 @@ image:  '/images/2021-latam/latam-demog.png'
 tags:   [opensource, python, sprint]
 ---
 
-
+Author:  [Reshama Shaikh](https://reshamas.github.io)  
 
 ## Sprint Background
 This "sprint" is a hands-on hackathon where participants learn to contribute to scikit-learn, a widely-used Python open source, machine learning library.
@@ -16,7 +16,6 @@ This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to in
 
 This report focuses on the summary, impact and lessons learned of the Data Umbrella LATAM scikit-learn sprint.  
 
-Author:  [Reshama Shaikh](https://reshamas.github.io)  
 
 <p float="left">
 <a href="https://twitter.com/reshamas/status/1408841488482590721">
