@@ -23,6 +23,7 @@ We have a full library of videos here: [Data Umbrella on YouTube](https://www.yo
 
 ### Social Media
 - [Twitter](https://twitter.com/DataUmbrella)
+- [LinkedIn](https://www.linkedin.com/company/dataumbrella/)
 - [Instagram](https://www.instagram.com/data.umbrella/)
 - [Facebook](https://www.facebook.com/data.umbrella.dei)
 
