@@ -4,7 +4,10 @@
 Please see instructions for [building the website locally](https://github.com/data-umbrella/data-umbrella.github.io/blob/main/README.md).
 
 ## Blog Template Formats
-- The blog in markdown file (`.md`) is location in this folder:  https://github.com/data-umbrella/data-umbrella.github.io/tree/main/_posts
+- The articles in markdown file (`.md`) is location in this folder:  https://github.com/data-umbrella/data-umbrella.github.io/tree/main/_posts
+- You can copy and rename an existing markdown post and edit it.
+
+### Images
 - Images can be placed in this folder:  https://github.com/data-umbrella/data-umbrella.github.io/tree/main/images
 - We suggest putting images related to one blog in its own folder to keep the files organized.
 
