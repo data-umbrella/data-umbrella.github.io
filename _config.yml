@@ -74,7 +74,7 @@ gallery:
 #-------------------------------
 # Contact Settings
 contact:
-  email: data.umbrella.dei@gmail.com # Add your email for contant form
+  email: https://formspree.io/f/mgerdblk # Add your email for contant form
   description: 
 
 # NOTE
