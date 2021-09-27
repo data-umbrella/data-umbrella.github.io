@@ -21,7 +21,7 @@ social:
 - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/company/dataumbrella/"}
 - {icon: "ion-logo-facebook", link: "https://www.facebook.com/data.umbrella.dei"}
 - {icon: "ion-logo-instagram", link: "https://www.instagram.com/data.umbrella/"}
-- {icon: "ion-logo-meetup", link: "https://www.meetup.com/data-umbrella/"}
+#- {icon: "ion-logo-meetup", link: "https://www.meetup.com/data-umbrella/"}
 
 
 
