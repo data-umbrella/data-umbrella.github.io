@@ -12,3 +12,8 @@ Theme that I like:  Read the Docs
 
 Links from Video:
 https://github.com/data-umbrella/event-transcripts/blob/main/2021/22-melissa-sphinx.md
+
+```bash
+conda create --name sphinx-project
+conda activate sphinx-project
+```
