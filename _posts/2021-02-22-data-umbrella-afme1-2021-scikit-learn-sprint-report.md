@@ -4,7 +4,7 @@ title:  Data Umbrella AFME1 Feb 2021 Scikit Learn Sprint Report
 description: Reshama Shaikh - Summary of the Africa & Middle East, February 2021
 date:   2021-02-22 15:01:35 +0300
 image:  '/images/2021-afme1/afme-summary.png'
-tags:   [opensource, python]
+tags:   [opensource, sprintreport]
 ---
 
 Author:  [Reshama Shaikh](https://www.linkedin.com/in/reshamas/)
