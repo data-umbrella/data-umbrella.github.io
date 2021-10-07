@@ -4,7 +4,7 @@ title:  Data Umbrella AFME1 2021 Sprint - My Experience with Open Source
 description: Fortune Uwha shares her experience contributing to to scikit-learn for the first time. 
 date:   2021-02-12 15:01:35 +0300
 image:  '/images/blogs/AFME-map.png'
-tags:   [opensource, python]
+tags:   [opensource, sprint-blog]
 ---
 
 Author:  [Fortune Uwha](https://fortune-uwha.medium.com)

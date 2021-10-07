@@ -4,7 +4,7 @@ title:  Data Umbrella LATAM 2021 Sprint - My Experience with Open Source
 description: Sebastian Andres shares his experience submitting a pull request to scikit-learn for the first time. 
 date:   2021-07-25 15:01:35 +0300
 image:  '/images/blogs/sebastian-latam.png'
-tags:   [opensource, python]
+tags:   [opensource, sprint-blog]
 ---
 
 Author:  [Sebastian Andres](https://sebastiandres.github.io/blog/)
