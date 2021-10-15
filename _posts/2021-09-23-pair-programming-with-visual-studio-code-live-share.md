@@ -24,7 +24,7 @@ These are extremely helpful when you are pair-programming using the driver-navig
 To install Live Share follow these steps:
 1. If needed, install Visual Studio Code. We used version 1.60.2 for this tutorial. For other versions, some steps might be different.
 2. Install the Python extensions and select the Python interpreter you want to use.
-3. Download and install the Live Share extension for Visual Studio Code. Use the extensions tab in Visual Studio Code (Ctrl+Shift+X) and search for Live Share. You will see three extensions: Live Share, Live Share Audio, and Live Share Extension Pack. Only the first one is necessary. The last one contains the two previous extensions.
+3. Download and install the Live Share extension for Visual Studio Code. Use the extensions tab in Visual Studio Code (Ctrl+Shift+X) and search for Live Share. You will see three extensions: Live Share, Live Share Audio, and Live Share Extension Pack. Only the first one, Live Share, is necessary. The last one contains the two previous extensions.
 4. Wait for the extension to finish downloading and then reload VS Code when prompted.
 5. Wait for Visual Studio Live Share to finish installing dependencies (you’ll see progress updates in the status bar).
 6. Once complete, you’ll see Live Share appear in your status bar and the activity bar.
