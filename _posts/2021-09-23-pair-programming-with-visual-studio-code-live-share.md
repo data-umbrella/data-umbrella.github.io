@@ -77,7 +77,7 @@ In what follows, we are going to assume two people [^2] are pair-programming, wh
     {: refdef}
 
 ## Notes
-While working collaboratively on Live Share, all the changes will appear as if they had been made by the host of the session (the driver). Thus, remember to appropriately indicate that the work was done as a team in the [commit message](https://docs.github.com/es/github/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) :D.
+While working collaboratively on Live Share, all the changes will appear as if they had been made by the host of the session (the driver). Thus, remember to appropriately indicate that the work was done as a team in the [commit message](https://docs.github.com/en/github/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) :D.
 
 ## More information
 For more information or if you encounter a problem while installing or using Live Share, visit these pages:
