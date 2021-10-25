@@ -16,11 +16,11 @@ We are honored and grateful to be a recipient, particularly alongside organizati
  
 ### About Data Umbrella
  
-Data Umbrella was founded in December 2019.  It is a community for underrepresented persons in data science. 
+[Data Umbrella](https://www.dataumbrella.org) was founded in December 2019.  It is a community for underrepresented persons in data science. 
  
-Since its founding, Data Umbrella has organized over 30 events for the community, including four [online](https://www.dataumbrella.org/sprints)sprints.  The 30+ events cover topics related to data science, open source (OS) and career advice.  Invited speakers come from open source communities in data science such as core python, bokeh and plotly visualization libraries, numpy, pandas, STUMPY and sphinx. Video presentations on open source libraries and how to contribute provide an avenue to connect the community with OS projects.    
+Since its founding, Data Umbrella has organized over [30 events](https://www.youtube.com/c/DataUmbrella/featured) for the community, including four [online](https://www.dataumbrella.org/sprints) sprints.  The 30+ events cover topics related to data science, open source (OS) and career advice.  Invited speakers come from open source communities in data science such as core python, bokeh and plotly visualization libraries, numpy, pandas, STUMPY and sphinx. Video presentations on open source libraries and how to contribute provide an avenue to connect the community with OS projects.
 
-Most recently Data Umbrella has focused on early data science skills and open source. They do research on diversity and inclusivity and have compiled resources on [accessibility, responsibility](https://www.dataumbrella.org/accessibility) and various other topics of relevance which are available on their website.
+Most recently, Data Umbrella has focused on early data science skills and open source. They do research on diversity and inclusivity and have compiled resources on [affinity communities](https://www.dataumbrella.org/accessibility/communities),  [accessibility, responsibility](https://www.dataumbrella.org/accessibility) and various other topics of relevance which are available on their website.
 
 Data Umbrella recognizes that open source dearly lacks the participation of many groups of people. Their goal is to provide a bridge from open source projects and contributors to the community by hosting webinars, organizing sprints and sharing resources and events.  
  
