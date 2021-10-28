@@ -43,4 +43,4 @@ Sprints are hands-on hackathons where beginners learn how to contribute to open 
 - [Global Online](https://sites.google.com/view/nyc-2020-scikit-sprint) (June 2020)
 - [Sprint Reports](https://www.dataumbrella.org/sprints/sprint-reports)
 - [Sprint Articles by Participants](https://www.dataumbrella.org/sprints/sprint-blogs)
-- 
+
