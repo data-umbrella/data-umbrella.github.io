@@ -33,3 +33,14 @@ For more information, see:
 - [CZI Open Science Program](https://chanzuckerberg.com/science/programs-resources/open-science/)
 - [Advancing Diversity and Inclusion in Scientific Open Source](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b)
 - Chan Zuckerberg Initiative on [YouTube](https://www.youtube.com/c/ChanZuckerbergInitiative)
+
+### More Information About the Sprints
+
+Sprints are hands-on hackathons where beginners learn how to contribute to open source.  Below is more information on the online sprints which are workshops on learning how to contribute to [scikit-learn](https://scikit-learn.org/stable/), the machine learning library of Python:  
+- [Africa & Middle East](https://afme2021rc.dataumbrella.org) (October 2021)
+- [Latin America](https://latam2021.dataumbrella.org/home) (June 2021)
+- [Africa & Middle East](https://afme2021rc.dataumbrella.org) (October 2021)
+- [Global Online](https://sites.google.com/view/nyc-2020-scikit-sprint) (June 2020)
+- [Sprint Reports](https://www.dataumbrella.org/sprints/sprint-reports)
+- [Sprint Articles by Participants](https://www.dataumbrella.org/sprints/sprint-blogs)
+
