@@ -14,16 +14,12 @@ Author: [Reshama Shaikh](https://reshamas.github.io)
 - 23/40 (57.5%) Returning contributors; 17/40 (42.5%) New contributors
 - 18 countries represented
 
-
-
-
 ## Sprint Background
-This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic regions of Africa & the Middle East (AFME). 
+This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic regions of Africa & the Middle East (AFME).
 
 The "sprint" is a hands-on hackathon where participants learn to contribute to scikit-learn, the most widely-used Python open source, machine learning library.  This sprint was a 4-hour block of time with pre- and post-sprint work required.
 
 This report focuses on the summary, impact and lessons learned of the Data Umbrella [AFME2 scikit-learn sprint](https://afme2021rc.dataumbrella.org).  
-
 
 <p float="left">
 <a href="https://twitter.com/DataUmbrella/status/1451935870857121805">
@@ -49,8 +45,6 @@ This event was funded in part by a grant from [Code for Science & Society](https
 </p>
 
 
-## Continued Contribution to Open Source
-Participants were encouraged to keep contributing to scikit-learn or other Python libraries, using the skills learned in this event.
 
 
 ## Sprint Agenda
@@ -112,6 +106,10 @@ Of the 74 people who applied, 40 attended. All applicants were accepted. This fu
 
 A total of 40 contributors attended the sprint. 14 of 40 (35%) identified as she/her.  26 of 40 (65%) identified as he/him. 
 
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/2_pie_gender.html" height="500" width="1000">
+</iframe>	
+
+
 Contributors joined from **18 different countries**.  Country information was provided based on where participants were joining from. The countries with the most participants:  
 1. Kenya: 11
 1. United States of America: 5
@@ -124,44 +122,36 @@ Contributors joined from **18 different countries**.  Country information was pr
 
 Other countries with 1 participant each include: Zambia, Venezuela, Sweden, South Africa, Poland, Lithuania, Kazakhstan, Ireland, Ghana, El Salvador.
 
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/barplot_country.html" height="500" width="1000">
+</iframe>	
 
 ## Invited Contributors
 
 There were 4 invited contributors. Invited contributors were those who participated in a prior sprint and have continued contributing to scikit-learn.  
 
 ## Returning Contributors
+This pie chart shows that of the 40 people attending, 57.5% were returning contributors
 
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/3_pie_returning.html" height="500" width="1000">
+</iframe>	
 
+### Applications Received
 
-### Applications Received (UPDATE)
-The countries in the Latin America region with the most *applicants* are:  
-- Brasil: 36
-- Argentina: 26
-- Colombia: 11
-- Venezuela:  9
-- México:  5
-- Péru: 3
-- Ecuador: 3
-- Chile: 2
-- Bolivia: 1
-- Costa Rica: 1
-- Guatemala: 1
+This barplot shows all the countries from which applications were received. It also shows a breakdown of how many people attended from each country. 
 
-Applications from regions outside of Latin America include:  
-- United States: 10
-- India: 7
-- Canada: 2
-- Germany: 2 
-- Spain: 2
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/bar_all_country.html" height="500" width="1000">
+</iframe>	
 
-Other countries with one application each: Australia, Greece, Poland, Romania, Saudi Arabia, United Kingdom.
 
 ### Spoken Languages
 The sprint was run in English. Participants were asked on their forms to indicate if they needed a translator. No translators were requested.
 
+This barplot shows the primary spoken languages by the sprint participants.
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/spoken_languages.html" height="500" width="1000">
+</iframe>	
 
 ## Impact Report for Data Umbrella Scikit-learn Sprint
-(twitter moment added)
 
 |                                       | Sprint 2021    |
 |---------------------------------------|----------------|
@@ -253,6 +243,10 @@ Solution:  not sure what the solution to this is.
 A number of participants joined intermittently and late due to access with internet connectivity or loss of power.
 
 
+
+## Continued Contribution to Open Source
+Participants were encouraged to keep contributing to scikit-learn or other Python libraries, using the skills learned in this event.
+
 ### Finding out about the sprint (update)
 For those who attended the sprint, this is how they learned of the event. The main avenues were Twitter, LinkedIn and their network ("word of mouth").
 
@@ -266,7 +260,7 @@ Based on feedback from our last sprint, [Latin America 2021](https://blog.dataum
 <p><iframe src="https://www.youtube.com/embed/WHOiljOYGVw" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 ### Language Translations
-No new language tranlsations were created for this sprint.
+No new language translations were created for this sprint.
 
 
 ## Adjustments for Next Sprint
@@ -304,39 +298,23 @@ The survey response rate was 19/35 = 54.3%
 
 In response to the question "*What are your favorite parts about the sprint?*"  
 
->Pair programming and the support from the core developers
-
->Meeting new people and asking the core-developers about issues in our PRs.
-
->Pair programming. Ability to interact with sci-kit learn core contributors.
-
->Pair Programming
-
->Very quick responses from senior contributors
-
->I learned a lot, met new people and got a lot of help from the core developers and got to debug things with people.
-
->The actual sprint day
-
->The fact we could ask for help in real time from the sklearn contributors team, amazing stuff!
-
->Working on scikit-learn issues with pair programming partner
-
->The opportunity to connect with core maintainers; reasonable time commitment
-
->Hanging out before the sprint and working together
-
->Working with a new person and tackling an intermediate issue.
-
->Learning new things and meeting new people.
-
->Finding a community, getting to meet the sklearn core devs, working together on a contribution
-
->It was great. Thank you for organizing it.
-
->Interact with diverse members of the team from different countries.
-
->It was perfect! Thank you for organizing one.
+- *Pair programming and the support from the core developers*
+- *Meeting new people and asking the core-developers about issues in our PRs.*
+- *Pair programming. Ability to interact with scikit learn core contributors.*
+- *Pair Programming*
+- *Very quick responses from senior contributors*
+- *I learned a lot, met new people and got a lot of help from the core developers and got to debug things with people.*
+- *The actual sprint day*
+- *The fact we could ask for help in real time from the sklearn contributors team, amazing stuff!*
+- *Working on scikit-learn issues with pair programming partner*
+- *The opportunity to connect with core maintainers; reasonable time commitment*
+- *Hanging out before the sprint and working together*
+- *Working with a new person and tackling an intermediate issue.*
+- *Learning new things and meeting new people.*
+- *Finding a community, getting to meet the sklearn core devs, working together on a contribution*
+- *It was great. Thank you for organizing it.*
+- *Interact with diverse members of the team from different countries.*
+- *It was perfect! Thank you for organizing one.*
 
 ### Suggestions for Improvement
 
