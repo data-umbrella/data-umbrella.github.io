@@ -280,13 +280,12 @@ Add in documentation on how to include a second author on pull request commits.
 
 Feedback has been shared a number of ways:  
 - Twitter [Moment](https://twitter.com/i/events/1452292223463219205)
-- Blogs (* none yet* )
+- Blogs
 - Sprint survey
 - Social media (LinkedIn)
 - Casually, in conversation during the sprint, pre-sprint and post-sprint events
 
 ## Data Umbrella Feedback Survey
-Data Umbrella received 19 responses to our internal sprint survey. (19/36 = 52.7% response rate).
 
 Respondents rated their overall sprint experience highly favorably and had a positive experience working with their pair programming partner.  
 
@@ -294,7 +293,7 @@ Respondents rated their overall sprint experience highly favorably and had a pos
 The survey form was in English.
 
 ### Response Rate
-The survey response rate was 19/35 = 54.3%
+The survey response rate was 19/40 = 47.5%
 
 ### Favorite Parts About the Sprint
 
