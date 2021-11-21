@@ -12,7 +12,7 @@ Author: [Reshama Shaikh](https://reshamas.github.io)
 ## High Level Summary
 - 40 participants
 - 23/40 (57.5%) Returning contributors; 17/40 (42.5%) New contributors
-- 18 countries represented
+- 17 countries represented
 
 ## Sprint Background
 This sprint was organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in data science, with a focus on the geographic regions of Africa & the Middle East (AFME).
@@ -54,7 +54,6 @@ This event was funded in part by a grant from [Code for Science & Society](https
 
 <p float="left">
   <img src="../images/2021-afme2/sprint-times.png" width="99%" height="99%" style="border:0px;margin:0px">
-</a>
 </p>
 
 ### Sprint Day
@@ -110,7 +109,7 @@ A total of 40 contributors attended the sprint. 14 of 40 (35%) identified as she
 </iframe>	
 
 
-Contributors joined from **18 different countries**.  Country information was provided based on where participants were joining from. The countries with the most participants:  
+Contributors joined from **17 different countries**.  Country information was provided based on where participants were joining from. The countries with the most participants:  
 1. Kenya: 11
 1. United States of America: 5
 1. India: 4
@@ -122,15 +121,18 @@ Contributors joined from **18 different countries**.  Country information was pr
 
 Other countries with 1 participant each include: Zambia, Venezuela, Sweden, South Africa, Poland, Lithuania, Kazakhstan, Ireland, Ghana, El Salvador.
 
+<p>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/barplot_country.html" height="500" width="1000">
 </iframe>	
+
+</p>
 
 ## Invited Contributors
 
 There were 4 invited contributors. Invited contributors were those who participated in a prior sprint and have continued contributing to scikit-learn.  
 
 ## Returning Contributors
-This pie chart shows that of the 40 people attending, 57.5% were returning contributors
+This pie chart shows that of the 40 people attending, 57.5% were returning contributors.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/3_pie_returning.html" height="500" width="1000">
 </iframe>	
