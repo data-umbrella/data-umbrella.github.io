@@ -153,6 +153,11 @@ This barplot shows the primary spoken languages by the sprint participants.
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/spoken_languages.html" height="1000" width="1000">
 </iframe>	
 
+### Attendee Role (work/school)
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/work_role.html" height="1000" width="1000">
+</iframe>	
+
 ## Impact Report for Data Umbrella Scikit-learn Sprint
 
 |                                       | Sprint 2021    |
@@ -180,8 +185,8 @@ This barplot shows the primary spoken languages by the sprint participants.
 | PRs [MRG] post-sprint| 26+    (x)  |
 | PRs open  | 16+        |
 |           |          |
-| Attendees:  Initial Registrations  | ~45  |
-| Attendees:  Participated           | ~35  |
+| Attendees:  Initial Registrations  | ~55  |
+| Attendees:  Participated           | ~40  |
 | Attendee List  | [Sprint Contributors](https://afme2021rc.dataumbrella.org/contributors)   |
 |                                    |  |
 | Post-sprint Survey  | [survey form] (closed) |
@@ -244,17 +249,19 @@ Solution:  not sure what the solution to this is.
 
 A number of participants joined intermittently and late due to access with internet connectivity or loss of power.
 
-
-
 ## Continued Contribution to Open Source
 Participants were encouraged to keep contributing to scikit-learn or other Python libraries, using the skills learned in this event.
 
 ### Finding out about the sprint (update)
 For those who attended the sprint, this is how they learned of the event. The main avenues were Twitter, LinkedIn and their network ("word of mouth").
 
-<p float="left">
-  <img  src="../images/2021-latam/found-sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
-</p>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all.html" height="1000" width="1000">
+</iframe>	
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all_country.html" height="1000" width="1000">
+</iframe>	
+
+
 
 ### Videos
 Based on feedback from our last sprint, [Latin America 2021](https://blog.dataumbrella.org/data-umbrella-latam-2021-scikit-learn-sprint-report), we created a video demonstrating how to use Visual Studio LiveShare.
@@ -287,13 +294,10 @@ Feedback has been shared a number of ways:
 
 ## Data Umbrella Feedback Survey
 
-Respondents rated their overall sprint experience highly favorably and had a positive experience working with their pair programming partner.  
-
-### Language
-The survey form was in English.
-
 ### Response Rate
-The survey response rate was 19/40 = 47.5%
+The survey response rate was 19/40 = 47.5%.  The survey form was in English.
+
+Respondents rated their overall sprint experience highly favorably and had a positive experience working with their pair programming partner.  
 
 ### Favorite Parts About the Sprint
 
@@ -447,7 +451,7 @@ is:pr #DataUmbrella is:closed sort:updated-desc pr:created:>=2021-10-23
 ```
 
 PRs created on sprint day, then sort
-```github
+```
 is:pr #DataUmbrella created:2021-10-23 sort:updated-desc 
 ```
 
