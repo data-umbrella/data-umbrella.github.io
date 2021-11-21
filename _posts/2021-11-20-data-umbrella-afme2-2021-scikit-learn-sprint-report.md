@@ -100,12 +100,12 @@ is:pr #DataUmbrella is:open
 ## Demographics ( * UPDATE)
 Of the 74 people who applied, 40 attended. All applicants were accepted. This funnel graph shows the breakdown, by gender.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/1_funnel.html" height="500" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/1_funnel.html" height="1000" width="1000">
 </iframe>	
 
 A total of 40 contributors attended the sprint. 14 of 40 (35%) identified as she/her.  26 of 40 (65%) identified as he/him. 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/2_pie_gender.html" height="500" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/2_pie_gender.html" height="1000" width="1000">
 </iframe>	
 
 
