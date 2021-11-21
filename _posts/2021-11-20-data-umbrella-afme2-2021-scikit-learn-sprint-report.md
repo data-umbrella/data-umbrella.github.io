@@ -97,7 +97,7 @@ is:pr #DataUmbrella is:open
 
 
 
-## Demographics ( * UPDATE)
+## Demographics
 Of the 74 people who applied, 40 attended. All applicants were accepted. This funnel graph shows the breakdown, by gender.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/1_funnel.html" height="500" width="1000">
@@ -252,8 +252,8 @@ A number of participants joined intermittently and late due to access with inter
 ## Continued Contribution to Open Source
 Participants were encouraged to keep contributing to scikit-learn or other Python libraries, using the skills learned in this event.
 
-### Finding out about the sprint (update)
-For those who attended the sprint, this is how they learned of the event. The main avenues were Twitter, LinkedIn and their network ("word of mouth").
+### Finding out About the Sprint
+For those who attended the sprint, this is how they learned of the event. The main avenues were by invitation from Data Umbrella, Twitter, LinkedIn and their network ("word of mouth").
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all.html" height="1000" width="1000">
 </iframe>	
