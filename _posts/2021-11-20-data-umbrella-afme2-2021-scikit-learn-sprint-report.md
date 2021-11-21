@@ -322,33 +322,23 @@ In response to the question "*What are your favorite parts about the sprint?*"
 
 In response to the question "*What could have worked better at the sprint?*"  
 
->I wish I knew about how to co-author before committing!
-
->Discord has a bit of a learning curve...
-
->Maybe a bit more background information on the issue would have been useful. For example why is it an issue, why are the changes necessary, any pertinent guidelines on the scikitlearn best practices, what errors we could expect and general guidelines on how to go about fixing. Of course not all off this information might be known in advance but any background available is always useful :) 
-
->You should do sprints more frequently!
-
->I think we should have a mechanism in place for putting people that are alone together with existing pairs. Having three people together seems better to me than having some people alone due to internet issues or partners not showing up.
-
->More time to work on issues.
-
->Since we are doing everything on Discord, we could also have the kick off meetings on Discord as well. Just makes it easier to attend everything, without having to track different links. But it is just a minor thing, and some people do prefer zoom so there's that.
-
->I would have liked to engage more with others, besides my pair programming partner. This way I can easier find somebody to work on in issue beyond the actual event. Maybe improve on the introduction during the zoom meeting to have people interact more relaxed, share things.
+- *I wish I knew about how to co-author before committing!*
+- *Discord has a bit of a learning curve...*
+- *Maybe a bit more background information on the issue would have been useful. For example why is it an issue, why are the changes necessary, any pertinent guidelines on the scikitlearn best practices, what errors we could expect and general guidelines on how to go about fixing. Of course not all off this information might be known in advance but any background available is always useful :)*
+- *You should do sprints more frequently!*
+- *I think we should have a mechanism in place for putting people that are alone together with existing pairs. Having three people together seems better to me than having some people alone due to internet issues or partners not showing up.*
+- *More time to work on issues.*
+- *Since we are doing everything on Discord, we could also have the kick off meetings on Discord as well. Just makes it easier to attend everything, without having to track different links. But it is just a minor thing, and some people do prefer zoom so there's that.*
+- *I would have liked to engage more with others, besides my pair programming partner. This way I can easier find somebody to work on in issue beyond the actual event. Maybe improve on the introduction during the zoom meeting to have people interact more relaxed, share things.*
 
 #### Other Feedback from Survey
  
 In response to the question "*Include any other thoughts here.*"  
 
->This was such an amazing learning experience, especially considering the actual time investment. I hope to continue contributing and to be able to advance to more complex issues along the way. 
-
->I hope that when all the pandemic thing is left behind, and we can return to meeting in person, we keep a couple of virtual sprints thus people like me can attend ^^
-
->I found it very useful that my pair programming partner pushed me to ask for help on the channel. I think if we haven't done that I probably would have ended up frustrated and not solving the problems.
-
->I hope more sprints will be organised.
+- *This was such an amazing learning experience, especially considering the actual time investment. I hope to continue contributing and to be able to advance to more complex issues along the way.*
+- *I hope that when all the pandemic thing is left behind, and we can return to meeting in person, we keep a couple of virtual sprints thus people like me can attend ^^*
+- *I found it very useful that my pair programming partner pushed me to ask for help on the channel. I think if we haven't done that I probably would have ended up frustrated and not solving the problems.*
+- *I hope more sprints will be organised.*
 
 
 ## Sprint:  Social Media
