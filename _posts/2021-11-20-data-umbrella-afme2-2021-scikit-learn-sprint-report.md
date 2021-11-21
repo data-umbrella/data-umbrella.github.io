@@ -134,7 +134,7 @@ There were 4 invited contributors. Invited contributors were those who participa
 ## Returning Contributors
 This pie chart shows that of the 40 people attending, 57.5% were returning contributors.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/3_pie_returning.html" height="1000" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/3_pie_returning.html" height="500" width="1000">
 </iframe>	
 
 ### Applications Received
