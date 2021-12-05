@@ -2,7 +2,7 @@
 layout: post
 title:  Data Umbrella 2020 Online scikit-learn Sprint Report
 description: Reshama Shaikh - Summary of the Global Online Sprint, June 2020
-date:   2021-06-27 15:01:35 +0300
+date:   2020-06-27 15:01:35 +0300
 image:  '/images/2020-online/online_demog.png'
 tags:   [opensource, sprint-report]
 ---
