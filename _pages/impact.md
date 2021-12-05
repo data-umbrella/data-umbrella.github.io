@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impact
-image: '/images/blogs/czi.png'
+image: 
 ---
 
 ## Data Umbrella: Impact
