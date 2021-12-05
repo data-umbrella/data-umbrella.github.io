@@ -8,6 +8,11 @@ image: '/images/blogs/czi.png'
 
 Here, we share and celebrate the impact that Data Umbrella has had in the data science community.  
 
+If you have a win to share, please:  
+- Email us at:  info@dataumbrella .org
+- Twitter: tag us with "@DataUmbrella" & "#DataUmbrellaImpact"
+
+
 ### Amanda Dsouza: Contribution to scikit-learn
 
 In this open source contribution, Amanda is one of the contributors to deprecate the `sklearn.datasets.load_boston` function.  The design of this dataset casually assumes that people prefer to buy housing in racially segregated neighborhoods.
