@@ -3,7 +3,7 @@ layout: post
 title:  Example of check_scalar Function Contribution in scikit-learn
 description: In this example, learn to refactor code and add tests in scikit-learn.
 date:   2021-12-12 15:01:35 +0300
-image:  '/images/blogs/xxx.png'
+image:  '/images/blogs/check_scalar.png'
 tags:   [opensource, scikitlearn, python]
 ---
 
