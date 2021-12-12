@@ -271,6 +271,7 @@ sklearn/linear_model/_glm/glm.py:232: ValueError
 ==================================================== 5 failed in 0.59s =====================================================
 (sklearndev) 
 ```
+### Add and run validation
 
 Next, in the `glm.py` file, I do two things:  
 1. Import the needed function
@@ -316,7 +317,14 @@ sklearn/linear_model/_glm/tests/test_glm.py .....                               
 ▶ 
 ```
 
+## Reminders
 
+When submitting the pull request (PR):  
+- Label PR with prefix "MAINT"
+- A changelog entry is not required
+
+
+---
 
 ## Resources
 
