@@ -131,10 +131,10 @@ def test_glm_max_iter_argument(max_iter):
         glm.fit(X, y)
 ```
 
-In this case, these are invalid values for `max_iter`: `["not a number", 0, -1, 5.5, [1]]  `
+In this case, these are invalid values for `max_iter`: `["not a number", 0, -1, 5.5, [1]]`  
 - "not a number": invalid type (string), should be integer
 - 5.5: invalid type (float), should be integer
-- [1]: invalid type (list), should be integer
+- `[1]`: invalid type (list), should be integer
 - 0: iterations should be > 0
 - -1: iterations should be > 0
 
