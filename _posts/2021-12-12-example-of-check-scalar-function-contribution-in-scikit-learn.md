@@ -13,6 +13,7 @@ Author:  [Reshama Shaikh](https://reshamas.github.io)
 
 Use the function [`check_scalar`](https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar) for parameters validation. The validation function checks to see the following for a parameter: is an acceptable data type, is within the range of values, the range of values ([interval](https://www.basic-mathematics.com/interval-notation.html)).
 
+- References Issue [#21927](https://github.com/scikit-learn/scikit-learn/issues/21927) (@reshamas)
 - References Issue [#20724](https://github.com/scikit-learn/scikit-learn/issues/20724): "Use check_scalar for parameters validation" (with notes by @glemaitre, @jjerphan, @genvalen)
 - References PR [#20723](https://github.com/scikit-learn/scikit-learn/pull/20723).  "MNT use check_scalar to validate scalar in AffinityPropagation". This is an example PR by @glemaitre.
 
@@ -157,7 +158,7 @@ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
 
 [Output](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-example-failed-tests.md)
 
-I see that 5 tests have failed. 
+I see that 5 tests have failed:  
 1.  `max_iter = 'not a number'`
 
 ```bash
