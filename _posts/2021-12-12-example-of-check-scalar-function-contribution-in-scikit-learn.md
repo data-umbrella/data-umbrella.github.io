@@ -131,7 +131,7 @@ def test_glm_max_iter_argument(max_iter):
         glm.fit(X, y)
 ```
 
-In this case, these are invalid values for `max_iter`: ["not a number", 0, -1, 5.5, [1]  
+In this case, these are invalid values for `max_iter`: `["not a number", 0, -1, 5.5, [1]]  `
 - "not a number": invalid type (string), should be integer
 - 5.5: invalid type (float), should be integer
 - [1]: invalid type (list), should be integer
@@ -140,7 +140,6 @@ In this case, these are invalid values for `max_iter`: ["not a number", 0, -1, 5
 
 So, here we have 5 tests to run. And, our tests should give informative error messages.  
 
-### 
 In the `glm.py` file, I temporarily comment out whatever checks exist for valid values (validation) of `max_iter`.  
 ```python
         # if not isinstance(self.max_iter, numbers.Integral) or self.max_iter <= 0:
@@ -160,6 +159,7 @@ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
 
 I see that 5 tests have failed. 
 1.  `max_iter = 'not a number'`
+
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'str'
@@ -168,13 +168,16 @@ E               TypeError: '>=' not supported between instances of 'int' and 'st
 ```
 
 2. `max_iter = 0`
+
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
 
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
+
 3. `max_iter = -1`
+
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
@@ -183,6 +186,7 @@ sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 4. `max_iter = 5.5`
+
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
@@ -191,6 +195,7 @@ sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 5. `max_iter = [1]`
+
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'list'
@@ -199,6 +204,7 @@ E               TypeError: '>=' not supported between instances of 'int' and 'li
 ```
 
 ### Add parametrized tests
+
 The tests must fail before adding validation. This is an example of how we will add a parametrized test:  
 Current:  
 ```python  
@@ -251,10 +257,11 @@ def test_glm_scalar_argument(params, err_type, err_msg):
 I run the tests.  
 Note: I have renamed the test function.  
 ```bash
-pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument`
+pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument
 ```
 
 The tests fail, as expected, because invalid values are being input.  
+
 ```bash
 
 E           ValueError: Maximum number of iteration must be a positive integer; got (max_iter=5.5)
@@ -265,7 +272,7 @@ sklearn/linear_model/_glm/glm.py:232: ValueError
 ```
 
 Next, in the `glm.py` file, I do two things:  
-1. import the needed function
+1. Import the needed function
 ```python
 from ...utils import check_scalar
 ```
