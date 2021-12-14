@@ -163,33 +163,27 @@ I see that 5 tests have failed:
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'str'
-
 ../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
 ```
-2. `max_iter = 0`  
 
+2. `max_iter = 0`  
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
-
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 3. `max_iter = -1`
-
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
-
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 4. `max_iter = 5.5`
-
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
-
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
@@ -197,7 +191,6 @@ sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'list'
-
 ../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
 ```
 
