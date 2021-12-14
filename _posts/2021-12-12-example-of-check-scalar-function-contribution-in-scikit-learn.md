@@ -170,6 +170,7 @@ E               TypeError: '>=' not supported between instances of 'int' and 'st
 ```
 
 2. `max_iter = 0`  
+
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
