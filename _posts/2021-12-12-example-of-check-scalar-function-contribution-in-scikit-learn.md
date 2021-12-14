@@ -159,35 +159,35 @@ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
 [Output](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-example-failed-tests.md)
 
 I see that 5 tests have failed:  
-1. `max_iter = 'not a number'`  
+1. `max_iter` = `'not a number'`  
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'str'
 ../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
 ```
 
-2. `max_iter = 0`  
+2. `max_iter` = `0`  
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
-3. `max_iter = -1`
+3. `max_iter` = `-1`
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
-4. `max_iter = 5.5`
+4. `max_iter` = `5.5`
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
 sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
-5. `max_iter = [1]`
+5. `max_iter` = `[1]`
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'list'
