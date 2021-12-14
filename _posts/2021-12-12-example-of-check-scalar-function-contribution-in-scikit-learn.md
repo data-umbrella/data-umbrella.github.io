@@ -161,7 +161,6 @@ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
 I see that 5 tests have failed:  
 
 1. `max_iter = 'not a number'`
-
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'str'
@@ -170,7 +169,6 @@ E               TypeError: '>=' not supported between instances of 'int' and 'st
 ```
 
 2. `max_iter = 0`
-
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
@@ -179,7 +177,6 @@ sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 3. `max_iter = -1`
-
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
@@ -188,7 +185,6 @@ sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 4. `max_iter = 5.5`
-
 ```bash
 >           glm.fit(X, y)
 E           Failed: DID NOT RAISE <class 'ValueError'>
@@ -197,7 +193,6 @@ sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
 ```
 
 5. `max_iter = [1]`
-
 ```bash
 >               if n_iterations >= maxiter:
 E               TypeError: '>=' not supported between instances of 'int' and 'list'
