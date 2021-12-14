@@ -159,7 +159,7 @@ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
 [Output](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-example-failed-tests.md)
 
 I see that 5 tests have failed:  
-1.  `max_iter = 'not a number'`
+1. `max_iter = 'not a number'`
 
 ```bash
 >               if n_iterations >= maxiter:
