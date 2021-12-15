@@ -110,15 +110,39 @@ Within the class `GeneralizedLinearRegressor`, I identify the following scalar n
 
 ## Tests
 
-### No tests
-If no tests exist, we are left to the mercy of the algorithm. For instance, if it receives a negative number for maximum number of iterations, it will break.
+### Tests and validation
 
-Tests are added to catch incorrect values before an algorithm is run.
+Parameter validation checks are added in order to catch any invalid parameter values passed into the estimator before the algorithm is run. If no parameter validation exists, we are left to the mercy of the algorithm. For instance, if the algorithm receives a negative number for maximum number of iterations, it will break.
 
+Sklearn has thorough validation checks. With the use of the helper function, `check_scalar`, these validation checks can be refactored for greater consistency and readability.
+
+Tests are added to make sure that parameter validation checks behave correctly. In the case of creating tests for `check_scalar`, the tests check that the `check_scalar` validation raises a `ValueError` or a `TypeError` where appropriate, and that the error message returned is as expected.
+
+If no tests exists for the parameter validation, add tests.  Note that even if the tests do not exist, the validation definitely does.
 
 
 
 ### See if tests exists
+Genesis notes:
+
+Since the tests exist, we know that they are checking that the current validation code behaves "as expected". 
+But we are about to update the validation code. This means we need to update the tests so it reflects our new expectations.
+
+These are the new expectations:
+1) check_scalar checks for TypeError and ValueError, so make sure there is a test that will trigger each one
+2) test that the ValueError return message is something like this: "max_iter == 0, must be >= 1"
+3) test that the TyeError message is something like this: "max_iter must be an instance of <class 'numbers.Integral'>....
+
+At this point, when you run the updated tests, they should fail. This is because the new expected behavior clashes with the previous expected behavior. For example, you might see something like this:
+
+AssertError: Regex pattern "max_iter == 0, must be >= 1" does not match "must be a positive integer"
+
+This means that the assertion error message expected is different from the error message that was actually raised.
+
+These errors are useful because they give you information about the location of the current validation code. The next step is to go to that location, refactor the code so that it uses check_scalar, and then run the tests again. This time, since the validation code itself has bee updated, the tests should all pass.
+
+---
+
 In the file [test_glm.py](https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py), I see the following test exists. It checks 5 possible inputs, but has only one `ValueError` error message:
 
 ```python
@@ -361,10 +385,15 @@ sklearn/tests/test_build.py:33: AssertionError
 ### Running Individual Tests
 Typically, to run the full test suite, I would type `pytest sklearn`, which takes about 20 minutes.
 
-I can run an individual test with this syntax:   
+Individual tests can be run using the syntax below, there are a couple of ways to do it: 
+```bash
+pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_max_iter_argument -vsl
+```
+
 ```bash
 pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
 ```
+
 This is the output observed after running the test.    
 ```bash
 ▶ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
@@ -380,3 +409,16 @@ sklearn/linear_model/_glm/tests/test_glm.py .....                               
 (sklearndev) 
 ~/software-build/scikit-learn  xscalar_glm ✔  
 ```
+
+Because I consolidated some existing tests and added the new ones, I renamed the test. I would run the following for the test:  
+```bash
+pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_scalar_argument -vsl
+```
+
+
+
+## Acknowledgements
+- Guillaume LeMaitre [@glemaitre](https://github.com/glemaitre)
+- Julien Jerphanon [@jjerphan](https://github.com/jjerphan)
+- Thomas J. Fan [@thomasjpfan](https://github.com/thomasjpfan)
+- Genesis Valencia [@genvalen](https://github.com/genvalen)
