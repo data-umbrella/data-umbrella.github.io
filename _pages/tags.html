@@ -47,7 +47,8 @@ permalink: /tags/
                   <span>{{ site.tags[this_word].size }}</span>
                   <small>{% if site.tags[page.tag].size < 2 %}Post{% else %}Posts{% endif %}</small>
                 </div>
-                <h2 class="tag__name" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+                   <h2 class="tag__name" id="{{ this_word | cgi_escape }}"> <a href="#{{ this_word | cgi_escape }}" class="tag__link">{{ this_word }}</a></h2>
+                <!-- <h2 class="tag__name" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>  -->
               </div>
               <a class="top__link" href="#top">Return to top</a>
             </div>
