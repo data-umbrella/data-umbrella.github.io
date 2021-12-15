@@ -269,6 +269,7 @@ Next, in the `glm.py` file, I do two things:
 from ...utils import check_scalar
 ```
 
+
 2. Add in the `check_scalar` function in the `def fit` function. The function here checks that for `max_iter` is:  
     - an integer
     - has a has a minimum value of `1`
