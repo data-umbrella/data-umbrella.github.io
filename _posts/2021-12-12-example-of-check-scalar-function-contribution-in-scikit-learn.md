@@ -123,25 +123,6 @@ If no tests exists for the parameter validation, add tests.  Note that even if t
 
 
 ### See if tests exists
-Genesis notes:
-
-Since the tests exist, we know that they are checking that the current validation code behaves "as expected". 
-But we are about to update the validation code. This means we need to update the tests so it reflects our new expectations.
-
-These are the new expectations:
-1) check_scalar checks for TypeError and ValueError, so make sure there is a test that will trigger each one
-2) test that the ValueError return message is something like this: "max_iter == 0, must be >= 1"
-3) test that the TyeError message is something like this: "max_iter must be an instance of <class 'numbers.Integral'>....
-
-At this point, when you run the updated tests, they should fail. This is because the new expected behavior clashes with the previous expected behavior. For example, you might see something like this:
-
-AssertError: Regex pattern "max_iter == 0, must be >= 1" does not match "must be a positive integer"
-
-This means that the assertion error message expected is different from the error message that was actually raised.
-
-These errors are useful because they give you information about the location of the current validation code. The next step is to go to that location, refactor the code so that it uses check_scalar, and then run the tests again. This time, since the validation code itself has bee updated, the tests should all pass.
-
----
 
 In the file [test_glm.py](https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py), I see the following test exists. It checks 5 possible inputs, but has only one `ValueError` error message:
 
