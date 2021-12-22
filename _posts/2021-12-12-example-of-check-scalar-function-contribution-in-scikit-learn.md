@@ -98,15 +98,14 @@ For [glm.py](https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696c
 - `GammaRegressor`
 - `TweedieRegressor`
 
-I will begin work on the first one, `GeneralizedLinearRegressor`.
+I will begin work on the first one, `GeneralizedLinearRegressor`. Also, for each I will look at minimum and maximum values. If minimum and maximum values are missing, I will add them, as well as the boundary conditions.
 
 Within the class `GeneralizedLinearRegressor`, I identify the following scalar numeric parameters:  
-1. `alpha`
-1. `max_iter`
-1. `tol`
-1. `verbose`
+1. `alpha`, value range: `[0.0, inf)`
+1. `max_iter`, value range: `[1, inf)`
+1. `tol`, value range: `(0.0, inf)`
+1. `verbose`, value range: `[1, inf)`
 
-** [TK]: Also, for each I will look at minimum and maximum values. If minimum and maximum values are missing, I will add them.
 
 ## Tests
 
@@ -158,7 +157,7 @@ In the `glm.py` file, I temporarily comment out whatever checks exist for valid 
 
 Then, I run the existing test `test_glm_max_iter_argument`:  
 ```bash
-pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
+pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_max_iter_argument -vsl
 ```
 
 [Output](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-example-failed-tests.md)
@@ -296,21 +295,24 @@ from ...utils import check_scalar
 After doing the above, we see that all 5 tests are now passing:  
 
 ```bash
-(sklearndev) 
-~/software-build/scikit-learn  xscalar_glm ✗                                                                         1d ⚑  
-▶ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument
-=================================================== test session starts ====================================================
-platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+~/software-build/scikit-learn  xscalar_glm ✔                                                                                           8d  
+▶ pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_scalar_argument -vsl
+
+=========================================================== test session starts ============================================================
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0 -- /Users/reshamashaikh/miniforge3/envs/sklearndev/bin/python
+cachedir: .pytest_cache
 rootdir: /Users/reshamashaikh/software-build/scikit-learn, configfile: setup.cfg
 plugins: cov-3.0.0
-collected 5 items                                                                                                          
+collected 78 items / 73 deselected / 5 selected                                                                                            
 
-sklearn/linear_model/_glm/tests/test_glm.py .....                                                                    [100%]
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params0-ValueError-max_iter == 0, must be >= 1] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params1-ValueError-max_iter == -1, must be >= 1] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params2-TypeError-max_iter must be an instance of <class 'numbers.Integral'>, not <class 'str'>] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params3-TypeError-max_iter must be an instance of <class 'numbers.Integral'>, not <class 'list'>] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params4-TypeError-max_iter must be an instance of <class 'numbers.Integral'>, not <class 'float'>] PASSED
 
-==================================================== 5 passed in 0.15s =====================================================
+===================================================== 5 passed, 73 deselected in 0.23s =====================================================
 (sklearndev) 
-~/software-build/scikit-learn  xscalar_glm ✗                                                                         1d ⚑  
-▶ 
 ```
 
 ## Reminders
