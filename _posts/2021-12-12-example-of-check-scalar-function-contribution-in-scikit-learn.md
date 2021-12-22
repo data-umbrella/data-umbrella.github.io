@@ -399,9 +399,38 @@ pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_scalar_argument -
 ```
 
 
+---
 
 ## Acknowledgements
 - Guillaume LeMaitre [@glemaitre](https://github.com/glemaitre)
 - Julien Jerphanon [@jjerphan](https://github.com/jjerphan)
 - Thomas J. Fan [@thomasjpfan](https://github.com/thomasjpfan)
 - Genesis Valencia [@genvalen](https://github.com/genvalen)
+
+---
+
+## Part 2: `PoissonRegressor`
+
+1. Virtual environment activated:  `conda activate sklearndev`
+2. Identify class to work on:  `PoissonRegressor`
+3. Working with this file: [sklearn/linear_model/glm.py](https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py)
+4. Working with associated test: [sklearn/linear_model/_glm/tests/test_glm.py](https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py)
+5. Create working branch from `main` branch
+```bash
+git checkout main
+git pull upstream main
+git checkout -b xscalar_poissonreg
+```
+7. Identify scalar numerical parameters and the valid range of values for the class `PoissonRegressor`
+    - `alpha`, value range: `[0.0, inf)`
+    - `max_iter`, value range: `[1, inf)`
+    - `tol`, value range: `(0.0, inf)`
+    - `verbose`, value range: `[1, inf)`
+8. Add parameter interal ranges to the docstring
+    - `alpha`, Values should be in the range `[0.0, inf)`.
+    - `max_iter`, Values should be in the range `[1, inf)`.
+    - `tol`, Values should be in the range `(0.0, inf)`.
+    - `verbose`, Values should be in the range `[1, inf)`.
+9. Run tests:  `pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_scalar_argument -vsl`
+10. There is no `def fit` for class `PoissonRegressor`   
+
