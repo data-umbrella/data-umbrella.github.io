@@ -10,7 +10,7 @@ tags:   [opensource]
 Author:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martin Loyola](https://jmloyola.github.io/)
 
 
-1. __Tell us about yourself__
+1. __Tell us about yourself.__
 
 	My name is Juan Martín Loyola, I'm a computer science Ph.D. student from San Luis, a province in the middle of Argentina, working on early classification models for text. This is related to the problem of document categorization where we are also interested in the classification speed (there is a cost associated with the classification delay).
 
