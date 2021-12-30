@@ -26,7 +26,7 @@ Author:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martin Loyola](htt
 
 4. __How did you learn of the Data Umbrella Latin America (LATAM) [sprint](https://latam2021.dataumbrella.org_? Through any specific person?__
 
-	I found out about the Data Umbrella LATAM sprint 2021 through Twitter. I'm not an active social media user, but I do check Twitter once in a while. A month before the sprint I read a tweet from [Data Umbrella](https://twitter.com/DataUmbrella) in my feed inviting people to apply to the scikit-learn LATAM sprint. Since I wanted to get back to contributing to open source, I quickly applied.
+	I found out about the Data Umbrella LATAM sprint 2021 through [Twitter](https://twitter.com/DataUmbrella/status/1394661734275821573). I'm not an active social media user, but I do check Twitter once in a while. A month before the sprint I read a tweet from [Data Umbrella](https://twitter.com/DataUmbrella) in my feed inviting people to apply to the scikit-learn LATAM sprint. Since I wanted to get back to contributing to open source, I quickly applied.
 
 5. __What was your sprint experience and how was the experience with your pair programming partner and core devs?__
 
