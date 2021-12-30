@@ -34,7 +34,7 @@ Author:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martin Loyola](htt
 
 6. __Any specific challenges and benefits to being in South America?__
 
-	I would say that the biggest barrier to participating in open source is the language. Although most of the South American data science community understands English, the proficiency level varies a lot. Most can read with no problem, but there are some members of the community that is not comfortable writing or speaking in English. That represents a challenge when you have to discuss a topic. Some people don't mind having grammatical errors and can quickly answer any question people ask them. The problem is that the message might not be understood. On the other hand, people who check their messages several times to make sure the grammar is correct, lose a lot of time. The problem is that not everyone has the time to do that. Thus, they shy away from contributing.
+	I would say that the biggest barrier to participating in open source is the language. Although most of the South American data science community understands English, the proficiency level varies a lot. Most can read with no problem, but there are some members of the community who are not comfortable writing or speaking in English. That represents a challenge when you have to discuss a topic. Some people don't mind having grammatical errors and can quickly answer any question people ask them. The problem is that the message might not be understood. On the other hand, people who check their messages several times to make sure the grammar is correct, lose a lot of time. The problem is that not everyone has the time to do that. Thus, they shy away from contributing.
 
 7. __How did you first get involved in scikit-learn?__
 
