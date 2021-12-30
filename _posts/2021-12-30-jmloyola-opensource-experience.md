@@ -24,7 +24,7 @@ Author:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martin Loyola](htt
 
 	I learned about Google Summer of Code (GSoC) from Osvaldo and a collegue, [Agustina Arroyuelo](https://github.com/agustinaarroyuelo). They worked in 2018 on the project ["Module for Approximate Bayesian Computation"](https://summerofcode.withgoogle.com/archive/2018/projects/5594656209371136). Agustina told me it was a great experience, and that motivated me to apply for the next year. In early 2019, Osvaldo and I started writing the proposal for the project ["Bayesian Additive Regression Trees in PyMC3"](https://summerofcode.withgoogle.com/archive/2019/projects/5713417321578496). While the proposal was being reviewed, I kept working on the project to improve my knowledge of the code-base and to get to know the rest of the core contributors. Fortunately, the project got accepted and we started working. Overall GSoC was a great experience and I will recommend it to anyone that wants to contribute to a particular project and can allocate some time for it.
 
-4. __How did you learn of the Data Umbrella LATAM sprint? Through any specific person?__
+4. __How did you learn of the Data Umbrella Latin America (LATAM) [sprint](https://latam2021.dataumbrella.org_? Through any specific person?__
 
 	I found out about the Data Umbrella LATAM sprint 2021 through Twitter. I'm not an active social media user, but I do check Twitter once in a while. A month before the sprint I read a tweet from [Data Umbrella](https://twitter.com/DataUmbrella) in my feed inviting people to apply to the scikit-learn LATAM sprint. Since I wanted to get back to contributing to open source, I quickly applied.
 
