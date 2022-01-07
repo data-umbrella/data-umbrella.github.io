@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Data Umbrella website
-permalink: /https://www.dataumbrella.org
+permalink: /contact/
 image: 
 ---
+
+https://www.dataumbrella.org
