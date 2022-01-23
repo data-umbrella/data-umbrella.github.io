@@ -72,32 +72,32 @@ Can trigger "events" or "actions" based on these events: issue opened, PR submit
 - [00:21:52](https://www.youtube.com/watch?v=d48WGkePFq0&t=1312s) Actions  
 
 ### PART 3: Workflow Syntax
-- 00:22:55 ---PART 3: Workflow Syntax  
-- 00:23:15 Workflow yaml file 
-- 00:24:00 YAML = YAML Ain't Markup Language   
-- 00:26:21 Event types: Labels  
-- 00:26:44 Event types: Pushing / PRs / Branches  
-- 00:27:19 Event types: Manual dispatch  
-- 00:29:03 Dependencies between jobs  
-- 00:29:36 Context: expressions (run jobs conditionally)
-- 00:30:53 Context: default environment variables
-- 00:31:18 Strategies
-- 00:32:57 User-defined environment variables: Global
-- 00:33:52 Actions
-- 00:35:35 Other topics
+- [00:22:55](https://www.youtube.com/watch?v=d48WGkePFq0&t=1375s) ---PART 3: Workflow Syntax  
+- [00:23:15](https://www.youtube.com/watch?v=d48WGkePFq0&t=1395s) Workflow yaml file 
+- [00:24:00](https://www.youtube.com/watch?v=d48WGkePFq0&t=1440s) YAML = YAML Ain't Markup Language   
+- [00:26:21](https://www.youtube.com/watch?v=d48WGkePFq0&t=1581s) Event types: Labels  
+- [00:26:44](https://www.youtube.com/watch?v=d48WGkePFq0&t=1604s) Event types: Pushing / PRs / Branches  
+- [00:27:19](https://www.youtube.com/watch?v=d48WGkePFq0&t=1639s) Event types: Manual dispatch  
+- [00:29:03](https://www.youtube.com/watch?v=d48WGkePFq0&t=1743s) Dependencies between jobs  
+- [00:29:36](https://www.youtube.com/watch?v=d48WGkePFq0&t=1776s) Context: expressions (run jobs conditionally)
+- [00:30:53](https://www.youtube.com/watch?v=d48WGkePFq0&t=1853s) Context: default environment variables
+- [00:31:18](https://www.youtube.com/watch?v=d48WGkePFq0&t=1878s) Strategies
+- [00:32:57](https://www.youtube.com/watch?v=d48WGkePFq0&t=1977s) User-defined environment variables: Global
+- [00:33:52](https://www.youtube.com/watch?v=d48WGkePFq0&t=2032s) Actions
+- [00:35:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=2135s) Other topics
 
 ### PART 4: GitHub Actions Marketplace
-- 00:37:06 ---PART 4: GitHub Actions Marketplace
-- 00:37:06 Q&A: Can we use on MacOS and Windows?
-- 00:38:03 Q&A: Meaning of "17" in cron?
-- 00:40:22 Cron job in GitHub actions without need for Heroku?
-- 00:41:00 GitHub Workflow Rates (pricing)
-- 00:42:26 Q&A: Why is MacOS more expensive than others for GitHub pricing?
-- 00:43:39 Q&A: Can jobs be run in parallel?
-- 00:47:40 Q&A: Where to go for support for GitHub Actions?
-- 00:49:48 ---PART 4: GitHub Actions Marketplace  
-- 00:55:10 GH Actions: data science, conda
-- 00:58:52 stale issue labeler
+- [00:37:06](https://www.youtube.com/watch?v=d48WGkePFq0&t=2226s) ---PART 4: GitHub Actions Marketplace
+- [00:37:06](https://www.youtube.com/watch?v=d48WGkePFq0&t=2226s) Q&A: Can we use on MacOS and Windows?
+- [00:38:03](https://www.youtube.com/watch?v=d48WGkePFq0&t=2283s) Q&A: Meaning of "17" in cron?
+- [00:40:22](https://www.youtube.com/watch?v=d48WGkePFq0&t=2422s) Cron job in GitHub actions without need for Heroku?
+- [00:41:00](https://www.youtube.com/watch?v=d48WGkePFq0&t=2460s) GitHub Workflow Rates (pricing)
+- [00:42:26](https://www.youtube.com/watch?v=d48WGkePFq0&t=2546s) Q&A: Why is MacOS more expensive than others for GitHub pricing?
+- [00:43:39](https://www.youtube.com/watch?v=d48WGkePFq0&t=2619s) Q&A: Can jobs be run in parallel?
+- [00:47:40](https://www.youtube.com/watch?v=d48WGkePFq0&t=2860s) Q&A: Where to go for support for GitHub Actions?
+- [00:49:48](https://www.youtube.com/watch?v=d48WGkePFq0&t=2988s) ---PART 4: GitHub Actions Marketplace  
+- [00:55:10](https://www.youtube.com/watch?v=d48WGkePFq0&t=3310s) GH Actions: data science, conda
+- [00:58:52](https://www.youtube.com/watch?v=d48WGkePFq0&t=3532s) stale issue labeler
 
 ### PART 5: Creating a Workflow: live examples
 - 01:01:05 ---PART 5: Creating a Workflow: live examples
