@@ -100,12 +100,12 @@ Can trigger "events" or "actions" based on these events: issue opened, PR submit
 - [00:58:52](https://www.youtube.com/watch?v=d48WGkePFq0&t=3532s) stale issue labeler
 
 ### PART 5: Creating a Workflow: live examples
-- 01:01:05 ---PART 5: Creating a Workflow: live examples
-- 01:01:28 Migrating from other services (Azure Pipelines, CircleCI, GitLab CI/CD, Jenkins, Travis CI)
-- 01:02:03 Starter Workflows!
-- 01:02:20 https://github.com/actions/starter-wo...
-- 01:02:35 Example: Create a new repository and start! First issue
-- 01:08:00 Example: Suggested GH action for the repo: "Simple Workflow"
+- [01:01:05](https://www.youtube.com/watch?v=d48WGkePFq0&t=3665s) ---PART 5: Creating a Workflow: live examples
+- [01:01:28](https://www.youtube.com/watch?v=d48WGkePFq0&t=3688s) Migrating from other services (Azure Pipelines, CircleCI, GitLab CI/CD, Jenkins, Travis CI)
+- [01:02:03](https://www.youtube.com/watch?v=d48WGkePFq0&t=3723s) Starter Workflows!
+- [01:02:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=3740s) https://github.com/actions/starter-wo...
+- [01:02:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=3755s) Example: Create a new repository and start! First issue
+- [01:08:00](01:08:00) Example: Suggested GH action for the repo: "Simple Workflow"
 
 ### PART 6: Creating a Custom GitHub Action
 - 01:13:05 ---PART 6: Creating a Custom GitHub Action
