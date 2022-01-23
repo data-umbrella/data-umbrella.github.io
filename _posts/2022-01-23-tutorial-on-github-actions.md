@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Example of check_scalar Function Contribution in scikit-learn
-description: In this example, learn to refactor code and add tests in scikit-learn.
-date:   2021-12-12 15:01:35 +0300
+title:  Tutorial on Automating Workflows Using GitHub Actionson
+description: Learn about GitHub Actions and how they can accelerate your application development workflows.
+date:   2021-01-23 15:01:35 +0300
 image:  '/images/blogs/gh-actions.png'
 tags:   [python]
 ---
 
-Author: [Reshama Shaikh](https://reshamas.github.io)  
+Author: [Reshama Shaikh](https://reshamas.github.io) and [Gonzalo Peña-Castellanos](https://twitter.com/goanpec)
 
 ## Introduction
 
@@ -24,23 +24,25 @@ Below in the outline is a summary of topics that were covered. Learn about GitHu
 - PART 6: Creating a custom action
 
 ## Video
-<p><iframe src="https://www.youtube.com/embed/d48WGkePFq0" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p>
+<iframe src="https://www.youtube.com/embed/d48WGkePFq0" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 
 ## Key Links
-- Transcript: https://github.com/data-umbrella/event-transcripts/blob/main/2022/42-gonzalo-github-actions.md
-- Meetup Event: https://www.meetup.com/data-umbrella/events/282772806/
-- Video:  https://youtu.be/d48WGkePFq0
+- [Transcript](https://github.com/data-umbrella/event-transcripts/blob/main/2022/42-gonzalo-github-actions.md)
+- [Meetup Event](https://www.meetup.com/data-umbrella/events/282772806/)
+- [Video](https://youtu.be/d48WGkePFq0)
 
 ## Resources
-- Slides: https://bit.ly/github-workflows
-- GitHub Support: https://support.github.com
-- GitHub Actions documentation: https://docs.github.com/en/actions
+- [Slides](https://bit.ly/github-workflows)
+- [GitHub Support](https://support.github.com)
+- [GitHub Actions documentation](https://docs.github.com/en/actions)
 
 ## References
-- Napari repo:  https://github.com/tlambert03/napari-...
-- Mariatta's talk on continuous integration: https://youtu.be/vLBr_AfomUY
+- [Napari repo](https://github.com/tlambert03/napari-plugin-action)
+- [Mariatta's talk on continuous integration](https://youtu.be/vLBr_AfomUY)
 
 ## Section Timestamps of Video
 
