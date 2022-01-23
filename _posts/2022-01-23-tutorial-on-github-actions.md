@@ -47,29 +47,29 @@ Below in the outline is a summary of topics that were covered. Learn about GitHu
 ## Section Timestamps of Video
 
 ### Intro
-- 00:00:00 Reshama introduces Data Umbrella
-- 00:04:15 Gonzalo introduces self and projects
-- 00:06:36 ---Outline of talk  
+- [00:00:00](https://www.youtube.com/watch?v=d48WGkePFq0&t=0s) Reshama introduces Data Umbrella
+- [00:04:15](https://www.youtube.com/watch?v=d48WGkePFq0&t=255s) Gonzalo introduces self and projects
+- [00:06:36](https://www.youtube.com/watch?v=d48WGkePFq0&t=396s) ---Outline of talk  
 
 
 ### PART 1: GitHub, Workflows and GitHub Actions
-- 00:07:55 ---PART 1: GitHub, Workflows and GitHub Actions
-- 00:11:00 GitHub Development Workflow with "events"
+- [00:07:55](https://www.youtube.com/watch?v=d48WGkePFq0&t=475s) ---PART 1: GitHub, Workflows and GitHub Actions
+- [00:11:00](https://www.youtube.com/watch?v=d48WGkePFq0&t=660s) GitHub Development Workflow with "events"
 Can trigger "events" or "actions" based on these events: issue opened, PR submitted, comment on issue or PR is merged, closed or updated
-- 00:11:55 Continuous integration and continuous development (CI/CD)
-- 00:12:05 ("webhook" mentioned), cross-platform testing is done by CI/CD  
-- 00:13:55 Microsoft and how GitHub Actions started; GH actions is a nice wrapper around Azure pipelines   
-- 00:15:07 What are GitHub Actions? A platform to "automate development workflows"  
-- 00:15:22 Mariatta's talk on CI/CD  
-- 00:16:00 What are developer workflows?  CI/CD does not mean GitHub actions. It is one of *many* workflows you can automate, but it is not the only one.
-- 00:16:13 Types of developer workflows
+- [00:11:55](https://www.youtube.com/watch?v=d48WGkePFq0&t=715s) Continuous integration and continuous development (CI/CD)
+- [00:12:05](https://www.youtube.com/watch?v=d48WGkePFq0&t=725s) ("webhook" mentioned), cross-platform testing is done by CI/CD  
+- [00:13:55](https://www.youtube.com/watch?v=d48WGkePFq0&t=835s) Microsoft and how GitHub Actions started; GH actions is a nice wrapper around Azure pipelines   
+- [00:15:07](https://www.youtube.com/watch?v=d48WGkePFq0&t=907s) What are GitHub Actions? A platform to "automate development workflows"  
+- [00:15:22](https://www.youtube.com/watch?v=d48WGkePFq0&t=922s) Mariatta's talk on CI/CD  
+- [00:16:00](https://www.youtube.com/watch?v=d48WGkePFq0&t=960s) What are developer workflows?  CI/CD does not mean GitHub actions. It is one of *many* workflows you can automate, but it is not the only one.
+- [00:16:13](00:16:13) Types of developer workflows
 
 ### PART 2: GitHub Action Components 
-- 00:19:35 ---PART 2: GitHub Action Components  
-- 00:19:52 Workflows (& YAML files)   
-- 00:20:28 Events  
-- 00:20:55 Jobs and Runners  
-- 00:21:52 Actions  
+- [00:19:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=1175s) ---PART 2: GitHub Action Components  
+- [00:19:52](https://www.youtube.com/watch?v=d48WGkePFq0&t=1192s) Workflows (& YAML files)   
+- [00:20:28](https://www.youtube.com/watch?v=d48WGkePFq0&t=1228s) Events  
+- [00:20:55](https://www.youtube.com/watch?v=d48WGkePFq0&t=1255s) Jobs and Runners  
+- [00:21:52](https://www.youtube.com/watch?v=d48WGkePFq0&t=1312s) Actions  
 
 ### PART 3: Workflow Syntax
 - 00:22:55 ---PART 3: Workflow Syntax  
