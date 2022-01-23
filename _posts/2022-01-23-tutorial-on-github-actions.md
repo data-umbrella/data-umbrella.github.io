@@ -108,20 +108,20 @@ Can trigger "events" or "actions" based on these events: issue opened, PR submit
 - [01:08:00](01:08:00) Example: Suggested GH action for the repo: "Simple Workflow"
 
 ### PART 6: Creating a Custom GitHub Action
-- 01:13:05 ---PART 6: Creating a Custom GitHub Action
-- 01:13:20 Q&A: How to save (download) artifacts?
-- 01:17:13 ---PART 6: Creating a Custom GitHub Action
-- 01:17:20 3 ways to run GitHub Actions (Composite, JavaScript, Docker Container)
-- 01:20:40 Example: Napari
-- 01:21:45 napari-svg plugin
-- 01:22:45 composite action
-- 01:24:40 Other topics for custom actions (Docker, JavaScript / Typescript actions, Outputs on actions)
-- 01:25:20 Talley Lambert with napari: https://github.com/tlambert03/napari-...
-- 01:34:15 Q&A: What would an advanced GitHub Actions webinar cover?
-- 01:34:35 Q&A: Resources for Learning GitHub Actions: https://docs.github.com/en/actions
-- 01:36:20 Typescript example
-- 01:37:35 JavaScript Action template
-- 01:41:30 Closing words  
+- [01:13:05](https://www.youtube.com/watch?v=d48WGkePFq0&t=4385s) ---PART 6: Creating a Custom GitHub Action
+- [01:13:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=4400s) Q&A: How to save (download) artifacts?
+- [01:17:13](https://www.youtube.com/watch?v=d48WGkePFq0&t=4633s) ---PART 6: Creating a Custom GitHub Action
+- [01:17:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=4640s) 3 ways to run GitHub Actions (Composite, JavaScript, Docker Container)
+- [01:20:40](https://www.youtube.com/watch?v=d48WGkePFq0&t=4840s) Example: Napari
+- [01:21:45](https://www.youtube.com/watch?v=d48WGkePFq0&t=4905s) napari-svg plugin
+- [01:22:45](https://www.youtube.com/watch?v=d48WGkePFq0&t=4965s) composite action
+- [01:24:40](https://www.youtube.com/watch?v=d48WGkePFq0&t=5080s) Other topics for custom actions (Docker, JavaScript / Typescript actions, Outputs on actions)
+- [01:25:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=5120s) Talley Lambert with napari: https://github.com/tlambert03/napari-...
+- [01:34:15](https://www.youtube.com/watch?v=d48WGkePFq0&t=5655s) Q&A: What would an advanced GitHub Actions webinar cover?
+- [01:34:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=5675s) Q&A: Resources for Learning GitHub Actions: https://docs.github.com/en/actions
+- [01:36:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=5780s) Typescript example
+- [01:37:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=5855s) JavaScript Action template
+- [01:41:30](https://www.youtube.com/watch?v=d48WGkePFq0&t=6090s) Closing words  
 
 
 ## About the Speaker
