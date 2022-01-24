@@ -220,7 +220,8 @@
     border-bottom: 1px solid var(--border-color);
 
     &:hover {
-      color: var(--link-color);
+      /* color: var(--link-color); */
+      color: #0066CC;
       border-bottom-color: var(--link-color-hover);
     }
   }
