@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  Tutorial on Automating Workflows Using GitHub Actionson
+title:  Tutorial on Automating Workflows Using GitHub Actions
 description: Learn about GitHub Actions and how they can accelerate your application development workflows.
 date:   2022-01-23 15:01:35 +0300
 image:  '/images/blogs/gh-actions2.png'
 tags:   [python]
 ---
-
-Author: [Reshama Shaikh](https://reshamas.github.io) and [Gonzalo Peña-Castellanos](https://twitter.com/goanpec)
 
 ## Introduction
 
