@@ -14,6 +14,13 @@ Author:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martin Loyola](htt
 
 	My name is Juan Martín Loyola, I'm a computer science Ph.D. student from San Luis, a province in the middle of Argentina, working on early classification models for text. This is related to the problem of document categorization where we are also interested in the classification speed (there is a cost associated with the classification delay).
 
+	<figure>
+	 <img src="/images/blogs/jml-san-luis.jpg" alt="photo of San Luis" max-width="50%" max-height="50%" />
+	 <figcaption>
+	 Photo credit: <a href="https://jmloyola.github.io">Juan Martín Loyola</a>
+	 </figcaption>
+	</figure>
+
 2. __How did you first get involved in open source?__
 
 	My involvement with the open-source world started, as with most people, as a user. First, as a teenager, when my father brought a [SUSE Linux](https://en.wikipedia.org/wiki/SUSE_Linux) cd and installed it on our home computer. Although it didn't last long as our main operating system it introduced me and my siblings to the GNU/Linux world. Later on, in college, I began to use open source software for many tasks, for example, the operating system, the browser, and the stack to program for my classes. It pushed me to keep learning about the system and its components. I loved that! Nevertheless, I still felt like a newcomer. I believed that to contribute to those projects, one needed to be an expert, thus I never thought of contributing back. As I realized later, that is not true.
@@ -27,6 +34,10 @@ Author:  [Reshama Shaikh](https://reshamas.github.io) & [Juan Martin Loyola](htt
 4. __How did you learn of the Data Umbrella Latin America (LATAM) [sprint](https://latam2021.dataumbrella.org)? Through any specific person?__
 
 	I found out about the Data Umbrella LATAM sprint 2021 through [Twitter](https://twitter.com/DataUmbrella/status/1394661734275821573). I'm not an active social media user, but I do check Twitter once in a while. A month before the sprint I read a tweet from [Data Umbrella](https://twitter.com/DataUmbrella) in my feed inviting people to apply to the scikit-learn LATAM sprint. Since I wanted to get back to contributing to open source, I quickly applied.
+
+	<figure>
+	 <img src="/images/blogs/jml-sprint-tweet.jpg" alt="LATAM sprint tweet" max-width="50%" max-height="50%" />
+	</figure>
 
 5. __What was your sprint experience and how was the experience with your pair programming partner and core devs?__
 
