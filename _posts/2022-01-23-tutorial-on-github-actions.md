@@ -7,6 +7,8 @@ image:  '/images/blogs/gh-actions2.png'
 tags:   [python]
 ---
 
+Summary posted by: [Reshama Shaikh](https://reshamas.github.io)
+
 ## Introduction
 
 In January 2022, Gonzalo Peña-Castellanos, presented to the Data Umbrella community a comprehensive tutorial on Automating Workflows with GitHub Actions.  
