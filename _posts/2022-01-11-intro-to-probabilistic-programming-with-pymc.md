@@ -3,7 +3,7 @@ layout: post
 title:  Intro to Probabilistic Programming with PyMC
 description: Learn how open source probabilistic programming makes Bayesian inference algorithms near the frontier of academic research accessible to a wide audience.
 date:   2022-01-11 15:01:35 +0300
-image:  '/images/blogs/austin_r.png'
+image:  '/images/blogs/austin_r2.png'
 tags:   [python]
 ---
 
