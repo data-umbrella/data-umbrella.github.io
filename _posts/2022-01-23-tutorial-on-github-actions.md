@@ -103,7 +103,7 @@ Can trigger "events" or "actions" based on these events: issue opened, PR submit
 - [01:01:05](https://www.youtube.com/watch?v=d48WGkePFq0&t=3665s) ---PART 5: Creating a Workflow: live examples
 - [01:01:28](https://www.youtube.com/watch?v=d48WGkePFq0&t=3688s) Migrating from other services (Azure Pipelines, CircleCI, GitLab CI/CD, Jenkins, Travis CI)
 - [01:02:03](https://www.youtube.com/watch?v=d48WGkePFq0&t=3723s) Starter Workflows!
-- [01:02:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=3740s) https://github.com/actions/starter-wo...
+- [01:02:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=3740s) [starter workflows](https://github.com/actions/starter-workflows)
 - [01:02:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=3755s) Example: Create a new repository and start! First issue
 - [01:08:00](01:08:00) Example: Suggested GH action for the repo: "Simple Workflow"
 
@@ -116,9 +116,9 @@ Can trigger "events" or "actions" based on these events: issue opened, PR submit
 - [01:21:45](https://www.youtube.com/watch?v=d48WGkePFq0&t=4905s) napari-svg plugin
 - [01:22:45](https://www.youtube.com/watch?v=d48WGkePFq0&t=4965s) composite action
 - [01:24:40](https://www.youtube.com/watch?v=d48WGkePFq0&t=5080s) Other topics for custom actions (Docker, JavaScript / Typescript actions, Outputs on actions)
-- [01:25:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=5120s) Talley Lambert with napari: https://github.com/tlambert03/napari-...
+- [01:25:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=5120s) Talley Lambert with [napari](https://github.com/tlambert03/napari-plugin-action)
 - [01:34:15](https://www.youtube.com/watch?v=d48WGkePFq0&t=5655s) Q&A: What would an advanced GitHub Actions webinar cover?
-- [01:34:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=5675s) Q&A: Resources for Learning GitHub Actions: https://docs.github.com/en/actions
+- [01:34:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=5675s) Q&A: Resources for Learning [GitHub Actions](https://docs.github.com/en/actions)
 - [01:36:20](https://www.youtube.com/watch?v=d48WGkePFq0&t=5780s) Typescript example
 - [01:37:35](https://www.youtube.com/watch?v=d48WGkePFq0&t=5855s) JavaScript Action template
 - [01:41:30](https://www.youtube.com/watch?v=d48WGkePFq0&t=6090s) Closing words  
