@@ -3,7 +3,7 @@ layout: post
 title:  Data Umbrella LATAM 2021 Sprint - My Experience Contributing to Open Source
 description: Nestor Navarro shares his experience in Data Umbrella 2021 Latin America scikit-learn sprint.
 date:   2021-12-07 15:01:35 +0300
-image:  '/images/sprint/scikit-learn-small.png'
+image:  '/images/blogs/cover_latam.png'
 tags:   [opensource, sprint-blog]
 ---
 
