@@ -3,7 +3,7 @@ layout: post
 title:  My Open Source Adventure
 description: Joe Lucas shares his experience contributing to scikit-learn for the first time. 
 date:   2020-06-07 15:01:35 +0300
-image:  '/images/sprint/scikit-learn-small.png'
+image:  '/images/blogs/cover_global.png'
 tags:   [opensource, sprint-blog]
 ---
 
