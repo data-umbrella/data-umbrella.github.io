@@ -3,7 +3,7 @@ layout: post
 title:  Review of the Data Umbrella Scikit-learn Online Sprint June 2020
 description: Maren Westerman from Germany shares her experience contributing to open source. 
 date:   2020-06-12 15:01:35 +0300
-image:  '/images/sprint/scikit-learn-small.png'
+image:  '/images/blogs/cover_global.png'
 tags:   [opensource, sprint-blog]
 ---
 
