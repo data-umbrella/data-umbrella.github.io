@@ -3,7 +3,7 @@ layout: post
 title:  Data Umbrella AFME2 2021 Sprint - My Experience Contributing to Open Source
 description: Beryl Kanali shares her experience submitting a pull request to scikit-learn for the first time. 
 date:   2021-11-28 15:01:35 +0300
-image:  '/images/sprint/scikit-learn-small.png'
+image:  '/images/blog/cover_afme2.png'
 tags:   [opensource, sprint-blog]
 ---
 
