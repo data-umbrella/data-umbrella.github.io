@@ -26,6 +26,10 @@ In this open source contribution, Amanda is one of the contributors to deprecate
 
 <p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the contributors on this significant PR is <a href="https://twitter.com/amanda_dsouza?ref_src=twsrc%5Etfw">@amanda_dsouza</a>, from multiple <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> events. <br>As an organizer, it is immensely gratifying to see &amp; share impact in community work. <a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> <a href="https://t.co/SCllQNoXwU">https://t.co/SCllQNoXwU</a></p>&mdash; Reshama Shaikh (@reshamas) <a href="https://twitter.com/reshamas/status/1443019995806588932?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
 
+### Maren Westerman: Contribution to scikit-learn
 
+<p>
+ <blockquote class="twitter-tweet"><p lang="en" dir="ltr">With today&#39;s sprint I made it into the scikit-learn top 100 contributers list by number of commits. This says nothing about the quality of my work but I&#39;m still proud of my achievement. 😁</p>&mdash; Maren Westermann (@MarenWestermann) <a href="https://twitter.com/MarenWestermann/status/1502683328226463746?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </p>
