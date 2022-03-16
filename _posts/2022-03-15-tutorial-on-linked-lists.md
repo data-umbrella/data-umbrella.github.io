@@ -52,16 +52,16 @@ Below is a summary of topics that were covered:
 
 - [00:00:00](https://www.youtube.com/watch?v=gWGyvfU80kc&t=0s) Reshama introduces Data Umbrella
 - [00:04:39](https://www.youtube.com/watch?v=gWGyvfU80kc&t=279s) Clair begins introduction
-- [00:06:14](https://www.youtube.com/watch?v=gWGyvfU80kc&t=374s) link to repo: https://github.com/cj2001/data_umbrella_linked_lists
+- [00:06:14](https://www.youtube.com/watch?v=gWGyvfU80kc&t=374s) link to repo: [data_umbrella_linked_lists](https://github.com/cj2001/data_umbrella_linked_lists)
 - [00:06:35](https://www.youtube.com/watch?v=gWGyvfU80kc&t=395s) Summary of what will be covered
 - [00:07:26](https://www.youtube.com/watch?v=gWGyvfU80kc&t=446s) Arrays
 - [00:08:45](https://www.youtube.com/watch?v=gWGyvfU80kc&t=525s) Big O: O(n)
 - [00:09:01](https://www.youtube.com/watch?v=gWGyvfU80kc&t=541s) Lists: Dynamic Arrays (insert, append)
 - [00:10:45](https://www.youtube.com/watch?v=gWGyvfU80kc&t=645s) (Singly) Linked List (node, pointer)
 - [00:13:05](https://www.youtube.com/watch?v=gWGyvfU80kc&t=785s) List Insertion
-- [00:14:05](https://www.youtube.com/watch?v=gWGyvfU80kc&t=845s) repo intro: https://github.com/cj2001/data_umbrella_linked_lists
+- [00:14:05](https://www.youtube.com/watch?v=gWGyvfU80kc&t=845s) repo intro: [data_umbrella_linked_lists](https://github.com/cj2001/data_umbrella_linked_lists)
 - [00:15:30](https://www.youtube.com/watch?v=gWGyvfU80kc&t=930s) list of resources
-- [00:17:25](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1045s) Notebook on linked lists: https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/basic_linked_list.ipynb
+- [00:17:25](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1045s) Notebook on linked lists: [basic_linked_list](https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/basic_linked_list.ipynb)
 - [00:17:44](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1064s) Linked List 1: [Create a linked list in python]. There is no data structure in python called linked list. It needs to be created. Here is how.
 - [00:20:12](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1212s) Linked List 2: Insert a new node in the beginning of a list
 - [00:21:20](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1280s) Linked List 3: Insert a new node at the end of list
@@ -70,12 +70,12 @@ Below is a summary of topics that were covered:
 - [00:27:39](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1659s) (Doubly) Linked List
 - [00:28:35](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1715s) Benefits of Linked Lists vs Arrays
 - [00:29:54](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1794s) What You Need to Implement a Linked List
-- [00:30:33](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1833s) LeetCode #206: Reverse a Linked List (Iterative Solution) (https://leetcode.com/problems/reverse-linked-list/) (https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/leetcode206.ipynb)
+- [00:30:33](https://www.youtube.com/watch?v=gWGyvfU80kc&t=1833s) LeetCode #206: Reverse a Linked List (Iterative Solution) 
 - [00:39:11](https://www.youtube.com/watch?v=gWGyvfU80kc&t=2351s) Graphs: collection of nodes and relationships
 - [00:41:47](https://www.youtube.com/watch?v=gWGyvfU80kc&t=2507s) How to Get Into Graphs with Python
 - [00:42:45](https://www.youtube.com/watch?v=gWGyvfU80kc&t=2565s) Graph python packages vs graph databases
 - [00:44:20](https://www.youtube.com/watch?v=gWGyvfU80kc&t=2660s) sandbox.neo4j.com (get free databases instances)
-- [00:52:00](https://www.youtube.com/watch?v=gWGyvfU80kc&t=3120s) Graph Data Science (https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/graph_data_science.ipynb)
+- [00:52:00](https://www.youtube.com/watch?v=gWGyvfU80kc&t=3120s) Graph Data Science 
 - [00:56:00](https://www.youtube.com/watch?v=gWGyvfU80kc&t=3360s) Cypher query
 - [01:00:20](https://www.youtube.com/watch?v=gWGyvfU80kc&t=3620s) Q&A
 
