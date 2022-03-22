@@ -4,7 +4,7 @@ title:  Behind the Scenes, What It Takes to Run Data Umbrella’s scikit-learn O
 description: Learn of the pivot from in-person to online sprints and lessons learned.
 date:   2022-03-21 15:01:35 +0300
 image:  '/images/blogs/behind_the_scenes.png'
-tags:   [python, graphs]
+tags:   [opensource, scikitlearn, sprint-blog]
 ---
 
 Authors: [Reshama Shaikh](https://reshamas.github.io) and [Angela Okune](https://angelaokune.me)
