@@ -1,13 +1,25 @@
 ---
-layout: post
-title:  Behind the Scenes, What It Takes to Run Data Umbrella’s scikit-learn Open Source Sprints
-description: Learn of the pivot from in-person to online sprints and lessons learned.
-date:   2022-03-21 15:01:35 +0300
-image:  '/images/blogs/behind_the_scenes.png'
-tags:   [opensource, scikitlearn, sprint-blog]
+title: "Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints"
+date: March 21, 2022
+categories:
+  - Events
+tags:
+  - Open Source
+featured-image: behind_the_scenes.png
+
+postauthors:
+  - name: Reshama Shaikh
+    website: https://reshamas.github.io
+    image: reshama_shaikh.jpeg 
+  - name: Angela Okune
+    website: https://angelaokune.me
+    image: angela_okune.jpg
 ---
 
-Authors: [Reshama Shaikh](https://reshamas.github.io) and [Angela Okune](https://angelaokune.me)
+<div>
+  <img src="/assets/images/posts_images/{{ page.featured-image }}" alt="">
+  {% include postauthor.html %}
+</div>
 
 ## Introduction
 
