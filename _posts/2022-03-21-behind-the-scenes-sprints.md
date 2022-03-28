@@ -4,7 +4,7 @@ title:  Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints
 description: Learn the tips for making the online sprints a success.
 date:   2022-03-21 15:01:35 +0300
 image:  '/images/blogs/behind_the_scenes.png'
-tags:   [events, open-source]
+tags:   [events, opensource]
 ---
 
 Summary posted by: [Reshama Shaikh](https://reshamas.github.io)
