@@ -16,4 +16,4 @@ The sprint was originally scheduled to be an in-person event in New York City.  
 This report focuses on the summary, impact and lessons learned of the **first online** scikit-learn sprint.  
 
 Read the  full article here:  
-[Data Umbrella First Online Global scikit-learn Sprint Report, June 2020](https://github.com/reshamas/reshamas.github.io/blob/master/_posts/2020-06-27-data-umbrella-scikit-learn-online-sprint-report.md)
+[Data Umbrella First Online Global scikit-learn Sprint Report, June 2020](https://reshamas.github.io/data-umbrella-scikit-learn-online-sprint-report/)
