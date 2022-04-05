@@ -21,8 +21,14 @@ tags:   [opensource]
 
 4. __What was your experience contributing to open source at the Data Umbrella PyMC Sprint?__
  
-    In the webinars I attended, people were very welcoming and they answered every question from the audience. I would say Data Umbrella makes a great job creating a safe space, and the volunteers from PyMC organizers did a great job preparing tutorials to get you started.  <span style="background-color: #CAE9F5;">They had also pre-selected issues that a newbie could solve.</span>
+    In the webinars I attended, people were very welcoming and they answered every question from the audience. I would say Data Umbrella makes a great job creating a safe space, and the volunteers from PyMC organizers did a great job preparing [video tutorials](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt) to get you started.  <span style="background-color: #CAE9F5;">They had also pre-selected issues that a newbie could solve.</span>
  
+<figure>
+    <img src="/images/blogs/pymc_playlist.png" alt="youtube playlist of pymc videos" max-width="75%" max-height="75%" />
+    <figcaption>
+    PyMC YouTube Playlist
+    </figcaption>
+</figure>
  
 5. __How did you begin work on this PyMC issue [#5317](https://github.com/pymc-devs/pymc/pull/5317)?__
  
