@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interview with Sandra Meneses"
+title:  "Interview with Sandra Meneses: Contributing to PyMC"
 description: Sandra Meneses shares her experience at the Data Umbrella PyMC Sprint.
 date:   2022-04-04 17:44:03 +0200
 image:  '/images/blogs/sandra_pymc.png'
