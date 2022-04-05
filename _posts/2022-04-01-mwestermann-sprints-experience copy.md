@@ -2,14 +2,14 @@
 layout: post
 title:  "Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community"
 description: Maren Westermann shares her learnings from taking part in Data Umbrella scikit-learn sprints.
-date:   2022-03-28 17:44:03 +0200
+date:   2022-04-05 17:44:03 +0200
 image:  '/images/blogs/sandra_pymc.png'
 tags:   [opensource]
 ---
 
-1. __How did you learn of the Data Umbrella scikit-learn sprints and what inspired you to attend?__
+1. __Tell us a little bit about yourself.__
 
-    I learned of the first Data Umbrella scikit-learn [online sprint](https://reshamas.github.io/data-umbrella-scikit-learn-online-sprint-report/), which took place in June 2020, via Twitter. I was interested in contributing to open source and had already made [one contribution](https://github.com/scikit-learn/scikit-learn/pull/16681) to scikit-learn. However, when I started contributing to open source I didn’t have a network of like-minded people. I was very much looking forward to connecting with people who shared my interest in open source, data science, and scikit-learn, and to building a professional network in this field.
+     I am originally from Colombia and I have been living in Berlin for the past 6 years. I moved here because I wanted to be a data scientist. I had experience working with databases and a sound knowledge about Statistics, as my major was in Industrial Engineering, therefore, I saw this as the natural path for me. I finished my masters in Data Science in 2018 and I have been working in Machine Learning since then. Initially, I worked with NLP, my last project (reciprocal recommenders) involved Graph Neural Networks, so now I am into graphs. I love what I do, it makes me happy knowing people are using what I help to build.
 
 2. __What was your experience at these sprints?  What was your experience prior to that in contributing to open source?__
 
