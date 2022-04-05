@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community"
-description: Maren Westermann shares her learnings from taking part in Data Umbrella scikit-learn sprints.
+title:  "Interview with Sandra Meneses"
+description: Sandra Meneses shares her experience at the Data Umbrella PyMC Sprint.
 date:   2022-04-04 17:44:03 +0200
 image:  '/images/blogs/sandra_pymc.png'
 tags:   [opensource]
