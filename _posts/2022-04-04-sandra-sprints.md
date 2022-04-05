@@ -37,8 +37,8 @@ tags:   [opensource]
 6. __What were the benefits of participating in the sprint?__
  
     There are multiple benefits:  
-        - Having a safe environment so that beginners can ask any question.
-        - Having issues pre-selected for us helped to find issues that are feasible to be solved in the given time.
+        - Having a safe environment so that beginners can ask any question.  
+        - Having issues pre-selected for us helped to find issues that are feasible to be solved in the given time.  
         - I could see the PR merged really fast, as we had PyMC contributors available at the moment, which gives immediate satisfaction.
  
     It’s highly recommended for anyone to join a sprint, no matter what your background is or your skills, you will learn something new and find nice people on the way. I am really thankful for all the work **Data Umbrella** is doing to organize the sprints. 
