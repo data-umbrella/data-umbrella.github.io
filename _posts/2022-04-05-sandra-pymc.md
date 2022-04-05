@@ -9,9 +9,7 @@ tags:   [opensource]
 
 1. __Tell us a little bit about yourself.__
 
-     I am originally from Colombia and I have been living in Berlin for the past 6 years. I moved here because I wanted to be a data scientist. I had experience working with databases and a sound knowledge about Statistics, as my major was in Industrial Engineering, therefore, I saw this as the natural path for me.
-    
-    I finished my masters in Data Science in 2018 and I have been working in Machine Learning since then. Initially, I worked with NLP, my last project (reciprocal recommenders) involved Graph Neural Networks, so now I am into graphs. I love what I do, it makes me happy knowing people are using what I help to build.
+     I am originally from Colombia and I have been living in Berlin for the past 6 years. I moved here because I wanted to be a data scientist. I had experience working with databases and a sound knowledge about Statistics, as my major was in Industrial Engineering, therefore, I saw this as the natural path for me. I finished my masters in Data Science in 2018 and I have been working in Machine Learning since then. Initially, I worked with NLP, my last project (reciprocal recommenders) involved Graph Neural Networks, so now I am into graphs. I love what I do, it makes me happy knowing people are using what I help to build.
 
 2. __How did you first become involved in open source?  In what ways? What has been your experience contributing to open source prior to the [Data Umbrella PyMC Sprint](https://pymc-data-umbrella.xyz/en/latest/)?__
 
