@@ -11,11 +11,11 @@ tags:   [opensource, scikit-learn]
 - PyConDE Blog: [Keynote: Reshama Shaikh - 5 Years, 10 Sprints, A scikit-learn Open Source Journey](https://2022.pycon.de/blog/keynote-2-reshama-shaikh/)
 - Video:  [to be added]
 
-## About: 5 Years, 10 Sprints, A scikit-learn Open Source Journey
-We all use open source tools in various capacities, yet knowing how to contribute to open source is not as well known or accessible. The limited knowledge and education surrounding contributing to open source could be one explanation of the low participation rates by underrepresented persons in open source.
-Open source sprints are hands-on "workshops" or "hackathons" where contributors collaborate to resolve coding and documentation issues posted on a GitHub repository.
+## About
 
-Reshama will share how she organized her first open source sprint in 2017, which was in-person and held in New York City. Over the next 5 years, she organized in-person sprints from San Francisco, USA to Nairobi, Kenya, as well as pivoting to online sprints due to the global pandemic. In this keynote, Reshama will share highlights, challenges and lessons learned from the [sprints](https://www.dataumbrella.org/sprints).
+We all use open source tools in various capacities, yet knowing how to contribute to open source is not as well known or accessible. The limited knowledge and education surrounding contributing to open source could be one explanation of the low participation rates by underrepresented persons in open source. Open source sprints are hands-on "workshops" or "hackathons" where contributors collaborate to resolve coding and documentation issues posted on a GitHub repository.
+
+Reshama shares how she organized her first open source sprint in 2017, which was in-person and held in New York City. Over the next 5 years, she organized in-person sprints from San Francisco, USA to Nairobi, Kenya, as well as pivoting to online sprints due to the global pandemic. In this keynote, Reshama shares highlights, challenges and lessons learned from the [sprints](https://www.dataumbrella.org/sprints).
 
 ## About Reshama Shaikh
 Reshama is a statistician/data scientist based in New York City. She earned her M.S. in statistics from Rutgers University. She earned her M.B.A. from NYU Stern School of Business where she studied strategy, business analytics and technology management.
@@ -26,7 +26,7 @@ Reshama Shaikh is the Director of Data Umbrella. She is also on the Triage Team 
 - LinkedIn: [@reshamas](https://www.linkedin.com/in/reshamas/)
 - Twitter: [@reshamas](https://twitter.com/reshamas)
 - GitHub: [@reshamas](https://github.com/reshamas)
-- Medium: (@reshamas)(https://medium.com/@reshamas) 
+- Medium: [@reshamas](https://medium.com/@reshamas) 
 - Join the Data Umbrella [Meetup Group](https://www.meetup.com/data-umbrella/)
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSc293BLAC9SUrlYV2famYyXREOdz2uHMmUF3KNXTLenVj1gDllxf5wRlVFwI-l8MIzttP6T9_GZu1f/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
