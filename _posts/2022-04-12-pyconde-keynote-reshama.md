@@ -4,7 +4,7 @@ title:  "5 Years, 10 Sprints, a scikit-learn Open Source Journey; PyCon DE & PyD
 description: Reshama Shaikh shares her experience and lessons learned in organizing scikit-learn open source sprints from New York City.
 date:   2022-04-12 17:44:03 +0200
 image:  '/images/blogs/reshama-pyconde.png'
-tags:   [opensource]
+tags:   [opensource, scikit-learn]
 ---
 
 ## Key Links
