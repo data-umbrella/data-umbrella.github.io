@@ -11,7 +11,7 @@ Authors:  [Reshama Shaikh](https://reshamas.github.io), [Oriol Abril Pla](https:
 
 ## About the Data Umbrella PyMC Sprint
 
-Data Umbrella and PyMC organized their first collaborative sprint in February 2022.  The  sprint event was preceded by a series of webinars and [videos](​​https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt)  by maintainers of the PyMC library in January and February 2022:  
+Data Umbrella and PyMC organized their first collaborative sprint in February 2022.  The  sprint event was preceded by a series of webinars and [videos](​​https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt) by maintainers of the PyMC library in January and February 2022:  
 - [Intro to Probabilistic Programming with PyMC](https://youtu.be/Qu6-_AnRCs8) (Austin Rochford)
 - [Contributing to PyMC Documentation](https://youtu.be/fzpmLWQNj4A) (Oriol Abril Pla)
 - [My Experience Contributing to PyMC](https://youtu.be/Iq0dY5hU4D4) (Ricardo Vieira)
@@ -97,7 +97,7 @@ Maintainer Oriol states that Sandra’s pull request required expertise that is 
 There were new contributors that expressed interest in applying for
 [Google Summer of Code](https://summerofcode.withgoogle.com/programs/2022/organizations/numfocus) projects with PyMC.
 
-The expanded visibility of PyMC and the subsequent interest has been apparent in increased GitHub and Twitter followers.
+The expanded visibility of PyMC and the subsequent interest has been apparent in increased GitHub ([pymc](https://github.com/pymc-devs/pymc)) and Twitter ([@pymc_devs](https://twitter.com/pymc_devs)) followers.
 
 There were several new contributors to PyMC who had not heard of PyMC prior to the sprint, and they enjoyed their experience contributing.  There was increased involvement by prior contributors in docs as a result of Oriol’s tutorial webinar, [Contributing to PyMC Documentation](https://www.youtube.com/watch?v=fzpmLWQNj4A&list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt&index=6), which provided a valuable resource.  
 
@@ -110,7 +110,7 @@ The most important change has been energizing the community and starting the [Py
 Anonymous:
 
 <p float="left">
-   <a href="">
+   <a href="https://blog.dataumbrella.org/pymc-sprint-summary">
   <img src="../images/pymc-sprint/pymc-gsoc.png" width="99%" height="99%" style="border:0px;margin:0px">
 </a>
 </p>
