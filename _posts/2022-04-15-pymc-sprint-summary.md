@@ -18,6 +18,13 @@ Data Umbrella and PyMC organized their first collaborative sprint in February 20
 - [An Example Pull Request to PyMC](https://youtu.be/NbmdFJsnuuo) (Reshama Shaikh)
 - [Intro to NumPy Operations](https://youtu.be/oud3Jd1FJ7c) (Meenal Jhajharia)
 
+
+<p float="left">
+   <a href="https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt">
+  <img src="../images/pymc-sprint/pymc-playlist.png" width="60%" height="60%" style="border:0px;margin:0px">
+</a>
+</p>
+
 The lead sprint organizers on the PyMC team were Meenal Jhajharia (India) and Oriol Abril Pla (Helsinki, Finland), and the leads for the Data Umbrella team were Reshama Shaikh (New York, NY, USA) and Beryl Kanali (Nairobi, Kenya).  It was truly an international endeavor!
 
 <p float="left">
