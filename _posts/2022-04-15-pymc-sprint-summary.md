@@ -3,7 +3,7 @@ layout: post
 title:  "Reflections on the Data Umbrella PyMC February 2022 Sprint"
 description: PyMC & Data Umbrella share why and how the sprint was organized and outcomes.
 date:   2022-04-15 17:44:03 +0200
-image:  '/images/pymc-sprint/pymc-cover.png'
+image:  '/images/pymc-sprint/pymc-cover-insta.png'
 tags:   [opensource, pymc]
 ---
 
