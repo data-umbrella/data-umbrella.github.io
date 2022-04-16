@@ -126,12 +126,12 @@ Anonymous:
 
 ## Acknowledgments
 
-We would like to thank all the following for their support in running the sprint:  
+We would like to thank all the following for their direct and indirect support of PyMC and Data Umbrella:   
 - [PyMC Team](https://pymc-data-umbrella.xyz/en/latest/about/index.html)
-- NumFOCUS
+- [NumFOCUS](https://numfocus.org/project/pymc)
 - [Sandy Weng](https://www.linkedin.com/in/sandy-weng-a0959762/) of Data Umbrella: for assisting in marketing
 - [CZI Grant](https://blog.dataumbrella.org/czi-grant-press) supporting Data Umbrella
-- Google Summer of Code
+- [Google Summer of Code](https://discourse.pymc.io/t/gsoc-project-2021/6983)
 
 ## About PyMC & Data Umbrella
 
