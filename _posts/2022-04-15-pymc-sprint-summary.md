@@ -86,7 +86,7 @@ Participants joined from India, USA, Argentina, Kenya, Germany and Taiwan.
 
 ## Observed Outcomes
 
-The series of videos on YouTube has garnered much interest!  Austin Rochford’s talk has surpassed 2000 views in 3 months.  This encouraged him to write a blog, [A Modern Introduction to Probabilistic Programming with PyMC](https://austinrochford.com/posts/intro-prob-prog-pymc.html). The reach of these webinars and videos has been amazing, and that energy has inspired and motivated other maintainers to become active.  It brought to light what an untapped market exists for this project.  
+The series of videos on YouTube has garnered much interest!  PyMC Maintainer Austin Rochford’s talk has surpassed 2000 views in 3 months.  This encouraged him to write a blog, [A Modern Introduction to Probabilistic Programming with PyMC](https://austinrochford.com/posts/intro-prob-prog-pymc.html). The reach of these webinars and videos has been amazing, and that energy has inspired and motivated other maintainers to become active.  It brought to light what an untapped market exists for this project.  
 
 The team has seen new contributors to the library since the sprint.
 
