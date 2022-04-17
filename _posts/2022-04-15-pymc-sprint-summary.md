@@ -37,10 +37,12 @@ The lead sprint organizers on the PyMC team were Meenal Jhajharia (India) and Or
 
 ## Sprint Background
 
+For this article, a "maintainer" to PyMC is one who is on the [Developer, Documentation, Community or General Team](https://github.com/pymc-devs/pymc/blob/main/GOVERNANCE.md#team-organization).
+
 PyMC Maintainer Oriol Abril Pla had learnt of Reshama Shaikh when he was doing diversity research in the PyData ecosystem in his role as Diversity Chair of [PyMCon 2020](https://pymc-devs.github.io/pymcon/).  He had heard of Reshama’s work on the [NumFOCUS DISC Committee](https://reshamas.github.io/reflecting-on-two-years-on-the-numfocus-disc-committee/).  That led him to Data Umbrella where he connected with the organizers on their Discord server in August 2020. In March of 2021, Data Umbrella invited Oriol to present to the Data Umbrella community.  That event was the webinar [Bayesian Modeling with PyMC3
 ](https://youtu.be/6dc7JgR8eI0).  That was the start of a fruitful relationship between the two organizations. 
 
-The sprint was initiated by Meenal of the PyMC team in September of 2021.  Meenal had recently completed [Google Summer of Code, 2021](https://mjhajharia.com/post/2021/08/20/summing-up-summer/). Her project was entitled [PyMC: Extending Time-Series Models](https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339).  
+The sprint was initiated by Maintainer Meenal of the PyMC team (Documentation, Community) in September of 2021.  Meenal had recently completed [Google Summer of Code, 2021](https://mjhajharia.com/post/2021/08/20/summing-up-summer/). Her project was entitled [PyMC: Extending Time-Series Models](https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339).  
 
 <p float="left">
    <a href="https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339">
@@ -93,7 +95,7 @@ Sandra worked on [Adding a pre-commit check for docs cross-references
 ](https://github.com/pymc-devs/pymc/pull/5486).  A pre-commit check ensures that internal links and links to other python libraries are generated with sphinx cross-references and not copying urls manually.  This is important because PyMC docs are built for multiple versions; manual links must specify the version to work whereas sphinx cross references are converted to links at build time so they always point to the version being built, keeping the docs coherent. Moreover, sphinx cross-references are also converted to working links if generating a pdf version of the documentation and are much more robust, if a dependency restructures the documentation changing some of the urls (or changes the base url) we only need to rebuild the docs (and change a single line if the base url was modified), not search for all occurrences and update them"
 Her pull request was a significant contribution because it will have a huge impact on the library by reducing documentation requirements and easing maintenance work.  
 
-Maintainer Oriol states that Sandra’s pull request required expertise that is not held by everyone on the contributor team.  Read more about [Sandra’s first time contributing to PyMC](https://blog.dataumbrella.org/sandra-sprints).
+Oriol states that Sandra’s pull request required expertise that is not held by everyone on the contributor team.  Read more about [Sandra’s first time contributing to PyMC](https://blog.dataumbrella.org/sandra-sprints).
 
 <p float="left">
    <a href="https://blog.dataumbrella.org/sandra-sprints">
