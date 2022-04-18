@@ -11,7 +11,7 @@ Authors:  [Reshama Shaikh](https://reshamas.github.io), [Oriol Abril Pla](https:
 
 ## About the Data Umbrella PyMC Sprint
 
-Data Umbrella and PyMC organized their first collaborative sprint in February 2022.  The  sprint event was preceded by a series of webinars and [videos](​​https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt) by maintainers of the PyMC library in January and February 2022:  
+Data Umbrella and PyMC organized their first collaborative sprint in February 2022.  The  sprint event was preceded by a series of webinars and [videos](​​https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt) by PyMC library team members in January and February 2022:  
 - [Intro to Probabilistic Programming with PyMC](https://youtu.be/Qu6-_AnRCs8) (Austin Rochford)
 - [Contributing to PyMC Documentation](https://youtu.be/fzpmLWQNj4A) (Oriol Abril Pla)
 - [My Experience Contributing to PyMC](https://youtu.be/Iq0dY5hU4D4) (Ricardo Vieira)
@@ -37,11 +37,9 @@ The lead sprint organizers on the PyMC team were Meenal Jhajharia (India) and Or
 
 ## Sprint Background
 
-For this article, a "maintainer" to PyMC is one who is on the [Developer, Documentation, Community or General Team](https://github.com/pymc-devs/pymc/blob/main/GOVERNANCE.md#team-organization).
+PyMC team member Oriol had learnt of Reshama Shaikh when he was doing diversity research in the PyData ecosystem in his role as Diversity Chair of [PyMCon 2020](https://pymc-devs.github.io/pymcon/).  He had heard of Reshama’s work on the [NumFOCUS DISC Committee](https://reshamas.github.io/reflecting-on-two-years-on-the-numfocus-disc-committee/).  That led him to Data Umbrella where he connected with the organizers on their Discord server in August 2020. In March of 2021, Data Umbrella invited Oriol to present to the Data Umbrella community.  That event was the webinar [Bayesian Modeling with PyMC3](https://youtu.be/6dc7JgR8eI0).  That was the start of a fruitful relationship between the two organizations.
 
-PyMC Maintainer Oriol had learnt of Reshama Shaikh when he was doing diversity research in the PyData ecosystem in his role as Diversity Chair of [PyMCon 2020](https://pymc-devs.github.io/pymcon/).  He had heard of Reshama’s work on the [NumFOCUS DISC Committee](https://reshamas.github.io/reflecting-on-two-years-on-the-numfocus-disc-committee/).  That led him to Data Umbrella where he connected with the organizers on their Discord server in August 2020. In March of 2021, Data Umbrella invited Oriol to present to the Data Umbrella community.  That event was the webinar [Bayesian Modeling with PyMC3](https://youtu.be/6dc7JgR8eI0).  That was the start of a fruitful relationship between the two organizations. 
-
-The sprint was initiated by Maintainer Meenal of the PyMC team (Documentation, Community) in September of 2021.  Meenal had recently completed [Google Summer of Code, 2021](https://mjhajharia.com/post/2021/08/20/summing-up-summer). Her project was entitled [PyMC: Extending Time-Series Models](https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339).  
+The sprint was initiated by Meenal of the PyMC team (Documentation, Community) in September of 2021.  Meenal had recently completed [Google Summer of Code, 2021](https://mjhajharia.com/post/2021/08/20/summing-up-summer). Her project was entitled [PyMC: Extending Time-Series Models](https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339).  
 
 <p float="left">
    <a href="https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339">
@@ -49,7 +47,7 @@ The sprint was initiated by Maintainer Meenal of the PyMC team (Documentation, C
 </a>
 </p>
  
-The PyMC team was interested in having the sprint event for various reasons:  
+The [PyMC team](https://github.com/pymc-devs/pymc/blob/main/GOVERNANCE.md#team-organization) was interested in having the sprint event for various reasons:  
 - To connect with and to involve more of the community with this outreach initiative
 - To attract new contributors
 - To build community
@@ -63,11 +61,11 @@ Oriol’s purpose of the sprint was to reach outside the immediate circle of use
 
 ## Goals of the Sprint
 
-The PyMC maintainers had a number of outcomes they had hoped to achieve by holding this sprint.  They wanted to provide an on-ramp that would attract and support new contributors who may potentially become returning contributors. The project team also wanted more people in the community to be introduced and become familiar *generally* with probabilistic programming, open source and documentation in large libraries.  And the team wanted *specifically* for the community to become acquainted with PyMC and Bayesian methods and pique their interests.
+The PyMC team members had a number of outcomes they had hoped to achieve by holding this sprint.  They wanted to provide an on-ramp that would attract and support new contributors who may potentially become returning contributors. The project team also wanted more people in the community to be introduced and become familiar *generally* with probabilistic programming, open source and documentation in large libraries.  And the team wanted *specifically* for the community to become acquainted with PyMC and Bayesian methods and pique their interests.
 
-Oriol created [extensive documentation](https://pymc-data-umbrella.xyz/en/latest/webinars/index.html) to facilitate onboarding new contributors with ease.  This newly created dossier was also intended for current contributors as well as maintainers to expand their knowledge of PyMC project, its documentation,  its codebase and with the latest version 4, as it was a significant change. This was also expected to increase the discourse and interaction amongst the PyMC team.
+Oriol created [extensive documentation](https://pymc-data-umbrella.xyz/en/latest/webinars/index.html) to facilitate onboarding new contributors with ease.  This newly created dossier was also intended for current contributors as well as PyMC team members to expand their knowledge of PyMC project, its documentation,  its codebase and with the latest version 4, as it was a significant change. This was also expected to increase the discourse and interaction amongst the PyMC team.
 
-The team also put together a series of presentations by library maintainers which are available on YouTube, with the intention of having these resources available beyond the sprint event.
+The team also put together a series of presentations by PyMC team members which are available on YouTube, with the intention of having these resources available beyond the sprint event.
 
 ## Sprint Days
 The [PyMC sprint schedule](https://pymc-data-umbrella.xyz/en/latest/sprint/index.html) was:
@@ -85,7 +83,7 @@ Participants joined from India, USA, Argentina, Kenya, Germany and Taiwan.
 
 ## Observed Outcomes
 
-The series of videos on YouTube has garnered much interest!  PyMC Maintainer Austin Rochford’s talk has surpassed 2000 views in 3 months.  This encouraged him to write a blog, [A Modern Introduction to Probabilistic Programming with PyMC](https://austinrochford.com/posts/intro-prob-prog-pymc.html). The reach of these webinars and videos has been amazing, and that energy has inspired and motivated other maintainers to become active.  It brought to light what an untapped market exists for this project.  
+The series of videos on YouTube has garnered much interest!  PyMC team member Austin Rochford’s talk has surpassed 2000 views in 3 months.  This encouraged him to write a blog, [A Modern Introduction to Probabilistic Programming with PyMC](https://austinrochford.com/posts/intro-prob-prog-pymc.html). The reach of these webinars and videos has been amazing, and that energy has inspired and motivated other team members to become active.  It brought to light what an untapped market exists for this project.  
 
 The team has seen new contributors to the library since the sprint.
 
