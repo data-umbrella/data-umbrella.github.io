@@ -96,7 +96,7 @@ Oriol states that Sandra’s pull request required expertise that is not held by
 
 <p float="left">
    <a href="https://blog.dataumbrella.org/sandra-sprints">
-  <img src="../images/pymc-sprint/sandra-pymc.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/pymc-sprint/sandra-pymc.png" width="75%" height="75%" style="border:0px;margin:0px">
 </a>
 </p>
 
@@ -117,7 +117,7 @@ Anonymous:
 
 <p float="left">
    <a href="https://blog.dataumbrella.org/pymc-sprint-summary">
-  <img src="../images/pymc-sprint/pymc-gsoc.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/pymc-sprint/pymc-gsoc.png" width="85%" height="85%" style="border:0px;margin:0px">
 </a>
 </p>
 
@@ -126,7 +126,7 @@ Anonymous:
 
 <p float="left">
    <a href="https://twitter.com/KimboChen/status/1495026320408940544">
-  <img src="../images/pymc-sprint/kimbo-tweet.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/pymc-sprint/kimbo-tweet.png" width="80%" height="80%" style="border:0px;margin:0px">
 </a>
 </p>
 
