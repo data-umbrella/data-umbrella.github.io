@@ -111,7 +111,7 @@ There were several new contributors to PyMC who had not heard of PyMC prior to t
 
 It is not apparent that sprint participants have continued contributing to PyMC after the sprint.
 
-The most important changes have been energizing the community and starting the [PyMC Community Office Hours](https://discourse.pymc.io/tag/office-hours).
+The most important changes have been energizing the community and starting the [PyMC Community Office Hours](https://discourse.pymc.io/tag/office-hours).  There is now a meetup group! Please join us here ==> [PyMC Online Meetup](https://www.meetup.com/pymc-online-meetup/). 
 
 ## Community Feedback on the Sprint
 
