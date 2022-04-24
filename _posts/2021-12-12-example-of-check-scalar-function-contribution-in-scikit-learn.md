@@ -332,6 +332,13 @@ If tests are failing, I may need to rebuild the source code, using below syntax:
 ```bash
 pip install -e . --no-build-isolation -v
 ```
+or
+
+```
+python setup.py clean
+pip install --verbose --no-build-isolation --editable .
+```
+
 ### Run full test suite in sklearn
 To run the full suite of tests, it takes about 20 minutes on my computer.  
 
