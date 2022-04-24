@@ -83,14 +83,16 @@ Participants joined from India, USA, Argentina, Kenya, Germany and Taiwan.
 
 ## Observed Outcomes
 
-The series of videos on YouTube has garnered much interest!  PyMC team member Austin Rochford’s talk has surpassed 2000 views in 3 months.  This encouraged him to write a blog, [A Modern Introduction to Probabilistic Programming with PyMC](https://austinrochford.com/posts/intro-prob-prog-pymc.html). The reach of these webinars and videos has been amazing, and that energy has inspired and motivated other team members to become active.  It brought to light what an untapped market exists for this project.  
+The series of videos on YouTube has garnered much interest!  PyMC team member Austin Rochford’s talk has surpassed 2000 views in 3 months.  This encouraged him to write a blog, [A Modern Introduction to Probabilistic Programming with PyMC](https://austinrochford.com/posts/intro-prob-prog-pymc.html). 
+
+Thomas Wiecki shares:  
+>The reach of these webinars and videos has been amazing, and that energy has inspired and motivated other team members to become active.  It brought to light what an untapped market exists for this project.  
 
 The team has seen new contributors to the library since the sprint.
 
 Sandra Meneses joined the PyMC sprint from Berlin, and she attended both sprint sessions.
 Sandra worked on [Adding a pre-commit check for docs cross-references
-](https://github.com/pymc-devs/pymc/pull/5486).  A pre-commit check ensures that internal links and links to other python libraries are generated with sphinx cross-references and not copying urls manually.  This is important because PyMC docs are built for multiple versions; manual links must specify the version to work whereas sphinx cross references are converted to links at build time so they always point to the version being built, keeping the docs coherent. Moreover, sphinx cross-references are also converted to working links if generating a pdf version of the documentation and are much more robust, if a dependency restructures the documentation changing some of the urls (or changes the base url) we only need to rebuild the docs (and change a single line if the base url was modified), not search for all occurrences and update them"
-Her pull request was a significant contribution because it will have a huge impact on the library by reducing documentation requirements and easing maintenance work.  
+](https://github.com/pymc-devs/pymc/pull/5486).  A pre-commit check ensures that internal links and links to other python libraries are generated with sphinx cross-references and not copying urls manually.  This is important because PyMC docs are built for multiple versions; manual links must specify the version to work whereas sphinx cross references are converted to links at build time so they always point to the version being built, keeping the docs coherent. Moreover, sphinx cross-references are also converted to working links if generating a pdf version of the documentation and are much more robust, if a dependency restructures the documentation changing some of the urls (or changes the base url) we only need to rebuild the docs (and change a single line if the base url was modified), not search for all occurrences and update them.  Her pull request was a significant contribution because it will have a huge impact on the library by reducing documentation requirements and easing maintenance work.  
 
 Oriol states that Sandra’s pull request required expertise that is not held by everyone on the contributor team.  Read more about [Sandra’s first time contributing to PyMC](https://blog.dataumbrella.org/sandra-sprints).
 
@@ -109,7 +111,7 @@ There were several new contributors to PyMC who had not heard of PyMC prior to t
 
 It is not apparent that sprint participants have continued contributing to PyMC after the sprint.
 
-The most important change has been energizing the community and starting the [PyMC Community Office Hours](https://discourse.pymc.io/tag/office-hours).
+The most important changes have been energizing the community and starting the [PyMC Community Office Hours](https://discourse.pymc.io/tag/office-hours).
 
 ## Community Feedback on the Sprint
 
