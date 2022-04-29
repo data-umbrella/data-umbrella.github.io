@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "5 Years, 10 Sprints, a scikit-learn Open Source Journey; PyCon DE & PyData Berlin 2022 Keynote by Reshama Shaikh"
-description: Reshama Shaikh shares her experience and lessons learned in organizing scikit-learn open source sprints from New York City.
+title:  "5 Years, 10 Sprints, a scikit-learn Open Source Journey"
+description: PyCon DE & PyData Berlin 2022 Keynote
 date:   2022-04-12 17:44:03 +0200
 image:  '/images/blogs/reshama-pyconde.png'
 tags:   [opensource, scikit-learn]
