@@ -9,7 +9,10 @@ tags:   [opensource, scikit-learn]
 
 ## Key Links
 - PyConDE Blog: [Keynote: Reshama Shaikh - 5 Years, 10 Sprints, A scikit-learn Open Source Journey](https://2022.pycon.de/blog/keynote-2-reshama-shaikh/)
-- Video:  [to be added]
+
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZUqJaCWPvmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## About
 
