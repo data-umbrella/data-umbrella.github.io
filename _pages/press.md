@@ -8,7 +8,7 @@ image: '/images/blogs/czi.png'
 
 Data Umbrella, a Code for Science and Society Event Fund grantee, has been awarded a grant by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) as part of CZI Science efforts to support [diversity and inclusion in computational science](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b). 
 
-### [Announcing the Inaugural Cohort of Event Fund Grantees!](https://eventfund.codeforscience.org/announcing-the-new-cohort-of-event-fund-grantees/) (Sep 2021)
+### [Announcing the New Cohort of Event Fund Grantees!](https://eventfund.codeforscience.org/announcing-the-new-cohort-of-event-fund-grantees/) (Sep 2021)
 
 Data Umbrella receives an event fund grant to increase the participation of underrepresented persons in data science, open source, and Python from the regions of [Africa and the Middle East](https://afme2021rc.dataumbrella.org/home). 
  
