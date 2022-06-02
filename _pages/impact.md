@@ -35,10 +35,14 @@ In this open source contribution, Amanda is one of the contributors to deprecate
 </p>
 
 ### Purna Chandra Mansingh
-<p>
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6933526505490628608" height="1052" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
- </p>
- 
+
+<p float="left">
+   <a href="https://www.linkedin.com/posts/purna135_opensource-gsoc22-gsoc-activity-6933526506551795713-BGyD">
+  <img src="../images/impact/purna-gsoc.png" width="99%" height="99%" style="border:0px;margin:0px">
+</a>
+</p>
+
+
 ### Tashay Green
  
 <p float="left">
