@@ -39,7 +39,13 @@ In this open source contribution, Amanda is one of the contributors to deprecate
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6933526505490628608" height="1052" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
  </p>
  
- ### Tashay Green
+### Tashay Green
+ 
+<p float="left">
+   <a href="https://afme2021rc.dataumbrella.org/">
+  <img src="../images/impact/tashay-sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
+</a>
+</p>
  
  
  
