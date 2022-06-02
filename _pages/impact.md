@@ -33,3 +33,13 @@ In this open source contribution, Amanda is one of the contributors to deprecate
 <p>
  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">With today&#39;s sprint I made it into the scikit-learn top 100 contributers list by number of commits. This says nothing about the quality of my work but I&#39;m still proud of my achievement. 😁</p>&mdash; Maren Westermann (@MarenWestermann) <a href="https://twitter.com/MarenWestermann/status/1502683328226463746?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </p>
+
+### Purna Chandra Mansingh
+<p>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6933526505490628608" height="1052" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+ </p>
+ 
+ ### Tashay Green
+ 
+ 
+ 
