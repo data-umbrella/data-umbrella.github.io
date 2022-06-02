@@ -42,7 +42,7 @@ In this open source contribution, Amanda is one of the contributors to deprecate
 ### Tashay Green
  
 <p float="left">
-   <a href="https://afme2021rc.dataumbrella.org/">
+   <a href="https://twitter.com/tashay_gm/status/1532092906873438210">
   <img src="../images/impact/tashay-sprint.png" width="99%" height="99%" style="border:0px;margin:0px">
 </a>
 </p>
