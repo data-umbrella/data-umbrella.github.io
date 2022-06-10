@@ -29,6 +29,8 @@ We encourage you to adjust the spreadsheet according to your event needs.
 
 ## Planning Document with Timelines
 
+Google Sheets Example:  [Event Planning with Timelines](https://docs.google.com/spreadsheets/d/1asErcuz7T70Hg7bf79m597A1brsdVXLLRcEAmC1_D6Y/edit?usp=sharing)
+
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTlOr1ejMcLi8kqGZbQuO16zh2KxyO3LXjvWDPCyzoCuyOmEkliHE18SBgOrSSMy2Eu9BD4w4e5wYy5/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 <br>
