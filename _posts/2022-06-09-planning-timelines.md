@@ -31,10 +31,13 @@ We encourage you to adjust the spreadsheet according to your event needs.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTlOr1ejMcLi8kqGZbQuO16zh2KxyO3LXjvWDPCyzoCuyOmEkliHE18SBgOrSSMy2Eu9BD4w4e5wYy5/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
+<br>
+<br>
+
 ## Contact
 
 If you have any questions or other suggestions for resources that would be helpful for your community, please message us via this [Contact Form](https://blog.dataumbrella.org/contact/).
 
-## Data Umbrella
+## About Data Umbrella
 
 [Data Umbrella](https://www.dataumbrella.org) is a global community for underrepresented persons in data science.  It is a fiscally hosted project of Open Collective, a registered 501(c)(3) non-profit based in California, USA. Data Umbrella: organizes online speaker series on data science and open source, organizes sprints / hackathons, curates resources on inclusive practices.  All levels are welcome, beginners and experts.
