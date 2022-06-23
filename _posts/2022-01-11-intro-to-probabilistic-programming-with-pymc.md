@@ -44,7 +44,7 @@ Below in the outline is a summary of topics that were covered.
 - [Jupyter Notebook](https://github.com/pymc-devs/pymc-data-umbrella/blob/main/webinars/probabilistic_programming_with_pymc/notebook.ipynb)
 - [Austin's website](https://austinrochford.com/talks.htmlhttps://austinrochford.com/talks.html)
 - [Arviz](https://github.com/arviz-devs/arviz)
-- [PyMC Series of events](https://pymc-data-umbrella.xyz/en/latest/webinars/index.html)
+- [PyMC Series of events](https://pymc-data-umbrella.xyz/en/latest/about/probabilistic_programming_with_pymc/index.html)
 
 ## Contribute to PyMC: upcoming online hackathon (sprint)
 - [Data Umbrella & PyMC Online Open Source Sprint](https://www.meetup.com/data-umbrella/events/283178769/)
