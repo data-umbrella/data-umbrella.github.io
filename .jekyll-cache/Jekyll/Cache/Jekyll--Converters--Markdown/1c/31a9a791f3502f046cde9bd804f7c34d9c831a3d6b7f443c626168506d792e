@@ -1,0 +1,153 @@
+I"0<p>Summary posted by: <a href="https://reshamas.github.io">Reshama Shaikh</a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>In January 2022, Gonzalo Peña-Castellanos, presented to the Data Umbrella community a comprehensive tutorial on Automating Workflows with GitHub Actions.</p>
+
+<p>Below in the outline is a summary of topics that were covered. Learn about GitHub Actions and how they can accelerate your application development workflows. A workflow is a configurable automated process made up of one or more jobs. We will learn how to configure and use workflows existing current actions and start looking at how an action can be developed from scratch.</p>
+
+<h2 id="outline-of-tutorial">Outline of Tutorial</h2>
+<ul>
+  <li>PART 1: GitHub, Workflows and GitHub Actions</li>
+  <li>PART 2: Actions components</li>
+  <li>PART 3: GitHub Actions marketplace</li>
+  <li>PART 4: Workflow syntax</li>
+  <li>PART 5: Creating a Workflow</li>
+  <li>PART 6: Creating a custom action</li>
+</ul>
+
+<h2 id="video">Video</h2>
+<p>
+<iframe src="https://www.youtube.com/embed/d48WGkePFq0" loading="lazy" frameborder="0" allowfullscreen=""></iframe>
+</p>
+
+<h2 id="key-links">Key Links</h2>
+<ul>
+  <li><a href="https://github.com/data-umbrella/event-transcripts/blob/main/2022/42-gonzalo-github-actions.md">Transcript</a></li>
+  <li><a href="https://www.meetup.com/data-umbrella/events/282772806/">Meetup Event</a></li>
+  <li><a href="https://youtu.be/d48WGkePFq0">Video</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><a href="https://bit.ly/github-workflows">Slides</a></li>
+  <li><a href="https://support.github.com">GitHub Support</a></li>
+  <li><a href="https://docs.github.com/en/actions">GitHub Actions documentation</a></li>
+</ul>
+
+<h2 id="references">References</h2>
+<ul>
+  <li><a href="https://github.com/tlambert03/napari-plugin-action">Napari repo</a></li>
+  <li><a href="https://youtu.be/vLBr_AfomUY">Mariatta’s talk on continuous integration</a></li>
+</ul>
+
+<h2 id="section-timestamps-of-video">Section Timestamps of Video</h2>
+
+<h3 id="intro">Intro</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=0s">00:00:00</a> Reshama introduces Data Umbrella</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=255s">00:04:15</a> Gonzalo introduces self and projects</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=396s">00:06:36</a> —Outline of talk</li>
+</ul>
+
+<h3 id="part-1-github-workflows-and-github-actions">PART 1: GitHub, Workflows and GitHub Actions</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=475s">00:07:55</a> —PART 1: GitHub, Workflows and GitHub Actions</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=660s">00:11:00</a> GitHub Development Workflow with “events”
+Can trigger “events” or “actions” based on these events: issue opened, PR submitted, comment on issue or PR is merged, closed or updated</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=715s">00:11:55</a> Continuous integration and continuous development (CI/CD)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=725s">00:12:05</a> (“webhook” mentioned), cross-platform testing is done by CI/CD</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=835s">00:13:55</a> Microsoft and how GitHub Actions started; GH actions is a nice wrapper around Azure pipelines</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=907s">00:15:07</a> What are GitHub Actions? A platform to “automate development workflows”</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=922s">00:15:22</a> Mariatta’s talk on CI/CD</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=960s">00:16:00</a> What are developer workflows?  CI/CD does not mean GitHub actions. It is one of <em>many</em> workflows you can automate, but it is not the only one.</li>
+  <li><a href="00:16:13">00:16:13</a> Types of developer workflows</li>
+</ul>
+
+<h3 id="part-2-github-action-components">PART 2: GitHub Action Components</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1175s">00:19:35</a> —PART 2: GitHub Action Components</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1192s">00:19:52</a> Workflows (&amp; YAML files)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1228s">00:20:28</a> Events</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1255s">00:20:55</a> Jobs and Runners</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1312s">00:21:52</a> Actions</li>
+</ul>
+
+<h3 id="part-3-workflow-syntax">PART 3: Workflow Syntax</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1375s">00:22:55</a> —PART 3: Workflow Syntax</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1395s">00:23:15</a> Workflow yaml file</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1440s">00:24:00</a> YAML = YAML Ain’t Markup Language</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1581s">00:26:21</a> Event types: Labels</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1604s">00:26:44</a> Event types: Pushing / PRs / Branches</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1639s">00:27:19</a> Event types: Manual dispatch</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1743s">00:29:03</a> Dependencies between jobs</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1776s">00:29:36</a> Context: expressions (run jobs conditionally)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1853s">00:30:53</a> Context: default environment variables</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1878s">00:31:18</a> Strategies</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=1977s">00:32:57</a> User-defined environment variables: Global</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2032s">00:33:52</a> Actions</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2135s">00:35:35</a> Other topics</li>
+</ul>
+
+<h3 id="part-4-github-actions-marketplace">PART 4: GitHub Actions Marketplace</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2226s">00:37:06</a> —PART 4: GitHub Actions Marketplace</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2226s">00:37:06</a> Q&amp;A: Can we use on MacOS and Windows?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2283s">00:38:03</a> Q&amp;A: Meaning of “17” in cron?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2422s">00:40:22</a> Cron job in GitHub actions without need for Heroku?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2460s">00:41:00</a> GitHub Workflow Rates (pricing)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2546s">00:42:26</a> Q&amp;A: Why is MacOS more expensive than others for GitHub pricing?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2619s">00:43:39</a> Q&amp;A: Can jobs be run in parallel?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2860s">00:47:40</a> Q&amp;A: Where to go for support for GitHub Actions?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=2988s">00:49:48</a> —PART 4: GitHub Actions Marketplace</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3310s">00:55:10</a> GH Actions: data science, conda</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3532s">00:58:52</a> stale issue labeler</li>
+</ul>
+
+<h3 id="part-5-creating-a-workflow-live-examples">PART 5: Creating a Workflow: live examples</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3665s">01:01:05</a> —PART 5: Creating a Workflow: live examples</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3688s">01:01:28</a> Migrating from other services (Azure Pipelines, CircleCI, GitLab CI/CD, Jenkins, Travis CI)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3723s">01:02:03</a> Starter Workflows!</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3740s">01:02:20</a> <a href="https://github.com/actions/starter-workflows">starter workflows</a></li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=3755s">01:02:35</a> Example: Create a new repository and start! First issue</li>
+  <li><a href="01:08:00">01:08:00</a> Example: Suggested GH action for the repo: “Simple Workflow”</li>
+</ul>
+
+<h3 id="part-6-creating-a-custom-github-action">PART 6: Creating a Custom GitHub Action</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4385s">01:13:05</a> —PART 6: Creating a Custom GitHub Action</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4400s">01:13:20</a> Q&amp;A: How to save (download) artifacts?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4633s">01:17:13</a> —PART 6: Creating a Custom GitHub Action</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4640s">01:17:20</a> 3 ways to run GitHub Actions (Composite, JavaScript, Docker Container)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4840s">01:20:40</a> Example: Napari</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4905s">01:21:45</a> napari-svg plugin</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=4965s">01:22:45</a> composite action</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=5080s">01:24:40</a> Other topics for custom actions (Docker, JavaScript / Typescript actions, Outputs on actions)</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=5120s">01:25:20</a> Talley Lambert with <a href="https://github.com/tlambert03/napari-plugin-action">napari</a></li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=5655s">01:34:15</a> Q&amp;A: What would an advanced GitHub Actions webinar cover?</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=5675s">01:34:35</a> Q&amp;A: Resources for Learning <a href="https://docs.github.com/en/actions">GitHub Actions</a></li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=5780s">01:36:20</a> Typescript example</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=5855s">01:37:35</a> JavaScript Action template</li>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=6090s">01:41:30</a> Closing words</li>
+</ul>
+
+<h2 id="about-the-speaker">About the Speaker</h2>
+
+<h3 id="bio">Bio</h3>
+<p>Gonzalo is a Colombian Civil Engineer with an MSc. in Hydroinformatics and an MSc. in Sanitary Engineering that discovered a passion for Software Development and Data Science which led him to collaborate in different open source projects and to eventually join Anaconda, Inc (formerly known as Continuum Analytics) and currently Quansight, Inc as Senior Software Engineer, and Data Scientist (in development).</p>
+
+<p>He is an active member of the open source community contributing to different projects and a leader in the Python Colombia Community helping shape and organize communities such as Django Girls Colombia, Python Bucaramanga, Python Colombia and the national and Latin American Python Conferences, PyCon Colombia (2018, 2019, 2020) and SciPy Latam (2019, 2021) respectively.</p>
+
+<p>Gonzalo is currently a core developer with Project Jupyter and Project napari. He is the author of the setup-miniconda Github Action to help automate conda environment and workflows.</p>
+
+<h3 id="connect-with-the-speaker-gonzalo-peña-castellanos">Connect with the Speaker, Gonzalo Peña-Castellanos</h3>
+
+<ul>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/goanpeca">@goanpeca</a></li>
+  <li>Twitter: <a href="https://twitter.com/goanpeca">@goanpeca</a></li>
+  <li>GitHub: <a href="https://github.com/goanpeca">@goanpeca</a></li>
+  <li>Instagram: <a href="https://www.instagram.com/goanpeca/?hl=en">@goanpeca</a></li>
+</ul>
+:ET

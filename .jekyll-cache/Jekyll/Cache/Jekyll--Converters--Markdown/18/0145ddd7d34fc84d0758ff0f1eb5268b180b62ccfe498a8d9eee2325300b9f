@@ -1,0 +1,422 @@
+I"��<p>Author:  <a href="https://reshamas.github.io">Reshama Shaikh</a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Use the function <a href="https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar"><code class="language-plaintext highlighter-rouge">check_scalar</code></a> for parameters validation. The validation function checks to see the following for a parameter: is an acceptable data type, is within the range of values, the range of values (<a href="https://www.basic-mathematics.com/interval-notation.html">interval</a>).</p>
+
+<ul>
+  <li>References Issue <a href="https://github.com/scikit-learn/scikit-learn/issues/21927">#21927</a> (@reshamas)</li>
+  <li>References Issue <a href="https://github.com/scikit-learn/scikit-learn/issues/20724">#20724</a>: “Use check_scalar for parameters validation” (with notes by @glemaitre, @jjerphan, @genvalen)</li>
+  <li>References PR <a href="https://github.com/scikit-learn/scikit-learn/pull/20723">#20723</a>.  “MNT use check_scalar to validate scalar in AffinityPropagation”. This is an example PR by @glemaitre.</li>
+</ul>
+
+<p>A helper function exists in scikit-learn which validates a scalar value: <code class="language-plaintext highlighter-rouge">sklearn.utils.check_scalar</code> <a href="https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html">documentation</a>. 
+It is used to validate parameters of classes (and functions). Most of the current classes in scikit-learn do not use this helper function.  We want to refactor the code so that it does use this standard helper function. Utilizing this helper function will help to get consistent error types and messages.</p>
+
+<h2 id="steps">Steps</h2>
+<p>Below, I go through an example, step by step.</p>
+
+<h3 id="go-to-working-directory">Go to working directory</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">pwd</span>
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>▶ <span class="nb">pwd</span>
+/Users/reshamashaikh/software-build/scikit-learn
+<span class="o">(</span>base<span class="o">)</span> 
+~/software-build/scikit-learn  main ✔    
+</code></pre></div></div>
+
+<h3 id="activate-virtual-environment">Activate virtual environment</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate sklearndev
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>▶ conda activate sklearndev
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  main ✔    
+</code></pre></div></div>
+<h3 id="sync-local-repo-with-the-github-repo-main-branch">Sync local repo with the GitHub repo, <code class="language-plaintext highlighter-rouge">main</code> branch</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull upstream main
+git push origin main
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>▶ git pull upstream main
+From github.com:scikit-learn/scikit-learn
+ <span class="k">*</span> branch                main       -&gt; FETCH_HEAD
+Already up to date.
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  main ✔                                                                    1d  
+▶ git push origin main
+Everything up-to-date
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  main ✔                                                                    1d  
+▶ 
+</code></pre></div></div>
+
+<h3 id="create-a-new-working-branch-from-main-branch">Create a new working branch, from <code class="language-plaintext highlighter-rouge">main</code> branch</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout main
+git checkout <span class="nt">-b</span> xscalar_glm
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>▶ git checkout main
+Already on <span class="s1">'main'</span>
+Your branch is up to <span class="nb">date </span>with <span class="s1">'origin/main'</span><span class="nb">.</span>
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  main ✔                                                                    1d  
+▶ git checkout <span class="nt">-b</span> xscalar_glm
+Switched to a new branch <span class="s1">'xscalar_glm'</span>
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  xscalar_glm ✔                                                             1d  
+▶ 
+</code></pre></div></div>
+
+<h3 id="identify-a-class-to-implement-check_scalar-function">Identify a class to implement <code class="language-plaintext highlighter-rouge">check_scalar</code> function</h3>
+
+<p>To find an algorithm which may need to implement <code class="language-plaintext highlighter-rouge">check_scalar</code> function, I searched the repo <a href="https://github.com/scikit-learn/scikit-learn">scikit-learn/scikit-learn</a> for <code class="language-plaintext highlighter-rouge">max_iter</code>, as a start. I found a constructor that has scalar numeric as parameters.</p>
+
+<p>I found:</p>
+<ul>
+  <li>File: <a href="https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py">sklearn/linear_model/glm.py</a></li>
+  <li>Associated test: <a href="https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py">sklearn/linear_model/_glm/tests/test_glm.py</a></li>
+</ul>
+
+<h3 id="identify-the-scalar-numeric-parameters">Identify the scalar numeric parameters</h3>
+
+<p>For <a href="https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py">glm.py</a>, I found four classes in the file:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">GeneralizedLinearRegressor</code></li>
+  <li><code class="language-plaintext highlighter-rouge">PoissonRegressor</code></li>
+  <li><code class="language-plaintext highlighter-rouge">GammaRegressor</code></li>
+  <li><code class="language-plaintext highlighter-rouge">TweedieRegressor</code></li>
+</ul>
+
+<p>I will begin work on the first one, <code class="language-plaintext highlighter-rouge">GeneralizedLinearRegressor</code>. Also, for each I will look at minimum and maximum values. If minimum and maximum values are missing, I will add them, as well as the boundary conditions.</p>
+
+<p>Within the class <code class="language-plaintext highlighter-rouge">GeneralizedLinearRegressor</code>, I identify the following scalar numeric parameters:</p>
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">alpha</code>, value range: <code class="language-plaintext highlighter-rouge">[0.0, inf)</code></li>
+  <li><code class="language-plaintext highlighter-rouge">max_iter</code>, value range: <code class="language-plaintext highlighter-rouge">[1, inf)</code></li>
+  <li><code class="language-plaintext highlighter-rouge">tol</code>, value range: <code class="language-plaintext highlighter-rouge">(0.0, inf)</code></li>
+  <li><code class="language-plaintext highlighter-rouge">verbose</code>, value range: <code class="language-plaintext highlighter-rouge">[1, inf)</code></li>
+</ol>
+
+<h2 id="tests">Tests</h2>
+
+<h3 id="tests-and-validation">Tests and validation</h3>
+
+<p>Parameter validation checks are added in order to catch any invalid parameter values passed into the estimator before the algorithm is run. If no parameter validation exists, we are left to the mercy of the algorithm. For instance, if the algorithm receives a negative number for maximum number of iterations, it will break.</p>
+
+<p>Sklearn has thorough validation checks. With the use of the helper function, <code class="language-plaintext highlighter-rouge">check_scalar</code>, these validation checks can be refactored for greater consistency and readability.</p>
+
+<p>Tests are added to make sure that parameter validation checks behave correctly. In the case of creating tests for <code class="language-plaintext highlighter-rouge">check_scalar</code>, the tests check that the <code class="language-plaintext highlighter-rouge">check_scalar</code> validation raises a <code class="language-plaintext highlighter-rouge">ValueError</code> or a <code class="language-plaintext highlighter-rouge">TypeError</code> where appropriate, and that the error message returned is as expected.</p>
+
+<p>If no tests exists for the parameter validation, add tests.  Note that even if the tests do not exist, the validation definitely does.</p>
+
+<h3 id="see-if-tests-exists">See if tests exists</h3>
+
+<p>In the file <a href="https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py">test_glm.py</a>, I see the following test exists. It checks 5 possible inputs, but has only one <code class="language-plaintext highlighter-rouge">ValueError</code> error message:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">pytest</span><span class="p">.</span><span class="n">mark</span><span class="p">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s">"max_iter"</span><span class="p">,</span> <span class="p">[</span><span class="s">"not a number"</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]])</span>
+<span class="k">def</span> <span class="nf">test_glm_max_iter_argument</span><span class="p">(</span><span class="n">max_iter</span><span class="p">):</span>
+    <span class="s">"""Test GLM for invalid max_iter argument."""</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">]])</span>
+    <span class="n">glm</span> <span class="o">=</span> <span class="n">GeneralizedLinearRegressor</span><span class="p">(</span><span class="n">max_iter</span><span class="o">=</span><span class="n">max_iter</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">pytest</span><span class="p">.</span><span class="n">raises</span><span class="p">(</span><span class="nb">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s">"must be a positive integer"</span><span class="p">):</span>
+        <span class="n">glm</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In this case, these are invalid values for <code class="language-plaintext highlighter-rouge">max_iter</code>: <code class="language-plaintext highlighter-rouge">["not a number", 0, -1, 5.5, [1]]</code></p>
+<ul>
+  <li>“not a number”: invalid type (string), should be integer</li>
+  <li>5.5: invalid type (float), should be integer</li>
+  <li><code class="language-plaintext highlighter-rouge">[1]</code>: invalid type (list), should be integer</li>
+  <li>0: iterations should be &gt; 0</li>
+  <li>-1: iterations should be &gt; 0</li>
+</ul>
+
+<p>So, here we have 5 tests to run. And, our tests should give informative error messages.</p>
+
+<p>In the <code class="language-plaintext highlighter-rouge">glm.py</code> file, I temporarily comment out whatever checks exist for valid values (validation) of <code class="language-plaintext highlighter-rouge">max_iter</code>.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        <span class="c1"># if not isinstance(self.max_iter, numbers.Integral) or self.max_iter &lt;= 0:
+</span>        <span class="c1">#     raise ValueError(
+</span>        <span class="c1">#         "Maximum number of iteration must be a positive "
+</span>        <span class="c1">#         "integer;"
+</span>        <span class="c1">#         " got (max_iter={0!r})".format(self.max_iter)
+</span>        <span class="c1">#     )
+</span></code></pre></div></div>
+
+<p>Then, I run the existing test <code class="language-plaintext highlighter-rouge">test_glm_max_iter_argument</code>:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest sklearn/linear_model/_glm/tests/test_glm.py <span class="nt">-k</span> test_max_iter_argument <span class="nt">-vsl</span>
+</code></pre></div></div>
+
+<p><a href="https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-example-failed-tests.md">Output</a></p>
+
+<p>I see that 5 tests have failed:</p>
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">max_iter</code> = <code class="language-plaintext highlighter-rouge">'not a number'</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span>               <span class="k">if </span>n_iterations <span class="o">&gt;=</span> maxiter:
+E               TypeError: <span class="s1">'&gt;='</span> not supported between instances of <span class="s1">'int'</span> and <span class="s1">'str'</span>
+../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
+</code></pre></div>    </div>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">max_iter</code> = <code class="language-plaintext highlighter-rouge">0</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span>           glm.fit<span class="o">(</span>X, y<span class="o">)</span>
+E           Failed: DID NOT RAISE &lt;class <span class="s1">'ValueError'</span><span class="o">&gt;</span>
+sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
+</code></pre></div>    </div>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">max_iter</code> = <code class="language-plaintext highlighter-rouge">-1</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span>           glm.fit<span class="o">(</span>X, y<span class="o">)</span>
+E           Failed: DID NOT RAISE &lt;class <span class="s1">'ValueError'</span><span class="o">&gt;</span>
+sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
+</code></pre></div>    </div>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">max_iter</code> = <code class="language-plaintext highlighter-rouge">5.5</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span>           glm.fit<span class="o">(</span>X, y<span class="o">)</span>
+E           Failed: DID NOT RAISE &lt;class <span class="s1">'ValueError'</span><span class="o">&gt;</span>
+sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
+</code></pre></div>    </div>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">max_iter</code> = <code class="language-plaintext highlighter-rouge">[1]</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span>               <span class="k">if </span>n_iterations <span class="o">&gt;=</span> maxiter:
+E               TypeError: <span class="s1">'&gt;='</span> not supported between instances of <span class="s1">'int'</span> and <span class="s1">'list'</span>
+../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="add-parametrized-tests">Add parametrized tests</h3>
+
+<p>The tests must fail before adding validation. This is an example of how we will add a parametrized test:<br />
+Current:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">pytest</span><span class="p">.</span><span class="n">mark</span><span class="p">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s">"max_iter"</span><span class="p">,</span> <span class="p">[</span><span class="s">"not a number"</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mf">5.5</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]])</span>
+<span class="k">def</span> <span class="nf">test_glm_max_iter_argument</span><span class="p">(</span><span class="n">max_iter</span><span class="p">):</span>
+    <span class="s">"""Test GLM for invalid max_iter argument."""</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">]])</span>
+    <span class="n">glm</span> <span class="o">=</span> <span class="n">GeneralizedLinearRegressor</span><span class="p">(</span><span class="n">max_iter</span><span class="o">=</span><span class="n">max_iter</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">pytest</span><span class="p">.</span><span class="n">raises</span><span class="p">(</span><span class="nb">ValueError</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="s">"must be a positive integer"</span><span class="p">):</span>
+        <span class="n">glm</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>We will update the test as we have done below:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">pytest</span><span class="p">.</span><span class="n">mark</span><span class="p">.</span><span class="n">parametrize</span><span class="p">(</span>
+    <span class="s">"params, err_type, err_msg"</span><span class="p">,</span>
+    <span class="p">[</span>
+        <span class="p">({</span><span class="s">"max_iter"</span><span class="p">:</span> <span class="mi">0</span><span class="p">},</span> <span class="nb">ValueError</span><span class="p">,</span> <span class="s">"max_iter == 0, must be &gt;= 1"</span><span class="p">),</span>
+        <span class="p">({</span><span class="s">"max_iter"</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">},</span> <span class="nb">ValueError</span><span class="p">,</span> <span class="s">"max_iter == -1, must be &gt;= 1"</span><span class="p">),</span>
+        <span class="p">(</span>
+            <span class="p">{</span><span class="s">"max_iter"</span><span class="p">:</span> <span class="s">"not a number"</span><span class="p">},</span>
+            <span class="nb">TypeError</span><span class="p">,</span>
+            <span class="s">"max_iter must be an instance of &lt;class 'numbers.Integral'&gt;, not &lt;class"</span>
+            <span class="s">" 'str'&gt;"</span><span class="p">,</span>
+        <span class="p">),</span>
+        <span class="p">(</span>
+            <span class="p">{</span><span class="s">"max_iter"</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">]},</span>
+            <span class="nb">TypeError</span><span class="p">,</span>
+            <span class="s">"max_iter must be an instance of &lt;class 'numbers.Integral'&gt;,"</span>
+            <span class="s">" not &lt;class 'list'&gt;"</span><span class="p">,</span>
+        <span class="p">),</span>
+        <span class="p">(</span>
+            <span class="p">{</span><span class="s">"max_iter"</span><span class="p">:</span> <span class="mf">5.5</span><span class="p">},</span>
+            <span class="nb">TypeError</span><span class="p">,</span>
+            <span class="s">"max_iter must be an instance of &lt;class 'numbers.Integral'&gt;,"</span>
+            <span class="s">" not &lt;class 'float'&gt;"</span><span class="p">,</span>
+        <span class="p">),</span>
+    <span class="p">],</span>
+<span class="p">)</span>
+<span class="k">def</span> <span class="nf">test_glm_scalar_argument</span><span class="p">(</span><span class="n">params</span><span class="p">,</span> <span class="n">err_type</span><span class="p">,</span> <span class="n">err_msg</span><span class="p">):</span>
+    <span class="s">"""Test GLM for invalid max_iter argument."""</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">]])</span>
+    <span class="n">glm</span> <span class="o">=</span> <span class="n">GeneralizedLinearRegressor</span><span class="p">(</span><span class="o">**</span><span class="n">params</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">pytest</span><span class="p">.</span><span class="n">raises</span><span class="p">(</span><span class="n">err_type</span><span class="p">,</span> <span class="n">match</span><span class="o">=</span><span class="n">err_msg</span><span class="p">):</span>
+        <span class="n">glm</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>I run the tests.<br />
+Note: I have renamed the test function.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument
+</code></pre></div></div>
+
+<p>The tests fail, as expected, because invalid values are being input.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+E           ValueError: Maximum number of iteration must be a positive integer<span class="p">;</span> got <span class="o">(</span><span class="nv">max_iter</span><span class="o">=</span>5.5<span class="o">)</span>
+
+sklearn/linear_model/_glm/glm.py:232: ValueError
+<span class="o">====================================================</span> 5 failed <span class="k">in </span>0.59s <span class="o">=====================================================</span>
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+</code></pre></div></div>
+<h3 id="add-and-run-validation">Add and run validation</h3>
+
+<p>Next, in the <code class="language-plaintext highlighter-rouge">glm.py</code> file, I do two things:</p>
+<ol>
+  <li>Import the needed function
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">...utils</span> <span class="kn">import</span> <span class="n">check_scalar</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Add in the <code class="language-plaintext highlighter-rouge">check_scalar</code> function in the <code class="language-plaintext highlighter-rouge">def fit</code> function. The function here checks that for <code class="language-plaintext highlighter-rouge">max_iter</code> is:
+    <ul>
+      <li>an integer</li>
+      <li>has a has a minimum value of <code class="language-plaintext highlighter-rouge">1</code></li>
+      <li>has no maximum value</li>
+      <li>is within this range: <code class="language-plaintext highlighter-rouge">[1, )</code>. Note that no upper bound is specified.</li>
+    </ul>
+  </li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        check_scalar(
+            self.max_iter,
+            name="max_iter",
+            target_type=numbers.Integral,
+            min_val=1,
+            max_val=None,
+            include_boundaries="left",
+        )
+</code></pre></div></div>
+
+<h2 id="confirm-tests-are-passing">Confirm tests are passing!</h2>
+<p>After doing the above, we see that all 5 tests are now passing:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/software-build/scikit-learn  xscalar_glm ✔                                                                                           8d  
+▶ pytest sklearn/linear_model/_glm/tests/test_glm.py <span class="nt">-k</span> test_glm_scalar_argument <span class="nt">-vsl</span>
+
+<span class="o">===========================================================</span> <span class="nb">test </span>session starts <span class="o">============================================================</span>
+platform darwin <span class="nt">--</span> Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0 <span class="nt">--</span> /Users/reshamashaikh/miniforge3/envs/sklearndev/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/reshamashaikh/software-build/scikit-learn, configfile: setup.cfg
+plugins: cov-3.0.0
+collected 78 items / 73 deselected / 5 selected                                                                                            
+
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params0-ValueError-max_iter <span class="o">==</span> 0, must be <span class="o">&gt;=</span> 1] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params1-ValueError-max_iter <span class="o">==</span> <span class="nt">-1</span>, must be <span class="o">&gt;=</span> 1] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params2-TypeError-max_iter must be an instance of &lt;class <span class="s1">'numbers.Integral'</span><span class="o">&gt;</span>, not &lt;class <span class="s1">'str'</span><span class="o">&gt;]</span> PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params3-TypeError-max_iter must be an instance of &lt;class <span class="s1">'numbers.Integral'</span><span class="o">&gt;</span>, not &lt;class <span class="s1">'list'</span><span class="o">&gt;]</span> PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params4-TypeError-max_iter must be an instance of &lt;class <span class="s1">'numbers.Integral'</span><span class="o">&gt;</span>, not &lt;class <span class="s1">'float'</span><span class="o">&gt;]</span> PASSED
+
+<span class="o">=====================================================</span> 5 passed, 73 deselected <span class="k">in </span>0.23s <span class="o">=====================================================</span>
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+</code></pre></div></div>
+
+<h2 id="reminders">Reminders</h2>
+
+<p>When submitting the pull request (PR):</p>
+<ul>
+  <li>Label PR with prefix “MAINT”</li>
+  <li>A changelog entry is not required</li>
+</ul>
+
+<hr />
+
+<h2 id="resources">Resources</h2>
+
+<h3 id="rebuild-source-code">Rebuild source code</h3>
+
+<p>If tests are failing, I may need to rebuild the source code, using below syntax:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-e</span> <span class="nb">.</span> <span class="nt">--no-build-isolation</span> <span class="nt">-v</span>
+</code></pre></div></div>
+<h3 id="run-full-test-suite-in-sklearn">Run full test suite in sklearn</h3>
+<p>To run the full suite of tests, it takes about 20 minutes on my computer.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest sklearn
+</code></pre></div></div>
+
+<p>There is example output of the tests in <a href="https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-pytest_sklearn_output.md">2021-12-12-pytest_sklearn_output.md</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>E       AssertionError: 
+E         This <span class="nb">test </span>fails because scikit-learn has been built without OpenMP.
+E         This is not recommended since some estimators will run <span class="k">in </span>sequential
+E         mode instead of leveraging thread-based parallelism.
+E         
+E         You can find instructions to build scikit-learn with OpenMP at this
+E         address:
+E         
+E             https://scikit-learn.org/dev/developers/advanced_installation.html
+E         
+E         You can skip this <span class="nb">test </span>by setting the environment variable
+E         SKLEARN_SKIP_OPENMP_TEST to any value.
+E         
+E       assert False
+E        +  where False <span class="o">=</span> _openmp_parallelism_enabled<span class="o">()</span>
+
+sklearn/tests/test_build.py:33: AssertionError
+<span class="o">=====</span> 1 failed, 25839 passed, 205 skipped, 250 xfailed, 62 xpassed, 2290 warnings <span class="k">in </span>1002.24s <span class="o">(</span>0:16:42<span class="o">)</span> <span class="o">======</span>
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  xscalar_glm ✔  
+
+</code></pre></div></div>
+
+<h3 id="running-individual-tests">Running Individual Tests</h3>
+<p>Typically, to run the full test suite, I would type <code class="language-plaintext highlighter-rouge">pytest sklearn</code>, which takes about 20 minutes.</p>
+
+<p>Individual tests can be run using the syntax below, there are a couple of ways to do it:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest sklearn/linear_model/_glm/tests/test_glm.py <span class="nt">-k</span> test_glm_max_iter_argument <span class="nt">-vsl</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
+</code></pre></div></div>
+
+<p>This is the output observed after running the test.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>▶ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
+<span class="o">===================================================</span> <span class="nb">test </span>session starts <span class="o">====================================================</span>
+platform darwin <span class="nt">--</span> Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: /Users/reshamashaikh/software-build/scikit-learn, configfile: setup.cfg
+plugins: cov-3.0.0
+collected 5 items                                                                                                          
+
+sklearn/linear_model/_glm/tests/test_glm.py .....                                                                    <span class="o">[</span>100%]
+
+<span class="o">====================================================</span> 5 passed <span class="k">in </span>0.17s <span class="o">=====================================================</span>
+<span class="o">(</span>sklearndev<span class="o">)</span> 
+~/software-build/scikit-learn  xscalar_glm ✔  
+</code></pre></div></div>
+
+<p>Because I consolidated some existing tests and added the new ones, I renamed the test. I would run the following for the test:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest sklearn/linear_model/_glm/tests/test_glm.py <span class="nt">-k</span> test_glm_scalar_argument <span class="nt">-vsl</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+<ul>
+  <li>Guillaume LeMaitre <a href="https://github.com/glemaitre">@glemaitre</a></li>
+  <li>Julien Jerphanon <a href="https://github.com/jjerphan">@jjerphan</a></li>
+  <li>Thomas J. Fan <a href="https://github.com/thomasjpfan">@thomasjpfan</a></li>
+  <li>Genesis Valencia <a href="https://github.com/genvalen">@genvalen</a></li>
+</ul>
+
+<hr />
+
+<h2 id="part-2-poissonregressor">Part 2: <code class="language-plaintext highlighter-rouge">PoissonRegressor</code></h2>
+
+<ol>
+  <li>Virtual environment activated:  <code class="language-plaintext highlighter-rouge">conda activate sklearndev</code></li>
+  <li>Identify class to work on:  <code class="language-plaintext highlighter-rouge">PoissonRegressor</code></li>
+  <li>Working with this file: <a href="https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py">sklearn/linear_model/glm.py</a></li>
+  <li>Working with associated test: <a href="https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py">sklearn/linear_model/_glm/tests/test_glm.py</a></li>
+  <li>Create working branch from <code class="language-plaintext highlighter-rouge">main</code> branch
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout main
+git pull upstream main
+git checkout <span class="nt">-b</span> xscalar_poissonreg
+</code></pre></div>    </div>
+  </li>
+  <li>Identify scalar numerical parameters and the valid range of values for the class <code class="language-plaintext highlighter-rouge">PoissonRegressor</code>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">alpha</code>, value range: <code class="language-plaintext highlighter-rouge">[0.0, inf)</code></li>
+      <li><code class="language-plaintext highlighter-rouge">max_iter</code>, value range: <code class="language-plaintext highlighter-rouge">[1, inf)</code></li>
+      <li><code class="language-plaintext highlighter-rouge">tol</code>, value range: <code class="language-plaintext highlighter-rouge">(0.0, inf)</code></li>
+      <li><code class="language-plaintext highlighter-rouge">verbose</code>, value range: <code class="language-plaintext highlighter-rouge">[1, inf)</code></li>
+    </ul>
+  </li>
+  <li>Add parameter interal ranges to the docstring
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">alpha</code>, Values should be in the range <code class="language-plaintext highlighter-rouge">[0.0, inf)</code>.</li>
+      <li><code class="language-plaintext highlighter-rouge">max_iter</code>, Values should be in the range <code class="language-plaintext highlighter-rouge">[1, inf)</code>.</li>
+      <li><code class="language-plaintext highlighter-rouge">tol</code>, Values should be in the range <code class="language-plaintext highlighter-rouge">(0.0, inf)</code>.</li>
+      <li><code class="language-plaintext highlighter-rouge">verbose</code>, Values should be in the range <code class="language-plaintext highlighter-rouge">[1, inf)</code>.</li>
+    </ul>
+  </li>
+  <li>Run tests:  <code class="language-plaintext highlighter-rouge">pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_scalar_argument -vsl</code></li>
+  <li>There is no <code class="language-plaintext highlighter-rouge">def fit</code> for class <code class="language-plaintext highlighter-rouge">PoissonRegressor</code></li>
+</ol>
+
+:ET

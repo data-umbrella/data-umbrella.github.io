@@ -1,0 +1,101 @@
+I"P<p>Summary posted by: <a href="https://reshamas.github.io">Reshama Shaikh</a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Austin Rochford, a maintainer of PyMC, presented to the Data Umbrella community an introduction to probabilistic programming with PyMC, with a particular emphasis on the how open source probabilistic programming makes Bayesian inference algorithms near the frontier of academic research accessible to a wide audience.</p>
+
+<p>In the last ten years, there have been a number of advancements in the study of Hamiltonian Monte Carlo and variational inference algorithms that have enabled effective Bayesian statistical computation for much more complicated models than were previously feasible. These algorithmic advancements have been accompanied by a number of open source probabilistic programming packages that make them accessible to the general engineering, statistics, and data science communities. PyMC is one such package written in Python and supported by NumFOCUS.</p>
+
+<p>Below in the outline is a summary of topics that were covered.</p>
+
+<h2 id="topics-covered">Topics Covered</h2>
+<ul>
+  <li>Probabilistic programming from two perspectives
+    <ul>
+      <li>Philosophical: storytelling with data</li>
+      <li>Mathematical: Monte Carlo methods</li>
+    </ul>
+  </li>
+  <li>Probabilistic programming with PyMC
+    <ul>
+      <li>The Monty Hall problem</li>
+      <li>Robust regression</li>
+    </ul>
+  </li>
+  <li>Hamiltonian Monte Carlo
+    <ul>
+      <li>Aesara</li>
+    </ul>
+  </li>
+  <li>Lego example</li>
+  <li>Next Steps</li>
+</ul>
+
+<h2 id="video">Video</h2>
+<p>
+<iframe src="https://www.youtube.com/embed/Qu6-_AnRCs8" loading="lazy" frameborder="0" allowfullscreen=""></iframe>
+</p>
+
+<h2 id="key-links">Key Links</h2>
+<ul>
+  <li><a href="https://github.com/data-umbrella/event-transcripts/blob/main/2022/41-austin-pymc.md">Transcript</a></li>
+  <li><a href="https://www.meetup.com/data-umbrella/events/282790294/">Meetup Event</a></li>
+  <li><a href="https://youtu.be/Qu6-_AnRCs8">Video</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><a href="https://github.com/pymc-devs/pymc-data-umbrella/tree/main/webinars">GitHub repo</a></li>
+  <li><a href="https://github.com/pymc-devs/pymc-data-umbrella/blob/main/webinars/probabilistic_programming_with_pymc/notebook.ipynb">Jupyter Notebook</a></li>
+  <li><a href="https://austinrochford.com/talks.htmlhttps://austinrochford.com/talks.html">Austin’s website</a></li>
+  <li><a href="https://github.com/arviz-devs/arviz">Arviz</a></li>
+  <li><a href="https://pymc-data-umbrella.xyz/en/latest/webinars/index.html">PyMC Series of events</a></li>
+</ul>
+
+<h2 id="contribute-to-pymc-upcoming-online-hackathon-sprint">Contribute to PyMC: upcoming online hackathon (sprint)</h2>
+<ul>
+  <li><a href="https://www.meetup.com/data-umbrella/events/283178769/">Data Umbrella &amp; PyMC Online Open Source Sprint</a></li>
+</ul>
+
+<h2 id="section-timestamps-of-video">Section Timestamps of Video</h2>
+
+<h3 id="intro">Intro</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=d48WGkePFq0&amp;t=0s">00:00:00</a> Reshama introduces Data Umbrella</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=280s">00:04:40</a> Austin begins</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=375s">00:06:15</a> Talk agenda</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=488s">00:08:08</a> Probabilistic programming from two perspectives</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=533s">00:08:53</a> What is probabilistic programming?</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=615s">00:10:15</a> Mathematical: Monte Carlo Methods</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=835s">00:13:55</a> Monty Hall Problem (game: Let’s Make a Deal)</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=975s">00:16:15</a> Solve Monty Hall Problem using PyMC (solution)</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=1122s">00:18:42</a> Using aesara</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=1260s">00:21:00</a> Doing inference with sampling</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=1440s">00:24:00</a> What is Aesara? (It is based on Theano.) PyMC’s tensor computational backend, fills niche such as PyTorch or TensorFlow.</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=1520s">00:25:20</a> Using PyMC to do robust regression: with example Anscombe’s Quartet</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=1690s">00:28:10</a> Using arviz (library with pre-built visualizations and statistical routines that will help you understand the results of your inference with PyMC.</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=1988s">00:33:08</a> What is Ridge Regression? (normal priors on your coefficients)</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=2165s">00:36:05</a> Student-T Distribution</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=2340s">00:39:00</a> Why are we using Aesara? To do Hamiltonian Monte Carlo.</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=2590s">00:43:10</a> Bayesian Analysis of Lego Prices</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=2940s">00:49:00</a> Recommended books</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=3037s">00:50:37</a> Meenal talks about upcoming PyMC sprint</li>
+  <li><a href="https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;t=3390s">00:56:30</a> Q&amp;A with Austin</li>
+</ul>
+
+<h2 id="about-the-speaker">About the Speaker</h2>
+
+<h3 id="bio">Bio</h3>
+<p>Austin Rochford is the Chief Data Scientist at Kibo Commerce. He is a recovering mathematician and is passionate about math education, Bayesian statistics, and machine learning.</p>
+
+<h3 id="connect-with-the-speaker">Connect with the Speaker</h3>
+
+<ul>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/austin-rochford/">Austin</a></li>
+  <li>Twitter: <a href="https://twitter.com/AustinRochford">@AustinRochford</a></li>
+  <li>GitHub: <a href="https://github.com/AustinRochford/">@AustinRochford</a></li>
+</ul>
+
+<h2 id="upcoming-events">Upcoming Events</h2>
+<p>Join our Meetup group for more events: <a href="https://www.meetup.com/data-umbrella">Data Umbrella Meetup</a></p>
+:ET

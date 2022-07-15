@@ -1,0 +1,18 @@
+I"´<h3 id="speaker">Speaker</h3>
+<ul>
+  <li>Hugo Bowne-Anderson</li>
+</ul>
+
+<h3 id="workshop">Workshop</h3>
+<p>This tutorial was an Introduction to Bayesian data science through the lens of simulation or hacker statistics. The objective was to become familiar with many common probability distributions through i) matching them to real-world stories &amp; ii) simulating them. We worked with joint/conditional probabilities, Bayes Theorem, prior/posterior distributions and likelihoods, while seeing their applications in real-world data analyses. We saw the utility of Bayesian inference in parameter estimation and comparing groups and concluded with a dive into the wonderful world of probabilistic programming.</p>
+
+<h3 id="workshop-github-repo">Workshop GitHub Repo</h3>
+<ul>
+  <li><a href="https://github.com/ericmjl/bayesian-stats-modelling-tutorial/">Code + Binder</a></li>
+  <li><a href="https://github.com/ericmjl/bayesian-stats-modelling-tutorial/tree/master/notebooks/URGsADS-NYC-2020-02-19">Jupyter Notebooks</a></li>
+</ul>
+
+<h3 id="related-links">Related Links</h3>
+<p>Meetup event: <a href="https://www.meetup.com/data-umbrella/events/268293679/">Bayesian Data Science by Simulation</a></p>
+
+:ET

@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Data Umbrella AFME2 2021 scikit-learn Sprint Report</title>
+  <meta name='description' content='Reshama Shaikh - Summary of the Africa & Middle East Sprint, October 2021'>
+
+  <link rel="canonical" href="http://localhost:4000/data-umbrella-afme2-2021-scikit-learn-sprint-report">
+  <link rel="alternate" type="application/rss+xml" title="Data Umbrella" href="/feed.xml">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data Umbrella AFME2 2021 scikit-learn Sprint Report – Data Umbrella">
+  <meta name="twitter:description" content="Reshama Shaikh - Summary of the Africa &amp; Middle East Sprint, October 2021">
+  <meta name="twitter:image:src" content="http://localhost:4000/images/2021-afme2/AFME2-photo.png">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="Data Umbrella AFME2 2021 scikit-learn Sprint Report – Data Umbrella">
+  <meta property="og:description" content="Reshama Shaikh - Summary of the Africa &amp; Middle East Sprint, October 2021">
+  <meta property="og:image" content="http://localhost:4000/images/2021-afme2/AFME2-photo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" as="style">
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+  <!-- Ionicons -->
+  <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
+
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <script>
+    
+    if (localStorage.getItem("theme") === "dark") {
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    }
+    
+  </script>
+
+  <style>
+  
+  /*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--light-blue: #f3f7ff;--blue-gray: #716f8a;--gray: #9e9e9e;--dark: #0c101a;--dark-blue: #1e2740;--background-color: var(--white);--background-alt-color: var(--light-blue);--text-color: var(--dark-blue);--text-alt-color: var(--blue-gray);--heading-font-color: var(--dark-blue);--link-color: var(--dark-blue);--link-color-hover: var(--dark-blue);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: var(--light-blue);--border-color-alt: var(--light-blue);--th-color: var(--light-gray);--tr-color: var(--light-gray);--syntax-highlighting-background: #f3f3f3}[dark]:root{--brand-color: #0073ec;--white: #fff;--light-gray: #f0f0f0;--gray: #9e9e9e;--dark: #111016;--background-color: var(--dark);--background-alt-color: #1a1a1f;--text-color: var(--gray);--text-alt-color: var(--gray);--heading-font-color: var(--light-gray);--link-color: var(--light-gray);--link-color-hover: var(--light-gray);--button-color: var(--white);--button-background-color: var(--brand-color);--button-background-hover: #4f31c7;--border-color: #252629;--border-color-alt: #080b12;--th-color: #18181d;--tr-color: #080b12;--syntax-highlighting-background: #080b12}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:32px}ul,ol,dd{margin-left:16px}ul li,ol li{margin-bottom:10px}.highlight{margin-bottom:32px;background:var(--syntax-highlighting-background)}.highlighter-rouge .highlight{background:var(--syntax-highlighting-background)}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#5d76bf;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#ec2355}.highlight .na{color:#008080}.highlight .nb{color:#0086B3}.highlight .nc{color:#5d76bf;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#4d65dc}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#ec2355}.highlight .sc{color:#ec2355}.highlight .sd{color:#ec2355}.highlight .s2{color:#ec2355}.highlight .se{color:#ec2355}.highlight .sh{color:#ec2355}.highlight .si{color:#ec2355}.highlight .sx{color:#ec2355}.highlight .sr{color:#009926}.highlight .s1{color:#ec2355}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.container{max-width:1140px;padding-left:16px;padding-right:16px;margin:0 auto}@media only screen and (max-width: 1140px){.container{max-width:1000px}}@media only screen and (max-width: 1024px){.container{max-width:740px}}@media only screen and (max-width: 768px){.container{max-width:560px}}@media only screen and (max-width: 576px){.container{max-width:480px;padding-left:calc(16px + 4px);padding-right:calc(16px + 4px)}}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-16px;margin-right:-16px}.col{padding-left:16px;padding-right:16px}[class^="col-"]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 1024px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.animate{animation:animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) 0.75s;animation-duration:0.5s;animation-iteration-count:1;transition:transform .15s}@keyframes animateElement{0%{transform:translate(0px, 50px)}100%{transform:translate(0px, 0px)}}@keyframes pulse{0%{transform:scale(1, 1)}25%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}*,*::after,*::before{box-sizing:border-box}body{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.5;overflow-x:hidden;color:var(--text-color);background-color:var(--background-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media only screen and (max-width: 576px){body{font-size:18px}}*::selection{color:var(--white);background-color:var(--brand-color)}h1,h2,h3,h4,h5,h6{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;letter-spacing:-1px;color:var(--heading-font-color)}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{position:relative;margin:40px 0;padding-left:26px;font-size:24px;line-height:1.7;font-weight:900;border-left:4px solid var(--brand-color);color:var(--heading-font-color)}blockquote p{margin-bottom:10px}blockquote cite{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;font-style:normal;color:var(--heading-font-color)}@media only screen and (max-width: 576px){blockquote{font-size:21px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;color:var(--heading-font-color)}img,.lightense-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.lightense-wrap+em,.gallery+em{display:block;margin-top:20px;font-size:12px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:var(--heading-font-color)}img+em a,.lightense-wrap+em a,.gallery+em a{font-weight:500;border-bottom:1px solid var(--border-color);transition:all 0.35s}img+em a:hover,.lightense-wrap+em a:hover,.gallery+em a:hover{color:var(--link-color);border-color:var(--link-color-hover)}@media only screen and (max-width: 576px){img+em,.lightense-wrap+em,.gallery+em{margin-top:12px}}a{text-decoration:none;color:var(--link-color);transition:all 0.35s}a:hover{color:var(--link-color-hover)}hr{width:100%;height:1px;margin:60px 0;border:0;background:var(--background-alt-color)}.table-container{display:block;max-width:100%;overflow-x:auto}table{font-size:12px;color:var(--dark);width:100%;border-width:1px;border-color:var(--background-alt-color);border-collapse:collapse;color:var(--heading-font-color)}table th{padding:10px;font-size:16px;text-align:left;border:1px solid var(--th-color);color:var(--heading-font-color);font-weight:700;background-color:var(--th-color)}table tr{background-color:var(--tr-color);transition:all .3s ease}table tr:nth-child(even){background-color:transparent}table td{padding:10px;font-size:14px;border:1px solid var(--background-alt-color)}.button{display:inline-block;padding:20px 26px;font-size:16px;font-weight:700;text-decoration:none;border-radius:2px;border:none;outline:none;cursor:pointer;transition:all .25s;color:var(--heading-font-color);background:var(--background-alt-color)}.button--primary{color:var(--white);background-color:var(--button-background-color)}.button--primary:hover{background:var(--button-background-hover)}.button--big{display:block;width:100%}.lazy{opacity:0;transition:opacity 0.3s ease-in-out}.lazy.loaded{opacity:1}.lightense-backdrop{background-color:var(--background-color) !important}.header .header__inner{position:relative;display:flex;align-items:center;flex-wrap:wrap;padding:44px 16px}@media only screen and (max-width: 1024px){.header .header__inner{padding:40px 16px}}@media only screen and (max-width: 576px){.header .header__inner{padding:32px 16px}}.logo__link{padding:4px 0;font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:-1px;line-height:1;font-weight:700;transition:color .25s ease}.logo__link:hover{color:var(--brand-color)}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 1024px){.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;opacity:0;visibility:hidden;background-color:var(--background-color)}.main-nav.is-open{opacity:1;visibility:visible;transition:all .25s ease}.main-nav .nav__list{flex-direction:column;width:100%}.main-nav .nav__list .nav__item{display:block;margin:0}.main-nav .nav__list .nav__item.nav__item-icon{margin-right:0}.main-nav .nav__list .nav__item .nav__link{display:inline-block;padding:16px 0;font-size:18px;transition:color .25s ease}.main-nav .nav__list .nav__item .nav__link:hover{color:var(--brand-color)}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;justify-content:center;align-items:center;width:36px;height:36px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);background:var(--background-alt-color);cursor:pointer}.main-nav__box .nav__icon-close:hover .ion-md-close{transform:rotate(90deg)}.main-nav__box .nav__icon-close .ion-md-close{transition:all 0.35s}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 1024px){.main-nav__box{display:block;align-items:center;width:80%;height:80vh;padding-top:180px;margin:0 auto;text-align:center;overflow-y:auto}.main-nav__box .nav__icon-close{display:flex;position:absolute;top:40px;right:40px}.main-nav__box .nav__title{display:inline-block;margin-bottom:12px;font-family:"Jost", Helvetica Neue, Helvetica, Arial, sans-serif;font-size:36px;font-weight:700;letter-spacing:-1px;color:var(--heading-font-color)}}@media only screen and (max-width: 768px){.main-nav__box{padding-top:100px}}.nav__list{display:flex;align-items:center}.nav__list .nav__item{display:inline-block;margin-right:48px;margin-bottom:0}.nav__list .nav__item.nav__item-icon{margin-right:12px}.nav__list .nav__item .nav__link{position:relative;padding:4px 0;font-size:16px;line-height:1;font-weight:700;transition:color .25s ease}.nav__list .nav__item .nav__link:hover{color:var(--brand-color)}.nav-button{font-size:21px;color:var(--link-color);cursor:pointer}.nav-button .icon__menu{display:none;margin-right:12px}.nav-button .icon__menu,.nav-button .icon__search{transition:color .25s ease}.nav-button .icon__menu:hover,.nav-button .icon__search:hover{color:var(--brand-color)}@media only screen and (max-width: 1024px){.nav-button{display:flex;align-items:center;margin-left:auto;font-size:24px}.nav-button .icon__menu{display:block}}.toggle-theme{position:relative;display:flex;justify-content:center;align-items:center;width:24px;height:24px;user-select:none;cursor:pointer}@media only screen and (max-width: 1024px){.toggle-theme{padding:20px 0}}.toggle-sun,.toggle-moon{position:absolute;font-size:20px;transition:color .25s ease;color:var(--heading-font-color)}.toggle-sun:hover,.toggle-moon:hover{color:var(--brand-color)}.toggle-sun{display:none}.dark-mode .toggle-sun{display:block}.dark-mode .toggle-moon{display:none}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;overflow:auto;opacity:0;background:var(--background-color);transition:all .25s ease}.search.is-visible{z-index:100;opacity:1;transition:all .25s ease}.search__box{max-width:540px;margin:0 auto;padding-top:120px}@media only screen and (max-width: 1024px){.search__box{padding-top:100px}}.search__group{position:relative;margin-bottom:48px}.search__group .search__close{position:absolute;right:28px;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:32px;height:32px;font-size:24px;line-height:1;border-radius:50%;color:var(--heading-font-color);cursor:pointer;will-change:transform;transition:all .25s;background:var(--background-color)}.search__group .search__close:hover{transform:translateY(-50%) rotate(90deg)}.search__group .search__close .ion-md-close{vertical-align:middle}.search__group .search__text{width:100%;padding:28px;font-size:20px;font-weight:700;line-height:24px;border:2px solid transparent;border-radius:2px;color:var(--heading-font-color);background-color:var(--background-alt-color);outline:0;transition:all .25s}.search__group .search__text::placeholder{font-weight:700;color:var(--heading-font-color)}.search__group .search__text:focus{border-color:var(--brand-color)}.search__group .search__text::-ms-clear{display:none}@media only screen and (max-width: 576px){.search__group{margin-bottom:32px}.search__group .search__text{padding:24px}}.search-results-list .no-results{width:100%;margin:0;text-align:center;color:var(--heading-font-color)}.pagination{margin-bottom:80px}@media only screen and (max-width: 576px){.pagination{margin-bottom:60px}}.pagination__inner{display:flex;justify-content:center;align-items:center}.pagination__list{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:18px;font-weight:700;line-height:1;color:var(--text-color)}@media only screen and (max-width: 576px){.pagination__list{align-items:stretch;font-size:16px}}.pagination__item{display:flex;justify-content:center;align-items:center;width:100%;padding:24px 20px;text-align:center;border-radius:8px;background:var(--background-alt-color)}@media only screen and (max-width: 576px){.pagination__item{align-items:center;padding:20px;border-radius:8px}}.pagination__count{margin:0 32px;font-size:16px;color:var(--link-color)}@media only screen and (max-width: 768px){.pagination__count{margin:0 12px}}@media only screen and (max-width: 576px){.pagination__count{margin:0 8px;font-size:14px;line-height:1.2}}.pagination__next:hover,.pagination__prev:hover{color:var(--heading-font-color)}.pagination__next i,.pagination__prev i{font-size:15px;transition:transform .15s ease;will-change:transform}.pagination__next.disabled,.pagination__prev.disabled{opacity:0.64;cursor:not-allowed;color:inherit}.pagination__next.disabled:hover i,.pagination__prev.disabled:hover i{transform:none}.dark-mode .pagination__next.disabled,.dark-mode .pagination__prev.disabled{opacity:0.78}.pagination__next:hover i{transform:translateX(2px)}.pagination__next i{margin-left:5px}.pagination__prev:hover i{transform:translateX(-2px)}.pagination__prev i{margin-right:5px}.footer{margin-top:48px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.footer{margin-top:60px}}.footer__inner{padding:80px 0}.footer__inner .row .col{flex-grow:1}@media only screen and (max-width: 576px){.footer__inner{padding:60px 0}}@media only screen and (max-width: 1024px){.footer__author{margin-bottom:60px}}@media only screen and (max-width: 576px){.footer__author{margin-bottom:40px}}.footer__author-avatar{position:relative;width:105px;height:105px;margin-bottom:20px;transform:translate(0);border-radius:50%;overflow:hidden;box-shadow:0px 100px 80px rgba(0,0,0,0.07),0px 12.5216px 10.0172px rgba(0,0,0,0.035);background-color:var(--background-color)}.footer__author-avatar img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.footer__author-name{margin-bottom:20px;font-size:32px;font-weight:900;line-height:1}.footer__author-bio{margin-bottom:0;color:var(--text-alt-color)}.social{margin-top:16px}.social .social__list{display:flex;align-items:center;flex-wrap:wrap}.social .social__list .social__item:first-child>.social__link{padding-left:0}.social .social__item{margin-bottom:0;margin-right:16px}.social .social__item:last-child{margin-right:0}.social .social__link{display:flex;align-items:center;padding:4px;font-size:20px;color:var(--heading-font-color)}.social .social__link:hover{color:var(--brand-color)}.footer__gallery .footer__gallery-title{margin-bottom:24px;font-size:28px}.footer__gallery .gallery__image img{height:100%;border-radius:8px;overflow:hidden}.footer__gallery .gallery__image img.lightense-open{border-radius:0}.footer__info{padding:44px 0;background-color:var(--background-color)}.footer__info .footer__info-box{display:flex;align-items:center;justify-content:space-between}@media only screen and (max-width: 1024px){.footer__info{padding:40px 0}}.copyright{margin-right:20px;font-size:14px;font-weight:500;color:var(--text-alt-color)}.copyright a{text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color)}.copyright a:hover{text-decoration-color:var(--heading-font-color);color:var(--heading-font-color)}.top{min-width:36px;height:36px;font-size:20px;line-height:36px;text-align:center;border-radius:8px;color:var(--heading-font-color);background-color:var(--background-alt-color);cursor:pointer;transition:all .25s ease}.gallery-box{margin:32px 0}.gallery{display:grid;grid-template-columns:repeat(3, auto);justify-content:center;align-content:center;grid-gap:10px}.gallery .gallery__image{background:var(--background-color)}.gallery .gallery__image img{display:block;width:100%;height:auto;object-fit:cover}.hero{padding:80px 0;margin-bottom:80px;background-color:var(--background-alt-color)}@media only screen and (max-width: 576px){.hero{padding:60px 0;margin-bottom:60px}}.hero__inner{display:flex;align-items:center}@media only screen and (max-width: 1024px){.hero__inner{flex-direction:column}}.hero__left{max-width:450px;margin-right:auto}@media only screen and (max-width: 1140px){.hero__left{max-width:440px}}@media only screen and (max-width: 1024px){.hero__left{max-width:100%}}.hero__title{margin-bottom:20px;font-size:55px;font-weight:900;line-height:1.3;color:var(--heading-font-color)}@media only screen and (max-width: 1024px){.hero__title{font-size:50px}}@media only screen and (max-width: 768px){.hero__title{font-size:40px}}@media only screen and (max-width: 576px){.hero__title{font-size:32px}}.hero__description{margin-bottom:0;font-size:21px;color:var(--text-alt-color)}@media only screen and (max-width: 1024px){.hero__description{font-size:inherit}}.hero__subscribe{margin-top:32px}.hero__subscribe .subscribe-form{position:relative;border-radius:2px;background-color:var(--background-color)}.hero__subscribe .subscribe-email{width:100%;height:70px;padding:20px;font-size:16px;line-height:21px;border:2px solid transparent;border-radius:2px;outline:0;color:var(--heading-font-color);background-color:transparent;transition:all .25s ease}.hero__subscribe .subscribe-email::placeholder{opacity:0.6;color:var(--text-alt-color)}.hero__subscribe .subscribe-email:focus{border-color:var(--brand-color)}.hero__subscribe .subscribe-button{position:absolute;top:6px;right:6px}@media only screen and (max-width: 1024px){.hero__subscribe{margin-top:24px}}@media only screen and (max-width: 576px){.hero__subscribe{margin-top:20px}.hero__subscribe .subscribe-form{display:flex;flex-direction:column;padding:6px}.hero__subscribe .subscribe-email{height:56px;margin-bottom:4px}.hero__subscribe .subscribe-button{position:relative;top:0;right:0}}.hero__right{width:50%}@media only screen and (max-width: 1024px){.hero__right{width:100%;margin-top:40px}}@media only screen and (max-width: 576px){.hero__right{margin-top:32px}}.hero__image{position:relative;transform:translate(0);width:100%;height:410px;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.02);background-color:var(--background-color);user-select:none}.hero__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}@media only screen and (max-width: 1140px){.hero__image{height:380px}}@media only screen and (max-width: 1024px){.hero__image{height:440px}}@media only screen and (max-width: 768px){.hero__image{height:420px}}@media only screen and (max-width: 576px){.hero__image{height:280px}}.article{margin-bottom:32px;will-change:transform;transition:transform .2s}.article:hover{transform:translateY(-3px)}.article:hover .article__title a{text-decoration:underline;text-decoration-color:var(--link-color-hover);text-decoration-thickness:2px}.article__head{position:relative}.article__date{position:absolute;z-index:1;top:16px;left:16px;display:inline-block;padding:8px 12px;font-size:12px;line-height:1;font-weight:500;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.article__image{position:relative;transform:translate(0);display:block;height:0;margin-bottom:24px;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.article__image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.video-icon{position:absolute;z-index:1;top:50%;left:50%;width:50%;height:50%;transform:translate(-50%, -50%);pointer-events:none}.video-icon .circle{width:50px;height:50px;position:absolute;top:0;left:0;right:0;bottom:0;border-radius:50%;overflow:hidden;margin:auto;transform:scale(1, 1)}.video-icon .circle.pulse{animation-timing-function:ease;animation:pulse 2s infinite;background-color:rgba(255,255,255,0.25)}.video-icon svg{fill:rgba(255,255,255,0.25);stroke:var(--light-blue);stroke-linejoin:round;stroke-width:5;backdrop-filter:blur(3.5px);-webkit-backdrop-filter:blur(4.5px);transition:all 0.3s}.article__title{margin-bottom:12px;font-size:24px}.article__title a{text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px}.article__title a:hover{color:var(--heading-font-color)}.article__excerpt{margin-bottom:0;font-size:16px;color:var(--text-alt-color)}.contact-head{margin-bottom:32px}.form__group{margin-bottom:20px}.form__group:last-child{margin-bottom:0}.form__input{width:100%;padding:20px;font-size:16px;font-weight:400;border:2px solid var(--border-color);border-radius:2px;outline:0;transition:.25s ease-in-out;resize:vertical;color:var(--heading-font-color);background-color:var(--background-alt-color)}.form__input::placeholder{color:var(--text-alt-color)}.form__input:focus{border-color:var(--brand-color)}.section__head{position:relative;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px}.section__head::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 768px){.section__head::after{content:none}}.section__title{padding-right:20px;margin-bottom:0;font-size:28px}@media only screen and (max-width: 576px){.section__title{font-size:24px}}.section__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s}.section__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 768px){.section__link{padding-left:0}}@media only screen and (max-width: 576px){.section__link{font-size:16px}}.section__title,.section__link{background:var(--background-color)}@media only screen and (max-width: 576px){.section-tags .row .col:last-child>.tag-image{margin-bottom:0}}.tag-image{margin-bottom:32px;position:relative;transform:translate(0);display:block;height:0;padding-bottom:62%;border-radius:8px;overflow:hidden;background:var(--background-alt-color);transition:transform .2s}.tag-image:hover{transform:translateY(-3px)}.tag-image img{position:absolute;width:100%;height:100%;object-fit:cover;user-select:none}.tag-image .tag-name{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1;max-width:90%;display:inline-block;padding:8px 12px;font-size:14px;line-height:1;font-weight:700;text-transform:capitalize;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:4px;color:var(--heading-font-color);background:var(--background-color);pointer-events:none}.post-head,.page-head{margin-bottom:48px}.post-head .row,.page-head .row{align-items:center}@media only screen and (max-width: 1024px){.post-head,.page-head{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-head,.page-head{margin-bottom:32px}}.post-image,.page-image{position:relative;transform:translate(0);padding-top:90%;min-height:280px;border-radius:8px;overflow:hidden;background:var(--background-alt-color)}.post-image img,.page-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}@media only screen and (max-width: 1024px){.post-image,.page-image{padding-top:65%;margin-bottom:40px}}@media only screen and (max-width: 576px){.post-image,.page-image{margin-bottom:32px}}.page-image{padding-top:56.25%;margin-bottom:48px}@media only screen and (max-width: 1024px){.page-image{margin-bottom:40px}}@media only screen and (max-width: 576px){.page-image{margin-bottom:32px}}.post-video,.page-video{margin-bottom:48px;border-radius:8px;overflow:hidden;transform:translate(0);background-color:var(--background-alt-color)}.post-video .post-video__wrap,.post-video .page-video__wrap,.page-video .post-video__wrap,.page-video .page-video__wrap{position:relative;width:100%;height:0;padding-bottom:56.25%}.post-video .post-video__wrap iframe,.post-video .page-video__wrap iframe,.page-video .post-video__wrap iframe,.page-video .page-video__wrap iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media only screen and (max-width: 1024px){.post-video,.page-video{margin-bottom:40px}}@media only screen and (max-width: 576px){.post-video,.page-video{margin-bottom:32px}}.post__info{margin-left:44px}.post__info.post__info-video{max-width:760px;margin:0 auto}@media only screen and (max-width: 1024px){.post__info{margin-left:0}}.page__info{max-width:760px;margin:0 auto}.post__tags{display:flex;align-items:center;flex-wrap:wrap;margin-bottom:20px}.post__tags .post__tag{padding:12px 16px;margin:4px 8px 4px 0;font-size:14px;line-height:1;font-weight:500;text-transform:capitalize;border:none;border-radius:8px;color:var(--heading-font-color);transition:none;background-color:var(--background-alt-color)}.post__tags .post__tag:last-child{margin-right:0}@media only screen and (max-width: 576px){.post__tags{margin-bottom:16px}}.post__title,.page__title{margin-bottom:24px;font-size:46px;line-height:1.2;font-weight:900}@media only screen and (max-width: 576px){.post__title,.page__title{margin-bottom:20px;font-size:32px}}.page__title{margin-bottom:0}.post__meta{display:flex;align-items:center;line-height:1}.post__meta .post__author-image{position:relative;transform:translate(0);width:50px;height:50px;border-radius:50%;overflow:hidden;margin-right:12px;background-color:var(--background-alt-color)}.post__meta .post__author-image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;user-select:none}.post__meta .post__meta-bottom{display:flex;flex-direction:column}.post__meta .post__author{display:inline-block;margin-bottom:7px;font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--heading-font-color);transition:text-decoration-color .35s}.post__meta .post__author:hover{text-decoration-color:var(--heading-font-color)}.post__meta .post__date{font-size:14px;font-weight:400;color:var(--text-alt-color)}.post,.page{max-width:760px;margin:0 auto 60px;color:var(--text-color)}.post a,.page a{font-weight:500;color:#004CFF;border-bottom:1px solid var(--border-color)}.post a:hover,.page a:hover{color:#0066CC;border-bottom-color:var(--link-color-hover)}.post img,.post .js-reframe,.page img,.page .js-reframe{border-radius:8px;overflow:hidden}.post img.lightense-open,.post .js-reframe.lightense-open,.page img.lightense-open,.page .js-reframe.lightense-open{border-radius:0}.post img[src$='#wide'],.page img[src$='#wide']{display:block;width:100vw;max-width:none;margin-left:50%;transform:translateX(-50%);border-radius:0;pointer-events:none;user-select:none}.post .button,.page .button{border:none;text-decoration:none}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;margin-right:8px;margin-bottom:0;text-align:center}.post__share .share__item:last-child{margin-right:0}.post__share .share__link{display:flex;justify-content:center;align-items:center;width:100%;height:54px;font-size:18px;text-transform:uppercase;border:none;border-radius:8px;background:var(--background-alt-color)}.post__share .share__link i{transition:transform .25s;will-change:transform}.post__share .share__link:hover{color:var(--heading-font-color)}.post__share .share__link:hover i{transform:scale(1.1)}.related-posts{display:none;margin-top:80px}.related-posts.is-related{display:block}.related-posts .related-tag{text-transform:capitalize}@media only screen and (max-width: 576px){.related-posts{margin-top:60px}.related-posts .row .col:last-child{margin-bottom:0}}.show-comments{margin:48px 0 32px;text-align:center}.show-comments .disqus-button{padding:28px;border-radius:8px;text-decoration:underline;text-decoration-color:transparent}.show-comments .disqus-button:hover{text-decoration-color:var(--heading-font-color)}@media only screen and (max-width: 576px){.show-comments{margin:60px 0 0}.show-comments .disqus-button{padding:24px}}.post__comments{max-width:760px;margin:0 auto}.post__comments.is-open{margin:0 auto 32px}@media only screen and (max-width: 576px){.post__comments.is-open{margin:0 auto}}.error{text-align:center}.error .error__title{margin-bottom:24px;font-size:100px;line-height:1}.error .error__text{margin-bottom:0;color:var(--text-alt-color)}@media only screen and (max-width: 576px){.error .error__title{font-size:68px}}.recent-posts{margin-top:80px}@media only screen and (max-width: 576px){.recent-posts{margin-top:60px}.recent-posts .row .col:last-child{margin-bottom:0}}.tag__head{margin:80px 0}@media only screen and (max-width: 1024px){.tag__head{margin:40px 0}}.tags__inner{margin-bottom:120px}@media only screen and (max-width: 576px){.tags__inner{margin-bottom:60px}}.tag__title{margin-bottom:32px;font-size:46px;font-weight:900}@media only screen and (max-width: 576px){.tag__title{font-size:32px}}.tag__list{display:flex;align-items:center;flex-wrap:wrap;padding-bottom:80px;border-bottom:1px solid var(--background-alt-color)}.tag__list .tag__item{margin-right:12px;margin-bottom:12px}.tag__list .tag__item:last-child{margin-right:0}.tag__list .tag__link{display:block;padding:12px 16px;font-size:16px;font-weight:500;text-transform:capitalize;border-radius:8px;transition:none;background:var(--background-alt-color)}.tag__list .tag__link:hover{color:var(--heading-font-color)}@media only screen and (max-width: 576px){.tag__list{padding-bottom:48px}.tag__list .tag__item{margin-right:8px;margin-bottom:8px}.tag__list .tag__link{font-size:14px}}.tag__info{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}.tag__info::after{content:"";position:absolute;z-index:-1;display:block;width:100%;height:1px;background:var(--background-alt-color);pointer-events:none}@media only screen and (max-width: 576px){.tag__info::after{content:none}}.tag__info-box{display:flex;align-items:center}.tag__counter{display:flex;flex-direction:column;align-items:center;padding:12px 24px;border-radius:8px;color:var(--heading-font-color);background:var(--background-alt-color)}.tag__counter span{font-family:"Jost",Helvetica Neue,Helvetica,Arial,sans-serif;font-size:32px;font-weight:700;line-height:1}.tag__counter small{font-size:16px;font-weight:500}@media only screen and (max-width: 576px){.tag__counter{display:none}}.tag__name{padding:50px 20px 50px 20px;margin-bottom:0;font-size:36px;text-transform:capitalize;background-color:var(--background-color)}.tag__name span{font-weight:400;color:var(--text-alt-color)}@media only screen and (max-width: 768px){.tag__name{font-size:32px}}@media only screen and (max-width: 576px){.tag__name{padding:32px 12px 32px 0;font-size:26px}}.top__link{padding-left:20px;font-size:18px;font-weight:500;text-decoration:underline;text-decoration-color:transparent;color:var(--link-color);transition:text-decoration .35s;background:var(--background-color)}.top__link:hover{text-decoration-color:var(--heading-font-color);color:var(--link-color-hover)}@media only screen and (max-width: 576px){.top__link{padding-left:0;font-size:16px}}
+
+  </style>
+</head>
+
+<body>
+
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRFB0L7E0Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRFB0L7E0Z');
+</script>
+  
+
+  <!-- begin header -->
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="/">
+          
+            <img class="logo__image" src="/images/logo/du-logo.jpg" alt="Data Umbrella">
+          
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="/" class="nav__link">Home</a>
+              </li>
+              
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/about/" class="nav__link">About</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/contact/" class="nav__link">Contact</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/impact.html" class="nav__link">Impact</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                  <li class="nav__item">
+                    <a href="/press.html" class="nav__link">Press</a>
+                  </li>
+                  
+                
+              
+                
+                  
+                
+              
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+                
+                  
+                
+              
+              <li class="nav__item">
+                <a href="https://www.dataumbrella.org" class="nav__link">dataumbrella.org</a>
+              </li>
+              
+              <li class="nav__item nav__item-icon">
+                <div class="toggle-theme">
+                  <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
+                  <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+          <i class="nav__icon icon__search ion ion-md-search"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- begin search -->
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row search-results-list" id="js-results-container"></div>
+  </div>
+
+</div>
+<!-- end search -->
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    <div class="post-head">
+  <div class="container">
+    <div class="row">
+
+      
+
+      
+      <div class="col col-6 col-d-12">
+        <div class="post-image">
+          <img class="lazy" data-src="/images/2021-afme2/AFME2-photo.png" alt="Data Umbrella AFME2 2021 scikit-learn Sprint Report">
+        </div>
+      </div>
+      
+
+      
+
+      
+      <div class="col col-6 col-d-12">
+        <div class="post__info ">
+
+          
+            <div class="post__tags">
+              
+                <a href="/tags#opensource" class="post__tag">opensource</a>
+              
+                <a href="/tags#sprint-report" class="post__tag">sprint-report</a>
+              
+            </div>
+          
+
+          <h1 class="post__title">Data Umbrella AFME2 2021 scikit-learn Sprint Report</h1>
+
+          <div class="post__meta">
+            <a href="/about/" class="post__author-image">
+              <img class="lazy" data-src="/images/logo/umb-trans.png" alt="Data Umbrella">
+            </a>
+
+            <div class="post__meta-bottom">
+              <a class="post__author" href="/about/">Data Umbrella</a>
+              <time class="post__date" datetime="2021-11-20T04:01:35-08:00">20 Nov 2021</time>
+              <span class="post__reading-time">
+
+19 minutes to read
+
+</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+
+  <article class="post">
+
+    <div class="post__content">
+      <p>Author: <a href="https://reshamas.github.io">Reshama Shaikh</a></p>
+
+<h2 id="high-level-summary">High Level Summary</h2>
+<ul>
+  <li>40 participants</li>
+  <li>23/40 (57.5%) Returning contributors; 17/40 (42.5%) New contributors</li>
+  <li>17 countries represented</li>
+</ul>
+
+<h2 id="sprint-background">Sprint Background</h2>
+<p>This sprint was organized by <a href="https://www.dataumbrella.org">Data Umbrella</a> to increase the participation of underrepresented persons in data science, with a focus on the geographic regions of Africa &amp; the Middle East (AFME).</p>
+
+<p>The “sprint” is a hands-on hackathon where participants learn to contribute to scikit-learn, the most widely-used Python open source, machine learning library.  This sprint was a 4-hour block of time with pre- and post-sprint work required.</p>
+
+<p>This report focuses on the summary, impact and lessons learned of the Data Umbrella <a href="https://afme2021rc.dataumbrella.org">AFME2 scikit-learn sprint</a>.</p>
+
+<p float="left">
+<a href="https://twitter.com/DataUmbrella/status/1451935870857121805">
+  <img src="../images/2021-afme2/AFME2-photo.png" width="99%" height="99%" /> 
+</a>
+</p>
+
+<p float="left">
+   <a href="https://afme2021rc.dataumbrella.org/">
+  <img src="../images/2021-afme2/AFME2rc-social.png" width="99%" height="99%" style="border:0px;margin:0px" />
+</a>
+</p>
+
+<h2 id="event-sponsor">Event Sponsor</h2>
+
+<p>This event was funded in part by a grant from <a href="https://eventfund.codeforscience.org/">Code for Science &amp; Society</a>, made possible by grant number <a href="https://www.moore.org/grant-detail?grantId=GBMF8449">GBMF8449</a> from the <a href="https://www.moore.org/">Gordon and Betty Moore Foundation</a>.</p>
+
+<p float="left">
+   <a href="https://eventfund.codeforscience.org/"> </a>
+  <img src="../images/2021-latam/css-logo.png" width="50%" height="50%" style="padding:1px;border:thick solid black;" align="top" />
+   <a href="https://www.moore.org/"></a>
+  <img src="../images/2021-latam/moore-logo.jpg" width="40%" height="40%" style="padding:1px;border:thick solid black;" align="top" /> 
+</p>
+
+<h2 id="sprint-agenda">Sprint Agenda</h2>
+<ul>
+  <li>09-Oct-2021:  Pre-sprint Kickoff (10am - 11am ET) (14:00 UTC)</li>
+  <li>23-Oct-2021:  Sprint (10am to 2pm ET) (14:00 UTC)</li>
+  <li>06-Nov-2021:  Sprint Follow-up Office Hours (10am to 11am ET) (14:00 UTC)</li>
+</ul>
+
+<p float="left">
+  <img src="../images/2021-afme2/sprint-times.png" width="99%" height="99%" style="border:0px;margin:0px" />
+</p>
+
+<h3 id="sprint-day">Sprint Day</h3>
+<p>The sprint officially ran 4 hours, which is limited time to submit a PR.  The participants continued to work on their sprint PRs throughout the weekend.</p>
+
+<h3 id="follow-up-office-hours">Follow-up Office Hours</h3>
+<p>Office hours were set up 2 weeks after the sprint where some of the scikit-learn core contributors were available to answer questions on open PRs.</p>
+
+<h2 id="number-of-attendees">Number of Attendees</h2>
+
+<ul>
+  <li>Pre-sprint Event: <strong>9 people</strong>
+    <ul>
+      <li>2 organizers</li>
+      <li>4 core developers</li>
+      <li><strong>9 participants</strong> (6 returning; 3 new)</li>
+    </ul>
+  </li>
+  <li>Sprint Day: <strong>~40 people</strong>
+    <ul>
+      <li>3 organizers</li>
+      <li>4 core developers</li>
+      <li><strong>40 participants</strong> (23 returning; 17 new)</li>
+    </ul>
+  </li>
+  <li>Post-sprint Office Hours: <strong>7 people</strong>
+    <ul>
+      <li>1 organizer</li>
+      <li>2 core developers</li>
+      <li><strong>7 participants</strong> (2 returning; 5 new)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pull-requests-prs-statistics">Pull Requests (PRs) Statistics</h2>
+
+<ul>
+  <li>7 PRs were merged on sprint day</li>
+  <li>7 <em>additional</em> PRs were merged within 2 days of sprint day</li>
+  <li>33 PRs: a <em>total</em> of 33 PRs have been merged in the 4-week period of sprint day to date of report.</li>
+</ul>
+
+<p>As of the date of this report (20-Nov-2021), there are 16 PRs open. Participants continued work on new issues after the sprint.</p>
+
+<pre><code class="language-github">is:pr #DataUmbrella is:open 
+</code></pre>
+<p>
+ <img src="../images/2021-afme2/prs-open.png" width="99%" height="99%" style="border:0px;margin:0px" />
+</p>
+
+<h2 id="demographics">Demographics</h2>
+<p>Of the 74 people who applied, 40 attended. All applicants were accepted. This funnel graph shows the breakdown, by gender.</p>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/1_funnel.html" height="500" width="1000">
+</iframe>
+
+<p>A total of 40 contributors attended the sprint. 14 of 40 (35%) identified as she/her.  26 of 40 (65%) identified as he/him.</p>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/2_pie_gender.html" height="500" width="1000">
+</iframe>
+
+<p>Contributors joined from <strong>17 different countries</strong>.  Country information was provided based on where participants were joining from. The countries with the most participants:</p>
+<ol>
+  <li>Kenya: 11</li>
+  <li>United States of America: 5</li>
+  <li>India: 4</li>
+  <li>Saudi Arabia: 2</li>
+  <li>Germany: 2</li>
+  <li>Canada: 2</li>
+  <li>Bulgaria: 2</li>
+  <li>Argentina: 2</li>
+</ol>
+
+<p>Other countries with 1 participant each include: Zambia, Venezuela, Sweden, South Africa, Poland, Lithuania, Kazakhstan, Ireland, Ghana, El Salvador.</p>
+
+<p>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/barplot_country.html" height="1000" width="1000">
+</iframe>	
+
+</p>
+
+<h2 id="invited-contributors">Invited Contributors</h2>
+
+<p>There were 4 invited contributors. Invited contributors were those who participated in a prior sprint and have continued contributing to scikit-learn.</p>
+
+<h2 id="returning-contributors">Returning Contributors</h2>
+<p>This pie chart shows that of the 40 people attending, 57.5% were returning contributors.</p>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/3_pie_returning.html" height="500" width="1000">
+</iframe>
+
+<h3 id="applications-received">Applications Received</h3>
+
+<p>This barplot shows all the countries from which applications were received. It also shows a breakdown of how many people attended from each country.</p>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/bar_all_country.html" height="1000" width="1000">
+</iframe>
+
+<h3 id="spoken-languages">Spoken Languages</h3>
+<p>The sprint was run in English. Participants were asked on their forms to indicate if they needed a translator. No translators were requested.</p>
+
+<p>This barplot shows the primary spoken languages by the sprint participants.</p>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/spoken_languages.html" height="1000" width="1000">
+</iframe>
+
+<h3 id="attendee-role-workschool">Attendee Role (work/school)</h3>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/work_role.html" height="1000" width="1000">
+</iframe>
+
+<h2 id="impact-report-for-data-umbrella-scikit-learn-sprint">Impact Report for Data Umbrella Scikit-learn Sprint</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Sprint 2021</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Report date</td>
+      <td>20-Nov-2021</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Report author</td>
+      <td>Reshama Shaikh</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sprint date</td>
+      <td>23-Oct-2021</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Online; Africa &amp; Middle East (AFME2)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sprint website</td>
+      <td><a href="https://afme2021rc.dataumbrella.org">afme2021rc.dataumbrella.org</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Twitter</td>
+      <td><a href="https://twitter.com/i/events/1452292223463219205">Moment</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Open source library</td>
+      <td><a href="https://github.com/scikit-learn/scikit-learn">scikit-learn</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>GitHub repository link</td>
+      <td><a href="https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint">data-umbrella/data-umbrella-scikit-learn-sprint</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Lead Organizer</td>
+      <td><a href="https://twitter.com/reshamas">Reshama Shaikh</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Assistant Organizers</td>
+      <td>Mariam Haji, Cristina Mulas Lopez, Nestor Navarro</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Lead Facilitator</td>
+      <td><a href="https://twitter.com/amuellerml">Andreas Mueller</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Mentors / Translations</td>
+      <td>Not applicable</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Scikit-learn core contributors</td>
+      <td>Thomas Fan, Adrin Jalali, Olivier Grisel, Julien Jerphanon, Guillaume LeMaitre</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Teaching Assistants</td>
+      <td>None</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Community Contributors</td>
+      <td>Lucy Jimenez, Juan Martin Loyola</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Platforms</td>
+      <td>Discord &amp; Zoom</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sponsor:</td>
+      <td>Grant <a href="https://www.moore.org/grant-detail?grantId=GBMF8449">GBMF8449</a> from <a href="https://www.moore.org">Gordon and Betty Moore Foundation</a> &amp; <a href="https://eventfund.codeforscience.org">Code for Science and Society</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>PULL REQUESTS <strong>(PRs)</strong></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>PRs [MRG] at sprint</td>
+      <td>7</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>PRs [MRG] post-sprint</td>
+      <td>26+    (x)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>PRs open</td>
+      <td>16+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Attendees:  Initial Registrations</td>
+      <td>~55</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Attendees:  Participated</td>
+      <td>~40</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Attendee List</td>
+      <td><a href="https://afme2021rc.dataumbrella.org/contributors">Sprint Contributors</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Post-sprint Survey</td>
+      <td>[survey form] (closed)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Blog 1: Beryl Kanali</td>
+      <td><a href="https://medium.com/@kanaliberyl/my-experience-contributing-to-open-source-afme2-oct-2021-398a505e6d80">My experience contributing to Open Source -AFME2 Oct 2021</a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="resources-for-contributing-to-scikit-learn">Resources for Contributing to scikit-learn</h2>
+<p>Because this was a virtual event and there is a limited capacity for being online for a full 8-hour day, a checklist was provided so folks could do preparation work at their own pace prior to the sprint.  <a href="https://latam2021.dataumbrella.org/about/prep-work">Resources for Prep Work</a> are available on the sprint website.</p>
+
+<p>A <a href="https://docs.google.com/document/d/1QknhXDJ4qtP8Co2SfqaPGaZ8J5grsMq08onxTXVvAFU/edit?usp=sharing">Checklist</a> with highlighted notes to indicate updates from videos was also included.</p>
+
+<h2 id="impact">Impact</h2>
+
+<h3 id="non-measurable-impact">Non-measurable Impact</h3>
+<p>Aside from the number of PRs that were merged, there is non-quantifiable impact of the open source sprint. Some examples include:</p>
+<ul>
+  <li>learning to set up virtual environment</li>
+  <li>using Git (fork, clone, branch, fetching another’s PR)</li>
+  <li>introduction to tests such as:  flake8 (linting, formatting), pytest, “continuous integration”</li>
+  <li>navigating through the codebase structure of scikit-learn</li>
+  <li>digging into functions, learning about errors</li>
+  <li>learning about unit tests</li>
+  <li>interacting with contributors on GitHub</li>
+  <li>learning, in general</li>
+  <li>networking</li>
+  <li>building confidence (making a dent in “imposter syndrome”)</li>
+  <li>having fun</li>
+</ul>
+
+<h2 id="challenges">Challenges</h2>
+
+<h3 id="challenge-1-outreach">Challenge 1: Outreach</h3>
+<p>Despite doing similar levels of outreach, for this sprint, we recieved about 50% of applications than we typically do.</p>
+
+<p>This Google Analytics table shows that of the top 10 countries reached, 7 of them were in the region of Africa and Middle East. Despite Somalia being #4, we did not receive any applications from that country.</p>
+
+<p>Comparatively speaking, for our prior <a href="">Latin America sprint</a>, we had over 1100 users by the time the sprint report was written. For this event, it was about 50% of that.</p>
+
+<p float="left">
+  <img src="../images/2021-afme2/ga-country.png" width="99%" height="99%" style="border:0px;margin:0px" />
+</p>
+
+<p float="left">
+  <img src="../images/2021-afme2/ga-map-country.png" width="99%" height="99%" style="border:0px;margin:0px" />
+</p>
+
+<h3 id="challenge-2-preparation-work">Challenge 2: <a href="https://afme2021rc.dataumbrella.org/about/prep-work">Preparation Work</a></h3>
+<p>Fewer participants in this sprint, compared to past sprints, did their preparation work. A few set up their working environment at the sprint, which results in having less time to work on an issue during the sprint.</p>
+
+<p>One participant commented on the survey that the learning curve for Discord was high. However, the prep work includes watching a 10-minute video <a href="https://youtu.be/w2A8SknM-68">Intro to Using Data Umbrella Discord Server</a>.</p>
+
+<h3 id="challenge-3-attrition-and-impact-on-pair-programming">Challenge 3: Attrition and Impact on Pair Programming</h3>
+
+<p>Often with these events, there are no-shows at a rate of 20% to 30%. Pair programming is assigned prior to the sprint.  When a participant is a “no-show”, this requires reassigning at the start of the sprint, which delays the start of the sprint.  Also, many participants are not proactive in communicating that their pair partner is absent.</p>
+
+<p>Solution:  not sure what the solution to this is.</p>
+
+<h3 id="challenge-4-internet-connectivity--electrical-power-access">Challenge 4: Internet Connectivity &amp; Electrical Power Access</h3>
+
+<p>A number of participants joined intermittently and late due to access with internet connectivity or loss of power.</p>
+
+<h2 id="continued-contribution-to-open-source">Continued Contribution to Open Source</h2>
+<p>Participants were encouraged to keep contributing to scikit-learn or other Python libraries, using the skills learned in this event.</p>
+
+<h3 id="finding-out-about-the-sprint">Finding out About the Sprint</h3>
+<p>For those who attended the sprint, this is how they learned of the event. The main avenues were by invitation from Data Umbrella, Twitter, LinkedIn and their network (“word of mouth”).</p>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all.html" height="1000" width="1000">
+</iframe>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all_country.html" height="1000" width="1000">
+</iframe>
+
+<h3 id="videos">Videos</h3>
+<p>Based on feedback from our last sprint, <a href="https://blog.dataumbrella.org/data-umbrella-latam-2021-scikit-learn-sprint-report">Latin America 2021</a>, we created a video demonstrating how to use Visual Studio LiveShare.</p>
+
+<p><iframe src="https://www.youtube.com/embed/WHOiljOYGVw" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
+
+<h3 id="language-translations">Language Translations</h3>
+<p>No new language translations were created for this sprint.</p>
+
+<h2 id="adjustments-for-next-sprint">Adjustments for Next Sprint</h2>
+
+<h3 id="returning-contributors-1">Returning Contributors</h3>
+<p>Returning contributors are already in the sprint category on Discord.  Work out a process where returning contributors can sign up for the sprint without going through entire application process.</p>
+
+<h3 id="returning-contributors-working-offline">Returning Contributors Working Offline</h3>
+<p>We received a few requests from past participants to work on issues outside of the sprint day due to schedules. We accommodated that request and they were given access to the curated issues list to work on as their schedule permitted.</p>
+
+<h3 id="second-co-author-on-pull-request">Second Co-author on Pull Request</h3>
+<p>Add in documentation on how to include a second author on pull request commits.</p>
+
+<h2 id="sprint-feedback">Sprint Feedback</h2>
+
+<p>Feedback has been shared a number of ways:</p>
+<ul>
+  <li>Twitter <a href="https://twitter.com/i/events/1452292223463219205">Moment</a></li>
+  <li>Blogs</li>
+  <li>Sprint survey</li>
+  <li>Social media (LinkedIn)</li>
+  <li>Casually, in conversation during the sprint, pre-sprint and post-sprint events</li>
+</ul>
+
+<h2 id="data-umbrella-feedback-survey">Data Umbrella Feedback Survey</h2>
+
+<h3 id="response-rate">Response Rate</h3>
+<p>The survey response rate was 19/40 = 47.5%.  The survey form was in English.</p>
+
+<p>Respondents rated their overall sprint experience highly favorably and had a positive experience working with their pair programming partner.</p>
+
+<h3 id="favorite-parts-about-the-sprint">Favorite Parts About the Sprint</h3>
+
+<p>In response to the question “<em>What are your favorite parts about the sprint?</em>”</p>
+
+<ul>
+  <li><em>Pair programming and the support from the core developers</em></li>
+  <li><em>Meeting new people and asking the core-developers about issues in our PRs.</em></li>
+  <li><em>Pair programming. Ability to interact with scikit learn core contributors.</em></li>
+  <li><em>Pair Programming</em></li>
+  <li><em>Very quick responses from senior contributors</em></li>
+  <li><em>I learned a lot, met new people and got a lot of help from the core developers and got to debug things with people.</em></li>
+  <li><em>The actual sprint day</em></li>
+  <li><em>The fact we could ask for help in real time from the sklearn contributors team, amazing stuff!</em></li>
+  <li><em>Working on scikit-learn issues with pair programming partner</em></li>
+  <li><em>The opportunity to connect with core maintainers; reasonable time commitment</em></li>
+  <li><em>Hanging out before the sprint and working together</em></li>
+  <li><em>Working with a new person and tackling an intermediate issue.</em></li>
+  <li><em>Learning new things and meeting new people.</em></li>
+  <li><em>Finding a community, getting to meet the sklearn core devs, working together on a contribution</em></li>
+  <li><em>It was great. Thank you for organizing it.</em></li>
+  <li><em>Interact with diverse members of the team from different countries.</em></li>
+  <li><em>It was perfect! Thank you for organizing one.</em></li>
+</ul>
+
+<h3 id="suggestions-for-improvement">Suggestions for Improvement</h3>
+
+<p>In response to the question “<em>What could have worked better at the sprint?</em>”</p>
+
+<ul>
+  <li><em>I wish I knew about how to co-author before committing!</em></li>
+  <li><em>Discord has a bit of a learning curve…</em></li>
+  <li><em>Maybe a bit more background information on the issue would have been useful. For example why is it an issue, why are the changes necessary, any pertinent guidelines on the scikitlearn best practices, what errors we could expect and general guidelines on how to go about fixing. Of course not all off this information might be known in advance but any background available is always useful :)</em></li>
+  <li><em>You should do sprints more frequently!</em></li>
+  <li><em>I think we should have a mechanism in place for putting people that are alone together with existing pairs. Having three people together seems better to me than having some people alone due to internet issues or partners not showing up.</em></li>
+  <li><em>More time to work on issues.</em></li>
+  <li><em>Since we are doing everything on Discord, we could also have the kick off meetings on Discord as well. Just makes it easier to attend everything, without having to track different links. But it is just a minor thing, and some people do prefer zoom so there’s that.</em></li>
+  <li><em>I would have liked to engage more with others, besides my pair programming partner. This way I can easier find somebody to work on in issue beyond the actual event. Maybe improve on the introduction during the zoom meeting to have people interact more relaxed, share things.</em></li>
+</ul>
+
+<h4 id="other-feedback-from-survey">Other Feedback from Survey</h4>
+
+<p>In response to the question “<em>Include any other thoughts here.</em>”</p>
+
+<ul>
+  <li><em>This was such an amazing learning experience, especially considering the actual time investment. I hope to continue contributing and to be able to advance to more complex issues along the way.</em></li>
+  <li><em>I hope that when all the pandemic thing is left behind, and we can return to meeting in person, we keep a couple of virtual sprints thus people like me can attend ^^</em></li>
+  <li><em>I found it very useful that my pair programming partner pushed me to ask for help on the channel. I think if we haven’t done that I probably would have ended up frustrated and not solving the problems.</em></li>
+  <li><em>I hope more sprints will be organised.</em></li>
+</ul>
+
+<h2 id="sprint--social-media">Sprint:  Social Media</h2>
+
+<h3 id="sprint-kickoff">Sprint Kickoff</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Africa &amp; Middle East (AFME) <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> has kicked off!<a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://twitter.com/hashtag/oss?src=hash&amp;ref_src=twsrc%5Etfw">#oss</a><br />Wonderful to see returning &amp; new contributors!<br /><br />Thank you to <a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> &amp; <a href="https://twitter.com/MooreFound?ref_src=twsrc%5Etfw">@MooreFound</a> for your support. <a href="https://t.co/g7zVivJpPR">pic.twitter.com/g7zVivJpPR</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1451935870857121805?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<h3 id="first-pr-merged">First PR Merged!</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reference:<a href="https://t.co/Q5WqVVV0Py">https://t.co/Q5WqVVV0Py</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1451935999328768019?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<h3 id="fortune-of-nigeria--lithuania"><a href="https://www.linkedin.com/posts/fortune-uwha_opensource-scikitlearn-python-activity-6858826207018921984--V5D/">Fortune</a> of Nigeria / Lithuania</h3>
+
+<p float="left">
+<a href="https://www.linkedin.com/posts/fortune-uwha_opensource-scikitlearn-python-activity-6858826207018921984--V5D/">
+  <img src="../images/2021-afme2/fortune-li.png" width="99%" height="99%" /> 
+</a>
+</p>
+
+<h3 id="giancarlo-of-el-salvador">Giancarlo of El Salvador</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There&#39;s no better way to actually start contributing to open source than a sprint on Scikit-learn 🤭 <a href="https://t.co/0vXEE7dyL1">https://t.co/0vXEE7dyL1</a></p>&mdash; Giancarlo Pablo (@gpablo06) <a href="https://twitter.com/gpablo06/status/1451963803600576520?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<h3 id="ma-of-india">MA of India</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My first (and second) open source contribution at <a href="https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw">@scikit_learn</a>. What an evening it turned out to be. Didn&#39;t know it would go so smoothly. Thank you <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> <br />Great working with you <a href="https://twitter.com/miwojcz?ref_src=twsrc%5Etfw">@miwojcz</a>. See you again in the future sprints 😃<a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> <a href="https://t.co/bo5W6rcLnR">https://t.co/bo5W6rcLnR</a></p>&mdash; Mohammad A. (@ma_jauhar) <a href="https://twitter.com/ma_jauhar/status/1451967112222629892?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<h3 id="hannah-of-germany">Hannah of Germany</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you for making this great sprint happen <a href="https://twitter.com/reshamas?ref_src=twsrc%5Etfw">@reshamas</a> and <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a>! It was so much fun! <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> <a href="https://twitter.com/hashtag/sklearn?src=hash&amp;ref_src=twsrc%5Etfw">#sklearn</a> <a href="https://twitter.com/hashtag/womenintech?src=hash&amp;ref_src=twsrc%5Etfw">#womenintech</a> <a href="https://t.co/YGBrQmj0ib">https://t.co/YGBrQmj0ib</a></p>&mdash; Hannah Bohle (@HannahBohle) <a href="https://twitter.com/HannahBohle/status/1451972342066958337?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</p>
+
+<h3 id="maren-of-germany">Maren of Germany</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having fun with <a href="https://twitter.com/HannahBohle?ref_src=twsrc%5Etfw">@HannahBohle</a> at the <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> organised by <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a>. We&#39;re very honoured to be part of this sprint. 😊🎉🥳 <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/womenintech?src=hash&amp;ref_src=twsrc%5Etfw">#womenintech</a> <a href="https://t.co/uaxtQLNFmP">pic.twitter.com/uaxtQLNFmP</a></p>&mdash; Maren Westermann (@MarenWestermann) <a href="https://twitter.com/MarenWestermann/status/1451983188105039874?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<h3 id="fortune-of-nigeria">Fortune of Nigeria</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Another scikit-learn sprint!😀. Super excited to be a part of this again and experience the fun and challenges of contributing to open source:)). Many thanks to <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a>, <a href="https://twitter.com/MooreFound?ref_src=twsrc%5Etfw">@MooreFound</a> ,<a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> for the opportunity.<a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://t.co/CI1PGbCvLP">https://t.co/CI1PGbCvLP</a></p>&mdash; Fortune Uwha🦋 (@fortune_uwha) <a href="https://twitter.com/fortune_uwha/status/1452018164796203019?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+
+<h3 id="tia-of-zambia">Tia of Zambia</h3>
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> gave me the opportunity to attend my first scikit-learn sprint, ever!!! Contributing to this open source library was fun and very educational! - Bonus✨<br /><br />Lesson - THE PREP WORK AT ANY SPRINT IS IMPORTANT!! <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a></p>&mdash; Tia (@lontia_nkhuwa) <a href="https://twitter.com/lontia_nkhuwa/status/1454314039790682114?ref_src=twsrc%5Etfw">October 30, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</p>
+
+<hr />
+
+<h2 id="social-media-promotion">Social Media Promotion</h2>
+
+<h3 id="twitter-english">Twitter (English)</h3>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📣Join us for our <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> <br />👉🏽with a focus on Africa &amp; Middle East (AFME)<br /><br />🗓️23-Oct-2021<br />🕙 5pm to 9pm EAT<br />🏢 Online<a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> <a href="https://twitter.com/hashtag/oss?src=hash&amp;ref_src=twsrc%5Etfw">#oss</a> <br />Thank you to our sponsors: <a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> &amp; <a href="https://twitter.com/MooreFound?ref_src=twsrc%5Etfw">@MooreFound</a><br /><br />Details on application: <a href="https://t.co/UyIoQ9gS2G">https://t.co/UyIoQ9gS2G</a> <a href="https://t.co/o9C4PpGg5m">pic.twitter.com/o9C4PpGg5m</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1435972074842034184?ref_src=twsrc%5Etfw">September 9, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="past-data-umbrella-sprint-reports">Past Data Umbrella Sprint Reports</h2>
+
+<p float="left">
+<a href="https://blog.dataumbrella.org/tags/#sprint-report">
+  <img src="../images/2021-afme2/sprint-reports.png" width="99%" height="99%" /> 
+</a>
+</p>
+
+<h2 id="past-data-umbrella-sprint-participant-blogs">Past Data Umbrella Sprint Participant Blogs</h2>
+
+<p float="left">
+<a href="https://blog.dataumbrella.org/tags/#sprint-blog">
+  <img src="../images/2021-afme2/sprint-blogs.png" width="99%" height="99%" /> 
+</a>
+</p>
+
+<hr />
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+<ul>
+  <li>All the <a href="https://scikit-learn.org/stable/about.html">scikit-learn core contributors</a> who mentored at the sprint and those who were online during the weekend afterwards to promptly review the submitted pull requests.</li>
+</ul>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<h2 id="past-sprint-reports--blogs-by-contributors">Past Sprint Reports &amp; Blogs by Contributors</h2>
+<ul>
+  <li>Data Umbrella scikit-learn <a href="https://blog.dataumbrella.org/tags/#sprint-report">Sprint Reports</a></li>
+  <li>Past Sprints <a href="https://blog.dataumbrella.org/tags/#sprint-blog">Blogs by Contributors</a></li>
+</ul>
+
+<h3 id="upcoming-sprints">Upcoming Sprints</h3>
+<ul>
+  <li><a href="https://github.com/scikit-learn/scikit-learn/wiki/Upcoming-events">List of Upcoming scikit-learn Sprints</a></li>
+</ul>
+
+<h3 id="past-sprints">Past Sprints</h3>
+<ul>
+  <li><a href="https://github.com/scikit-learn/scikit-learn/wiki/Past-sprints">List of Past scikit-learn Sprints</a> (scikit-learn wiki)</li>
+  <li><a href="https://reshamas.github.io/resources/scikit_learn_sprints/">List of scikit-learn Sprints</a> (compiled by Reshama Shaikh)</li>
+  <li><a href="https://www.dataumbrella.org/open-source/sprints">scikit-learn Sprints Organized by Reshama Shaikh</a></li>
+</ul>
+
+<h4 id="code-snippets-for-searching-github-prs">Code Snippets for Searching GitHub PRs</h4>
+
+<p>Data Umbrella PRs from Sprint Day and Later</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>is:pr #DataUmbrella is:closed sort:updated-desc pr:created:&gt;=2021-10-23 
+</code></pre></div></div>
+
+<p>PRs created on sprint day, then sort</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>is:pr #DataUmbrella created:2021-10-23 sort:updated-desc 
+</code></pre></div></div>
+
+<hr />
+<h2 id="addendum">Addendum</h2>
+<ul>
+  <li>[no addendums or updates at the time of publication]</li>
+</ul>
+
+    </div>
+
+    <div class="post__share">
+      <ul class="share__list list-reset">
+        <li class="share__item">
+          <a class="share__link share__twitter"
+            href="https://twitter.com/intent/tweet?text=Data%20Umbrella%20AFME2%202021%20scikit-learn%20Sprint%20Report&url=http://localhost:4000/data-umbrella-afme2-2021-scikit-learn-sprint-report"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/data-umbrella-afme2-2021-scikit-learn-sprint-report"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/data-umbrella-afme2-2021-scikit-learn-sprint-report&title=Data%20Umbrella%20AFME2%202021%20scikit-learn%20Sprint%20Report&summary=Reshama%20Shaikh%20-%20Summary%20of%20the%20Africa%20&%20Middle%20East%20Sprint,%20October%202021&source=Data%20Umbrella"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </article>
+</div>
+<!-- end post -->
+
+
+
+
+
+
+
+<!-- begin related posts -->
+<div class="container">
+  <section class="related-posts is-related animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="container__inner">
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">You may also like</h2>
+              <a class="section__link" href="/blog">
+                
+                
+                  
+                    <a href="/tags#opensource" class="section__link related-tag">See all<span> opensource</span></a>
+                  
+                
+                  
+                
+              
+              </a>
+            </div>
+          </div>
+          <div class="row">
+
+          
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-04-04T08:44:03-07:00">04 Apr 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/sandra-sprints">
+        <img class="lazy" data-src="/images/blogs/sandra_pymc.png" alt="Interview with Sandra Meneses: Contributing to PyMC">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/sandra-sprints">Interview with Sandra Meneses: Contributing to PyMC</a>
+      </h2>
+
+      
+      <p class="article__excerpt">Sandra Meneses shares her experience at the Data Umbrella PyMC Sprint.</p>
+      
+
+      <div>
+        <span class="post__reading-time">
+        
+
+19 minutes to read
+
+</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-03-28T08:44:03-07:00">28 Mar 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/mwestermann-sprints-experience">
+        <img class="lazy" data-src="/images/blogs/maren_interview.png" alt="Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/mwestermann-sprints-experience">Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community</a>
+      </h2>
+
+      
+      <p class="article__excerpt">Maren Westermann shares her learnings from taking part in Data Umbrella scikit-learn sprints.</p>
+      
+
+      <div>
+        <span class="post__reading-time">
+        
+
+19 minutes to read
+
+</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+                
+              
+            
+            
+            
+      
+            
+      
+            
+
+              <div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+      <time class="article__date" datetime="2022-03-21T05:01:35-07:00">21 Mar 2022</time>
+
+      
+
+      
+      <a class="article__image" href="/behind-the-scenes-sprints">
+        <img class="lazy" data-src="/images/blogs/behind_the_scenes.png" alt="Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints">
+      </a>
+      
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="/behind-the-scenes-sprints">Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints</a>
+      </h2>
+
+      
+      <p class="article__excerpt">Learn the tips for making the online sprints a success.</p>
+      
+
+      <div>
+        <span class="post__reading-time">
+        
+
+19 minutes to read
+
+</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+            
+                
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end related posts -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <!-- begin comments -->
+<div class="show-comments">
+  <button class="button disqus-button" id="show-comments-button" onclick="disqus();return false;">Show Comments</button>
+</div>
+
+<div id="disqus_thread" class="post__comments">
+  <div id="disqus_empty"></div>
+</div>
+
+<script>
+  var disqus_loaded = false;
+  var disqus_shortname = 'demo-menca';
+  var disqus_container = document.getElementById("disqus_thread");
+  function disqus() {
+    if (!disqus_loaded) {
+      disqus_loaded = true;
+      var e = document.createElement("script");
+      e.type = "text/javascript";
+      e.async = true;
+      e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0])
+        .appendChild(e);
+      // Hide the button after opening
+      document.getElementById("show-comments-button").style.display = "none";
+      // Show disqus comments
+      disqus_container.classList.add("is-open");
+    }
+  }
+</script>
+
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<!-- end comments -->
+      </div>
+    </div>
+  </div>
+
+
+  </main>
+  <!-- end content -->
+
+  <!-- begin footer -->
+<footer class="footer">
+
+  <div class="footer__inner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-5 col-d-12">
+          <div class="footer__author">
+            <div class="footer__author-avatar">
+              <img class="lazy" data-src="/images/logo/umb-trans.png" alt="Data Umbrella">
+            </div>
+            <h3 class="footer__author-name">Data Umbrella</h3>
+            <p class="footer__author-bio">Community for underrepresented persons in data science.</p>
+            
+            <div class="social">
+              <ul class="social__list list-reset">
+                
+                <li class="social__item">
+                  <a class="social__link" href=" https://twitter.com/DataUmbrella" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-twitter"></i></a>
+                </li>
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://www.youtube.com/c/dataumbrella" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-youtube"></i></a>
+                </li>
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://www.linkedin.com/company/dataumbrella/" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-linkedin"></i></a>
+                </li>
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://www.facebook.com/data.umbrella.dei" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-facebook"></i></a>
+                </li>
+                
+                <li class="social__item">
+                  <a class="social__link" href="https://www.instagram.com/data.umbrella/" target="_blank" rel="noopener"
+                    aria-label=" link"><i class="ion ion-logo-instagram"></i></a>
+                </li>
+                
+                <li>
+              <a class="social__link" href="https://www.meetup.com/data-umbrella/" target="_blank" rel="noopener" aria-label="Meetup link"><img src="/images/social/meetup-black.jpeg" width="40px" height="90%" alt="Meetup link"></a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="col col-6 push-1 col-d-12 push-d-0">
+          <div class="footer__gallery">
+            <h3 class="footer__gallery-title">Gallery</h3>
+            
+            <div class="gallery-footer">
+              <div class="gallery" style="grid-template-columns: repeat(3, auto);">
+                
+                <div class="gallery__image">
+                  <img src="/images/bayes/bayes1.jpg" alt="Rest" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/bayes/bayes2.JPG" alt="Bayes" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/bayes/bayes3.JPG" alt="Bayes2" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/bayes/bayes4.jpg" alt="Bayes3" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/bayes/du-background-img.jpg" alt="Rest" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/timeseries/ts4.jpg" alt="Hobby" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/timeseries/ts2.jpeg" alt="Fashion" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/timeseries/ts3.jpg" alt="Notes" loading="lazy">
+                </div>
+                
+                <div class="gallery__image">
+                  <img src="/images/timeseries/ts1.jpeg" alt="Rest" loading="lazy">
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__info">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info-box">
+            <div class="copyright">2022 &copy; <a href="/">Data Umbrella</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- end footer -->
+
+
+  <script src="/js/scripts.js"></script>
+  <script src="/js/common.js"></script>
+</body>
+
+</html>

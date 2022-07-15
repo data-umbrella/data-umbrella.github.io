@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Data Umbrella</title>
+        <description>Data Umbrella Blogs and Resources</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 15 Jul 2022 08:49:37 -0700</pubDate>
+        <lastBuildDate>Fri, 15 Jul 2022 08:49:37 -0700</lastBuildDate>
+        <generator>Jekyll v4.2.2</generator>
+        
+            <item>
+                <title>Interview with Sandra Meneses: Contributing to PyMC</title>
+                <description>&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Tell us a little bit about yourself.&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I am originally from Colombia and I have been living in Berlin for the past 6 years. I moved here because I wanted to be a data scientist. I had experience working with databases and a sound knowledge about Statistics, as my major was in Industrial Engineering, therefore, I saw this as the natural path for me. I finished my masters in Data Science in 2018 and I have been working in Machine Learning since then. Initially, I worked with NLP, my last project (reciprocal recommenders) involved Graph Neural Networks, so now I am into graphs. I love what I do, it makes me happy knowing people are using what I help to build.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you first become involved in open source?  In what ways? What has been your experience contributing to open source prior to the &lt;a href=&quot;https://pymc-data-umbrella.xyz/en/latest/&quot;&gt;Data Umbrella PyMC Sprint&lt;/a&gt;?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I have been trying to contribute to different projects, but it’s not always easy. Your questions or comments are not answered and you feel frustrated. I have got some small PRs merged in some projects which gave me a lot of satisfaction. It feels good to know that a piece of your code will be used by thousands, if not millions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you learn of the Data Umbrella PyMC sprint and what inspired you to attend?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I joined the sprint because I have heard recently about &lt;strong&gt;Data Umbrella&lt;/strong&gt; and I really liked the concept, I checked  their website and I found the PyMC sprint. I haven’t used PyMC much before the sprint. I only tried it once a year ago while I was reading the &lt;a href=&quot;https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2&quot;&gt;Statistical Rethinking&lt;/a&gt; book, but I have never used the library for a real project. That’s the value the Data Umbrella sprints bring, you don’t need to know the code base of a project to participate and they carefully planned different webinars to bring you up to speed. Apart from that, the social component is very appealing; when I tried to contribute before, I was alone in the process. In a Data Umbrella sprint, there are not only volunteers to help you, but also other people like you wanting to contribute and experiencing similar doubts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What was your experience contributing to open source at the Data Umbrella PyMC Sprint?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;In the webinars I attended, people were very welcoming and they answered every question from the audience. I would say Data Umbrella does a great job in creating a safe space. Specifically in this sprint, the volunteers from the PyMC team put a lot of thought and effort creating &lt;a href=&quot;https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt&quot;&gt;detailed tutorials&lt;/a&gt; to get you started. &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;They had also pre-selected issues that a newbie could solve.&lt;/span&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you begin work on this PyMC issue &lt;a href=&quot;https://github.com/pymc-devs/pymc/pull/5317&quot;&gt;#5317&lt;/a&gt;?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;As I didn’t know the code base of the project and I haven’t used PyMC extensively, I looked for a “maintenance” issue, then I looked for issues related to the CI/DC, containers, images, etc. Then I found an &lt;a href=&quot;https://github.com/pymc-devs/pymc/issues/5317&quot;&gt;issue about pre-commit&lt;/a&gt; and I thought this is my chance to serve two purposes at the same time, to contribute and to learn something new. I have heard about pre-commit but I hadn’t used it, as it was marked as beginner friendly then it shouldn’t be difficult, I thought. I checked the &lt;a href=&quot;https://pre-commit.com/index.html&quot;&gt;pre-commit docs&lt;/a&gt; and  the &lt;a href=&quot;https://github.com/pre-commit/pygrep-hooks/blob/main/.pre-commit-hooks.yaml&quot;&gt;pygrep hooks&lt;/a&gt; and I found how to create the check. After that, I could create the PR, but there was a catch: there were many files that needed to be fixed and I didn’t know much about Sphinx, fortunately as the contribution was part of the sprint, the PyMC volunteers helped me to understand how to fix all the references.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What were the benefits of participating in the sprint?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;There are multiple benefits:&lt;br /&gt;
+     - Having a safe environment so that beginners can ask any question.&lt;br /&gt;
+     - Having issues pre-selected for us helped to find issues that are feasible to be solved in the given time.&lt;br /&gt;
+     - I could see the PR merged really fast, as we had PyMC contributors available at the moment, which gives immediate satisfaction.&lt;/p&gt;
+
+    &lt;p&gt;It’s highly recommended for anyone to join a sprint, no matter what your background is or your skills, you will learn something new and find nice people on the way. I am really thankful for all the work &lt;strong&gt;Data Umbrella&lt;/strong&gt; is doing to organize the sprints.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What, in particular, makes Data Umbrella and the sprints welcoming and accessible for you?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I think Data Umbrella events feel accessible because the code of conduct is always mentioned in the beginning. It may sound repetitive and unnecessary but unfortunately we still need to remind people how to behave and to show that there are things that are not okay. On the other hand, I have attended ML/Tech conferences and in many of them, I get the feeling that I am treated accordingly to my role, the company where I work or at which levels my skills are, which has somehow bothered me, because I think every person is valuable, not a connection or a tool to position yourself. That’s not the case in &lt;strong&gt;Data Umbrella&lt;/strong&gt;, you are not labeled and there is no “networking” time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What do you find about open source that is alluring?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;We have built impressive things thanks to collaboration. It’s almost a premise that money is the only way to distribute resources and we need the economic system to create big things, like the internet, phones, computers, rockets, etc. Open source or Wikipedia is proof that we humans can get together to build great things without an economical reward. Unfortunately, many use open source projects to make profit and don’t give back to the community, but I hope that’s an exception and not the rule.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What advice do you have for folks in the community who are new to open source?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The best way to start is to find a project that you use and see how active its community is, how often there are releases. Get engaged with its community, most projects have forums, Slack or Discord channels, and see how welcoming they are. It’s important to have a good experience in the beginning to look for a project where you feel comfortable. Once you find a project, see issues that are simple and don’t be afraid to open a PR, it doesn’t have to be perfect. Say explicitly that you are new and that you may need help.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are your favorite resources (books, courses, conferences, events, communities, etc.)?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Whenever I want to dig deeper into a topic, I buy books related to the topic. For practical knowledge, I generally take courses. I have used most platforms: Coursera, Udemy, freeCodeCamp.org, YouTube channels, etc. Right now I am learning Knowledge Graphs following &lt;a href=&quot;https://open.hpi.de/courses/knowledgegraphs2020&quot;&gt;this course&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are your hobbies, outside of work and open source?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I enjoy reading about different topics: Economics, Psychology, Philosophy, Biology, Physics, etc. I am not an expert in any topic, but I can have a good conversation about any topic, so that’s my second hobby, talking with people. And the last one, again related to my curiosity is to travel and see how other people live and experience every place like a local, discovering what is special in it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Anything else you would like to share?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I left my paid job recently to be the creator of useful and beautiful products. If you have some ideas on how I can help an open source project with my skills (&lt;a href=&quot;https://www.linkedin.com/in/symeneses/&quot;&gt;see my LinkedIn Profile&lt;/a&gt;), just let me know.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/blogs/sandra_pr.png&quot; alt=&quot;screenshot of github pull request&quot; max-width=&quot;75%&quot; max-height=&quot;75%&quot; /&gt;
+    &lt;figcaption&gt;
+    Sandra Meneses pull request to PyMC
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/blogs/pymc_playlist.png&quot; alt=&quot;youtube playlist of pymc videos&quot; max-width=&quot;75%&quot; max-height=&quot;75%&quot; /&gt;
+    &lt;figcaption&gt;
+    PyMC YouTube Playlist
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+                <pubDate>Mon, 04 Apr 2022 08:44:03 -0700</pubDate>
+                <link>http://localhost:4000/sandra-sprints</link>
+                <guid isPermaLink="true">http://localhost:4000/sandra-sprints</guid>
+                
+                <category>opensource</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community</title>
+                <description>&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you learn of the Data Umbrella scikit-learn sprints and what inspired you to attend?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I learned of the first Data Umbrella scikit-learn &lt;a href=&quot;https://reshamas.github.io/data-umbrella-scikit-learn-online-sprint-report/&quot;&gt;online sprint&lt;/a&gt;, which took place in June 2020, via Twitter. I was interested in contributing to open source and had already made &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/pull/16681&quot;&gt;one contribution&lt;/a&gt; to scikit-learn. However, when I started contributing to open source I didn’t have a network of like-minded people. I was very much looking forward to connecting with people who shared my interest in open source, data science, and scikit-learn, and to building a professional network in this field.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What was your experience at these sprints?  What was your experience prior to that in contributing to open source?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;scikit-learn is the first open source project I contributed to. As mentioned above, before my first Data Umbrella scikit-learn sprint I didn’t have a network. I found it difficult to find easy issues that would allow me to find my way into the project as many of them were taken very quickly. Together with the scikit-learn core developers, the Data Umbrella team curated a list of beginner friendly issues which were reserved for the sprint. This list of issues combined with the provided preparation material for the sprint helped me a lot with becoming an active member of the scikit-learn community.&lt;/p&gt;
+
+    &lt;p&gt;My experience at the sprints has always been very positive. I was very happy to learn that the scikit-learn community is open, friendly, and welcoming to beginners and people from underrepresented groups in tech. I never felt afraid to ask questions and I always felt supported by the mentors.&lt;/p&gt;
+
+    &lt;p&gt;Apart from feeling supported and welcomed, I also really enjoyed learning about my pair programming partners’ backgrounds and the challenges they face in their countries and continents. Living in Europe, I’m not very exposed to perspectives from people working in tech in Africa or Latin America, so their insights were very valuable to me and broadened my horizons.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What were the benefits of participating in these sprints?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;A very important aspect to me is that through the Data Umbrella scikit-learn sprints I &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;built a good professional network that I can trust. &lt;/span&gt; This makes me feel more welcomed and accepted in the tech world.&lt;/p&gt;
+
+    &lt;p&gt;Another important aspect is that through the sprints I &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;became more confident&lt;/span&gt;. Being supported and knowing that the sprints are a safe space helped me with developing my skills and knowledge. From the second online sprint onwards I participated as an assistant mentor by helping my respective pair programming partners with submitting a pull request. This not only improved my teaching skills, it was also always a good evidence for myself that I do advance in my abilities which pushed back my imposter syndrome.&lt;/p&gt;
+
+    &lt;p&gt;Building on my gained confidence, &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;I started organising monthly &lt;a href=&quot;https://www.meetup.com/en-AU/PyLadies-Berlin/&quot;&gt;open source workshops&lt;/a&gt; as part of &lt;a href=&quot;https://berlin.pyladies.com/&quot;&gt;PyLadies Berlin&lt;/a&gt;&lt;/span&gt;. The aim of these workshops is to help more people from underrepresented groups in tech to contribute to open source projects and with that strengthening their professional portfolios and helping them with advancing in their career.&lt;/p&gt;
+
+    &lt;p&gt;Last but not least the sprints helped me with &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;standing out in job interviews&lt;/span&gt;. Contributions to open source projects, especially to well known and established libraries such as scikit-learn, help with setting you apart from the pool of job applicants. My contributions to the scikit-learn library helped me with getting job interviews and making a great impression on potential employers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What, in particular, makes Data Umbrella and the sprints welcoming and accessible for you?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Prior to the sprints, &lt;a href=&quot;https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint&quot;&gt;comprehensive preparation material&lt;/a&gt; was sent out with specific and clear instructions. For me, this preparation material made contributing to open source a lot easier and I still refer to it on a regular basis.&lt;/p&gt;
+
+    &lt;p&gt;I would also like to highlight that the &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;sprints were very well organised and that this also made a big difference&lt;/span&gt;. Organising a sprint includes for example sending out preparation material on time, sending out reminders about the date and time, providing a pre-sprint preparation session where people can ask questions, setting up a discord server with different rooms and tables, getting the core developers on board for collecting issues of different skill levels that participants can work on and for mentoring and reviewing pull requests, providing a post-sprint follow-up session for further questions and getting pull requests reviewed by the core developers, having a code of conduct and enforcing it if necessary, and encouragement to stay active in the community and to keep contributing. All of these different tasks require a fair amount of work and preparation but they ensure that participants are able to successfully contribute to the project, feel welcome and supported, and leave the sprint with confidence and a sense of accomplishment.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What specific takeaways from the Data Umbrella sprints did you incorporate into your events?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I noticed that many people from underrepresented groups in tech are very eager and motivated to participate in sprints but struggle to continue contributing to open source projects when they’re on their own. Based on this I realised that &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;having repeated events &lt;/span&gt;is important for keeping people engaged and for building a community. Through PyLadies Berlin I therefore set up open source hack nights on a monthly basis so that participants can ask questions if they’re stuck, connect with like-minded people who face the same challenges, and build a professional network.&lt;/p&gt;
+
+    &lt;p&gt;Another takeaway for me was that the repeated Data Umbrella scikit-learn sprints helped me with developing my coding skills and, building on that, with making me feel more confident. Every time I was volunteering as an assistant mentor I saw how much my experience and knowledge had improved compared to the previous sprint and being able to help participants made me feel confident in my skills. I hope that with hosting repeated open source hack nights the participants will 1) also advance in their skills and knowledge, 2) become more confident over time, and 3) be able to independently contribute to open source.&lt;/p&gt;
+
+    &lt;p&gt;A last and important takeaway is that &lt;span style=&quot;background-color: #CAE9F5;&quot;&gt;creating a welcoming space &lt;/span&gt;makes people want to come back and it helps them thrive personally and professionally. I know many people from underrepresented groups in tech who are unhappy in their job because the culture at their company is not welcoming for everyone. Creating a space where everyone is accepted and respected and where it’s safe to ask questions keeps people engaged and I’m repeatedly impressed by the achievements of sprint participants, especially when they don’t have a formal computer science education.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/blogs/pyladies-berlin-oshn.jpg&quot; alt=&quot;PyLadies Berlin open source hack night&quot; max-width=&quot;50%&quot; max-height=&quot;50%&quot; /&gt;
+    &lt;figcaption&gt;
+    Running my first open source hack night via PyLadies Berlin :)
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+                <pubDate>Mon, 28 Mar 2022 08:44:03 -0700</pubDate>
+                <link>http://localhost:4000/mwestermann-sprints-experience</link>
+                <guid isPermaLink="true">http://localhost:4000/mwestermann-sprints-experience</guid>
+                
+                <category>opensource</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints</title>
+                <description>&lt;p&gt;Summary posted by: &lt;a href=&quot;https://reshamas.github.io&quot;&gt;Reshama Shaikh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Prior to 2020, most data sprints were held in person during intensive 8-hour-long days. Data Umbrella founder, Reshama Shaikh, for example, led several in-person sprints in New York (2017, 2018, 2019), Nairobi (2019) and San Francisco (2019). Data Umbrella had always been interested in developing online resources and exploring ways to enable virtual participation, but this was not able to become a priority until 2020 when the pandemic forced everything online including data sprints. It was clear that an 8-hour in-person event could not just switch to being an 8-hour online event. So the move to online data sprints required the team to rethink the format and mechanisms of the event.&lt;/p&gt;
+
+&lt;p&gt;Read the  full article here:&lt;br /&gt;
+&lt;a href=&quot;https://eventfund.codeforscience.org/behind-the-scenes-what-it-takes-to-run-data-umbrellas-scikit-learn-open-source-sprints/&quot;&gt;Behind the Scenes: What It Takes to Run Data Umbrella’s scikit-learn Open Source Sprints&lt;/a&gt;, March 2022&lt;/p&gt;
+</description>
+                <pubDate>Mon, 21 Mar 2022 05:01:35 -0700</pubDate>
+                <link>http://localhost:4000/behind-the-scenes-sprints</link>
+                <guid isPermaLink="true">http://localhost:4000/behind-the-scenes-sprints</guid>
+                
+                <category>scikitlearn</category>
+                
+                <category>opensource</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Tutorial on Arrays, Linked Lists and Graphs; Identifying the Right Tool for the Job</title>
+                <description>&lt;p&gt;Summary posted by: &lt;a href=&quot;https://reshamas.github.io&quot;&gt;Reshama Shaikh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Clair Sullivan, a Developer Advocate for Neo4j, presented to the Data Umbrella community a tutorial on arrays, linked lists and graphs.&lt;/p&gt;
+
+&lt;p&gt;It is easy and convenient to treat all data as an array. They are the basis of much of Python and a simple data structure to deal with. But there are times that arrays fail us, such as on element insertion and the pre-allocation of memory. There is power and efficiency in linking data through data structures such as linked lists. We will see how using linked lists can reduce Big O complexity and solve a variety of problems. Then we will explore how graph data structures take this a step further and open up a world of new options and opportunities for efficient computation.&lt;/p&gt;
+
+&lt;h2 id=&quot;outline-of-tutorial&quot;&gt;Outline of Tutorial&lt;/h2&gt;
+
+&lt;p&gt;Below is a summary of topics that were covered:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;PART 1: Arrays&lt;/li&gt;
+  &lt;li&gt;PART 2: Linked Lists&lt;/li&gt;
+  &lt;li&gt;PART 3: LeetCode&lt;/li&gt;
+  &lt;li&gt;PART 4: Graphs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+&lt;p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/gWGyvfU80kc&quot; loading=&quot;lazy&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;key-links&quot;&gt;Key Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/data-umbrella/events/283846178/&quot;&gt;Meetup Event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/gWGyvfU80kc&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cj2001/data_umbrella_linked_lists&quot;&gt;GitHub repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/Z81fx_Fa34o&quot;&gt;#IWD2022 1-minute video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://colab.research.google.com/notebooks/welcome.ipynb&quot;&gt;Colab Notebook: welcome.ipynb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/reverse-linked-list/&quot;&gt;LeetCode reverse linked lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Byte Size Neo4j &lt;a href=&quot;https://neo4j.com/video/bite-sized-neo4j-for-data-scientists/&quot;&gt;Series of videos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/leetcode206.ipynb&quot;&gt;LeetCode Notebook: leetcode206.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;summary-of-topics&quot;&gt;Summary of Topics&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Arrays&lt;/li&gt;
+  &lt;li&gt;Lists, a special array&lt;/li&gt;
+  &lt;li&gt;Linked lists
+    &lt;ul&gt;
+      &lt;li&gt;Singly-linked&lt;/li&gt;
+      &lt;li&gt;Doubly-linked&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What to do when all of the above fails?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-timestamps-of-video&quot;&gt;Section Timestamps of Video&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=0s&quot;&gt;00:00:00&lt;/a&gt; Reshama introduces Data Umbrella&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=279s&quot;&gt;00:04:39&lt;/a&gt; Clair begins introduction&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=374s&quot;&gt;00:06:14&lt;/a&gt; link to repo: &lt;a href=&quot;https://github.com/cj2001/data_umbrella_linked_lists&quot;&gt;data_umbrella_linked_lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=395s&quot;&gt;00:06:35&lt;/a&gt; Summary of what will be covered&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=446s&quot;&gt;00:07:26&lt;/a&gt; Arrays&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=525s&quot;&gt;00:08:45&lt;/a&gt; Big O: O(n)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=541s&quot;&gt;00:09:01&lt;/a&gt; Lists: Dynamic Arrays (insert, append)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=645s&quot;&gt;00:10:45&lt;/a&gt; (Singly) Linked List (node, pointer)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=785s&quot;&gt;00:13:05&lt;/a&gt; List Insertion&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=845s&quot;&gt;00:14:05&lt;/a&gt; repo intro: &lt;a href=&quot;https://github.com/cj2001/data_umbrella_linked_lists&quot;&gt;data_umbrella_linked_lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=930s&quot;&gt;00:15:30&lt;/a&gt; list of resources&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1045s&quot;&gt;00:17:25&lt;/a&gt; Notebook on linked lists: &lt;a href=&quot;https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/basic_linked_list.ipynb&quot;&gt;basic_linked_list&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1064s&quot;&gt;00:17:44&lt;/a&gt; Linked List 1: [Create a linked list in python]. There is no data structure in python called linked list. It needs to be created. Here is how.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1212s&quot;&gt;00:20:12&lt;/a&gt; Linked List 2: Insert a new node in the beginning of a list&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1280s&quot;&gt;00:21:20&lt;/a&gt; Linked List 3: Insert a new node at the end of list&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1375s&quot;&gt;00:22:55&lt;/a&gt; Linked List 4: Insert a new node in between items in a list&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1460s&quot;&gt;00:24:20&lt;/a&gt; Linked List 5: Delete a node&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1659s&quot;&gt;00:27:39&lt;/a&gt; (Doubly) Linked List&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1715s&quot;&gt;00:28:35&lt;/a&gt; Benefits of Linked Lists vs Arrays&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1794s&quot;&gt;00:29:54&lt;/a&gt; What You Need to Implement a Linked List&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=1833s&quot;&gt;00:30:33&lt;/a&gt; LeetCode #206: Reverse a Linked List (Iterative Solution)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=2351s&quot;&gt;00:39:11&lt;/a&gt; Graphs: collection of nodes and relationships&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=2507s&quot;&gt;00:41:47&lt;/a&gt; How to Get Into Graphs with Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=2565s&quot;&gt;00:42:45&lt;/a&gt; Graph python packages vs graph databases&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=2660s&quot;&gt;00:44:20&lt;/a&gt; sandbox.neo4j.com (get free databases instances)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=3120s&quot;&gt;00:52:00&lt;/a&gt; Graph Data Science&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=3360s&quot;&gt;00:56:00&lt;/a&gt; Cypher query&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWGyvfU80kc&amp;amp;t=3620s&quot;&gt;01:00:20&lt;/a&gt; Q&amp;amp;A&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;about-the-speaker&quot;&gt;About the Speaker&lt;/h2&gt;
+
+&lt;h3 id=&quot;bio&quot;&gt;Bio&lt;/h3&gt;
+
+&lt;p&gt;Dr. Clair Sullivan is currently a data science advocate at Neo4j, working to expand the community of data scientists and machine learning engineers using graphs to solve challenging problems. She received her doctorate degree in nuclear engineering from the University of Michigan in 2002. After that, she worked in a variety of research positions within the US national laboratory and federal government and as a professor at the University of Illinois at Urbana-Champaign. In 2017 she accepted a job at GitHub as a Machine Learning Engineer and in 2021 she joined Neo4j as a Data Science Advocate. She has authored 4 book chapters, over 20 peer-reviewed papers, and more than 30 conference papers.&lt;/p&gt;
+
+&lt;h3 id=&quot;connect-with-the-speaker-clair-sullivan&quot;&gt;Connect with the Speaker, Clair Sullivan&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LinkedIn: &lt;a href=&quot;https://www.linkedin.com/in/dr-clair-sullivan-09914342/&quot;&gt;dr-clair-sullivan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/CJLovesData1&quot;&gt;@CJLovesData1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/cj2001&quot;&gt;@cj2002&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Tue, 15 Mar 2022 05:01:35 -0700</pubDate>
+                <link>http://localhost:4000/tutorial-on-linked-lists</link>
+                <guid isPermaLink="true">http://localhost:4000/tutorial-on-linked-lists</guid>
+                
+                <category>python</category>
+                
+                <category>graphs</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Tutorial on Automating Workflows Using GitHub Actions</title>
+                <description>&lt;p&gt;Summary posted by: &lt;a href=&quot;https://reshamas.github.io&quot;&gt;Reshama Shaikh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In January 2022, Gonzalo Peña-Castellanos, presented to the Data Umbrella community a comprehensive tutorial on Automating Workflows with GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;Below in the outline is a summary of topics that were covered. Learn about GitHub Actions and how they can accelerate your application development workflows. A workflow is a configurable automated process made up of one or more jobs. We will learn how to configure and use workflows existing current actions and start looking at how an action can be developed from scratch.&lt;/p&gt;
+
+&lt;h2 id=&quot;outline-of-tutorial&quot;&gt;Outline of Tutorial&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;PART 1: GitHub, Workflows and GitHub Actions&lt;/li&gt;
+  &lt;li&gt;PART 2: Actions components&lt;/li&gt;
+  &lt;li&gt;PART 3: GitHub Actions marketplace&lt;/li&gt;
+  &lt;li&gt;PART 4: Workflow syntax&lt;/li&gt;
+  &lt;li&gt;PART 5: Creating a Workflow&lt;/li&gt;
+  &lt;li&gt;PART 6: Creating a custom action&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+&lt;p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/d48WGkePFq0&quot; loading=&quot;lazy&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;key-links&quot;&gt;Key Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/data-umbrella/event-transcripts/blob/main/2022/42-gonzalo-github-actions.md&quot;&gt;Transcript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/data-umbrella/events/282772806/&quot;&gt;Meetup Event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/d48WGkePFq0&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bit.ly/github-workflows&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.github.com&quot;&gt;GitHub Support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;GitHub Actions documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tlambert03/napari-plugin-action&quot;&gt;Napari repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/vLBr_AfomUY&quot;&gt;Mariatta’s talk on continuous integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-timestamps-of-video&quot;&gt;Section Timestamps of Video&lt;/h2&gt;
+
+&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=0s&quot;&gt;00:00:00&lt;/a&gt; Reshama introduces Data Umbrella&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=255s&quot;&gt;00:04:15&lt;/a&gt; Gonzalo introduces self and projects&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=396s&quot;&gt;00:06:36&lt;/a&gt; —Outline of talk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;part-1-github-workflows-and-github-actions&quot;&gt;PART 1: GitHub, Workflows and GitHub Actions&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=475s&quot;&gt;00:07:55&lt;/a&gt; —PART 1: GitHub, Workflows and GitHub Actions&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=660s&quot;&gt;00:11:00&lt;/a&gt; GitHub Development Workflow with “events”
+Can trigger “events” or “actions” based on these events: issue opened, PR submitted, comment on issue or PR is merged, closed or updated&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=715s&quot;&gt;00:11:55&lt;/a&gt; Continuous integration and continuous development (CI/CD)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=725s&quot;&gt;00:12:05&lt;/a&gt; (“webhook” mentioned), cross-platform testing is done by CI/CD&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=835s&quot;&gt;00:13:55&lt;/a&gt; Microsoft and how GitHub Actions started; GH actions is a nice wrapper around Azure pipelines&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=907s&quot;&gt;00:15:07&lt;/a&gt; What are GitHub Actions? A platform to “automate development workflows”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=922s&quot;&gt;00:15:22&lt;/a&gt; Mariatta’s talk on CI/CD&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=960s&quot;&gt;00:16:00&lt;/a&gt; What are developer workflows?  CI/CD does not mean GitHub actions. It is one of &lt;em&gt;many&lt;/em&gt; workflows you can automate, but it is not the only one.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;00:16:13&quot;&gt;00:16:13&lt;/a&gt; Types of developer workflows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;part-2-github-action-components&quot;&gt;PART 2: GitHub Action Components&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1175s&quot;&gt;00:19:35&lt;/a&gt; —PART 2: GitHub Action Components&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1192s&quot;&gt;00:19:52&lt;/a&gt; Workflows (&amp;amp; YAML files)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1228s&quot;&gt;00:20:28&lt;/a&gt; Events&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1255s&quot;&gt;00:20:55&lt;/a&gt; Jobs and Runners&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1312s&quot;&gt;00:21:52&lt;/a&gt; Actions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;part-3-workflow-syntax&quot;&gt;PART 3: Workflow Syntax&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1375s&quot;&gt;00:22:55&lt;/a&gt; —PART 3: Workflow Syntax&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1395s&quot;&gt;00:23:15&lt;/a&gt; Workflow yaml file&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1440s&quot;&gt;00:24:00&lt;/a&gt; YAML = YAML Ain’t Markup Language&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1581s&quot;&gt;00:26:21&lt;/a&gt; Event types: Labels&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1604s&quot;&gt;00:26:44&lt;/a&gt; Event types: Pushing / PRs / Branches&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1639s&quot;&gt;00:27:19&lt;/a&gt; Event types: Manual dispatch&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1743s&quot;&gt;00:29:03&lt;/a&gt; Dependencies between jobs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1776s&quot;&gt;00:29:36&lt;/a&gt; Context: expressions (run jobs conditionally)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1853s&quot;&gt;00:30:53&lt;/a&gt; Context: default environment variables&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1878s&quot;&gt;00:31:18&lt;/a&gt; Strategies&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=1977s&quot;&gt;00:32:57&lt;/a&gt; User-defined environment variables: Global&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2032s&quot;&gt;00:33:52&lt;/a&gt; Actions&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2135s&quot;&gt;00:35:35&lt;/a&gt; Other topics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;part-4-github-actions-marketplace&quot;&gt;PART 4: GitHub Actions Marketplace&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2226s&quot;&gt;00:37:06&lt;/a&gt; —PART 4: GitHub Actions Marketplace&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2226s&quot;&gt;00:37:06&lt;/a&gt; Q&amp;amp;A: Can we use on MacOS and Windows?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2283s&quot;&gt;00:38:03&lt;/a&gt; Q&amp;amp;A: Meaning of “17” in cron?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2422s&quot;&gt;00:40:22&lt;/a&gt; Cron job in GitHub actions without need for Heroku?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2460s&quot;&gt;00:41:00&lt;/a&gt; GitHub Workflow Rates (pricing)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2546s&quot;&gt;00:42:26&lt;/a&gt; Q&amp;amp;A: Why is MacOS more expensive than others for GitHub pricing?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2619s&quot;&gt;00:43:39&lt;/a&gt; Q&amp;amp;A: Can jobs be run in parallel?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2860s&quot;&gt;00:47:40&lt;/a&gt; Q&amp;amp;A: Where to go for support for GitHub Actions?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=2988s&quot;&gt;00:49:48&lt;/a&gt; —PART 4: GitHub Actions Marketplace&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3310s&quot;&gt;00:55:10&lt;/a&gt; GH Actions: data science, conda&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3532s&quot;&gt;00:58:52&lt;/a&gt; stale issue labeler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;part-5-creating-a-workflow-live-examples&quot;&gt;PART 5: Creating a Workflow: live examples&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3665s&quot;&gt;01:01:05&lt;/a&gt; —PART 5: Creating a Workflow: live examples&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3688s&quot;&gt;01:01:28&lt;/a&gt; Migrating from other services (Azure Pipelines, CircleCI, GitLab CI/CD, Jenkins, Travis CI)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3723s&quot;&gt;01:02:03&lt;/a&gt; Starter Workflows!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3740s&quot;&gt;01:02:20&lt;/a&gt; &lt;a href=&quot;https://github.com/actions/starter-workflows&quot;&gt;starter workflows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=3755s&quot;&gt;01:02:35&lt;/a&gt; Example: Create a new repository and start! First issue&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;01:08:00&quot;&gt;01:08:00&lt;/a&gt; Example: Suggested GH action for the repo: “Simple Workflow”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;part-6-creating-a-custom-github-action&quot;&gt;PART 6: Creating a Custom GitHub Action&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4385s&quot;&gt;01:13:05&lt;/a&gt; —PART 6: Creating a Custom GitHub Action&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4400s&quot;&gt;01:13:20&lt;/a&gt; Q&amp;amp;A: How to save (download) artifacts?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4633s&quot;&gt;01:17:13&lt;/a&gt; —PART 6: Creating a Custom GitHub Action&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4640s&quot;&gt;01:17:20&lt;/a&gt; 3 ways to run GitHub Actions (Composite, JavaScript, Docker Container)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4840s&quot;&gt;01:20:40&lt;/a&gt; Example: Napari&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4905s&quot;&gt;01:21:45&lt;/a&gt; napari-svg plugin&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=4965s&quot;&gt;01:22:45&lt;/a&gt; composite action&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=5080s&quot;&gt;01:24:40&lt;/a&gt; Other topics for custom actions (Docker, JavaScript / Typescript actions, Outputs on actions)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=5120s&quot;&gt;01:25:20&lt;/a&gt; Talley Lambert with &lt;a href=&quot;https://github.com/tlambert03/napari-plugin-action&quot;&gt;napari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=5655s&quot;&gt;01:34:15&lt;/a&gt; Q&amp;amp;A: What would an advanced GitHub Actions webinar cover?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=5675s&quot;&gt;01:34:35&lt;/a&gt; Q&amp;amp;A: Resources for Learning &lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;GitHub Actions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=5780s&quot;&gt;01:36:20&lt;/a&gt; Typescript example&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=5855s&quot;&gt;01:37:35&lt;/a&gt; JavaScript Action template&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=6090s&quot;&gt;01:41:30&lt;/a&gt; Closing words&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;about-the-speaker&quot;&gt;About the Speaker&lt;/h2&gt;
+
+&lt;h3 id=&quot;bio&quot;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;Gonzalo is a Colombian Civil Engineer with an MSc. in Hydroinformatics and an MSc. in Sanitary Engineering that discovered a passion for Software Development and Data Science which led him to collaborate in different open source projects and to eventually join Anaconda, Inc (formerly known as Continuum Analytics) and currently Quansight, Inc as Senior Software Engineer, and Data Scientist (in development).&lt;/p&gt;
+
+&lt;p&gt;He is an active member of the open source community contributing to different projects and a leader in the Python Colombia Community helping shape and organize communities such as Django Girls Colombia, Python Bucaramanga, Python Colombia and the national and Latin American Python Conferences, PyCon Colombia (2018, 2019, 2020) and SciPy Latam (2019, 2021) respectively.&lt;/p&gt;
+
+&lt;p&gt;Gonzalo is currently a core developer with Project Jupyter and Project napari. He is the author of the setup-miniconda Github Action to help automate conda environment and workflows.&lt;/p&gt;
+
+&lt;h3 id=&quot;connect-with-the-speaker-gonzalo-peña-castellanos&quot;&gt;Connect with the Speaker, Gonzalo Peña-Castellanos&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LinkedIn: &lt;a href=&quot;https://www.linkedin.com/in/goanpeca&quot;&gt;@goanpeca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/goanpeca&quot;&gt;@goanpeca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/goanpeca&quot;&gt;@goanpeca&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/goanpeca/?hl=en&quot;&gt;@goanpeca&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sun, 23 Jan 2022 04:01:35 -0800</pubDate>
+                <link>http://localhost:4000/tutorial-on-github-actions</link>
+                <guid isPermaLink="true">http://localhost:4000/tutorial-on-github-actions</guid>
+                
+                <category>python</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Intro to Probabilistic Programming with PyMC</title>
+                <description>&lt;p&gt;Summary posted by: &lt;a href=&quot;https://reshamas.github.io&quot;&gt;Reshama Shaikh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Austin Rochford, a maintainer of PyMC, presented to the Data Umbrella community an introduction to probabilistic programming with PyMC, with a particular emphasis on the how open source probabilistic programming makes Bayesian inference algorithms near the frontier of academic research accessible to a wide audience.&lt;/p&gt;
+
+&lt;p&gt;In the last ten years, there have been a number of advancements in the study of Hamiltonian Monte Carlo and variational inference algorithms that have enabled effective Bayesian statistical computation for much more complicated models than were previously feasible. These algorithmic advancements have been accompanied by a number of open source probabilistic programming packages that make them accessible to the general engineering, statistics, and data science communities. PyMC is one such package written in Python and supported by NumFOCUS.&lt;/p&gt;
+
+&lt;p&gt;Below in the outline is a summary of topics that were covered.&lt;/p&gt;
+
+&lt;h2 id=&quot;topics-covered&quot;&gt;Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Probabilistic programming from two perspectives
+    &lt;ul&gt;
+      &lt;li&gt;Philosophical: storytelling with data&lt;/li&gt;
+      &lt;li&gt;Mathematical: Monte Carlo methods&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Probabilistic programming with PyMC
+    &lt;ul&gt;
+      &lt;li&gt;The Monty Hall problem&lt;/li&gt;
+      &lt;li&gt;Robust regression&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hamiltonian Monte Carlo
+    &lt;ul&gt;
+      &lt;li&gt;Aesara&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lego example&lt;/li&gt;
+  &lt;li&gt;Next Steps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+&lt;p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/Qu6-_AnRCs8&quot; loading=&quot;lazy&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;key-links&quot;&gt;Key Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/data-umbrella/event-transcripts/blob/main/2022/41-austin-pymc.md&quot;&gt;Transcript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/data-umbrella/events/282790294/&quot;&gt;Meetup Event&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/Qu6-_AnRCs8&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pymc-devs/pymc-data-umbrella/tree/main/webinars&quot;&gt;GitHub repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pymc-devs/pymc-data-umbrella/blob/main/webinars/probabilistic_programming_with_pymc/notebook.ipynb&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://austinrochford.com/talks.htmlhttps://austinrochford.com/talks.html&quot;&gt;Austin’s website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/arviz-devs/arviz&quot;&gt;Arviz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pymc-data-umbrella.xyz/en/latest/webinars/index.html&quot;&gt;PyMC Series of events&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contribute-to-pymc-upcoming-online-hackathon-sprint&quot;&gt;Contribute to PyMC: upcoming online hackathon (sprint)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/data-umbrella/events/283178769/&quot;&gt;Data Umbrella &amp;amp; PyMC Online Open Source Sprint&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-timestamps-of-video&quot;&gt;Section Timestamps of Video&lt;/h2&gt;
+
+&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d48WGkePFq0&amp;amp;t=0s&quot;&gt;00:00:00&lt;/a&gt; Reshama introduces Data Umbrella&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=280s&quot;&gt;00:04:40&lt;/a&gt; Austin begins&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=375s&quot;&gt;00:06:15&lt;/a&gt; Talk agenda&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=488s&quot;&gt;00:08:08&lt;/a&gt; Probabilistic programming from two perspectives&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=533s&quot;&gt;00:08:53&lt;/a&gt; What is probabilistic programming?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=615s&quot;&gt;00:10:15&lt;/a&gt; Mathematical: Monte Carlo Methods&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=835s&quot;&gt;00:13:55&lt;/a&gt; Monty Hall Problem (game: Let’s Make a Deal)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=975s&quot;&gt;00:16:15&lt;/a&gt; Solve Monty Hall Problem using PyMC (solution)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=1122s&quot;&gt;00:18:42&lt;/a&gt; Using aesara&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=1260s&quot;&gt;00:21:00&lt;/a&gt; Doing inference with sampling&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=1440s&quot;&gt;00:24:00&lt;/a&gt; What is Aesara? (It is based on Theano.) PyMC’s tensor computational backend, fills niche such as PyTorch or TensorFlow.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=1520s&quot;&gt;00:25:20&lt;/a&gt; Using PyMC to do robust regression: with example Anscombe’s Quartet&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=1690s&quot;&gt;00:28:10&lt;/a&gt; Using arviz (library with pre-built visualizations and statistical routines that will help you understand the results of your inference with PyMC.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=1988s&quot;&gt;00:33:08&lt;/a&gt; What is Ridge Regression? (normal priors on your coefficients)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=2165s&quot;&gt;00:36:05&lt;/a&gt; Student-T Distribution&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=2340s&quot;&gt;00:39:00&lt;/a&gt; Why are we using Aesara? To do Hamiltonian Monte Carlo.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=2590s&quot;&gt;00:43:10&lt;/a&gt; Bayesian Analysis of Lego Prices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=2940s&quot;&gt;00:49:00&lt;/a&gt; Recommended books&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=3037s&quot;&gt;00:50:37&lt;/a&gt; Meenal talks about upcoming PyMC sprint&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qu6-_AnRCs8&amp;amp;t=3390s&quot;&gt;00:56:30&lt;/a&gt; Q&amp;amp;A with Austin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;about-the-speaker&quot;&gt;About the Speaker&lt;/h2&gt;
+
+&lt;h3 id=&quot;bio&quot;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;Austin Rochford is the Chief Data Scientist at Kibo Commerce. He is a recovering mathematician and is passionate about math education, Bayesian statistics, and machine learning.&lt;/p&gt;
+
+&lt;h3 id=&quot;connect-with-the-speaker&quot;&gt;Connect with the Speaker&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LinkedIn: &lt;a href=&quot;https://www.linkedin.com/in/austin-rochford/&quot;&gt;Austin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/AustinRochford&quot;&gt;@AustinRochford&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/AustinRochford/&quot;&gt;@AustinRochford&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;upcoming-events&quot;&gt;Upcoming Events&lt;/h2&gt;
+&lt;p&gt;Join our Meetup group for more events: &lt;a href=&quot;https://www.meetup.com/data-umbrella&quot;&gt;Data Umbrella Meetup&lt;/a&gt;&lt;/p&gt;
+</description>
+                <pubDate>Tue, 11 Jan 2022 04:01:35 -0800</pubDate>
+                <link>http://localhost:4000/intro-to-probabilistic-programming-with-pymc</link>
+                <guid isPermaLink="true">http://localhost:4000/intro-to-probabilistic-programming-with-pymc</guid>
+                
+                <category>python</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Data Umbrella Interview: Juan Martín Loyola</title>
+                <description>&lt;p&gt;Author:  &lt;a href=&quot;https://reshamas.github.io&quot;&gt;Reshama Shaikh&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://jmloyola.github.io/&quot;&gt;Juan Martin Loyola&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Tell us about yourself.&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;My name is Juan Martín Loyola, I’m a computer science Ph.D. student from San Luis, a province in the middle of Argentina, working on early classification models for text. This is related to the problem of document categorization where we are also interested in the classification speed (there is a cost associated with the classification delay).&lt;/p&gt;
+
+    &lt;figure&gt;
+  &lt;img src=&quot;/images/blogs/jml-san-luis.jpg&quot; alt=&quot;photo of San Luis&quot; max-width=&quot;50%&quot; max-height=&quot;50%&quot; /&gt;
+  &lt;figcaption&gt;
+  Photo credit: &lt;a href=&quot;https://jmloyola.github.io&quot;&gt;Juan Martín Loyola&lt;/a&gt;
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you first get involved in open source?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;My involvement with the open-source world started, as with most people, as a user. First, as a teenager, when my father brought a &lt;a href=&quot;https://en.wikipedia.org/wiki/SUSE_Linux&quot;&gt;SUSE Linux&lt;/a&gt; cd and installed it on our home computer. Although it didn’t last long as our main operating system it introduced me and my siblings to the GNU/Linux world. Later on, in college, I began to use open source software for many tasks, for example, the operating system, the browser, and the stack to program for my classes. It pushed me to keep learning about the system and its components. I loved that! Nevertheless, I still felt like a newcomer. I believed that to contribute to those projects, one needed to be an expert, thus I never thought of contributing back. As I realized later, that is not true.&lt;/p&gt;
+
+    &lt;p&gt;The first project I got involved in and that I sent some patches to was &lt;a href=&quot;https://github.com/pymc-devs/pymc&quot;&gt;PyMC&lt;/a&gt;. I found out about the project thanks to &lt;a href=&quot;https://github.com/aloctavodia&quot;&gt;Osvaldo Martin&lt;/a&gt;, a researcher and core contributor of PyMC that works in the same research institute as I do. I attended a couple of his graduate courses and seminars where he used PyMC for probabilistic modeling. We talked about the project and he suggested a couple of ideas I could work on. A couple of days later I sent &lt;a href=&quot;https://github.com/pymc-devs/pymc/pull/3389&quot;&gt;my first pull request (PR) to PyMC&lt;/a&gt;. I was excited, but the review process had just started. Although it looked like a simple PR, I realized that there is a lot of “extra” work you should do to get your code accepted. For example, discuss with other developers about the importance of the patch (sometimes after tinkering with the idea of the PR, the core developers realize that there is no need for the patch –that is why it is important to discuss it before starting to code), agree on a possible solution, and write tests and documentation for the changes. I said extra work, but actually, this is essential work needed to ensure the project is stable and easily understandable by the users.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you get involved in PyMC Google Summer of Code?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I learned about Google Summer of Code (GSoC) from Osvaldo and a collegue, &lt;a href=&quot;https://github.com/agustinaarroyuelo&quot;&gt;Agustina Arroyuelo&lt;/a&gt;. They worked in 2018 on the project &lt;a href=&quot;https://summerofcode.withgoogle.com/archive/2018/projects/5594656209371136&quot;&gt;“Module for Approximate Bayesian Computation”&lt;/a&gt;. Agustina told me it was a great experience, and that motivated me to apply for the next year. In early 2019, Osvaldo and I started writing the proposal for the project &lt;a href=&quot;https://summerofcode.withgoogle.com/archive/2019/projects/5713417321578496&quot;&gt;“Bayesian Additive Regression Trees in PyMC3”&lt;/a&gt;. While the proposal was being reviewed, I kept working on the project to improve my knowledge of the code-base and to get to know the rest of the core contributors. Fortunately, the project got accepted and we started working. Overall GSoC was a great experience and I will recommend it to anyone that wants to contribute to a particular project and can allocate some time for it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you learn of the Data Umbrella Latin America (LATAM) &lt;a href=&quot;https://latam2021.dataumbrella.org&quot;&gt;sprint&lt;/a&gt;? Through any specific person?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I found out about the Data Umbrella LATAM sprint 2021 through &lt;a href=&quot;https://twitter.com/DataUmbrella/status/1394661734275821573&quot;&gt;Twitter&lt;/a&gt;. I’m not an active social media user, but I do check Twitter once in a while. A month before the sprint I read a tweet from &lt;a href=&quot;https://twitter.com/DataUmbrella&quot;&gt;Data Umbrella&lt;/a&gt; in my feed inviting people to apply to the scikit-learn LATAM sprint. Since I wanted to get back to contributing to open source, I quickly applied.&lt;/p&gt;
+
+    &lt;figure&gt;
+  &lt;img src=&quot;/images/blogs/jml-sprint-tweet.jpg&quot; alt=&quot;LATAM sprint tweet&quot; max-width=&quot;50%&quot; max-height=&quot;50%&quot; /&gt;
+ &lt;/figure&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What was your sprint experience and how was the experience with your pair programming partner and core devs?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;The sprint was amazing, in all its stages: pre-sprint, sprint, and post-sprint. I got the chance to meet, talk and discuss with awesome people. It was also a great experience to boost my understanding of the project since some of the project members were actively answering questions. Not only that, but the core developers were also giving programming tips, and reviewing every PR. This gave fluency to the sprint. At the same time, this was the first time I pair-programmed with somebody remotely. Thankfully all went right and we had no technical problems. Throughout the sprint, me and my pair programming partner, &lt;a href=&quot;https://github.com/tomasmoreyra&quot;&gt;Tomas Moreyra&lt;/a&gt;, managed to make two PRs. We were pretty hyped.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Any specific challenges and benefits to being in South America?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I would say that the biggest barrier to participating in open source is the language. Although most of the South American data science community understands English, the proficiency level varies a lot. Most can read with no problem, but there are some members of the community who are not comfortable writing or speaking in English. That represents a challenge when you have to discuss a topic. Some people don’t mind having grammatical errors and can quickly answer any question people ask them. The problem is that the message might not be understood. On the other hand, people who check their messages several times to make sure the grammar is correct, lose a lot of time. The problem is that not everyone has the time to do that. Thus, they shy away from contributing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How did you first get involved in scikit-learn?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I first started contributing to scikit-learn a couple of weeks before the Data Umbrella LATAM sprint. Those were easy fixes in the code, but they allowed me to learn how to contribute to the project. After that, I participated in two Data Umbrella sprints focused on scikit-learn. During that period I made many documentation contributions. Given the experience gained with those PRs, &lt;a href=&quot;https://github.com/glemaitre&quot;&gt;Guillaume Lemaitre&lt;/a&gt; encouraged me to work on more technical issues related to the code-base. Motivated by this, I started working in &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/pull/21408&quot;&gt;exposing the attribute &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n_iter_&lt;/code&gt; from BaseLibSVM&lt;/a&gt;. While working on this, the scikit-learn team (suggested by &lt;a href=&quot;https://github.com/jjerphan/&quot;&gt;Julien Jerphanion&lt;/a&gt;) invited me to be part of the triage team of scikit-learn to keep contributing. I happily accepted :).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Any advice or tips you have for people starting in computer science or data science fields?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Only not to be scared to ask questions. Thoughtful questions. It had happened to me that I was afraid to ask a question because I thought people would laugh at my “easy” questions. Don’t be. Your focus should be on improving your skills and understanding the topics you are being taught. It’s ok to ask the same questions twice or more times if you still don’t understand something. Nevertheless, you should always raise questions respectfully.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are your favorite resources, books, courses, conferences, etc?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;It depends on the kind of topic and the depth one wants to acquire. If it is research-related, I’d probably read papers. Nowadays, most papers are published first in &lt;a href=&quot;https://arxiv.org/&quot;&gt;arxiv&lt;/a&gt;, so we have free access to a lot of the state of the art research. But, the amount of papers that come out every day is enormous. To keep up with it, I’d recommend &lt;a href=&quot;https://arxiv-sanity-lite.com/&quot;&gt;arxiv-sanity&lt;/a&gt;. If you want to get started on a topic, I would look for an introductory blog, for example, &lt;a href=&quot;https://distill.pub/&quot;&gt;Distill&lt;/a&gt; which explains hard topics with a lot of illustrations to make it a little bit easier. For daily technology news, I use &lt;a href=&quot;https://lobste.rs/&quot;&gt;Lobsters&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;More personally, I really liked the book “Pattern Recognition and Machine Learning” by Bishop. I found it a little hard in some parts, especially some “trivial” demostrations (maybe it was a sign that I should have reviewed a little bit of math beforehand), but overall I enjoyed reading it. Maybe next year I’ll read it again to try to cover the sections I didn’t completely understood the first time. For courses, we now have a plethora of available resources but one I skim over and found interesting is &lt;a href=&quot;http://web.stanford.edu/class/cs224n/&quot;&gt;cs224n from Stanford&lt;/a&gt;. Finally, one blogpost I loved was &lt;a href=&quot;http://karpathy.github.io/2015/05/21/rnn-effectiveness/&quot;&gt;“The Unreasonable Effectiveness of Recurrent Neural Networks”&lt;/a&gt; by Andrej Karpathy. It explains some of the theory of recurrent neural networks with code and clarifying images.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are your hobbies, outside of school, CS, and open source?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I love playing “futbol” (soccer in the USA, football for the rest of the English world) with friends, but I must confess that it has been a couple of years since I last ran the whole hour ^^. It doesn’t help that we are going through a pandemic.&lt;/p&gt;
+
+    &lt;p&gt;I also like listening to music from various styles. If I had to choose a couple of records I would pick:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Lateralus&quot;&gt;Lateralus, Tool&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Led_Zeppelin_II&quot;&gt;Led Zeppelin II, Led Zeppelin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Wall&quot;&gt;The Wall, Pink Floyd&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Clics_modernos&quot;&gt;Clics Modernos, Charly Garcia&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Libertango&quot;&gt;Libertango, Astor Piazzolla&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Finally, I’m trying to read more literature, in particular books from Latin American authors. The last two books I read were &lt;a href=&quot;https://www.goodreads.com/book/show/25403359-the-seven-madmen&quot;&gt;“The Seven Madmen”&lt;/a&gt; and &lt;a href=&quot;https://www.goodreads.com/book/show/40788939-the-flamethrowers&quot;&gt;“The Flamethrowers”&lt;/a&gt; by Roberto Arlt.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Other things you might want to share.&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;I would like to thank Reshama Shaikh and the whole Data Umbrella crew for the amazing work they have done. The sprints and all the other activities are tremendously helpful to the underrepresented people in data science and the open-source world.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                <pubDate>Thu, 30 Dec 2021 04:01:35 -0800</pubDate>
+                <link>http://localhost:4000/jmloyola-opensource-experience</link>
+                <guid isPermaLink="true">http://localhost:4000/jmloyola-opensource-experience</guid>
+                
+                <category>opensource</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Example of check_scalar Function Contribution in scikit-learn</title>
+                <description>&lt;p&gt;Author:  &lt;a href=&quot;https://reshamas.github.io&quot;&gt;Reshama Shaikh&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Use the function &lt;a href=&quot;https://scikit-learn.org/dev/modules/generated/sklearn.utils.check_scalar.html?highlight=check_scalar#sklearn.utils.check_scalar&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt;&lt;/a&gt; for parameters validation. The validation function checks to see the following for a parameter: is an acceptable data type, is within the range of values, the range of values (&lt;a href=&quot;https://www.basic-mathematics.com/interval-notation.html&quot;&gt;interval&lt;/a&gt;).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;References Issue &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/issues/21927&quot;&gt;#21927&lt;/a&gt; (@reshamas)&lt;/li&gt;
+  &lt;li&gt;References Issue &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/issues/20724&quot;&gt;#20724&lt;/a&gt;: “Use check_scalar for parameters validation” (with notes by @glemaitre, @jjerphan, @genvalen)&lt;/li&gt;
+  &lt;li&gt;References PR &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/pull/20723&quot;&gt;#20723&lt;/a&gt;.  “MNT use check_scalar to validate scalar in AffinityPropagation”. This is an example PR by @glemaitre.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A helper function exists in scikit-learn which validates a scalar value: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sklearn.utils.check_scalar&lt;/code&gt; &lt;a href=&quot;https://scikit-learn.org/stable/modules/generated/sklearn.utils.check_scalar.html&quot;&gt;documentation&lt;/a&gt;. 
+It is used to validate parameters of classes (and functions). Most of the current classes in scikit-learn do not use this helper function.  We want to refactor the code so that it does use this standard helper function. Utilizing this helper function will help to get consistent error types and messages.&lt;/p&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+&lt;p&gt;Below, I go through an example, step by step.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-to-working-directory&quot;&gt;Go to working directory&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;▶ &lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;
+/Users/reshamashaikh/software-build/scikit-learn
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;base&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  main ✔    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;activate-virtual-environment&quot;&gt;Activate virtual environment&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;conda activate sklearndev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;▶ conda activate sklearndev
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  main ✔    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;sync-local-repo-with-the-github-repo-main-branch&quot;&gt;Sync local repo with the GitHub repo, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; branch&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git pull upstream main
+git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;▶ git pull upstream main
+From github.com:scikit-learn/scikit-learn
+ &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; branch                main       -&amp;gt; FETCH_HEAD
+Already up to date.
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  main ✔                                                                    1d  
+▶ git push origin main
+Everything up-to-date
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  main ✔                                                                    1d  
+▶ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;create-a-new-working-branch-from-main-branch&quot;&gt;Create a new working branch, from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; branch&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout main
+git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; xscalar_glm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;▶ git checkout main
+Already on &lt;span class=&quot;s1&quot;&gt;&apos;main&apos;&lt;/span&gt;
+Your branch is up to &lt;span class=&quot;nb&quot;&gt;date &lt;/span&gt;with &lt;span class=&quot;s1&quot;&gt;&apos;origin/main&apos;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  main ✔                                                                    1d  
+▶ git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; xscalar_glm
+Switched to a new branch &lt;span class=&quot;s1&quot;&gt;&apos;xscalar_glm&apos;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  xscalar_glm ✔                                                             1d  
+▶ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;identify-a-class-to-implement-check_scalar-function&quot;&gt;Identify a class to implement &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt; function&lt;/h3&gt;
+
+&lt;p&gt;To find an algorithm which may need to implement &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt; function, I searched the repo &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn&quot;&gt;scikit-learn/scikit-learn&lt;/a&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt;, as a start. I found a constructor that has scalar numeric as parameters.&lt;/p&gt;
+
+&lt;p&gt;I found:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;File: &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py&quot;&gt;sklearn/linear_model/glm.py&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Associated test: &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py&quot;&gt;sklearn/linear_model/_glm/tests/test_glm.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;identify-the-scalar-numeric-parameters&quot;&gt;Identify the scalar numeric parameters&lt;/h3&gt;
+
+&lt;p&gt;For &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py&quot;&gt;glm.py&lt;/a&gt;, I found four classes in the file:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GeneralizedLinearRegressor&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PoissonRegressor&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GammaRegressor&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TweedieRegressor&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will begin work on the first one, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GeneralizedLinearRegressor&lt;/code&gt;. Also, for each I will look at minimum and maximum values. If minimum and maximum values are missing, I will add them, as well as the boundary conditions.&lt;/p&gt;
+
+&lt;p&gt;Within the class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GeneralizedLinearRegressor&lt;/code&gt;, I identify the following scalar numeric parameters:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alpha&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[0.0, inf)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, inf)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tol&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(0.0, inf)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;verbose&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, inf)&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tests&quot;&gt;Tests&lt;/h2&gt;
+
+&lt;h3 id=&quot;tests-and-validation&quot;&gt;Tests and validation&lt;/h3&gt;
+
+&lt;p&gt;Parameter validation checks are added in order to catch any invalid parameter values passed into the estimator before the algorithm is run. If no parameter validation exists, we are left to the mercy of the algorithm. For instance, if the algorithm receives a negative number for maximum number of iterations, it will break.&lt;/p&gt;
+
+&lt;p&gt;Sklearn has thorough validation checks. With the use of the helper function, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt;, these validation checks can be refactored for greater consistency and readability.&lt;/p&gt;
+
+&lt;p&gt;Tests are added to make sure that parameter validation checks behave correctly. In the case of creating tests for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt;, the tests check that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt; validation raises a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ValueError&lt;/code&gt; or a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TypeError&lt;/code&gt; where appropriate, and that the error message returned is as expected.&lt;/p&gt;
+
+&lt;p&gt;If no tests exists for the parameter validation, add tests.  Note that even if the tests do not exist, the validation definitely does.&lt;/p&gt;
+
+&lt;h3 id=&quot;see-if-tests-exists&quot;&gt;See if tests exists&lt;/h3&gt;
+
+&lt;p&gt;In the file &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py&quot;&gt;test_glm.py&lt;/a&gt;, I see the following test exists. It checks 5 possible inputs, but has only one &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ValueError&lt;/code&gt; error message:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parametrize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;not a number&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_glm_max_iter_argument&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Test GLM for invalid max_iter argument.&quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GeneralizedLinearRegressor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raises&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ValueError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;must be a positive integer&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In this case, these are invalid values for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[&quot;not a number&quot;, 0, -1, 5.5, [1]]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“not a number”: invalid type (string), should be integer&lt;/li&gt;
+  &lt;li&gt;5.5: invalid type (float), should be integer&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1]&lt;/code&gt;: invalid type (list), should be integer&lt;/li&gt;
+  &lt;li&gt;0: iterations should be &amp;gt; 0&lt;/li&gt;
+  &lt;li&gt;-1: iterations should be &amp;gt; 0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, here we have 5 tests to run. And, our tests should give informative error messages.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glm.py&lt;/code&gt; file, I temporarily comment out whatever checks exist for valid values (validation) of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        &lt;span class=&quot;c1&quot;&gt;# if not isinstance(self.max_iter, numbers.Integral) or self.max_iter &amp;lt;= 0:
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;#     raise ValueError(
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;#         &quot;Maximum number of iteration must be a positive &quot;
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;#         &quot;integer;&quot;
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;#         &quot; got (max_iter={0!r})&quot;.format(self.max_iter)
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;#     )
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then, I run the existing test &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test_glm_max_iter_argument&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest sklearn/linear_model/_glm/tests/test_glm.py &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; test_max_iter_argument &lt;span class=&quot;nt&quot;&gt;-vsl&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-example-failed-tests.md&quot;&gt;Output&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I see that 5 tests have failed:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;not a number&apos;&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;               &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;n_iterations &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; maxiter:
+E               TypeError: &lt;span class=&quot;s1&quot;&gt;&apos;&amp;gt;=&apos;&lt;/span&gt; not supported between instances of &lt;span class=&quot;s1&quot;&gt;&apos;int&apos;&lt;/span&gt; and &lt;span class=&quot;s1&quot;&gt;&apos;str&apos;&lt;/span&gt;
+../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;           glm.fit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;X, y&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+E           Failed: DID NOT RAISE &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;ValueError&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-1&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;           glm.fit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;X, y&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+E           Failed: DID NOT RAISE &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;ValueError&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5.5&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;           glm.fit&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;X, y&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+E           Failed: DID NOT RAISE &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;ValueError&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+sklearn/linear_model/_glm/tests/test_glm.py:150: Failed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1]&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;               &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;n_iterations &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; maxiter:
+E               TypeError: &lt;span class=&quot;s1&quot;&gt;&apos;&amp;gt;=&apos;&lt;/span&gt; not supported between instances of &lt;span class=&quot;s1&quot;&gt;&apos;int&apos;&lt;/span&gt; and &lt;span class=&quot;s1&quot;&gt;&apos;list&apos;&lt;/span&gt;
+../../miniforge3/envs/sklearndev/lib/python3.9/site-packages/scipy/optimize/lbfgsb.py:367: TypeError
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;add-parametrized-tests&quot;&gt;Add parametrized tests&lt;/h3&gt;
+
+&lt;p&gt;The tests must fail before adding validation. This is an example of how we will add a parametrized test:&lt;br /&gt;
+Current:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parametrize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;not a number&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_glm_max_iter_argument&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Test GLM for invalid max_iter argument.&quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GeneralizedLinearRegressor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raises&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ValueError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;must be a positive integer&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We will update the test as we have done below:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parametrize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;params, err_type, err_msg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ValueError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;max_iter == 0, must be &amp;gt;= 1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ValueError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;max_iter == -1, must be &amp;gt;= 1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;not a number&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;max_iter must be an instance of &amp;lt;class &apos;numbers.Integral&apos;&amp;gt;, not &amp;lt;class&quot;&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot; &apos;str&apos;&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]},&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;max_iter must be an instance of &amp;lt;class &apos;numbers.Integral&apos;&amp;gt;,&quot;&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot; not &amp;lt;class &apos;list&apos;&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;max_iter&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;max_iter must be an instance of &amp;lt;class &apos;numbers.Integral&apos;&amp;gt;,&quot;&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot; not &amp;lt;class &apos;float&apos;&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_glm_scalar_argument&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;err_msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Test GLM for invalid max_iter argument.&quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GeneralizedLinearRegressor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pytest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raises&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;err_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;err_msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;glm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I run the tests.&lt;br /&gt;
+Note: I have renamed the test function.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The tests fail, as expected, because invalid values are being input.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+E           ValueError: Maximum number of iteration must be a positive integer&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; got &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;max_iter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;5.5&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+sklearn/linear_model/_glm/glm.py:232: ValueError
+&lt;span class=&quot;o&quot;&gt;====================================================&lt;/span&gt; 5 failed &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;0.59s &lt;span class=&quot;o&quot;&gt;=====================================================&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;add-and-run-validation&quot;&gt;Add and run validation&lt;/h3&gt;
+
+&lt;p&gt;Next, in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glm.py&lt;/code&gt; file, I do two things:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Import the needed function
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;...utils&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check_scalar&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;check_scalar&lt;/code&gt; function in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;def fit&lt;/code&gt; function. The function here checks that for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt; is:
+    &lt;ul&gt;
+      &lt;li&gt;an integer&lt;/li&gt;
+      &lt;li&gt;has a has a minimum value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;has no maximum value&lt;/li&gt;
+      &lt;li&gt;is within this range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, )&lt;/code&gt;. Note that no upper bound is specified.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        check_scalar(
+            self.max_iter,
+            name=&quot;max_iter&quot;,
+            target_type=numbers.Integral,
+            min_val=1,
+            max_val=None,
+            include_boundaries=&quot;left&quot;,
+        )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;confirm-tests-are-passing&quot;&gt;Confirm tests are passing!&lt;/h2&gt;
+&lt;p&gt;After doing the above, we see that all 5 tests are now passing:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/software-build/scikit-learn  xscalar_glm ✔                                                                                           8d  
+▶ pytest sklearn/linear_model/_glm/tests/test_glm.py &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; test_glm_scalar_argument &lt;span class=&quot;nt&quot;&gt;-vsl&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;===========================================================&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;test &lt;/span&gt;session starts &lt;span class=&quot;o&quot;&gt;============================================================&lt;/span&gt;
+platform darwin &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0 &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; /Users/reshamashaikh/miniforge3/envs/sklearndev/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/reshamashaikh/software-build/scikit-learn, configfile: setup.cfg
+plugins: cov-3.0.0
+collected 78 items / 73 deselected / 5 selected                                                                                            
+
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params0-ValueError-max_iter &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; 0, must be &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; 1] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params1-ValueError-max_iter &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt;, must be &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; 1] PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params2-TypeError-max_iter must be an instance of &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;numbers.Integral&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;, not &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;str&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;]&lt;/span&gt; PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params3-TypeError-max_iter must be an instance of &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;numbers.Integral&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;, not &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;list&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;]&lt;/span&gt; PASSED
+sklearn/linear_model/_glm/tests/test_glm.py::test_glm_scalar_argument[params4-TypeError-max_iter must be an instance of &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;numbers.Integral&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;, not &amp;lt;class &lt;span class=&quot;s1&quot;&gt;&apos;float&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;]&lt;/span&gt; PASSED
+
+&lt;span class=&quot;o&quot;&gt;=====================================================&lt;/span&gt; 5 passed, 73 deselected &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;0.23s &lt;span class=&quot;o&quot;&gt;=====================================================&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;reminders&quot;&gt;Reminders&lt;/h2&gt;
+
+&lt;p&gt;When submitting the pull request (PR):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Label PR with prefix “MAINT”&lt;/li&gt;
+  &lt;li&gt;A changelog entry is not required&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;h3 id=&quot;rebuild-source-code&quot;&gt;Rebuild source code&lt;/h3&gt;
+
+&lt;p&gt;If tests are failing, I may need to rebuild the source code, using below syntax:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--no-build-isolation&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;run-full-test-suite-in-sklearn&quot;&gt;Run full test suite in sklearn&lt;/h3&gt;
+&lt;p&gt;To run the full suite of tests, it takes about 20 minutes on my computer.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest sklearn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There is example output of the tests in &lt;a href=&quot;https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint/blob/master/contributing/2021-12-12-pytest_sklearn_output.md&quot;&gt;2021-12-12-pytest_sklearn_output.md&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;E       AssertionError: 
+E         This &lt;span class=&quot;nb&quot;&gt;test &lt;/span&gt;fails because scikit-learn has been built without OpenMP.
+E         This is not recommended since some estimators will run &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;sequential
+E         mode instead of leveraging thread-based parallelism.
+E         
+E         You can find instructions to build scikit-learn with OpenMP at this
+E         address:
+E         
+E             https://scikit-learn.org/dev/developers/advanced_installation.html
+E         
+E         You can skip this &lt;span class=&quot;nb&quot;&gt;test &lt;/span&gt;by setting the environment variable
+E         SKLEARN_SKIP_OPENMP_TEST to any value.
+E         
+E       assert False
+E        +  where False &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; _openmp_parallelism_enabled&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+
+sklearn/tests/test_build.py:33: AssertionError
+&lt;span class=&quot;o&quot;&gt;=====&lt;/span&gt; 1 failed, 25839 passed, 205 skipped, 250 xfailed, 62 xpassed, 2290 warnings &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;1002.24s &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;0:16:42&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;======&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  xscalar_glm ✔  
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;running-individual-tests&quot;&gt;Running Individual Tests&lt;/h3&gt;
+&lt;p&gt;Typically, to run the full test suite, I would type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pytest sklearn&lt;/code&gt;, which takes about 20 minutes.&lt;/p&gt;
+
+&lt;p&gt;Individual tests can be run using the syntax below, there are a couple of ways to do it:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest sklearn/linear_model/_glm/tests/test_glm.py &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; test_glm_max_iter_argument &lt;span class=&quot;nt&quot;&gt;-vsl&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is the output observed after running the test.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;▶ pytest sklearn/linear_model/_glm/tests/test_glm.py::test_glm_max_iter_argument
+&lt;span class=&quot;o&quot;&gt;===================================================&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;test &lt;/span&gt;session starts &lt;span class=&quot;o&quot;&gt;====================================================&lt;/span&gt;
+platform darwin &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: /Users/reshamashaikh/software-build/scikit-learn, configfile: setup.cfg
+plugins: cov-3.0.0
+collected 5 items                                                                                                          
+
+sklearn/linear_model/_glm/tests/test_glm.py .....                                                                    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;100%]
+
+&lt;span class=&quot;o&quot;&gt;====================================================&lt;/span&gt; 5 passed &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;0.17s &lt;span class=&quot;o&quot;&gt;=====================================================&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;sklearndev&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 
+~/software-build/scikit-learn  xscalar_glm ✔  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Because I consolidated some existing tests and added the new ones, I renamed the test. I would run the following for the test:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest sklearn/linear_model/_glm/tests/test_glm.py &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; test_glm_scalar_argument &lt;span class=&quot;nt&quot;&gt;-vsl&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Guillaume LeMaitre &lt;a href=&quot;https://github.com/glemaitre&quot;&gt;@glemaitre&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Julien Jerphanon &lt;a href=&quot;https://github.com/jjerphan&quot;&gt;@jjerphan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Thomas J. Fan &lt;a href=&quot;https://github.com/thomasjpfan&quot;&gt;@thomasjpfan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Genesis Valencia &lt;a href=&quot;https://github.com/genvalen&quot;&gt;@genvalen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;part-2-poissonregressor&quot;&gt;Part 2: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PoissonRegressor&lt;/code&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Virtual environment activated:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda activate sklearndev&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Identify class to work on:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PoissonRegressor&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Working with this file: &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/glm.py&quot;&gt;sklearn/linear_model/glm.py&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Working with associated test: &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/blob/efa5e3eee5dfa696cc46d462cf20bdf1c95e75cc/sklearn/linear_model/_glm/tests/test_glm.py&quot;&gt;sklearn/linear_model/_glm/tests/test_glm.py&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Create working branch from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; branch
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout main
+git pull upstream main
+git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; xscalar_poissonreg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Identify scalar numerical parameters and the valid range of values for the class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PoissonRegressor&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alpha&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[0.0, inf)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, inf)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tol&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(0.0, inf)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;verbose&lt;/code&gt;, value range: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, inf)&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add parameter interal ranges to the docstring
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alpha&lt;/code&gt;, Values should be in the range &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[0.0, inf)&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_iter&lt;/code&gt;, Values should be in the range &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, inf)&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tol&lt;/code&gt;, Values should be in the range &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(0.0, inf)&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;verbose&lt;/code&gt;, Values should be in the range &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1, inf)&lt;/code&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Run tests:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pytest sklearn/linear_model/_glm/tests/test_glm.py -k test_glm_scalar_argument -vsl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;There is no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;def fit&lt;/code&gt; for class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PoissonRegressor&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+                <pubDate>Sun, 12 Dec 2021 04:01:35 -0800</pubDate>
+                <link>http://localhost:4000/example-of-check-scalar-function-contribution-in-scikit-learn</link>
+                <guid isPermaLink="true">http://localhost:4000/example-of-check-scalar-function-contribution-in-scikit-learn</guid>
+                
+                <category>opensource</category>
+                
+                <category>scikitlearn</category>
+                
+                <category>python</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Data Umbrella AFME2 2021 Sprint - My Experience Contributing to Open Source</title>
+                <description>&lt;p&gt;Author:  &lt;a href=&quot;https://www.linkedin.com/in/beryl-kanali-260567185/&quot;&gt;Beryl Kanali&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-i-participated-in-the-sprint&quot;&gt;Why I participated in the sprint&lt;/h2&gt;
+
+&lt;p&gt;As an African we mostly use open source software but most of the time the contributors to the software we depend on are not from Africa. When I started learning Data Science, one of the best ways to become good at it was said to be contributing to open source projects. I always felt that if I contributed in one way or another I will not only give back but also have a better understanding behind the code and what makes up the libraries or software I use. Therefore, when Miriam Haji who is part of Data Umbrella told me about the sprint I saw a great opportunity to finally contribute to Open Source.&lt;/p&gt;
+
+&lt;p&gt;Read the  full article on Beryl’s blog site.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;in English: &lt;a href=&quot;https://medium.com/@kanaliberyl/my-experience-contributing-to-open-source-afme2-oct-2021-398a505e6d80&quot;&gt;Data Umbrella AFME2 2021: My Experience Contributing to Open Source -Oct 2021&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sun, 28 Nov 2021 04:01:35 -0800</pubDate>
+                <link>http://localhost:4000/data-umbrella-afme2-2021-sprint-my-experience-contributing-to-open-source</link>
+                <guid isPermaLink="true">http://localhost:4000/data-umbrella-afme2-2021-sprint-my-experience-contributing-to-open-source</guid>
+                
+                <category>opensource</category>
+                
+                <category>sprint-blog</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>Data Umbrella LATAM 2021 Sprint - My Experience Contributing to Open Source</title>
+                <description>&lt;p&gt;Author:  &lt;a href=&quot;https://www.linkedin.com/in/nestornav/&quot;&gt;Nestor Navarro&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I participated in my first (LATAM) &lt;a href=&quot;https://latam2021.dataumbrella.org&quot;&gt;scikit-learn open source sprint&lt;/a&gt; in June 2021, organized by Data Umbrella.
+I learned of the event through word-of-mouth, via a friend of mine. I had already a general interest in the open source philosophy and movement. Currently, I am not an active collaborator for any initiative but I always try to help when is possible. 
+This article is focused not on my open source journey; it is focused on my experience in the Data Umbrella’s scikit-learn sprint, the first one that was focused on the Latin America region.&lt;/p&gt;
+
+&lt;p&gt;Read the  full article on Nestor’s website.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;English: &lt;a href=&quot;https://nestornav.com.ar/articles/2021/12/06/du-sklearn-sprint/&quot;&gt;2021 Latin America Scikit-learn sprint by Data Umbrella&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Español: &lt;a href=&quot;https://nestornav.com.ar/du-sklearn-sprint-sp.html&quot;&gt;Scikit-learn sprint, Latino América 2021 por Data Umbrella&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sat, 27 Nov 2021 04:01:35 -0800</pubDate>
+                <link>http://localhost:4000/nestor-du-sklear-sprint-latam-experience</link>
+                <guid isPermaLink="true">http://localhost:4000/nestor-du-sklear-sprint-latam-experience</guid>
+                
+                <category>opensource</category>
+                
+                <category>sprint-blog</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>

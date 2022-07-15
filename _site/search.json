@@ -1,0 +1,237 @@
+[
+  
+    {
+      "title"    : "Interview with Sandra Meneses: Contributing to PyMC",
+      "category" : "",
+      "tags"     : "opensource",
+      "url"      : "/sandra-sprints",
+      "date"     : "Apr 4, 2022",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2022-04-04T08:44:03-07:00'>04 Apr 2022</time><a class='article__image' href='/sandra-sprints'> <img src='/images/blogs/sandra_pymc.png' alt='Interview with Sandra Meneses: Contributing to PyMC'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/sandra-sprints'>Interview with Sandra Meneses: Contributing to PyMC</a> </h2><p class='article__excerpt'>Sandra Meneses shares her experience at the Data Umbrella PyMC Sprint.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community",
+      "category" : "",
+      "tags"     : "opensource",
+      "url"      : "/mwestermann-sprints-experience",
+      "date"     : "Mar 28, 2022",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2022-03-28T08:44:03-07:00'>28 Mar 2022</time><a class='article__image' href='/mwestermann-sprints-experience'> <img src='/images/blogs/maren_interview.png' alt='Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/mwestermann-sprints-experience'>Interview with Maren Westermann: Extending the Impact of the scikit-learn Sprints to the Community</a> </h2><p class='article__excerpt'>Maren Westermann shares her learnings from taking part in Data Umbrella scikit-learn sprints.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints",
+      "category" : "",
+      "tags"     : "scikitlearn and opensource",
+      "url"      : "/behind-the-scenes-sprints",
+      "date"     : "Mar 21, 2022",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2022-03-21T05:01:35-07:00'>21 Mar 2022</time><a class='article__image' href='/behind-the-scenes-sprints'> <img src='/images/blogs/behind_the_scenes.png' alt='Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/behind-the-scenes-sprints'>Behind the Scenes of Data Umbrella scikit-learn Open Source Sprints</a> </h2><p class='article__excerpt'>Learn the tips for making the online sprints a success.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Tutorial on Arrays, Linked Lists and Graphs; Identifying the Right Tool for the Job",
+      "category" : "",
+      "tags"     : "python and graphs",
+      "url"      : "/tutorial-on-linked-lists",
+      "date"     : "Mar 15, 2022",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2022-03-15T05:01:35-07:00'>15 Mar 2022</time><a class='article__image' href='/tutorial-on-linked-lists'> <img src='/images/blogs/clair.png' alt='Tutorial on Arrays, Linked Lists and Graphs; Identifying the Right Tool for the Job'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/tutorial-on-linked-lists'>Tutorial on Arrays, Linked Lists and Graphs; Identifying the Right Tool for the Job</a> </h2><p class='article__excerpt'>Use Python to code a linked list and use graphs for efficiency.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Tutorial on Automating Workflows Using GitHub Actions",
+      "category" : "",
+      "tags"     : "python",
+      "url"      : "/tutorial-on-github-actions",
+      "date"     : "Jan 23, 2022",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2022-01-23T04:01:35-08:00'>23 Jan 2022</time><a class='article__image' href='/tutorial-on-github-actions'> <img src='/images/blogs/gh-actions2.png' alt='Tutorial on Automating Workflows Using GitHub Actions'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/tutorial-on-github-actions'>Tutorial on Automating Workflows Using GitHub Actions</a> </h2><p class='article__excerpt'>Learn about GitHub Actions and how they can accelerate your application development workflows.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Intro to Probabilistic Programming with PyMC",
+      "category" : "",
+      "tags"     : "python",
+      "url"      : "/intro-to-probabilistic-programming-with-pymc",
+      "date"     : "Jan 11, 2022",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2022-01-11T04:01:35-08:00'>11 Jan 2022</time><a class='article__image' href='/intro-to-probabilistic-programming-with-pymc'> <img src='/images/blogs/austin_r2.png' alt='Intro to Probabilistic Programming with PyMC'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/intro-to-probabilistic-programming-with-pymc'>Intro to Probabilistic Programming with PyMC</a> </h2><p class='article__excerpt'>Learn how open source probabilistic programming makes Bayesian inference algorithms near the frontier of academic research accessible to a wide audience.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella Interview: Juan Martín Loyola",
+      "category" : "",
+      "tags"     : "opensource",
+      "url"      : "/jmloyola-opensource-experience",
+      "date"     : "Dec 30, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-12-30T04:01:35-08:00'>30 Dec 2021</time><a class='article__image' href='/jmloyola-opensource-experience'> <img src='/images/blogs/interview_image.jpg' alt='Data Umbrella Interview: Juan Martín Loyola'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/jmloyola-opensource-experience'>Data Umbrella Interview: Juan Martín Loyola</a> </h2><p class='article__excerpt'>Juan Martín Loyola shares his experience collaborating in open source.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Example of check_scalar Function Contribution in scikit-learn",
+      "category" : "",
+      "tags"     : "opensource, scikitlearn, and python",
+      "url"      : "/example-of-check-scalar-function-contribution-in-scikit-learn",
+      "date"     : "Dec 12, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-12-12T04:01:35-08:00'>12 Dec 2021</time><a class='article__image' href='/example-of-check-scalar-function-contribution-in-scikit-learn'> <img src='/images/blogs/check_scalar.png' alt='Example of check_scalar Function Contribution in scikit-learn'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/example-of-check-scalar-function-contribution-in-scikit-learn'>Example of check_scalar Function Contribution in scikit-learn</a> </h2><p class='article__excerpt'>In this example, learn to refactor code and add tests in scikit-learn.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella AFME2 2021 Sprint - My Experience Contributing to Open Source",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/data-umbrella-afme2-2021-sprint-my-experience-contributing-to-open-source",
+      "date"     : "Nov 28, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-11-28T04:01:35-08:00'>28 Nov 2021</time><a class='article__image' href='/data-umbrella-afme2-2021-sprint-my-experience-contributing-to-open-source'> <img src='/images/blogs/cover_afme2.png' alt='Data Umbrella AFME2 2021 Sprint - My Experience Contributing to Open Source'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-afme2-2021-sprint-my-experience-contributing-to-open-source'>Data Umbrella AFME2 2021 Sprint - My Experience Contributing to Open Source</a> </h2><p class='article__excerpt'>Beryl Kanali shares her experience submitting a pull request to scikit-learn for the first time.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella LATAM 2021 Sprint - My Experience Contributing to Open Source",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/nestor-du-sklear-sprint-latam-experience",
+      "date"     : "Nov 27, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-11-27T04:01:35-08:00'>27 Nov 2021</time><a class='article__image' href='/nestor-du-sklear-sprint-latam-experience'> <img src='/images/blogs/cover_latam.png' alt='Data Umbrella LATAM 2021 Sprint - My Experience Contributing to Open Source'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/nestor-du-sklear-sprint-latam-experience'>Data Umbrella LATAM 2021 Sprint - My Experience Contributing to Open Source</a> </h2><p class='article__excerpt'>Nestor Navarro shares his experience in Data Umbrella 2021 Latin America scikit-learn sprint.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella AFME2 2021 scikit-learn Sprint Report",
+      "category" : "",
+      "tags"     : "opensource and sprint-report",
+      "url"      : "/data-umbrella-afme2-2021-scikit-learn-sprint-report",
+      "date"     : "Nov 20, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-11-20T04:01:35-08:00'>20 Nov 2021</time><a class='article__image' href='/data-umbrella-afme2-2021-scikit-learn-sprint-report'> <img src='/images/2021-afme2/AFME2-photo.png' alt='Data Umbrella AFME2 2021 scikit-learn Sprint Report'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-afme2-2021-scikit-learn-sprint-report'>Data Umbrella AFME2 2021 scikit-learn Sprint Report</a> </h2><p class='article__excerpt'>Reshama Shaikh - Summary of the Africa &amp; Middle East Sprint, October 2021</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella Awarded CZI Grant",
+      "category" : "",
+      "tags"     : "press",
+      "url"      : "/czi-grant-press",
+      "date"     : "Oct 25, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-10-25T05:01:35-07:00'>25 Oct 2021</time><a class='article__image' href='/czi-grant-press'> <img src='/images/blogs/czi.png' alt='Data Umbrella Awarded CZI Grant'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/czi-grant-press'>Data Umbrella Awarded CZI Grant</a> </h2><p class='article__excerpt'>CZI grant awarded to Data Umbrella to support diversity and inclusion in computational science.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Pair Programming with Visual Studio Code Live Share",
+      "category" : "",
+      "tags"     : "opensource, python, and vscode",
+      "url"      : "/pair-programming-with-visual-studio-code-live-share",
+      "date"     : "Sep 23, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-09-23T05:01:35-07:00'>23 Sep 2021</time><a class='article__image' href='/pair-programming-with-visual-studio-code-live-share'> <img src='/images/vsc/pair_programming_cover_image.jpg' alt='Pair Programming with Visual Studio Code Live Share'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/pair-programming-with-visual-studio-code-live-share'>Pair Programming with Visual Studio Code Live Share</a> </h2><p class='article__excerpt'>Introduction to the Visual Studio Code extension Live Share which allows you to edit snippets collaboratively.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "COVID-19 R Dashboard in Production",
+      "category" : "",
+      "tags"     : "rstats and deployment",
+      "url"      : "/covid-19-r-dashboard-in-production.mds-us-stronger",
+      "date"     : "Sep 15, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-09-15T05:01:35-07:00'>15 Sep 2021</time><div class='video-icon'> <div class='circle pulse'></div><div class='circle'> <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'> <polygon points='40,30 65,50 40,70'></polygon> </svg> </div></div><a class='article__image' href='/covid-19-r-dashboard-in-production.mds-us-stronger'> <img src='/images/blogs/italy-dashboard.png' alt='COVID-19 R Dashboard in Production'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/covid-19-r-dashboard-in-production.mds-us-stronger'>COVID-19 R Dashboard in Production</a> </h2><p class='article__excerpt'>Rami Krispin - This talk focuses on a holistic approach for deploying data science projects into production (e.g., CI/CD) with the use of open-source and free tools such as R, bash, Docker, Github Actions, etc.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella LATAM 2021 Sprint - My Experience with Open Source",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/data-umbrella-latam-2021-sprint-my-experience-with-open-source",
+      "date"     : "Jul 25, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-07-25T05:01:35-07:00'>25 Jul 2021</time><a class='article__image' href='/data-umbrella-latam-2021-sprint-my-experience-with-open-source'> <img src='/images/blogs/cover_latam.png' alt='Data Umbrella LATAM 2021 Sprint - My Experience with Open Source'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-latam-2021-sprint-my-experience-with-open-source'>Data Umbrella LATAM 2021 Sprint - My Experience with Open Source</a> </h2><p class='article__excerpt'>Sebastian Andres shares his experience submitting a pull request to scikit-learn for the first time.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella LATAM 2021 scikit-learn Sprint Report",
+      "category" : "",
+      "tags"     : "opensource and sprint-report",
+      "url"      : "/data-umbrella-latam-2021-scikit-learn-sprint-report",
+      "date"     : "Jul 19, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-07-19T05:01:35-07:00'>19 Jul 2021</time><a class='article__image' href='/data-umbrella-latam-2021-scikit-learn-sprint-report'> <img src='/images/2021-latam/latam-demog.png' alt='Data Umbrella LATAM 2021 scikit-learn Sprint Report'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-latam-2021-scikit-learn-sprint-report'>Data Umbrella LATAM 2021 scikit-learn Sprint Report</a> </h2><p class='article__excerpt'>Reshama Shaikh - Summary of the Latin America Sprint, June 2021</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Tracking Impact and Measuring Success in Data Education Events",
+      "category" : "",
+      "tags"     : "education",
+      "url"      : "/tracking-impact-and-measuring-success-in-data-education-events",
+      "date"     : "Jun 29, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-06-29T05:01:35-07:00'>29 Jun 2021</time><a class='article__image' href='/tracking-impact-and-measuring-success-in-data-education-events'> <img src='/images/blogs/csvconf-blog.jpeg' alt='Tracking Impact and Measuring Success in Data Education Events'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/tracking-impact-and-measuring-success-in-data-education-events'>Tracking Impact and Measuring Success in Data Education Events</a> </h2><p class='article__excerpt'>This post summarizes conversations surrounding these topics and provides resources to help you develop an impact strategy for your next event.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella AFME1 Feb 2021 Scikit Learn Sprint Report",
+      "category" : "",
+      "tags"     : "opensource and sprint-report",
+      "url"      : "/data-umbrella-afme1-2021-scikit-learn-sprint-report",
+      "date"     : "Feb 22, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-02-22T04:01:35-08:00'>22 Feb 2021</time><a class='article__image' href='/data-umbrella-afme1-2021-scikit-learn-sprint-report'> <img src='/images/2021-afme1/afme-summary.png' alt='Data Umbrella AFME1 Feb 2021 Scikit Learn Sprint Report'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-afme1-2021-scikit-learn-sprint-report'>Data Umbrella AFME1 Feb 2021 Scikit Learn Sprint Report</a> </h2><p class='article__excerpt'>Reshama Shaikh - Summary of the Africa &amp; Middle East, February 2021</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella AFME1 2021 Sprint - My Experience with Open Source",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/data-umbrella-afme1-2021-sprint-first-time-contributor-to-open-source",
+      "date"     : "Feb 12, 2021",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2021-02-12T04:01:35-08:00'>12 Feb 2021</time><a class='article__image' href='/data-umbrella-afme1-2021-sprint-first-time-contributor-to-open-source'> <img src='/images/blogs/cover_afme1.png' alt='Data Umbrella AFME1 2021 Sprint - My Experience with Open Source'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-afme1-2021-sprint-first-time-contributor-to-open-source'>Data Umbrella AFME1 2021 Sprint - My Experience with Open Source</a> </h2><p class='article__excerpt'>Fortune Uwha shares her experience contributing to to scikit-learn for the first time.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Data Umbrella 2020 Online scikit-learn Sprint Report",
+      "category" : "",
+      "tags"     : "opensource and sprint-report",
+      "url"      : "/data-umbrella-global-online-2020-scikit-learn-sprint-report",
+      "date"     : "Jun 27, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-06-27T05:01:35-07:00'>27 Jun 2020</time><a class='article__image' href='/data-umbrella-global-online-2020-scikit-learn-sprint-report'> <img src='/images/2020-online/online_demog.png' alt='Data Umbrella 2020 Online scikit-learn Sprint Report'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/data-umbrella-global-online-2020-scikit-learn-sprint-report'>Data Umbrella 2020 Online scikit-learn Sprint Report</a> </h2><p class='article__excerpt'>Reshama Shaikh - Summary of the Global Online Sprint, June 2020</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Review of the Data Umbrella Scikit-learn Online Sprint June 2020",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/maren-online-2020-review-of-sprint",
+      "date"     : "Jun 12, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-06-12T05:01:35-07:00'>12 Jun 2020</time><a class='article__image' href='/maren-online-2020-review-of-sprint'> <img src='/images/blogs/cover_global.png' alt='Review of the Data Umbrella Scikit-learn Online Sprint June 2020'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/maren-online-2020-review-of-sprint'>Review of the Data Umbrella Scikit-learn Online Sprint June 2020</a> </h2><p class='article__excerpt'>Maren Westerman from Germany shares her experience contributing to open source.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Why You Should Contribute to Open Source as a Data Scientist",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/cynthia-online-2020-contributing",
+      "date"     : "Jun 12, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-06-12T05:01:35-07:00'>12 Jun 2020</time><a class='article__image' href='/cynthia-online-2020-contributing'> <img src='/images/blogs/cover_global.png' alt='Why You Should Contribute to Open Source as a Data Scientist'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/cynthia-online-2020-contributing'>Why You Should Contribute to Open Source as a Data Scientist</a> </h2><p class='article__excerpt'>Cynthia Thinwa from Kenya shares her experience contributing to open source.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "A Reflection on My First Open Source Contribution Sprint",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/jake-tae-online-2020-contributing",
+      "date"     : "Jun 9, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-06-09T05:01:35-07:00'>09 Jun 2020</time><a class='article__image' href='/jake-tae-online-2020-contributing'> <img src='/images/blogs/cover_global.png' alt='A Reflection on My First Open Source Contribution Sprint'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/jake-tae-online-2020-contributing'>A Reflection on My First Open Source Contribution Sprint</a> </h2><p class='article__excerpt'>Jake Tae shares his experience contributing to open source.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "My Open Source Adventure",
+      "category" : "",
+      "tags"     : "opensource and sprint-blog",
+      "url"      : "/joe-lucas-online-2020-my-open-source-adventure",
+      "date"     : "Jun 7, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-06-07T05:01:35-07:00'>07 Jun 2020</time><a class='article__image' href='/joe-lucas-online-2020-my-open-source-adventure'> <img src='/images/blogs/cover_global.png' alt='My Open Source Adventure'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/joe-lucas-online-2020-my-open-source-adventure'>My Open Source Adventure</a> </h2><p class='article__excerpt'>Joe Lucas shares his experience contributing to scikit-learn for the first time.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Time Series Modeling and Machine Learning Approaches with Python",
+      "category" : "",
+      "tags"     : "python, pandas, and timeseries",
+      "url"      : "/time-series-modeling-and-machine-learning-approaches-with-python",
+      "date"     : "Mar 7, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-03-07T04:01:35-08:00'>07 Mar 2020</time><a class='article__image' href='/time-series-modeling-and-machine-learning-approaches-with-python'> <img src='/images/blogs/timeseries.png' alt='Time Series Modeling and Machine Learning Approaches with Python'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/time-series-modeling-and-machine-learning-approaches-with-python'>Time Series Modeling and Machine Learning Approaches with Python</a> </h2><p class='article__excerpt'>Bruno Gonçalves - Explains a broad range of traditional machine learning (ML) and deep learning techniques to model and analyze time series datasets with an emphasis on practical applications.</p></div></div></div>"
+    } ,
+  
+    {
+      "title"    : "Bayesian Data Science by Simulation",
+      "category" : "",
+      "tags"     : "python",
+      "url"      : "/bayesian-data-science-by-simulation",
+      "date"     : "Feb 10, 2020",
+      "article"  : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-02-10T04:01:35-08:00'>10 Feb 2020</time><a class='article__image' href='/bayesian-data-science-by-simulation'> <img src='/images/blogs/bayesian.png' alt='Bayesian Data Science by Simulation'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='/bayesian-data-science-by-simulation'>Bayesian Data Science by Simulation</a> </h2><p class='article__excerpt'>Hugo Bowne-Anderson - Explains Bayesian data science through the lens of simulation.</p></div></div></div>"
+    } 
+  
+]

@@ -1,0 +1,99 @@
+I"<p>Summary posted by: <a href="https://reshamas.github.io">Reshama Shaikh</a></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Clair Sullivan, a Developer Advocate for Neo4j, presented to the Data Umbrella community a tutorial on arrays, linked lists and graphs.</p>
+
+<p>It is easy and convenient to treat all data as an array. They are the basis of much of Python and a simple data structure to deal with. But there are times that arrays fail us, such as on element insertion and the pre-allocation of memory. There is power and efficiency in linking data through data structures such as linked lists. We will see how using linked lists can reduce Big O complexity and solve a variety of problems. Then we will explore how graph data structures take this a step further and open up a world of new options and opportunities for efficient computation.</p>
+
+<h2 id="outline-of-tutorial">Outline of Tutorial</h2>
+
+<p>Below is a summary of topics that were covered:</p>
+<ul>
+  <li>PART 1: Arrays</li>
+  <li>PART 2: Linked Lists</li>
+  <li>PART 3: LeetCode</li>
+  <li>PART 4: Graphs</li>
+</ul>
+
+<h2 id="video">Video</h2>
+<p>
+<iframe src="https://www.youtube.com/embed/gWGyvfU80kc" loading="lazy" frameborder="0" allowfullscreen=""></iframe>
+</p>
+
+<h2 id="key-links">Key Links</h2>
+<ul>
+  <li><a href="https://www.meetup.com/data-umbrella/events/283846178/">Meetup Event</a></li>
+  <li><a href="https://youtu.be/gWGyvfU80kc">Video</a></li>
+  <li><a href="https://github.com/cj2001/data_umbrella_linked_lists">GitHub repo</a></li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><a href="https://youtu.be/Z81fx_Fa34o">#IWD2022 1-minute video</a></li>
+  <li><a href="https://colab.research.google.com/notebooks/welcome.ipynb">Colab Notebook: welcome.ipynb</a></li>
+  <li><a href="https://leetcode.com/problems/reverse-linked-list/">LeetCode reverse linked lists</a></li>
+  <li>Byte Size Neo4j <a href="https://neo4j.com/video/bite-sized-neo4j-for-data-scientists/">Series of videos</a></li>
+  <li><a href="https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/leetcode206.ipynb">LeetCode Notebook: leetcode206.ipynb</a></li>
+</ul>
+
+<h2 id="summary-of-topics">Summary of Topics</h2>
+<ul>
+  <li>Arrays</li>
+  <li>Lists, a special array</li>
+  <li>Linked lists
+    <ul>
+      <li>Singly-linked</li>
+      <li>Doubly-linked</li>
+    </ul>
+  </li>
+  <li>What to do when all of the above fails?</li>
+</ul>
+
+<h2 id="section-timestamps-of-video">Section Timestamps of Video</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=0s">00:00:00</a> Reshama introduces Data Umbrella</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=279s">00:04:39</a> Clair begins introduction</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=374s">00:06:14</a> link to repo: <a href="https://github.com/cj2001/data_umbrella_linked_lists">data_umbrella_linked_lists</a></li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=395s">00:06:35</a> Summary of what will be covered</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=446s">00:07:26</a> Arrays</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=525s">00:08:45</a> Big O: O(n)</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=541s">00:09:01</a> Lists: Dynamic Arrays (insert, append)</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=645s">00:10:45</a> (Singly) Linked List (node, pointer)</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=785s">00:13:05</a> List Insertion</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=845s">00:14:05</a> repo intro: <a href="https://github.com/cj2001/data_umbrella_linked_lists">data_umbrella_linked_lists</a></li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=930s">00:15:30</a> list of resources</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1045s">00:17:25</a> Notebook on linked lists: <a href="https://github.com/cj2001/data_umbrella_linked_lists/blob/main/notebooks/basic_linked_list.ipynb">basic_linked_list</a></li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1064s">00:17:44</a> Linked List 1: [Create a linked list in python]. There is no data structure in python called linked list. It needs to be created. Here is how.</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1212s">00:20:12</a> Linked List 2: Insert a new node in the beginning of a list</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1280s">00:21:20</a> Linked List 3: Insert a new node at the end of list</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1375s">00:22:55</a> Linked List 4: Insert a new node in between items in a list</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1460s">00:24:20</a> Linked List 5: Delete a node</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1659s">00:27:39</a> (Doubly) Linked List</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1715s">00:28:35</a> Benefits of Linked Lists vs Arrays</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1794s">00:29:54</a> What You Need to Implement a Linked List</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=1833s">00:30:33</a> LeetCode #206: Reverse a Linked List (Iterative Solution)</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=2351s">00:39:11</a> Graphs: collection of nodes and relationships</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=2507s">00:41:47</a> How to Get Into Graphs with Python</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=2565s">00:42:45</a> Graph python packages vs graph databases</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=2660s">00:44:20</a> sandbox.neo4j.com (get free databases instances)</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=3120s">00:52:00</a> Graph Data Science</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=3360s">00:56:00</a> Cypher query</li>
+  <li><a href="https://www.youtube.com/watch?v=gWGyvfU80kc&amp;t=3620s">01:00:20</a> Q&amp;A</li>
+</ul>
+
+<h2 id="about-the-speaker">About the Speaker</h2>
+
+<h3 id="bio">Bio</h3>
+
+<p>Dr. Clair Sullivan is currently a data science advocate at Neo4j, working to expand the community of data scientists and machine learning engineers using graphs to solve challenging problems. She received her doctorate degree in nuclear engineering from the University of Michigan in 2002. After that, she worked in a variety of research positions within the US national laboratory and federal government and as a professor at the University of Illinois at Urbana-Champaign. In 2017 she accepted a job at GitHub as a Machine Learning Engineer and in 2021 she joined Neo4j as a Data Science Advocate. She has authored 4 book chapters, over 20 peer-reviewed papers, and more than 30 conference papers.</p>
+
+<h3 id="connect-with-the-speaker-clair-sullivan">Connect with the Speaker, Clair Sullivan</h3>
+
+<ul>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/dr-clair-sullivan-09914342/">dr-clair-sullivan</a></li>
+  <li>Twitter: <a href="https://twitter.com/CJLovesData1">@CJLovesData1</a></li>
+  <li>GitHub: <a href="https://github.com/cj2001">@cj2002</a></li>
+</ul>
+:ET

@@ -1,0 +1,21 @@
+I"b<h3 id="speaker">Speaker</h3>
+<ul>
+  <li>Bruno Goncalves</li>
+  <li>Website: <a href="https://www.data4sci.com">www.data4sci.com</a></li>
+  <li>Newsletter: <a href="https://www.data4sci.com/newsletter">Data For Science</a></li>
+</ul>
+
+<h3 id="workshop">Workshop</h3>
+<p>Time series are everywhere around us. Understanding them requires taking into account the sequence of values seen in previous steps and even long-term temporal correlations. Bruno Goncalves explains a broad range of traditional machine learning (ML) and deep learning techniques to model and analyze time series datasets with an emphasis on practical applications.
+Bruno will be presenting a 2-day workshop at an upcoming event:
+O’Reilly Strata Data and AI Conference (New York, NY) (Sep 2020)</p>
+
+<h3 id="workshop-github-repo">Workshop GitHub Repo</h3>
+<ul>
+  <li><a href="https://github.com/DataForScience/Timeseries_LL">Timeseries_long</a></li>
+</ul>
+
+<h3 id="related-links">Related Links</h3>
+<p>Meetup event: <a href="https://www.meetup.com/nyc-uads/events/268766867/">Time Series Modeling: ML and Deep Learning Approaches with Python</a></p>
+
+:ET

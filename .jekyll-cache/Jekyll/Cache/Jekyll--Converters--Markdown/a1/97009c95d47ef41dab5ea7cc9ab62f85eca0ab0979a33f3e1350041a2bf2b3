@@ -1,0 +1,87 @@
+I"h<p>Author:  <a href="https://jmloyola.github.io/">Juan Martin Loyola</a></p>
+
+<p><iframe src="https://www.youtube.com/embed/WHOiljOYGVw" loading="lazy" frameborder="0" allowfullscreen=""></iframe></p>
+
+<p>Pair programming is an amazing experience. On one hand, you and your coding partner can accomplish much more than you would be working separately. On the other hand, both can learn new things about the language or framework you are working on from one another. But, mainly, solving problems and coding challenges with somebody else is a lot of fun :).</p>
+
+<p>This document aims to introduce the Visual Studio Code extension <a href="https://visualstudio.microsoft.com/services/live-share/">Live Share</a>, which allows you to collaborate with coding partners in real-time.</p>
+
+<h2 id="live-share">Live Share</h2>
+<p>Live Share is an extension from <a href="https://code.visualstudio.com/">Visual Studio Code</a> that allows you to collaboratively edit and debug with others in real-time. It allows you to instantly share your current project, edit snippets of code at the same time or follow someone’s cursor while they program.
+These are extremely helpful when you are pair-programming using the driver-navigator technique <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. While the driver codes, the navigator can observe, check other sources, or suggest changes.</p>
+
+<h2 id="installation">Installation</h2>
+<p>To install Live Share follow these steps:</p>
+<ol>
+  <li>If needed, install Visual Studio Code. We used version 1.60.2 for this tutorial. For other versions, some steps might be different.</li>
+  <li>Install the Python extensions and select the Python interpreter you want to use.</li>
+  <li>Download and install the Live Share extension for Visual Studio Code. Use the extensions tab in Visual Studio Code (Ctrl+Shift+X) and search for Live Share. You will see three extensions: Live Share, Live Share Audio, and Live Share Extension Pack. Only the first one, Live Share, is necessary. The last one contains the two previous extensions.</li>
+  <li>Wait for the extension to finish downloading and then reload VS Code when prompted.</li>
+  <li>Wait for Visual Studio Live Share to finish installing dependencies (you’ll see progress updates in the status bar).</li>
+  <li>Once complete, you’ll see Live Share appear in your status bar and the activity bar.
+    <p style="text-align: center;"><img src="/images/vsc/live_share_status_bar.png" alt="Live Share Status Bar" width="150px" />
+ <img src="/images/vsc/live_share_activity_bar.png" alt="Live Share Status Bar" width="25px" /></p>
+  </li>
+  <li>[Optional] Sign in with GitHub to use Live Share. For that go to the “Account” tab in the left panel. In case you don’t sign in, you can only join sessions anonymously, and I think you will not be able to start a session. In some web browsers, GitHub authentication can fail. Try a different web browser.</li>
+</ol>
+
+<h2 id="how-to-use-it">How to use it</h2>
+<p>In what follows, we are going to assume two people <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> are pair-programming, where one takes the role of the driver (in the screenshots represented using the dark theme) and the other is the navigator (in the screenshots represented using the light theme).</p>
+
+<ol>
+  <li><strong>[driver]</strong> To begin a Live Share session you can:
+    <ul>
+      <li>Make sure that the folder you want to work in is open.</li>
+      <li>Click on “Live Share” on the status bar, or</li>
+      <li>Click on the Live Share icon in the activity bar and then click on “Share”.</li>
+    </ul>
+    <p style="text-align: center;"><img src="/images/vsc/create_session.png" alt="Create Session" width="400px" /></p>
+  </li>
+  <li><strong>[driver]</strong> You should see a notification with a message saying your collaboration session is starting.</li>
+  <li><strong>[driver]</strong> Once the session starts, a link will be copied to your clipboard. Send it to the person you want to collaborate with.</li>
+  <li><strong>[navigator]</strong> To join the collaboration session, go to the Live Share icon in the activity bar and click “Join”. If you have the link in your clipboard, when you click on “Join” it will automatically join the session. Otherwise, you will have to paste the link in the panel that appears in the center of the screen. Now you should wait for the driver to accept you into the session.
+    <p style="text-align: center;"><img src="/images/vsc/join_session.png" alt="Join Session" width="400px" /></p>
+  </li>
+  <li><strong>[driver]</strong> Accept the navigator into the collaboration session.
+    <p style="text-align: center;"><img src="/images/vsc/accept_session.png" alt="Accept Session" width="300px" /></p>
+  </li>
+  <li>You will now see the Live Session details showing the other participants. You can now start working collaboratively :).
+    <p style="text-align: center;"><img src="/images/vsc/working_session.png" alt="Working Session" width="200px" /></p>
+  </li>
+  <li>You can start following each other while you code. This is extremely useful when discussing code over a voice channel.
+    <ul>
+      <li>To begin following your partner click on their name.
+        <p style="text-align: center;"><img src="/images/vsc/following_you.png" alt="Following Partner" width="600px" /></p>
+      </li>
+      <li>To make your partner follow you click on “Focus Participants”.
+        <p style="text-align: center;"><img src="/images/vsc/follow_me.png" alt="Follow Me" width="200px" /></p>
+      </li>
+    </ul>
+  </li>
+  <li>You can chat with the rest of the participants using the “Session chat” on the Live Share tab.</li>
+  <li><strong>[driver]</strong> You can also share a terminal using the Live Share tab (in read-only or read/write mode). Once allowed, you can remove it. Once activated in read/write mode, all the participants will share the same terminal, so be careful not to step on each other’s commands.</li>
+  <li>To end the session you have to click on “Stop Collaboration Session”.
+    <p style="text-align: center;"><img src="/images/vsc/end_session.png" alt="End Session" width="200px" /></p>
+  </li>
+</ol>
+
+<h2 id="notes">Notes</h2>
+<p>While working collaboratively on Live Share, all the changes will appear as if they had been made by the host of the session (the driver). Thus, remember to appropriately indicate that the work was done as a team in the <a href="https://docs.github.com/en/github/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors">commit message</a> :D.</p>
+
+<h2 id="more-information">More information</h2>
+<p>For more information or if you encounter a problem while installing or using Live Share, visit these pages:</p>
+<ul>
+  <li><a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare">Visual Studio Code Marketplace: Live Share</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/visualstudio/liveshare/">Documentation: Visual Studio Live Share</a></li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>If you want to read more about pair-programming and the different techniques you can use, visit this <a href="https://medium.com/@weblab_tech/pair-programming-guide-a76ca43ff389">link</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Note that you can work with more than two people using the Live Share extension. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
