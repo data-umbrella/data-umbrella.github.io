@@ -12,6 +12,18 @@ If you have a win to share, please:
 - Email us at:  info@dataumbrella .org
 - Twitter: tag us with "@DataUmbrella" & "#DataUmbrellaImpact"
 
+### Gloria Macia: Shared open source experience at PyData London
+
+[Gloria Macia](https://www.linkedin.com/in/gloriamacia/) presented a 5-minute lightning talk at PyData London in July 2022 entitled "Contributing to Open Source and Inclusiveness in Tech", for which she won the best prize award. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t8dNB7g56HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Chris Laffra on Twitter](https://twitter.com/laffra/status/1538577051464126465):  
+> Congratulations to @GloriaMacia_ for winning JP Morgan's Python award at PyData London. I am going to take a closer look at @DataUmbrella now, for sure! Thanks Gloria for sharing this project with us. More information at: [dataumbrella.org](http://dataumbrella.org)
+
+[Chris Laffra on LinkedIn](https://www.linkedin.com/posts/chrislaffra_i-am-happy-to-share-that-the-jp-morgan-python-activity-6944339599607382016-HWQU?utm_source=linkedin_share&utm_medium=member_desktop_web):  
+>I am happy to share that the JP Morgan Python award at PyData London 2022 went to Gloria Macia, who gave a highly engaging explanation of the Data Umbrella project. The project's mission is to provide a welcoming and educational space for under-represented persons in the fields of machine learning, data science, and artificial intelligence. A great project I will look into in more detail. Thank you Gloria!"
+
 ### Juan Martín Loyola: Joins scikit-learn Triage Team
 
 Juan Martín Loyola joined the Data Umbrella Latin America sprint in June 2021, and he was an invited contributor to the Data Umbrella Africa and Middle East sprint in October 2021.  In this interview, learn more about Juan Martín's journey in open source. From a computer user to first contributing to PyMC, then Google Summer of Code, Data Umbrella's Latin America #ScikitLearnSprint, to Triage Team member with scikit-learn.
