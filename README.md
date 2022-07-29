@@ -1,67 +1,58 @@
-# Menca personal blogging theme for Jekyll
+# Data Umbrella Jekyll Blog
 
-Menca is a super fast and clean blogging theme for Jekyll. One of the main features of this theme is video post support. You can easily add your favorite video from services like Youtube or Vimeo. This theme is fully compatible with Github Pages and has a light and dark mode for easy reading. If you want to start a creative personal blog and you create video content this theme is perfect for you.
+This repository houses the code for Data Umbrella's Jekyll blog hosted at [https://blog.dataumbrella.org]. The blog was scaffolded using the Menca theme. For more information about the Menca theme check it out in action [Live Demo](https://menca.netlify.app/) and the developer's Jekyll theme entry by [Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko).
 
-* * *
-
-### Demo
-
-Check the theme in action [Live Demo](https://menca.netlify.app/) |
-[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
-
-* * *
-
-### Theme features
-
-- Works with GitHub Pages (host it for free)
-- Dark and light mode user can select themself
-- No jQuery, only vanilla JS
-- 100% responsive Design
-- Clean and Modern Code
-- Optimized for mobile devices
-- Super fast performance ⚡⚡⚡
-- Social sharing buttons
-- Scroll to top button
-- Syntax highlighting (supports the Jekyll syntax highlighter)
-- Compatible with modern browsers
-- Medium style image zoom
-- Image Lazy loading
-- Image gallery
-- Tags Page
-- Custom logo support
-- Supports video posts
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Ionicons icons
-- Free Google Fonts
-- Free Updates & Support
-
-* * *
-
-### Installation
+### Contributing
 
 #### Installing Ruby & Jekyll
 
 If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-* * *
+### Development
+
+#### 1. Fork the repository
+
+  Go to https://github.com/data-umbrella/data-umbrella.github.io/fork to fork the repository.
+
+#### 2. Clone your fork.
+
+  ```
+  git clone https://github.com/YOUR_GITHUB_USERNAME/data-umbrella.github.io.git
+  ```
+
+#### 3. Install dependencies
+
+  ```
+  cd data-umbrella
+  bundle install
+  ```
+
+#### 4. Run the development server
+
+  ```
+  bundle exec jekyll serve
+  ```
+
+#### 5. Open the app in the browser
+
+Visit the app at [http://localhost:4000](http://localhost:4000).
+
+#### 6. Commit code changes
+
+```
+git add .
+git commit -m "My awesome code change"
+git push origin -u example-user/example-branch-name
+```
+
+#### 7. Open Pull Request against upstream repository
+
+Visit your forked repository on Github https://github.com/YOUR_GITHUB_USERNAME/data-umbrella.github.io and click the Compare and pull request button at the top of the page. Once you open a pull request a owner of the repository will review your code, approve your changes or request updates before merging.
 
 ### Deployment
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies (if you get errors, delete Gemfile.lock and try again), then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-* * *
-
-### Documentation
-
-Before using the Menca theme, please read the attached documentation.
-
-* * *
+This site is automated deployed to Netlify via Github Actions. See Jekyll's documentation on the  [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) for more information about deploying Jekyll apps.
 
 ### Support
 
-<p>If you have any questions, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+For problems related to the blog site please create a [new issue](https://github.com/data-umbrella/data-umbrella.github.io/issues/new) on this Github repository.
