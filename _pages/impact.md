@@ -18,7 +18,7 @@ If you have a win to share, please:
 
 <p float="left">
    <a href="https://www.linkedin.com/posts/chrislaffra_i-am-happy-to-share-that-the-jp-morgan-python-activity-6944339599607382016-HWQU?utm_source=linkedin_share&utm_medium=member_desktop_web">
-  <img src="../images/impact/gloria-python.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/impact/gloria-python.png" width="60%" height="60%" style="border:0px;margin:0px">
 </a>
 </p>
 
