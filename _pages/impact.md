@@ -16,6 +16,12 @@ If you have a win to share, please:
 
 [Gloria Macia](https://www.linkedin.com/in/gloriamacia/) presented a 5-minute lightning talk at PyData London in July 2022 entitled "Contributing to Open Source and Inclusiveness in Tech", for which she won the best prize award. 
 
+<p float="left">
+   <a href="https://www.linkedin.com/posts/chrislaffra_i-am-happy-to-share-that-the-jp-morgan-python-activity-6944339599607382016-HWQU?utm_source=linkedin_share&utm_medium=member_desktop_web">
+  <img src="../images/impact/gloria-python.png" width="99%" height="99%" style="border:0px;margin:0px">
+</a>
+</p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t8dNB7g56HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
