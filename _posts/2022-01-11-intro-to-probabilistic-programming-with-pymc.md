@@ -11,6 +11,8 @@ Summary posted by: [Reshama Shaikh](https://reshamas.github.io)
 
 ## Introduction
 
+In this article and video, we share how to do Bayesian Modeling and Computation in Python.
+
 Austin Rochford, a maintainer of PyMC, presented to the Data Umbrella community an introduction to probabilistic programming with PyMC, with a particular emphasis on the how open source probabilistic programming makes Bayesian inference algorithms near the frontier of academic research accessible to a wide audience.
 
 In the last ten years, there have been a number of advancements in the study of Hamiltonian Monte Carlo and variational inference algorithms that have enabled effective Bayesian statistical computation for much more complicated models than were previously feasible. These algorithmic advancements have been accompanied by a number of open source probabilistic programming packages that make them accessible to the general engineering, statistics, and data science communities. PyMC is one such package written in Python and supported by NumFOCUS.
