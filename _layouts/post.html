@@ -48,6 +48,10 @@ layout: default
             <div class="post__meta-bottom">
               <a class="post__author" href="{{site.baseurl}}/about/">{{site.author.author__name}}</a>
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+              <div>
+                <span class="post__reading-time">
+                {% include reading-time.html %}</span>
+              </div>
             </div>
           </div>
   
