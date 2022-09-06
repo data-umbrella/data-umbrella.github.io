@@ -3,19 +3,25 @@ layout: post
 title:  Data Umbrella PyMC 2022 Open Source Report
 description: Summary of the PyMC Open Source Working Sessions, Jul-Aug 2022
 date:   2022-08-26 15:01:35 +0300
-image:  '/images/2022-pymc2/AFME2-photo.png'
+image:  '/images/2022-pymc2/0_pymc_social_card.png'
 tags:   [opensource, pymc, sprint-report]
 ---
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
+To do:
+- add in plotly graphs
+- add in feedback
+ 
 
 ## High Level Summary
-- Registered participants: 76
+Number of participants who:  
+- Registered: 76
 - Attended:  38
 - Submitted >= 1 pull request:  24
-- xx countries represented
+- Countries represented: 11
 
 <p float="left">
+   <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html"></a>
   <img src="../images/2022-pymc/0_pymc_social_card.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
@@ -32,9 +38,9 @@ Photo not available.
 ### Session 1
 
 <p float="left">
-   <a href="https://www.moore.org/"></a>
+   <a href="https://twitter.com/DataUmbrella/status/1545836209410392064"></a>
   <img src="../images/2022-pymc/1a_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
-   <a href="https://eventfund.codeforscience.org/"> </a>
+   <a href="https://twitter.com/DataUmbrella/status/1545836214774816768"> </a>
   <img src="../images/2022-pymc/1b_pymc.png" width="50%" height="50%" style="padding:1px;border:solid black;" align="top" />
 </p>
 
@@ -42,40 +48,32 @@ Photo not available.
 ### Session 2
 
 <p float="left">
-   <a href="https://www.moore.org/"></a>
+   <a href="https://twitter.com/DataUmbrella/status/1551207167990321152"></a>
   <img src="../images/2022-pymc/2a_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
-   <a href="https://eventfund.codeforscience.org/"> </a>
+   <a href="https://twitter.com/DataUmbrella/status/1551207174210199553"> </a>
   <img src="../images/2022-pymc/2b_pymc.png" width="50%" height="50%" style="padding:1px;border:solid black;" align="top" />
-   <a href="https://www.moore.org/"></a>
+   <a href="https://twitter.com/DataUmbrella/status/1551207179801268226"></a>
   <img src="../images/2022-pymc/2c_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
 ### Session 3
 
 <p float="left">
-   <a href="https://www.moore.org/"></a>
+   <a href="https://twitter.com/DataUmbrella/status/1555628870417661954"></a>
   <img src="../images/2022-pymc/3_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
 ### Post-Series Office Hours
 
 <p float="left">
-   <a href="https://www.moore.org/"></a>
+   <a href="https://twitter.com/DataUmbrella/status/1560644287943122947/"></a>
   <img src="../images/2022-pymc/4_pymc_oh.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
 
+## Event Sponsors
 
-<p float="left">
-<a href="https://twitter.com/DataUmbrella/status/1451935870857121805">
-  <img src="../images/2021-afme2/AFME2-photo.png" width="99%" height="99%"/> 
-</a>
-</p>
-
-
-## Event Sponsor
-
-This event was sponsored by:  
+This event was supported by:  
 - [Google Open Source](https://opensource.google/)
 - [Chan Zuckerberg Initiative](https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/data-umbrella/) (2-year [Communities of Practice](https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/data-umbrella/) grant)
 - [PyMC Labs](https://www.pymc-labs.io/)
@@ -85,6 +83,10 @@ This event was sponsored by:
   <img src="../images/2022-pymc/du_sponsors.png" width="75%" height="75%" style="padding:0px;border:solid black;" align="top" />
 </p>
 
+This is a 3-minute video by Mariatta Wijaya of Google on open source to share with the Data Umbrella community.
+
+<p><iframe src="https://www.youtube.com/embed/NpWdYEp8-u4" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+
 
 ## Schedule of Sessions
 - 02-Jul-2022: Pre-series Office Hours (13-14:00 UTC) (1 hr)
@@ -92,10 +94,6 @@ This event was sponsored by:
 - 22-Jul-2022: Session #2 (16-19:00 UTC) (3 hrs)
 - 4/5-Aug-2022: Session #3 (23-2:00 UTC) (3 hrs)
 - 18-Aug-2022: Post-series Office Hours (23-24:00 UTC) (1hr)
-
-<p float="left">
-  <img src="../images/2022-pymc/0_pymc_social_card.png" width="99%" height="99%" style="border:0px;margin:0px">
-</p>
 
 
 ## Number of Attendees
@@ -111,122 +109,95 @@ This event was sponsored by:
 
 Note: Session 3 and post-series office hours were for Asia-Pacific time zone. 
 
-## Pull Requests (PRs) Statistics
-
-- 7 PRs were merged on sprint day
-- 7 *additional* PRs were merged within 2 days of sprint day
-- 33 PRs: a *total* of 33 PRs have been merged in the 4-week period of sprint day to date of report.
-
-As of the date of this report (27-Aug-2022), these are the PR stats:  
-- Open:  
-- Merged:
-- Issues opened:  
+## Event Organizers
 
 
-```github
-is:pr #DataUmbrella is:open 
-```
+
+
+## Contributions Statistics
+
+The contributions during the working sessions were tracked in this [PyMC OS-WS spreadsheet](https://docs.google.com/spreadsheets/d/11aUZN_iqPF4-oWNvFKhkPIMYLizVE_EmoHugX7kGgHY/edit?usp=sharing).  Contributions included both submitting a pull request and opening an issue where observed. 
+
+We worked on a few different repositories for the PyMC project:  
+1. [video-timestamps](https://github.com/pymc-devs/video-timestamps): this is a beginner-friendly [list of issues](https://github.com/pymc-devs/video-timestamps/issues/11) where contributors watch a video from the PyMCon 2022 conference and add timestamps
+1. [pymc-data-umbrella](https://github.com/pymc-devs/pymc-data-umbrella/pull/128): this is the event website. Contributors could submit PRs to fix typos or clarify the contributing guide, as well as add their information to the [list of participants](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/contributors.html)
+1. [pymc-dev/pymc](https://github.com/pymc-devs/pymc): this is the main code repository for PyMC
+1. [pymc-dev/pymc-examples](https://github.com/pymc-devs/pymc-examples): this is the repo that holds notebook examples for PyMC
+
+As of the date of this report (28-Aug-2022), these are the PR stats:  
+- Open: 2 
+- Merged: 56
+- Issues opened: 6  
+
+#### Timestamps
+
+Timestamps were added for 16 videos.
 <p>
- <img src="../images/2021-afme2/prs-open.png" width="99%" height="99%" style="border:0px;margin:0px">
+ <img src="../images/2022-pymc/pr_1timestamps.png" width="99%" height="99%" style="border:0px;margin:0px">
 </p>
 
+#### Event website
 
+A number of PRs were submitted to update contributor information.
+<p> <img src="../images/2022-pymc/pr_2website.png" width="99%" height="99%" style="border:0px;margin:0px">
+</p>
 
+#### Updating Jupyter Notebooks
+
+This was a more intermediate issue for new contributors, which was updating notebooks with consistent information for sphinx rendering. 
+<p> <img src="../images/2022-pymc/pr_3examples.png" width="99%" height="99%" style="border:0px;margin:0px">
+</p>
+
+#### PyMC documentation
+
+These contributions were in the main code repository.
+<p> <img src="../images/2022-pymc/pr_4pymc.png" width="99%" height="99%" style="border:0px;margin:0px">
+</p>
 
 ## Demographics
-Of the 74 people who applied, 40 attended. All applicants were accepted. This funnel graph shows the breakdown, by gender.
+Of the 74 people who applied, 38 attended. Of the 38 who attended, 24 submitted a pull request. This funnel graph shows the breakdown, by gender.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/1_funnel.html" height="500" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/funnel.html" height="500" width="1000">
 </iframe>	
 
-A total of 40 contributors attended the sprint. 14 of 40 (35%) identified as she/her.  26 of 40 (65%) identified as he/him. 
+A total of 38 contributors attended the sprint. 14 of 30 (47%) identified as she/her.  24 of 44 (55%) identified as he/him. 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/2_pie_gender.html" height="500" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/gender.html" height="500" width="1000">
 </iframe>	
 
 
-Contributors joined from **17 different countries**.  Country information was provided based on where participants were joining from. The countries with the most participants:  
-1. Kenya: 11
-1. United States of America: 5
-1. India: 4
-1. Saudi Arabia: 2
-1. Germany: 2
+Contributors joined from **10 different countries**.  Country information was provided based on where participants were joining from.   
+1. United States of America: 13
+1. India: 6
+1. Ghana: 4
+1. Kenya: 4
+1. Germany: 3
+1. United Kingdom: 2
 1. Canada: 2
-1. Bulgaria: 2
-1. Argentina: 2
-
-Other countries with 1 participant each include: Zambia, Venezuela, Sweden, South Africa, Poland, Lithuania, Kazakhstan, Ireland, Ghana, El Salvador.
+1. Brazil: 2
+1. Colombia: 2
+1. Ireland: 1
 
 <p>
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/barplot_country.html" height="1000" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/country.html" height="1000" width="1000">
 </iframe>
 
 </p>
 
-## Invited Contributors
-
-There were 4 invited contributors. Invited contributors were those who participated in a prior sprint and have continued contributing to scikit-learn.  
-
 ## Returning Contributors
+There were 3 "returning" contributors.  These contributors had participated in a previous scikit-learn sprint.
 This pie chart shows that of the 40 people attending, 57.5% were returning contributors.
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/3_pie_returning.html" height="500" width="1000">
-</iframe>	
-
-### Applications Received
-
-This barplot shows all the countries from which applications were received. It also shows a breakdown of how many people attended from each country. 
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/bar_all_country.html" height="1000" width="1000">
-</iframe>	
-
 
 ### Spoken Languages
 The sprint was run in English. Participants were asked on their forms to indicate if they needed a translator. No translators were requested.
 
 This barplot shows the primary spoken languages by the sprint participants.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/spoken_languages.html" height="1000" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/primary_spoken_language.html" height="1000" width="1000">
 </iframe>	
 
-### Attendee Role (work/school)
-
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/work_role.html" height="1000" width="1000">
-</iframe>	
 
 ## Impact Report for Data Umbrella Scikit-learn Sprint
-
-|                                       | 2022 PyMC Open Source Working Sessions    |
-|---------------------------------------|----------------|
-| Report date                           | 20-Nov-2021    |
-| Report author                          | Reshama Shaikh   |
-| Sprint date                           | 23-Oct-2021    |
-| Location                              | Online; Africa & Middle East (AFME2)         |
-| Sprint website | [2022-07_sprint](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html) |
-| Twitter | [Moment](https://twitter.com/i/events/1452292223463219205) |
-| Open source library                   | [scikit-learn](https://github.com/scikit-learn/scikit-learn) |  
-| GitHub repository link                | [data-umbrella/data-umbrella-scikit-learn-sprint](https://github.com/data-umbrella/data-umbrella-scikit-learn-sprint)| |
-| Lead Organizer      | [Reshama Shaikh](https://twitter.com/reshamas)     |
-| Assistant Organizers      | Mariam Haji, Cristina Mulas Lopez, Nestor Navarro |
-| Lead Facilitator    | [Andreas Mueller](https://twitter.com/amuellerml) |
-| Mentors / Translations | Not applicable  |  
-| Scikit-learn core contributors    | Thomas Fan, Adrin Jalali, Olivier Grisel, Julien Jerphanon, Guillaume LeMaitre |  
-| Teaching Assistants  | None |
-| Community Contributors | Lucy Jimenez, Juan Martin Loyola |
-| Platforms            | Discord & Zoom |
-| Sponsor: | Grant [GBMF8449](https://www.moore.org/grant-detail?grantId=GBMF8449) from [Gordon and Betty Moore Foundation](https://www.moore.org) & [Code for Science and Society](https://eventfund.codeforscience.org)   |
-|            |                |
-| PULL REQUESTS **(PRs)**                 |          |
-| PRs [MRG] at sprint  | 7      |
-| PRs [MRG] post-sprint| 26+    (x)  |
-| PRs open  | 16+        |
-|           |          |
-| Attendees:  Initial Registrations  | ~55  |
-| Attendees:  Participated           | ~40  |
-| Attendee List  | [Sprint Contributors](https://afme2021rc.dataumbrella.org/contributors)   |
-|                                    |  |
-| Post-sprint Survey  | [survey form] (closed) |
-| Blog 1: Beryl Kanali| [My experience contributing to Open Source -AFME2 Oct 2021](https://medium.com/@kanaliberyl/my-experience-contributing-to-open-source-afme2-oct-2021-398a505e6d80) |
 
 
 ## Resources for Contributing to PyMC
@@ -254,20 +225,11 @@ Aside from the number of PRs that were merged, there is non-quantifiable impact 
 
 ## Challenges
 
-### Challenge 1: Outreach
-Despite doing similar levels of outreach, for this sprint, we recieved about 50% of applications than we typically do.
+### Challenge 1: Emails going to spam
 
-This Google Analytics table shows that of the top 10 countries reached, 7 of them were in the region of Africa and Middle East. Despite Somalia being #4, we did not receive any applications from that country. 
 
-Comparatively speaking, for our prior [Latin America sprint](), we had over 1100 users by the time the sprint report was written. For this event, it was about 50% of that.
 
-<p float="left">
-  <img  src="../images/2021-afme2/ga-country.png" width="99%" height="99%" style="border:0px;margin:0px">
-</p> 
 
-<p float="left">
-  <img  src="../images/2021-afme2/ga-map-country.png" width="99%" height="99%" style="border:0px;margin:0px">
-</p> 
 
 ### Challenge 2: [Preparation Work](https://afme2021rc.dataumbrella.org/about/prep-work)
 Fewer participants in this sprint, compared to past sprints, did their preparation work. A few set up their working environment at the sprint, which results in having less time to work on an issue during the sprint.
@@ -299,26 +261,9 @@ For those who attended the sprint, this is how they learned of the event. The ma
 </iframe>	
 
 
+## Next Steps
 
-### Videos
-Based on feedback from our last sprint, [Latin America 2021](https://blog.dataumbrella.org/data-umbrella-latam-2021-scikit-learn-sprint-report), we created a video demonstrating how to use Visual Studio LiveShare.
-
-<p><iframe src="https://www.youtube.com/embed/WHOiljOYGVw" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
-
-### Language Translations
-No new language translations were created for this sprint.
-
-
-## Adjustments for Next Sprint
-
-### Returning Contributors
-Returning contributors are already in the sprint category on Discord.  Work out a process where returning contributors can sign up for the sprint without going through entire application process.
-
-### Returning Contributors Working Offline
-We received a few requests from past participants to work on issues outside of the sprint day due to schedules. We accommodated that request and they were given access to the curated issues list to work on as their schedule permitted.
-
-### Second Co-author on Pull Request
-Add in documentation on how to include a second author on pull request commits.
+Explore options to continue momentum of contributions.
 
 ## Sprint Feedback
 
@@ -329,12 +274,6 @@ Feedback has been shared a number of ways:
 - Social media (LinkedIn)
 - Casually, in conversation during the sprint, pre-sprint and post-sprint events
 
-## Data Umbrella Feedback Survey
-
-### Response Rate
-The survey response rate was 19/40 = 47.5%.  The survey form was in English.
-
-Respondents rated their overall sprint experience highly favorably and had a positive experience working with their pair programming partner.  
 
 ### Favorite Parts About the Sprint
 
@@ -383,115 +322,125 @@ In response to the question "*Include any other thoughts here.*"
 
 ## Sprint:  Social Media
 
-### Sprint Kickoff
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Africa &amp; Middle East (AFME) <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> has kicked off!<a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://twitter.com/hashtag/oss?src=hash&amp;ref_src=twsrc%5Etfw">#oss</a><br>Wonderful to see returning &amp; new contributors!<br><br>Thank you to <a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> &amp; <a href="https://twitter.com/MooreFound?ref_src=twsrc%5Etfw">@MooreFound</a> for your support. <a href="https://t.co/g7zVivJpPR">pic.twitter.com/g7zVivJpPR</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1451935870857121805?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+### Carlo of Brazil
+
+<p float="center">
+   <a href="https://www.linkedin.com/posts/carlo-lemos_dataumbrellapymcsprint-opensource-bayesianstatistics-activity-6951927681445703680-moRL"></a>
+  <img src="../images/2022-pymc/li_carlo.png" width="60%" height="60%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
-### First PR Merged!
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reference:<a href="https://t.co/Q5WqVVV0Py">https://t.co/Q5WqVVV0Py</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1451935999328768019?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+### Pablo of Brazil
+
+<p float="center">
+   <a href="https://www.linkedin.com/posts/pibieta_opensourcecommunity-python-activity-6958066289823162370-sY9o"></a>
+  <img src="../images/2022-pymc/li_pablo.png" width="60%" height="60%" style="padding:1px;border:solid black;" align="top"/> 
+</p>
+
+### Igor of USA
+
+<p float="center">
+   <a href="https://www.linkedin.com/posts/activity-6957724036369948673-8t7v
+"></a>
+  <img src="../images/2022-pymc/li_igor.png" width="60%" height="60%" style="padding:1px;border:solid black;" align="top"/> 
+</p>
+
+### Dustin of USA
+
+<p float="center">
+   <a href="https://www.linkedin.com/posts/dustin-matthew-burt-760b112_dataumbrellapymcsprint-pymc-activity-6951585956047065088-TfTuL"></a>
+  <img src="../images/2022-pymc/li_dustin.png" width="60%" height="60%" style="padding:1px;border:solid black;" align="top"/> 
+</p>
+
+### Prince of Ghana
+
+<p float="center">
+   <a href="https://www.linkedin.com/posts/princeoforhasiedu_dataumbrellapymcsprint-opensource-pymc-activity-6951604709300318208-_qXt"></a>
+  <img src="../images/2022-pymc/li_prince.png" width="60%" height="60%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
 
-### [Fortune](https://www.linkedin.com/posts/fortune-uwha_opensource-scikitlearn-python-activity-6858826207018921984--V5D/) of Nigeria / Lithuania
+### Rowan of Tennessee, USA
 
-<p float="left">
-<a href="https://www.linkedin.com/posts/fortune-uwha_opensource-scikitlearn-python-activity-6858826207018921984--V5D/">
-  <img src="../images/2021-afme2/fortune-li.png" width="99%" height="99%"/> 
-</a>
-</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Made my first open source contributions today with <a href="https://twitter.com/CarolBasknRobns?ref_src=twsrc%5Etfw">@CarolBasknRobns</a>! Watch out world 💪🤓 Thanks for the great event <a href="https://twitter.com/hashtag/DataUmbrellaPyMCSprint?src=hash&amp;ref_src=twsrc%5Etfw">#DataUmbrellaPyMCSprint</a> <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> <a href="https://twitter.com/pymc_devs?ref_src=twsrc%5Etfw">@pymc_devs</a> <a href="https://t.co/BKRPZcLETC">pic.twitter.com/BKRPZcLETC</a></p>&mdash; rowan schaefer (@rowan_________) <a href="https://twitter.com/rowan_________/status/1555397018545168386?ref_src=twsrc%5Etfw">August 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Giancarlo of El Salvador
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There&#39;s no better way to actually start contributing to open source than a sprint on Scikit-learn 🤭 <a href="https://t.co/0vXEE7dyL1">https://t.co/0vXEE7dyL1</a></p>&mdash; Giancarlo Pablo (@gpablo06) <a href="https://twitter.com/gpablo06/status/1451963803600576520?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
+### Benjamin
 
-### MA of India
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My first (and second) open source contribution at <a href="https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw">@scikit_learn</a>. What an evening it turned out to be. Didn&#39;t know it would go so smoothly. Thank you <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> <br>Great working with you <a href="https://twitter.com/miwojcz?ref_src=twsrc%5Etfw">@miwojcz</a>. See you again in the future sprints 😃<a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> <a href="https://t.co/bo5W6rcLnR">https://t.co/bo5W6rcLnR</a></p>&mdash; Mohammad A. (@ma_jauhar) <a href="https://twitter.com/ma_jauhar/status/1451967112222629892?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Really enjoyed the first working session of the <a href="https://twitter.com/hashtag/DataUmbrellaPyMCSprint?src=hash&amp;ref_src=twsrc%5Etfw">#DataUmbrellaPyMCSprint</a>! Thank you <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> for organizing the event.</p>&mdash; Benjamin Datko (@BenDatko) <a href="https://twitter.com/BenDatko/status/1545812988279627782?ref_src=twsrc%5Etfw">July 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Hannah of Germany
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you for making this great sprint happen <a href="https://twitter.com/reshamas?ref_src=twsrc%5Etfw">@reshamas</a> and <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a>! It was so much fun! <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> <a href="https://twitter.com/hashtag/sklearn?src=hash&amp;ref_src=twsrc%5Etfw">#sklearn</a> <a href="https://twitter.com/hashtag/womenintech?src=hash&amp;ref_src=twsrc%5Etfw">#womenintech</a> <a href="https://t.co/YGBrQmj0ib">https://t.co/YGBrQmj0ib</a></p>&mdash; Hannah Bohle (@HannahBohle) <a href="https://twitter.com/HannahBohle/status/1451972342066958337?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+### Chris Fonnessbeck, PyMC Team Member
 
-</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> PyMC sprint on Friday was fantastic. It&#39;s a great way to get involved with the project and with the open source data science community in general. <a href="https://t.co/pj3s8PNUas">https://t.co/pj3s8PNUas</a></p>&mdash; Chris Fonnesbeck (@fonnesbeck) <a href="https://twitter.com/fonnesbeck/status/1551236314644856834?ref_src=twsrc%5Etfw">July 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Maren of Germany
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having fun with <a href="https://twitter.com/HannahBohle?ref_src=twsrc%5Etfw">@HannahBohle</a> at the <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> organised by <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a>. We&#39;re very honoured to be part of this sprint. 😊🎉🥳 <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/womenintech?src=hash&amp;ref_src=twsrc%5Etfw">#womenintech</a> <a href="https://t.co/uaxtQLNFmP">pic.twitter.com/uaxtQLNFmP</a></p>&mdash; Maren Westermann (@MarenWestermann) <a href="https://twitter.com/MarenWestermann/status/1451983188105039874?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
+### Zoe
 
-### Fortune of Nigeria
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Another scikit-learn sprint!😀. Super excited to be a part of this again and experience the fun and challenges of contributing to open source:)). Many thanks to <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a>, <a href="https://twitter.com/MooreFound?ref_src=twsrc%5Etfw">@MooreFound</a> ,<a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> for the opportunity.<a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> <a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://t.co/CI1PGbCvLP">https://t.co/CI1PGbCvLP</a></p>&mdash; Fortune Uwha🦋 (@fortune_uwha) <a href="https://twitter.com/fortune_uwha/status/1452018164796203019?ref_src=twsrc%5Etfw">October 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m proud to join the <a href="https://twitter.com/pymc_devs?ref_src=twsrc%5Etfw">@pymc_devs</a> contributors team, thanks to the leadership or <a href="https://twitter.com/reshamas?ref_src=twsrc%5Etfw">@reshamas</a> and the <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> community. <a href="https://t.co/ns017TCvsC">https://t.co/ns017TCvsC</a><a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> <a href="https://twitter.com/hashtag/Statistics?src=hash&amp;ref_src=twsrc%5Etfw">#Statistics</a></p>&mdash; Zoe Braiterman (@zbraiterman) <a href="https://twitter.com/zbraiterman/status/1546229891988951040?ref_src=twsrc%5Etfw">July 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Tia of Zambia
-<p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> gave me the opportunity to attend my first scikit-learn sprint, ever!!! Contributing to this open source library was fun and very educational! - Bonus✨<br><br>Lesson - THE PREP WORK AT ANY SPRINT IS IMPORTANT!! <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a></p>&mdash; Tia (@lontia_nkhuwa) <a href="https://twitter.com/lontia_nkhuwa/status/1454314039790682114?ref_src=twsrc%5Etfw">October 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</p>
 
 ---
 
 ## Social Media Promotion
 
+We created a [social media kit](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/media_kit.html#media-kit-ref) for the Data Umbrella PyMC Open Source working sessions to provide content for our community partners to share. 
+
 ### Twitter (English)
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📣Join us for our <a href="https://twitter.com/hashtag/ScikitLearnSprint?src=hash&amp;ref_src=twsrc%5Etfw">#ScikitLearnSprint</a> <br>👉🏽with a focus on Africa &amp; Middle East (AFME)<br><br>🗓️23-Oct-2021<br>🕙 5pm to 9pm EAT<br>🏢 Online<a href="https://twitter.com/hashtag/python?src=hash&amp;ref_src=twsrc%5Etfw">#python</a> <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> <a href="https://twitter.com/hashtag/oss?src=hash&amp;ref_src=twsrc%5Etfw">#oss</a> <br>Thank you to our sponsors: <a href="https://twitter.com/codeforsociety?ref_src=twsrc%5Etfw">@codeforsociety</a> &amp; <a href="https://twitter.com/MooreFound?ref_src=twsrc%5Etfw">@MooreFound</a><br><br>Details on application: <a href="https://t.co/UyIoQ9gS2G">https://t.co/UyIoQ9gS2G</a> <a href="https://t.co/o9C4PpGg5m">pic.twitter.com/o9C4PpGg5m</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1435972074842034184?ref_src=twsrc%5Etfw">September 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧵<br>📣Join us: *online* working sessions to contribute to <a href="https://twitter.com/pymc_devs?ref_src=twsrc%5Etfw">@pymc_devs</a> <a href="https://twitter.com/hashtag/oss?src=hash&amp;ref_src=twsrc%5Etfw">#oss</a><br>👉🏽with a focus on underrepresented persons in <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a><br>🗓️ Jul/Aug 2022: office hrs + 3 sessions<br><br>We thank our sponsors <a href="https://twitter.com/Google?ref_src=twsrc%5Etfw">@Google</a> <a href="https://twitter.com/cziscience?ref_src=twsrc%5Etfw">@cziscience</a> <a href="https://twitter.com/pymc_labs?ref_src=twsrc%5Etfw">@pymc_labs</a> <br>Submit a registration form:<a href="https://t.co/WFLPuy6rts">https://t.co/WFLPuy6rts</a> <a href="https://t.co/UyptFHrPav">pic.twitter.com/UyptFHrPav</a></p>&mdash; Data Umbrella (@DataUmbrella) <a href="https://twitter.com/DataUmbrella/status/1538875289652142080?ref_src=twsrc%5Etfw">June 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-## Past Data Umbrella Sprint Reports
-
-<p float="left">
-<a href="https://blog.dataumbrella.org/tags/#sprint-report">
-  <img src="../images/2021-afme2/sprint-reports.png" width="99%" height="99%"/> 
-</a>
 </p>
 
-## Past Data Umbrella Sprint Participant Blogs
+### LinkedIn (English)
 
-<p float="left">
-<a href="https://blog.dataumbrella.org/tags/#sprint-blog">
-  <img src="../images/2021-afme2/sprint-blogs.png" width="99%" height="99%"/> 
-</a>
-</p>
+[LinkedIn announcement](https://www.linkedin.com/posts/dataumbrella_online-pymc-open-source-pre-series-office-activity-6944647561630662656-brWa)
+
 
 ---
 
 ## Acknowledgments
-- All the [scikit-learn core contributors](https://scikit-learn.org/stable/about.html) who mentored at the sprint and those who were online during the weekend afterwards to promptly review the submitted pull requests.
 
----
+We thank the [Data Umbrella & PyMC organizers](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/organizers.html#data-umbrella-organizers) who created the website, conducted outreach, marketing and so much more!  
+- Reshama Shaikh
+- Beryl Kanali
+- Sandra Meneses
+- Sandy Weng
+- Cristina Mulas Lopez
+- Christian Luhmann
+- Oriol Abril Pla
+- Thomas Wiecki
 
-## References
+<p float="center">
+   <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/organizers.html#data-umbrella-organizers"> </a>
+  <img src="../images/2022-pymc/du_org.png" width="75%" height="75%" style="padding:0px;border:solid black;" align="top" />
+</p>
 
-## Past Sprint Reports & Blogs by Contributors
-- Data Umbrella scikit-learn [Sprint Reports](https://blog.dataumbrella.org/tags/#sprint-report)
-- Past Sprints [Blogs by Contributors](https://blog.dataumbrella.org/tags/#sprint-blog)
+<p float="center">
+   <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/organizers.html#data-umbrella-organizers"> </a>
+  <img src="../images/2022-pymc/pymc_org.png" width="75%" height="75%" style="padding:0px;border:solid black;" align="top" />
+</p>
 
-### Upcoming Sprints
-- [List of Upcoming scikit-learn Sprints](https://github.com/scikit-learn/scikit-learn/wiki/Upcoming-events)
 
-### Past Sprints
-- [List of Past scikit-learn Sprints](https://github.com/scikit-learn/scikit-learn/wiki/Past-sprints) (scikit-learn wiki)
-- [List of scikit-learn Sprints](https://reshamas.github.io/resources/scikit_learn_sprints/) (compiled by Reshama Shaikh)
-- [scikit-learn Sprints Organized by Reshama Shaikh](https://www.dataumbrella.org/open-source/sprints)
+We thank the [PyMC team](https://scikit-learn.org/stable/about.html) who mentored at the sessions and those who were online during the weekend afterwards to promptly review the submitted pull requests, particularly:  
+- Christian Luhmann
+- Oriol Abril Pla
+- Ravin Kumar
+- Dan Phan
+- Chris Fonnesbeck
+- Alex Andorra
+- Michael Osthege
+- Fernando Irarrázaval
 
-#### Code Snippets for Searching GitHub PRs
+<p float="center">
+   <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/organizers.html#pymc-mentors"> </a>
+  <img src="../images/2022-pymc/pymc_mentors.png" width="75%" height="75%" style="padding:0px;border:solid black;" align="top" />
+</p>
 
-Data Umbrella PRs from Sprint Day and Later
-```
-is:pr #DataUmbrella is:closed sort:updated-desc pr:created:>=2021-10-23 
-```
+### References
 
-PRs created on sprint day, then sort
-```
-is:pr #DataUmbrella created:2021-10-23 sort:updated-desc 
-```
+- [PyMC sprints organized by Data Umbrella](https://pymc-data-umbrella.xyz/en/latest/sprint_events.html)
+- Interview with Sandra Meneses: [Contributing to PyMC](https://blog.dataumbrella.org/sandra-sprints)
+- [Reflections on the Data Umbrella PyMC February 2022 Sprint](https://blog.dataumbrella.org/pymc-sprint-summary)
+- [Data Umbrella scikit-learn Sprint Reports](https://blog.dataumbrella.org/tags/#sprint-report)
 
----
+
 ## Addendum
 - [no addendums or updates at the time of publication]
