@@ -2,8 +2,8 @@
 layout: post
 title:  Data Umbrella PyMC 2022 Open Source Report
 description: Summary of the PyMC Open Source Working Sessions, Jul-Aug 2022
-date:   2022-08-26 15:01:35 +0300
-image:  '/images/2022-pymc2/pymc_summary.png'
+date:   2022-08-28 15:01:35 +0300
+image:  '/images/2022-pymc/pymc_summary.png'
 tags:   [opensource, pymc, sprint-report]
 ---
 
@@ -79,7 +79,7 @@ This event was supported by:
   <img src="../images/2022-pymc/du_sponsors.png" width="75%" height="75%" style="padding:0px;border:solid black;" align="top" />
 </p>
 
-This is a 3-minute video by Mariatta Wijaya of Google on open source to share with the Data Umbrella community.
+This is a 3-minute video by Mariatta Wijaya of Google with inspirational tips on contributing to open source.
 
 <p><iframe src="https://www.youtube.com/embed/NpWdYEp8-u4" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
@@ -94,16 +94,16 @@ This is a 3-minute video by Mariatta Wijaya of Google on open source to share wi
 
 ## Number of Attendees
 
-| Session                  | Data Umbrella Organizers | PyMC Mentors | Community Contributors | Note
+| Session                  | Data Umbrella Organizers | PyMC Mentors | Community Contributors | Note   |
 |--------------------------|--------------------------|--------------|------------------------|--------------|
 | Pre-series Office Hours  | 3                        | 2            | 24                     | |
 | Session #1               | 3                        | 4            | 20                     | |
 | Session #2               | 3                        | 4            | 12                     | |
-| Session #3               | 1                        | 4            | 6                      | Asia-Pacific |
-| Post-series Office Hours | 1                        | 3            | 4               |Asia-Pacific          |   
-|   |        |             |    | |   |
+| Session #3               | 1                        | 4            | 6                      | Asia-Pacific (a)|
+| Post-series Office Hours | 1                        | 3            | 4                      |Asia-Pacific(a)| 
+|
 
-Note: Session 3 and post-series office hours were for Asia-Pacific time zone. 
+(a) Session 3 and post-series office hours were for Asia-Pacific time zone.
 
 ## Contributions Statistics
 
@@ -146,12 +146,12 @@ These contributions were in the main code repository.
 </p>
 
 ## Demographics
-Of the 74 people who applied, 38 attended. Of the 38 who attended, 24 submitted a pull request. This funnel graph shows the breakdown, by gender.
+Of the 74 people who registered, 38 attended. Of the 38 who attended, 24 submitted a pull request. This funnel graph shows the breakdown, by gender.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/funnel.html" height="500" width="1000">
 </iframe>	
 
-A total of 38 contributors attended the sprint. 14 of 30 (47%) identified as she/her.  24 of 44 (55%) identified as he/him. 
+A total of 38 contributors attended the sprint. 14 of 38 (37%) identified as she/her.  24 of 38 (63%) identified as he/him. 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/gender.html" height="500" width="1000">
 </iframe>	
@@ -166,7 +166,7 @@ Contributors joined from **10 different countries**.  Country information was pr
 1. United Kingdom: 2
 1. Canada: 2
 1. Brazil: 2
-1. Colombia: 2
+1. Colombia: 1
 1. Ireland: 1
 
 <p>
@@ -175,10 +175,10 @@ Contributors joined from **10 different countries**.  Country information was pr
 </p>
 
 ## Returning Contributors
-There were 3 "returning" contributors.  These contributors had participated in a previous scikit-learn sprint.
+There were 3 ["returning"](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/contributors.html#returning-contributors) contributors.  These contributors had participated in a previous *scikit-learn* sprint.
 
 ### Spoken Languages
-The sprint was run in English. Participants were asked on their forms to indicate if they needed a translator. No translators were requested.
+The event was run in English. Participants were asked on their registration forms to indicate if they needed a translator. No translators were requested.
 
 This barplot shows the primary spoken languages by the sprint participants.
 
@@ -203,29 +203,8 @@ Aside from the number of PRs that were merged and issues that were opened, there
 - building confidence (making a dent in "imposter syndrome")
 - having fun
 
-## Challenges
 
-### Challenge 1: Emails going to spam
-
-We communicated with registrants via email and Discord.  For a number of people, the emails went to spam and they missed it.  We do have a reminder on the registration form to keep an eye out on their spam folder, but emails were still missed.
-
-### Challenge 2: Preparing by reading
-
-The event had a comprehensive website and the events were posted on Meetup with instructions as well as in multiple places (event website, Discord, newsletters, emails) on the process (join Discord, go through website, submit a registration form).  Despite numerous reminders a number of people did not join Discord, some joined Discord at the start of the event, which might indicate they missed reminders, some participants did not submit a registration form, etc.
-
-It is important that participants submit a registration form for these reasons:  
-- They have read and agreed to the code of conduct.
-- They understand how the event will go.
-- Many participants have anonymous Discord profiles and this information is needed to track who is joining the event and can be added to the private channel.
-- We need to connect participants to their GitHub pull requests.
-- We need participants email addresses to communicate with them about the event. 
-
-
-### Challenge 3: Discord
-
-Some participants had technical issues with Discord.  We have a 10-minute video on how to navigate Discord, though it is not apparent that all participants watched the video.
-
-### Finding out About the Sprint
+### Finding out About the Working Sessions
 For those who attended the working sessions, this is how they learned of the event. The main avenues were by invitation from Data Umbrella, Meetup, Twitter, LinkedIn and their network ("word of mouth").
 
 
@@ -237,10 +216,10 @@ For those who attended the working sessions, this is how they learned of the eve
 
 Explore options to continue momentum of contributions.
 
-## Sprint Feedback
+## Sessions Feedback
 
 Feedback has been shared a number of ways:  
-- Sprint survey
+- Event survey
 - Social media (Twitter, LinkedIn)
 - Casually, in conversation during the office hours and working sessions
 
@@ -264,6 +243,32 @@ In response to the question "*What could have worked better at the sessions?*"
 
 - *I had (and still have) difficulty finding certain pages and links - between pymc contributing section and dataumbrella/pymc website I get confused, since the websites look similar but have different URLs*
 - *Call out need to fork both pymc and pymc-examples (or whichever one you plan to contribute to)*
+
+
+## Challenges
+
+### Challenge 1: Emails going to spam
+
+We communicated with registrants via email and Discord.  For a number of people, the emails went to spam and they missed it.  We do have a reminder on the registration form to keep an eye out on their spam folder, but emails were still missed.
+
+### Challenge 2: Preparing by reading
+
+The event had a comprehensive website and the events were posted on Meetup with instructions as well as in multiple places (event website, Discord, newsletters, emails) on the process (join Discord, go through website, submit a registration form).  Despite numerous reminders a number of people did not join Discord, some joined Discord at the start of the event, which might indicate they missed reminders, some participants did not submit a registration form, etc.
+
+It is important that participants submit a registration form for these reasons:  
+- They have read and agreed to the code of conduct.
+- They understand how the event will go.
+- Many participants have anonymous Discord profiles and this information is needed to track who is joining the event and can be added to the private channel.
+- We need to connect participants to their GitHub pull requests.
+- We need participants email addresses to communicate with them about the event. 
+
+
+### Challenge 3: Discord
+
+Some participants had technical issues with Discord.  We have a 10-minute video on how to navigate Discord, though it is not apparent that all participants watched the video.
+
+## What's Next
+We hope to maintain the momentum by holding casual monthly "study groups" to continue contributing to PyMC.
 
 
 ## Sessions: Social Media Shares
@@ -365,7 +370,7 @@ We thank the [Data Umbrella & PyMC organizers](https://pymc-data-umbrella.xyz/en
 </p>
 
 
-We thank the [PyMC team](https://scikit-learn.org/stable/about.html) who mentored at the sessions and those who were online during the weekend afterwards to promptly review the submitted pull requests, particularly:  
+We thank the [PyMC team](https://github.com/pymc-devs/pymc/blob/main/GOVERNANCE.md#current-core-contributors) who mentored at the sessions and those who were online during the weekend afterwards to promptly review the submitted pull requests, particularly:  
 - Christian Luhmann
 - Oriol Abril Pla
 - Ravin Kumar
