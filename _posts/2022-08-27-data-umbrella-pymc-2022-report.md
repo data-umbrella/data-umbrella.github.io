@@ -8,10 +8,6 @@ tags:   [opensource, pymc, sprint-report]
 ---
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
-To do:
-- add in plotly graphs
-- add in feedback
- 
 
 ## High Level Summary
 Number of participants who:  
@@ -109,11 +105,6 @@ This is a 3-minute video by Mariatta Wijaya of Google on open source to share wi
 
 Note: Session 3 and post-series office hours were for Asia-Pacific time zone. 
 
-## Event Organizers
-
-
-
-
 ## Contributions Statistics
 
 The contributions during the working sessions were tracked in this [PyMC OS-WS spreadsheet](https://docs.google.com/spreadsheets/d/11aUZN_iqPF4-oWNvFKhkPIMYLizVE_EmoHugX7kGgHY/edit?usp=sharing).  Contributions included both submitting a pull request and opening an issue where observed. 
@@ -181,12 +172,10 @@ Contributors joined from **10 different countries**.  Country information was pr
 <p>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/country.html" height="1000" width="1000">
 </iframe>
-
 </p>
 
 ## Returning Contributors
 There were 3 "returning" contributors.  These contributors had participated in a previous scikit-learn sprint.
-This pie chart shows that of the 40 people attending, 57.5% were returning contributors.
 
 ### Spoken Languages
 The sprint was run in English. Participants were asked on their forms to indicate if they needed a translator. No translators were requested.
@@ -197,29 +186,20 @@ This barplot shows the primary spoken languages by the sprint participants.
 </iframe>	
 
 
-## Impact Report for Data Umbrella Scikit-learn Sprint
-
-
-## Resources for Contributing to PyMC
-- Website
-- Videos
--  
-
-
-## Impact
-
+## Impact Report for Data Umbrella PyMC Open Source Working Sessions
 
 ### Non-measurable Impact
-Aside from the number of PRs that were merged, there is non-quantifiable impact of the open source sprint. Some examples include:
+Aside from the number of PRs that were merged and issues that were opened, there is non-quantifiable impact of the open source working sessions. Some examples include:
 - learning to set up virtual environment
 - using Git (fork, clone, branch, fetching another's PR)
 - introduction to tests such as:  flake8 (linting, formatting), pytest, "continuous integration"
-- navigating through the codebase structure of scikit-learn
+- learning about sphinx and documentation
+- learning about NumPy validation
+- navigating through the codebase structure of pymc
 - digging into functions, learning about errors
-- learning about unit tests
 - interacting with contributors on GitHub
 - learning, in general
-- networking
+- networking, meeting people from around the world
 - building confidence (making a dent in "imposter syndrome")
 - having fun
 
@@ -227,37 +207,29 @@ Aside from the number of PRs that were merged, there is non-quantifiable impact 
 
 ### Challenge 1: Emails going to spam
 
+We communicated with registrants via email and Discord.  For a number of people, the emails went to spam and they missed it.  We do have a reminder on the registration form to keep an eye out on their spam folder, but emails were still missed.
+
+### Challenge 2: Preparing by reading
+
+The event had a comprehensive website and the events were posted on Meetup with instructions as well as in multiple places (event website, Discord, newsletters, emails) on the process (join Discord, go through website, submit a registration form).  Despite numerous reminders a number of people did not join Discord, some joined Discord at the start of the event, which might indicate they missed reminders, some participants did not submit a registration form, etc.
+
+It is important that participants submit a registration form for these reasons:  
+- They have read and agreed to the code of conduct.
+- They understand how the event will go.
+- Many participants have anonymous Discord profiles and this information is needed to track who is joining the event and can be added to the private channel.
+- We need to connect participants to their GitHub pull requests.
+- We need participants email addresses to communicate with them about the event. 
 
 
+### Challenge 3: Discord
 
-
-### Challenge 2: [Preparation Work](https://afme2021rc.dataumbrella.org/about/prep-work)
-Fewer participants in this sprint, compared to past sprints, did their preparation work. A few set up their working environment at the sprint, which results in having less time to work on an issue during the sprint.
-
-One participant commented on the survey that the learning curve for Discord was high. However, the prep work includes watching a 10-minute video [Intro to Using Data Umbrella Discord Server](https://youtu.be/w2A8SknM-68).
-
-
-
-### Challenge 3: Attrition and Impact on Pair Programming
-
-Often with these events, there are no-shows at a rate of 20% to 30%. Pair programming is assigned prior to the sprint.  When a participant is a "no-show", this requires reassigning at the start of the sprint, which delays the start of the sprint.  Also, many participants are not proactive in communicating that their pair partner is absent.
-
-Solution:  not sure what the solution to this is.
-
-### Challenge 4: Internet Connectivity & Electrical Power Access
-
-A number of participants joined intermittently and late due to access with internet connectivity or loss of power.
-
-## Continued Contribution to Open Source
-Participants were encouraged to keep contributing to scikit-learn or other Python libraries, using the skills learned in this event.
+Some participants had technical issues with Discord.  We have a 10-minute video on how to navigate Discord, though it is not apparent that all participants watched the video.
 
 ### Finding out About the Sprint
-For those who attended the sprint, this is how they learned of the event. The main avenues were by invitation from Data Umbrella, Twitter, LinkedIn and their network ("word of mouth").
+For those who attended the working sessions, this is how they learned of the event. The main avenues were by invitation from Data Umbrella, Meetup, Twitter, LinkedIn and their network ("word of mouth").
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all.html" height="1000" width="1000">
-</iframe>	
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2021-afme2/learn_all_country.html" height="1000" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/learn_of_sprint.html" height="1000" width="1000">
 </iframe>	
 
 
@@ -268,59 +240,33 @@ Explore options to continue momentum of contributions.
 ## Sprint Feedback
 
 Feedback has been shared a number of ways:  
-- Twitter [Moment](https://twitter.com/i/events/1452292223463219205)
-- Blogs
 - Sprint survey
-- Social media (LinkedIn)
-- Casually, in conversation during the sprint, pre-sprint and post-sprint events
+- Social media (Twitter, LinkedIn)
+- Casually, in conversation during the office hours and working sessions
 
 
-### Favorite Parts About the Sprint
+### Survey
 
-In response to the question "*What are your favorite parts about the sprint?*"  
+We received 5 responses to the survey. The primary reason the responses rate was so low is that these events were spread over a 7-week period and different people attended different events.  
 
-- *Pair programming and the support from the core developers*
-- *Meeting new people and asking the core-developers about issues in our PRs.*
-- *Pair programming. Ability to interact with scikit learn core contributors.*
-- *Pair Programming*
-- *Very quick responses from senior contributors*
-- *I learned a lot, met new people and got a lot of help from the core developers and got to debug things with people.*
-- *The actual sprint day*
-- *The fact we could ask for help in real time from the sklearn contributors team, amazing stuff!*
-- *Working on scikit-learn issues with pair programming partner*
-- *The opportunity to connect with core maintainers; reasonable time commitment*
-- *Hanging out before the sprint and working together*
-- *Working with a new person and tackling an intermediate issue.*
-- *Learning new things and meeting new people.*
-- *Finding a community, getting to meet the sklearn core devs, working together on a contribution*
-- *It was great. Thank you for organizing it.*
-- *Interact with diverse members of the team from different countries.*
-- *It was perfect! Thank you for organizing one.*
+Overall, the feedback on the surveys was positive.
+
+In response to the question "*What are your favorite parts about the sessions?*"  
+
+- *Interacting with Mr. Christian and getting to know more about the community and workings.*
+- *Working with other people - a lot of time spent alone when learning usually so it's a nice change and good to be exposed to other people's ideas*
+- *Meeting core PyMC team and other contributors, networking, learning to contribute to open source project*
+
 
 ### Suggestions for Improvement
 
-In response to the question "*What could have worked better at the sprint?*"  
+In response to the question "*What could have worked better at the sessions?*"  
 
-- *I wish I knew about how to co-author before committing!*
-- *Discord has a bit of a learning curve...*
-- *Maybe a bit more background information on the issue would have been useful. For example why is it an issue, why are the changes necessary, any pertinent guidelines on the scikitlearn best practices, what errors we could expect and general guidelines on how to go about fixing. Of course not all off this information might be known in advance but any background available is always useful :)*
-- *You should do sprints more frequently!*
-- *I think we should have a mechanism in place for putting people that are alone together with existing pairs. Having three people together seems better to me than having some people alone due to internet issues or partners not showing up.*
-- *More time to work on issues.*
-- *Since we are doing everything on Discord, we could also have the kick off meetings on Discord as well. Just makes it easier to attend everything, without having to track different links. But it is just a minor thing, and some people do prefer zoom so there's that.*
-- *I would have liked to engage more with others, besides my pair programming partner. This way I can easier find somebody to work on in issue beyond the actual event. Maybe improve on the introduction during the zoom meeting to have people interact more relaxed, share things.*
-
-#### Other Feedback from Survey
- 
-In response to the question "*Include any other thoughts here.*"  
-
-- *This was such an amazing learning experience, especially considering the actual time investment. I hope to continue contributing and to be able to advance to more complex issues along the way.*
-- *I hope that when all the pandemic thing is left behind, and we can return to meeting in person, we keep a couple of virtual sprints thus people like me can attend ^^*
-- *I found it very useful that my pair programming partner pushed me to ask for help on the channel. I think if we haven't done that I probably would have ended up frustrated and not solving the problems.*
-- *I hope more sprints will be organised.*
+- *I had (and still have) difficulty finding certain pages and links - between pymc contributing section and dataumbrella/pymc website I get confused, since the websites look similar but have different URLs*
+- *Call out need to fork both pymc and pymc-examples (or whichever one you plan to contribute to)*
 
 
-## Sprint:  Social Media
+## Sessions: Social Media Shares
 
 ### Carlo of Brazil
 
