@@ -3,7 +3,7 @@ layout: post
 title:  Data Umbrella PyMC 2022 Open Source Report
 description: Summary of the PyMC Open Source Working Sessions, Jul-Aug 2022
 date:   2022-08-26 15:01:35 +0300
-image:  '/images/2022-pymc2/0_pymc_social_card.png'
+image:  '/images/2022-pymc2/pymc_summary.png'
 tags:   [opensource, pymc, sprint-report]
 ---
 
