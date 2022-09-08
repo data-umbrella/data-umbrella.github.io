@@ -22,10 +22,20 @@ Number of participants who:
 </p>
 
 
-## Sprint Background
+## Background
 The PyMC open source working sessions were organized by [Data Umbrella](https://www.dataumbrella.org) to increase the participation of underrepresented persons in open source, python and data science.
 
 This report focuses on the summary, impact and lessons learned of the Data Umbrella [PyMC Open Source Working Sessions](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html).  
+
+## Event Sessions
+
+A series of 3 separate working sessions were organized, plus pre and post event office hours. Participants were paired with another person with whom they could work during the working sessions.
+
+The office hours provided a casual, unstructured space for participants to introduce themselves and ask any questions.
+
+The 3 working sessions were scheduled at different days of the week and times in order to provide options for folks in the community to attend who had varying schedules.
+
+The intention was that some participants would be able to attend multiple sessions to build experience in contributing.  Some participants attended more than one session, and two participants attended all 3 sessions and both office hours.
 
 ### Pre-Series Office Hours
 
@@ -151,13 +161,12 @@ Of the 74 people who registered, 38 attended. Of the 38 who attended, 24 submitt
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/funnel.html" height="500" width="1000">
 </iframe>	
 
-A total of 38 contributors attended the sprint. 14 of 38 (37%) identified as she/her.  24 of 38 (63%) identified as he/him. 
+A total of 38 contributors attended at least one event of the working sessions, including office hours. 14 of 38 (37%) identified as she/her.  24 of 38 (63%) identified as he/him. 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/gender.html" height="500" width="1000">
 </iframe>	
 
-
-Contributors joined from **10 different countries**.  Country information was provided based on where participants were joining from.   
+Contributors joined from **10 different countries**.  Country information was provided based on where participants were joining from.  
 1. United States of America: 13
 1. India: 6
 1. Ghana: 4
@@ -180,7 +189,9 @@ There were 3 ["returning"](https://pymc-data-umbrella.xyz/en/latest/2022-07_spri
 ### Spoken Languages
 The event was run in English. Participants were asked on their registration forms to indicate if they needed a translator. No translators were requested.
 
-This barplot shows the primary spoken languages by the sprint participants.
+We had a channel for `#espanol_chat` which was utilized at a session when there was a Spanish-speaking mentor and participants from Latin America.
+
+This barplot shows the primary spoken languages by the participants.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/primary_spoken_language.html" height="1000" width="1000">
 </iframe>	
@@ -194,7 +205,7 @@ Aside from the number of PRs that were merged and issues that were opened, there
 - using Git (fork, clone, branch, fetching another's PR)
 - introduction to tests such as:  flake8 (linting, formatting), pytest, "continuous integration"
 - learning about sphinx and documentation
-- learning about NumPy validation
+- learning about `numpydoc` validation
 - navigating through the codebase structure of pymc
 - digging into functions, learning about errors
 - interacting with contributors on GitHub
@@ -244,6 +255,12 @@ In response to the question "*What could have worked better at the sessions?*"
 - *I had (and still have) difficulty finding certain pages and links - between pymc contributing section and dataumbrella/pymc website I get confused, since the websites look similar but have different URLs*
 - *Call out need to fork both pymc and pymc-examples (or whichever one you plan to contribute to)*
 
+## Pair Programming
+
+Because there were 3 separate working sessions plus the two office hour sessions, it required some flexibility on who planned to attend the sessions.  We provided a spreadsheet where participants could add their name to pair them up with a programming partner.
+
+
+
 
 ## Challenges
 
@@ -253,22 +270,25 @@ We communicated with registrants via email and Discord.  For a number of people,
 
 ### Challenge 2: Preparing by reading
 
-The event had a comprehensive website and the events were posted on Meetup with instructions as well as in multiple places (event website, Discord, newsletters, emails) on the process (join Discord, go through website, submit a registration form).  Despite numerous reminders a number of people did not join Discord, some joined Discord at the start of the event, which might indicate they missed reminders, some participants did not submit a registration form, etc.
+The event had a comprehensive website and the events were posted on Meetup with instructions as well as in multiple places (event website, Discord, newsletters, emails) on the process (join Discord, read through the event website, submit a registration form).  Despite numerous reminders, a number of people did not join Discord, some joined Discord at the start of the event, which might indicate they missed reminders, some participants did not submit a registration form, some participants did not review the website, etc.
 
 It is important that participants submit a registration form for these reasons:  
 - They have read and agreed to the code of conduct.
-- They understand how the event will go.
+- They understand how the event will go and how to prepare.
 - Many participants have anonymous Discord profiles and this information is needed to track who is joining the event and can be added to the private channel.
 - We need to connect participants to their GitHub pull requests.
-- We need participants email addresses to communicate with them about the event. 
+- We need participants email addresses to communicate with them about the event.
 
 
 ### Challenge 3: Discord
 
-Some participants had technical issues with Discord.  We have a 10-minute video on how to navigate Discord, though it is not apparent that all participants watched the video.
+Some participants had technical issues with Discord.  We have a [10-minute video](https://youtu.be/w2A8SknM-68) on how to navigate Discord, though it is not apparent that all participants watched the video.
 
-## What's Next
+## What's Next: Maintaining the Momentum
 We hope to maintain the momentum by holding casual monthly "study groups" to continue contributing to PyMC.
+
+### Mentorship
+Working Sessions 2 & 3 had fewer participants which allowed for each pair programming group to have a mentor who could spend almost the full session with them.  This was extremely beneficial and provided an opportunity to get to know the PyMC maintainers and ask many questions 2-on-1.
 
 
 ## Sessions: Social Media Shares
@@ -349,7 +369,7 @@ We created a [social media kit](https://pymc-data-umbrella.xyz/en/latest/2022-07
 
 ## Acknowledgments
 
-We thank the [Data Umbrella & PyMC organizers](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/organizers.html#data-umbrella-organizers) who created the website, conducted outreach, marketing and so much more!  
+We thank the [Data Umbrella & PyMC organizers](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/organizers.html#data-umbrella-organizers) who created the website, created event documents, conducted outreach, marketing and so much more!  
 - Reshama Shaikh
 - Beryl Kanali
 - Sandra Meneses
