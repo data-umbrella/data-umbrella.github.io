@@ -14,7 +14,7 @@ Number of participants who:
 - Registered: 76
 - Attended:  38
 - Submitted >= 1 pull request:  24
-- Countries represented: 11
+- Countries represented: 10
 
 <p float="left">
    <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/schedule.html"></a>
@@ -222,11 +222,6 @@ For those who attended the working sessions, this is how they learned of the eve
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/learn_of_sprint.html" height="1000" width="1000">
 </iframe>	
 
-
-## Next Steps
-
-Explore options to continue momentum of contributions.
-
 ## Sessions Feedback
 
 Feedback has been shared a number of ways:  
@@ -260,8 +255,6 @@ In response to the question "*What could have worked better at the sessions?*"
 Because there were 3 separate working sessions plus the two office hour sessions, it required some flexibility on who planned to attend the sessions.  We provided a spreadsheet where participants could add their name to pair them up with a programming partner.
 
 
-
-
 ## Challenges
 
 ### Challenge 1: Emails going to spam
@@ -276,7 +269,7 @@ It is important that participants submit a registration form for these reasons:
 - They have read and agreed to the code of conduct.
 - They understand how the event will go and how to prepare.
 - Many participants have anonymous Discord profiles and this information is needed to track who is joining the event and can be added to the private channel.
-- We need to connect participants to their GitHub pull requests.
+- We need to connect participants to their GitHub pull requests to track contributions.
 - We need participants email addresses to communicate with them about the event.
 
 
@@ -284,11 +277,16 @@ It is important that participants submit a registration form for these reasons:
 
 Some participants had technical issues with Discord.  We have a [10-minute video](https://youtu.be/w2A8SknM-68) on how to navigate Discord, though it is not apparent that all participants watched the video.
 
-## What's Next: Maintaining the Momentum
-We hope to maintain the momentum by holding casual monthly "study groups" to continue contributing to PyMC.
-
-### Mentorship
+### Perk:  Mentorship
 Working Sessions 2 & 3 had fewer participants which allowed for each pair programming group to have a mentor who could spend almost the full session with them.  This was extremely beneficial and provided an opportunity to get to know the PyMC maintainers and ask many questions 2-on-1.
+
+### Perk:  Organizers Contributing
+The Data Umbrella team members are interested in contributing to open source too.  Often at events which are busy, the organizer time is more dedicated to administrative tasks.  Since the groups for Sessions 2 and 3 were smaller, it provided some time for the organizers to contribute as well.  This is important as one of the challenges in community manager work is having time to do coding work.
+
+## What's Next: Maintaining the Momentum
+We have already seen a few event participants continue to contribute after the event.
+
+We hope to maintain the momentum by holding casual monthly "study groups" to continue contributing to PyMC.
 
 
 ## Sessions: Social Media Shares
