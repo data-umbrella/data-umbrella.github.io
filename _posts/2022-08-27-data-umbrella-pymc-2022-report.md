@@ -224,6 +224,9 @@ Aside from the number of PRs that were merged and issues that were opened, there
 
 
 ### Finding out About the Working Sessions
+
+We collaborated with a group of [Community Partners](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/community_partners.html) to share about the event series and provided the community partners with a [Social Media Kit](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/media_kit.html#media-kit-ref) with text to share on various platforms to spread the word.
+
 For those who attended the working sessions, this is how they learned of the event. The main avenues were by invitation from Data Umbrella, Meetup, Twitter, LinkedIn and their network ("word of mouth").
 
 
