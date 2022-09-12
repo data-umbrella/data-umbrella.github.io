@@ -94,13 +94,17 @@ This is a 3-minute video by Mariatta Wijaya of Google with inspirational tips on
 <p><iframe src="https://www.youtube.com/embed/NpWdYEp8-u4" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 
-## Schedule of Sessions
+## [Schedule of Sessions](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/index.html)
 - 02-Jul-2022: Pre-series Office Hours (13-14:00 UTC) (1 hr)
 - 09-Jul-2022: Session #1 (13-16:00 UTC) (3 hrs)
 - 22-Jul-2022: Session #2 (16-19:00 UTC) (3 hrs)
 - 4/5-Aug-2022: Session #3 (23-2:00 UTC) (3 hrs)
 - 18-Aug-2022: Post-series Office Hours (23-24:00 UTC) (1hr)
 
+We varied the [schedule of working sessions](https://docs.google.com/spreadsheets/d/1oO9OhsTh9PFcqKI7Exj_ZcH0GvunQVHtM4aqUh0kjTk/edit?usp=sharing) to accommodate participants from different regions and time zones.
+
+<p> <img src="../images/2022-pymc/2022_07_timezones.png" width="99%" height="99%" style="border:0px;margin:0px">
+</p>
 
 ## Number of Attendees
 
@@ -114,6 +118,10 @@ This is a 3-minute video by Mariatta Wijaya of Google with inspirational tips on
 |
 
 (a) Session 3 and post-series office hours were for Asia-Pacific time zone.
+
+## Event Participants
+We used a Sphinx website whose source code was publicly available.  We provided instructions on how participants could add their information to the website. Participants had the *option* to add their name, photo and other information to the [event website as contributors](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/contributors.html). For some participants, adding their information was a milestone because they were working Git, GitHub, sphinx and submitting a pull request for the first time.
+
 
 ## Contributions Statistics
 
