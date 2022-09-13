@@ -89,7 +89,7 @@ This event was supported by:
   <img src="../images/2022-pymc/du_sponsors.png" width="75%" height="75%" style="padding:0px;border:solid black;" align="top" />
 </p>
 
-This is a 3-minute video by Mariatta Wijaya of Google with inspirational tips on contributing to open source.
+Mariatta Wijaya of Google created a 3-minute video with inspirational tips on contributing to open source for the Data Umbrella community. 
 
 <p><iframe src="https://www.youtube.com/embed/NpWdYEp8-u4" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
@@ -125,7 +125,8 @@ We used a Sphinx website whose source code was publicly available.  We provided 
 
 ## Contributions Statistics
 
-The contributions during the working sessions were tracked in this [PyMC OS-WS spreadsheet](https://docs.google.com/spreadsheets/d/11aUZN_iqPF4-oWNvFKhkPIMYLizVE_EmoHugX7kGgHY/edit?usp=sharing).  Contributions included both submitting a pull request and opening an issue where observed. 
+The contributions during the working sessions were tracked in this <span style="background-color: #CAE9F5;">[PyMC OS-WS spreadsheet](https://docs.google.com/spreadsheets/d/11aUZN_iqPF4-oWNvFKhkPIMYLizVE_EmoHugX7kGgHY/edit?usp=sharing)</span>.  Contributions included both submitting a pull request and opening an issue where observed. 
+
 
 We worked on a few different repositories for the PyMC project:  
 1. [video-timestamps](https://github.com/pymc-devs/video-timestamps): this is a beginner-friendly [list of issues](https://github.com/pymc-devs/video-timestamps/issues/11) where contributors watch a video from the PyMCon 2022 conference and add timestamps
@@ -135,8 +136,9 @@ We worked on a few different repositories for the PyMC project:
 
 As of the date of this report (28-Aug-2022), these are the PR stats:  
 - Open: 2 
-- Merged: 56
-- Issues opened: 6  
+- <span style="background-color: #CAE9F5;">Merged: 56</span>
+- <span style="background-color: #CAE9F5;">Issues opened: 6</span>  
+
 
 #### Timestamps
 
@@ -169,7 +171,7 @@ Of the 74 people who registered, 38 attended. Of the 38 who attended, 24 submitt
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/funnel.html" height="500" width="1000">
 </iframe>	
 
-A total of 38 contributors attended at least one event of the working sessions, including office hours. 14 of 38 (37%) identified as she/her.  24 of 38 (63%) identified as he/him. 
+A total of 38 contributors attended at least one event of the working sessions, including office hours. 14 of 38 (37%) identified as she/her.  24 of 38 (63%) identified as he/him.
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/gender.html" height="500" width="1000">
 </iframe>	
@@ -292,7 +294,7 @@ Some participants had technical issues with Discord.  We have a [10-minute video
 Working Sessions 2 & 3 had fewer participants which allowed for each pair programming group to have a mentor who could spend almost the full session with them.  This was extremely beneficial and provided an opportunity to get to know the PyMC maintainers and ask many questions 2-on-1.
 
 ### Perk:  Organizers Contributing
-The Data Umbrella team members are interested in contributing to open source too.  Often at events which are busy, the organizer time is more dedicated to administrative tasks.  Since the groups for Sessions 2 and 3 were smaller, it provided some time for the organizers to contribute as well.  This is important as one of the challenges in community manager work is having time to do coding work.
+The Data Umbrella team members are interested in contributing to open source too.  Often at events which are busy, the organizer time is more dedicated to administrative tasks.  Since the groups for Sessions 2 and 3 were smaller, it provided some time for the organizers to contribute as well.  This is important as one of the challenges in community manager work is having time to do coding work. Additionally, the more the organizing team learns, the more they can assist new contributors in the community. 
 
 ## What's Next: Maintaining the Momentum
 We have already seen a few event participants continue to contribute after the event.
