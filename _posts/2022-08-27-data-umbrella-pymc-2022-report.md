@@ -114,13 +114,13 @@ We varied the [schedule of working sessions](https://docs.google.com/spreadsheet
 | Session #1               | 3                        | 4            | 20                     | |
 | Session #2               | 3                        | 4            | 12                     | |
 | Session #3               | 1                        | 4            | 6                      | Asia-Pacific (a)|
-| Post-series Office Hours | 1                        | 3            | 4                      |Asia-Pacific(a)| 
+| Post-series Office Hours | 1                        | 3            | 4                      |Asia-Pacific(a)|
 |
 
-(a) Session 3 and post-series office hours were for Asia-Pacific time zone.
+(a) Session 3 and post-series office hours were for the Asia-Pacific time zone.
 
 ## Event Participants
-We used a Sphinx website whose source code was publicly available.  We provided instructions on how participants could add their information to the website. Participants had the *option* to add their name, photo and other information to the [event website as contributors](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/contributors.html). For some participants, adding their information was a milestone because they were working Git, GitHub, sphinx and submitting a pull request for the first time.
+We used a Sphinx website whose source code was publicly available.  We provided instructions on how participants could add their information to the website. Participants had the *option* to add their name, photo and other information to the [event website as contributors](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/contributors.html). For some participants, adding their information was a milestone because they were working with Git, GitHub, sphinx and submitting a pull request for the first time.
 
 
 ## Contributions Statistics
@@ -345,24 +345,24 @@ We hope to maintain the momentum by holding casual monthly "study groups" to con
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Made my first open source contributions today with <a href="https://twitter.com/CarolBasknRobns?ref_src=twsrc%5Etfw">@CarolBasknRobns</a>! Watch out world 💪🤓 Thanks for the great event <a href="https://twitter.com/hashtag/DataUmbrellaPyMCSprint?src=hash&amp;ref_src=twsrc%5Etfw">#DataUmbrellaPyMCSprint</a> <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> <a href="https://twitter.com/pymc_devs?ref_src=twsrc%5Etfw">@pymc_devs</a> <a href="https://t.co/BKRPZcLETC">pic.twitter.com/BKRPZcLETC</a></p>&mdash; rowan schaefer (@rowan_________) <a href="https://twitter.com/rowan_________/status/1555397018545168386?ref_src=twsrc%5Etfw">August 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Benjamin
+### Benjamin of USA
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Really enjoyed the first working session of the <a href="https://twitter.com/hashtag/DataUmbrellaPyMCSprint?src=hash&amp;ref_src=twsrc%5Etfw">#DataUmbrellaPyMCSprint</a>! Thank you <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> for organizing the event.</p>&mdash; Benjamin Datko (@BenDatko) <a href="https://twitter.com/BenDatko/status/1545812988279627782?ref_src=twsrc%5Etfw">July 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Chris Fonnessbeck, PyMC Team Member
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> PyMC sprint on Friday was fantastic. It&#39;s a great way to get involved with the project and with the open source data science community in general. <a href="https://t.co/pj3s8PNUas">https://t.co/pj3s8PNUas</a></p>&mdash; Chris Fonnesbeck (@fonnesbeck) <a href="https://twitter.com/fonnesbeck/status/1551236314644856834?ref_src=twsrc%5Etfw">July 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-### Zoe
+### Zoe of USA
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m proud to join the <a href="https://twitter.com/pymc_devs?ref_src=twsrc%5Etfw">@pymc_devs</a> contributors team, thanks to the leadership or <a href="https://twitter.com/reshamas?ref_src=twsrc%5Etfw">@reshamas</a> and the <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> community. <a href="https://t.co/ns017TCvsC">https://t.co/ns017TCvsC</a><a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> <a href="https://twitter.com/hashtag/OpenSource?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSource</a> <a href="https://twitter.com/hashtag/Statistics?src=hash&amp;ref_src=twsrc%5Etfw">#Statistics</a></p>&mdash; Zoe Braiterman (@zbraiterman) <a href="https://twitter.com/zbraiterman/status/1546229891988951040?ref_src=twsrc%5Etfw">July 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Chris Fonnessbeck, PyMC Team Member, of USA
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The <a href="https://twitter.com/DataUmbrella?ref_src=twsrc%5Etfw">@DataUmbrella</a> PyMC sprint on Friday was fantastic. It&#39;s a great way to get involved with the project and with the open source data science community in general. <a href="https://t.co/pj3s8PNUas">https://t.co/pj3s8PNUas</a></p>&mdash; Chris Fonnesbeck (@fonnesbeck) <a href="https://twitter.com/fonnesbeck/status/1551236314644856834?ref_src=twsrc%5Etfw">July 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
 
 ## Social Media Promotion
 
-We created a [social media kit](https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/media_kit.html#media-kit-ref) for the Data Umbrella PyMC Open Source working sessions to provide content for our community partners to share. 
+Below are some of the social media announcements on the open source working sessions.
 
 ### Twitter (English)
 
