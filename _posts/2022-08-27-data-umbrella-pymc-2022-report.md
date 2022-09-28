@@ -41,7 +41,7 @@ The intention was that some participants would be able to attend multiple sessio
 
 Photo not available.
 
-### Session 1
+### [Session 1](https://twitter.com/DataUmbrella/status/1545836209410392064)
 
 <p float="left">
    <a href="https://twitter.com/DataUmbrella/status/1545836209410392064"></a>
@@ -51,7 +51,7 @@ Photo not available.
 </p>
 
 
-### Session 2
+### [Session 2](https://twitter.com/DataUmbrella/status/1551207167990321152)
 
 <p float="left">
    <a href="https://twitter.com/DataUmbrella/status/1551207167990321152"></a>
@@ -62,14 +62,14 @@ Photo not available.
   <img src="../images/2022-pymc/2c_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
-### Session 3
+### [Session 3](https://twitter.com/DataUmbrella/status/1555628870417661954)
 
 <p float="left">
    <a href="https://twitter.com/DataUmbrella/status/1555628870417661954"></a>
   <img src="../images/2022-pymc/3_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
-### Post-Series Office Hours
+### [Post-Series Office Hours](https://twitter.com/DataUmbrella/status/1560644287943122947/)
 
 <p float="left">
    <a href="https://twitter.com/DataUmbrella/status/1560644287943122947/"></a>
