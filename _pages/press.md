@@ -4,6 +4,17 @@ title: Press
 image: '/images/blogs/czi.png'
 ---
 
+
+### Data Umbrella receives mention in [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) magazine (Oct 2022)
+
+[Polly Mitchell-Guthrie](https://www.linkedin.com/in/pollymitchellguthrie/), a community member and a long-time proponent of diversity, was interviewed by the magazine [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) on her career in data analytics.  She shared Data Umbrella as a community which supports underrepresented persons. 
+
+<p float="left">
+   <a href="https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5">
+  <img src="../images/impact/diversity_in_action.png" width="99%" height="99%" style="border:0px;margin:0px">
+</a>
+</p>
+
 ### [Data Umbrella, an Event Fund Grantee, Awarded CZI Grant](https://eventfund.codeforscience.org/data-umbrella-awarded-czi-grant/) (Oct 2021)
 
 Data Umbrella, a Code for Science and Society Event Fund grantee, has been awarded a grant by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) as part of CZI Science efforts to support [diversity and inclusion in computational science](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b). 
