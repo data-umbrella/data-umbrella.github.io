@@ -11,7 +11,7 @@ image: '/images/blogs/czi.png'
 
 <p float="left">
    <a href="https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5">
-  <img src="../../images/impact/diversity_in_action.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/press/diversity_in_action.png" width="80%" height="80%" style="border:0px;margin:0px">
 </a>
 </p>
 
