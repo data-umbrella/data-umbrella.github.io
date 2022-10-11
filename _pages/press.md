@@ -7,7 +7,7 @@ image: '/images/blogs/czi.png'
 
 ### Data Umbrella receives mention in [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) magazine (Oct 2022)
 
-[Polly Mitchell-Guthrie](https://www.linkedin.com/in/pollymitchellguthrie/), a community member and a long-time proponent of diversity, was interviewed by the magazine [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) on her career in data analytics.  She shared Data Umbrella as a community which supports underrepresented persons. 
+[Polly Mitchell-Guthrie](https://www.linkedin.com/in/pollymitchellguthrie/), a community member and a long-time proponent of diversity, was interviewed by the magazine [Diversity in Action](https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5) on her career in data analytics.  She shared Data Umbrella as a community which supports underrepresented persons. The full article is available on pages 56 and 57.
 
 <p float="left">
    <a href="https://mydigitalpublication.com/publication/?m=46265&i=763269&p=58&ver=html5">
