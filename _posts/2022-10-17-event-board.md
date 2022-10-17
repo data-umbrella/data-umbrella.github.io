@@ -11,7 +11,7 @@ Author: [Reshama Shaikh](https://reshamas.github.io)
 
 ## About the Event Board
 
-Data Umbrella is building a community [Data Events Board](https://events.dataumbrella.org).  This platform is for the community to share their events. There are options to add events to a personal calendar and search by keywords and region.  This software platform uses open source software and the application code is publicly available (python, Django, React).
+Data Umbrella is building a community [Data Events Board](https://events.dataumbrella.org).  This platform is for the community to share their events. There are options to add events to a personal calendar and search by keywords and region.  This software platform uses open source software and the application code is publicly available (Python, Django, React).
 
 ## Project Purpose & Inspiration
 
