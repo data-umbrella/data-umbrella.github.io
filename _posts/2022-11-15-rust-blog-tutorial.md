@@ -56,7 +56,7 @@ An introduction to Rust Programming for complete beginners, we will go over what
 ### Bio
 Bruno is a Software Engineer who works developing the Red Hat Ansible Platform, he is member of the Python Software Foundation, creator of Dynaconf settings manager and a Rust enthisiast for 5+ years.
 
-### Connect with the Speaker, Lauren Burke
+### Connect with the Speaker, Bruno Rocha
 - LinkedIn: [Bruno Rocha](https://www.linkedin.com/in/rochacbruno)
 - Twitter: [@rochacbruno](https://twitter.com/rochacbruno)
 - GitHub: [@rochacbruno](https://github.com/rochacbruno)
