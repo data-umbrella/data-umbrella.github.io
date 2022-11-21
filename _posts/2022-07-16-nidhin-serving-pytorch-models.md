@@ -71,7 +71,7 @@ Vishal Rathi is a Software Engineer in Walmart Search
 - Nidhin's GitHub: [@npatta01](https://github.com/npatta01)
 
 ## Key Links
-- [Event transcripts](https://github.com/data-umbrella/event-transcripts/tree/main/2022)
+- [Event notes](https://github.com/data-umbrella/event-transcripts/blob/main/2022/59-nidhin-pytorch.md)
 - [Meetup Event](https://www.meetup.com/data-umbrella/events/286639683/)
 - [Video](https://www.youtube.com/watch?v=fx_NaKwFYbg)
 - [GitHub repo](https://github.com/npatta01/pytorch-serving-workshop)
