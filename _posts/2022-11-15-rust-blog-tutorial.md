@@ -61,7 +61,3 @@ Bruno is a Software Engineer who works developing the Red Hat Ansible Platform, 
 - Twitter: [@rochacbruno](https://twitter.com/rochacbruno)
 - GitHub: [@rochacbruno](https://github.com/rochacbruno)
 
-## Key Links
-- [Meetup Event](https://www.meetup.com/data-umbrella/events/289308172/)
-- [Video](https://www.youtube.com/watch?v=7E8nLExn3WI)
-- [GitHub repo](https://github.com/rochacbruno/rust-intro)
