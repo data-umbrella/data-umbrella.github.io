@@ -61,7 +61,7 @@ This talk is for a data scientist or ML engineer looking to serve their PyTorch 
 
 ## About the Speakers
 ### Bio
-Nidhin Pattaniyil is a Machine Learning Engineer in Walmart Search
+Nidhin Pattaniyil is a Machine Learning Engineer in Walmart Search.
 
 Vishal Rathi is a Software Engineer in Walmart Search
 
