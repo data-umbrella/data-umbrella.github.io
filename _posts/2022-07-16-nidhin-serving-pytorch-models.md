@@ -10,7 +10,7 @@ tags:   [pytorch, deployment]
 Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
 ## Event
-This talk is for a data scientist or ML engineer looking to serve their PyTorch models in production. It will cover post training steps that should be taken to optimize the model such as quantization and torch script. It will also walk the user in packaging and serving the model through Facebook's TorchServe.
+This talk is for a data scientist or ML engineer looking to serve their PyTorch models in production. It will cover post training steps that should be taken to optimize the model such as quantization and TorchScript. It will also walk the user in packaging and serving the model through Facebook's TorchServe.
 
 ## Video
 <p>
