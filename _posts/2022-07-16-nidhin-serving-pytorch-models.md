@@ -2,7 +2,7 @@
 layout: post
 title:  Serving PyTorch Models in Production
 description: Learn to optimize pytorch model and deploy them into production
-date:   2022-07-16 15:01:35 +0300
+date:   2022-11-20 15:01:35 +0300
 image:  '/images/blogs/nidhin-vishal-serving-pytorch-models.png'
 tags:   [pytorch, deployment]
 ---
