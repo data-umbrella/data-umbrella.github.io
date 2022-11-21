@@ -67,7 +67,6 @@ Vishal Rathi is a Software Engineer in Walmart Search
 
 ### Connect with the Speaker, Nidhin Pattaniyil and Vishal Rathi
 - Nidhin's LinkedIn: [Nidhin Pattaniyil](https://www.linkedin.com/in/nidhinpattaniyil/)
-- Vishal's Linkedin: [Vishal Rathi](https://www.linkedin.com/in/vishalkumarrathi/)
 - Nidhin's GitHub: [@npatta01](https://github.com/npatta01)
 
 ## Key Links
