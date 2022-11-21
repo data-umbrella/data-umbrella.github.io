@@ -18,6 +18,8 @@ An introduction to Rust Programming for complete beginners. This 2-hour video tu
 - core concepts of Rust
 - a little CLI (command line interface) program
 - Q&A 
+
+
 ## Video
 <p>
 <iframe src="https://www.youtube.com/embed/7E8nLExn3WI" loading="lazy" frameborder="0" allowfullscreen></iframe>
