@@ -9,9 +9,15 @@ tags:   [rust]
 
 Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
-## Event
-An introduction to Rust Programming for complete beginners, we will go over what is Rust, how to install it, how to use it online, basic structure of a program, core concepts of Rust and a little CLI program.
-
+## Intro
+An introduction to Rust Programming for complete beginners. This 2-hour video tutorial covers:  
+- what is Rust
+- how to install Rust
+- how to use Rust online
+- basic structure of a Rust program
+- core concepts of Rust
+- a little CLI (command line interface) program
+- Q&A 
 ## Video
 <p>
 <iframe src="https://www.youtube.com/embed/7E8nLExn3WI" loading="lazy" frameborder="0" allowfullscreen></iframe>
