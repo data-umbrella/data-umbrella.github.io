@@ -18,7 +18,7 @@ An introduction to Rust Programming for complete beginners, we will go over what
 </p>
 
 ## Resources
-- [Event transcripts and notes](https://github.com/rochacbruno/rust-intro/blob/wip/script.md)
+- [Event outline and notes](https://github.com/rochacbruno/rust-intro/blob/wip/script.md)
 - GitHub repo: [rust-intro](https://github.com/rochacbruno/rust-intro)
 - Data science libraries in Rust: [https://www.arewelearningyet.com/](https://www.arewelearningyet.com/)
 - Rust book:  [https://www.rust-lang.org/learn](https://www.rust-lang.org/learn)
