@@ -3,7 +3,7 @@ layout: post
 title:  Open Collective Foundation, Open Source Collective and Open Collective, Explained
 description: What is the difference between Open Collective Foundation and Open Source Collective?
 date:   2022-11-17 15:01:35 +0300
-image:  '/images/blogs/blog-oc/oc-explained.png'
+image:  '/images/blog-oc/oc-explained.png'
 tags:   [resource]
 ---
 
