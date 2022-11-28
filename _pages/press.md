@@ -7,6 +7,7 @@ image: '/images/blogs/czi.png'
 ### Data Umbrella receives mention in PLOS Journal: [Ten simple rules for funding scientific open source software](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010627) (Nov 2022)
 
 This article was recently published in the PLOS Journal by funders at CZI and the Sloan Foundation.  Data Umbrella received a mention in there for community building:  
+
 *Groups like Outreachy, Data Umbrella, and PyLadies are all great examples of communities of practice that specialize in promoting and supporting underrepresented groups. Local communities of practice are also important: They have cultural, geographic, and human language expertise that can make open source interactions more welcoming for new participants from the area.*
 
 
