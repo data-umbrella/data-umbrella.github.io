@@ -31,7 +31,7 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
     For coachees the best process is one they help to create because everyone needs something different. In general, I find that it is helpful to meet at least bi-weekly to start and build momentum on a topic. I do notice that movement toward a goal generally happens within four sessions and a sustainable rhythm happens within seven.
 
-    The key to picking a good coach is one that asks open-ended questions and allows you the space to think and be yourself. It is also important to be clear on what you need.  Coaching is forward focused whereas therapy digs into what in your past might be the root cause of an issue.  Additionally, a coach is more of a thought partner and a consultant is one that will tell you what to do and how to do it.
+    The key to picking a good coach is one that asks open-ended questions and allows you the space to think and be yourself. It is also important to be clear on what you need. Coaching is forward focused whereas therapy digs into what in your past might be the root cause of an issue. Additionally, a coach is more of a thought partner and a consultant is one that will tell you what to do and how to do it.
 
 4. __Do you have resources to share with people with a limited budget?__
 
@@ -57,7 +57,7 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
 2. __When do you discuss pricing?  OR how much should people budget for coaching?__
 
-    When it comes to pricing I am finding some prefer to hear about it upfront but they are also looking for a one-and-done transaction. For those who are looking to have more of an impact in their work, are processing career trauma, or need to peel back a lot of layers to find clarity, it is better to have a couple of conversations before talking price to be sure you are truly investing in something you need.
+    When it comes to pricing, I am finding some prefer to hear about it upfront but they are also looking for a one-and-done transaction. For those who are looking to have more of an impact in their work, are processing career trauma, or need to peel back a lot of layers to find clarity, it is better to have a couple of conversations before talking price to be sure you are truly investing in something you need.
 
 ## Bio
 EMPOWERING PURPOSE-DRIVEN PROFESSIONALS TO CREATE CAREER SATISFACTION.
