@@ -47,9 +47,9 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
 7. __Do you have a blog / website / newsletter?__
 
-- [Blog](https://sacred-time.com/blog)
-- [Website](https://www.sacredtime.careers/ )
-- [Newsletter](https://sacred-time.com/newsletter/ ) 
+    - [Blog](https://sacred-time.com/blog)
+    - [Website](https://www.sacredtime.careers/ )
+    - [Newsletter](https://sacred-time.com/newsletter/ ) 
 
 8. __When do you discuss pricing?  OR how much should people budget for coaching?__
 
