@@ -9,6 +9,8 @@ tags:   [datascience, career]
 
 Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
+Meet Tiffany Dedeaux, a data science and tech career coach. Learn more about her journey into coaching and how she may support your professional journey and help you navigate your career path. 
+
 1. __Tell us about yourself.__
 
     I am a Career Coach that specializes in the tech sector because I am a forward-focused professional that thrives in creative environments that foster innovation. Having settled in the Greater Seattle Area I have loved travelling to support web developers and data scientists across the west coast from Seattle and Portland to San Fran and Los Angeles. 
