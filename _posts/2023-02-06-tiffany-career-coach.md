@@ -3,7 +3,7 @@ layout: post
 title:  Meet Tiffany, a Tech Career Coach
 description:  Tiffany shares about her background in career coaching
 date:   2023-02-06 15:00:35 +0300
-image:  '/images/blogs/tiffany_interview.png'
+image:  '/images/blogs/blog_tiffany_ds_career.png'
 tags:   [datascience, career]
 ---
 
