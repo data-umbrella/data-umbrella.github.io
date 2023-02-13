@@ -9,7 +9,7 @@ tags:   [datascience, career]
 
 Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
-1. __Tell us a bit about yourself. (where you are located, what you do, how long you have been coaching, anything else you would like to share about your background)__
+1. __Tell us about yourself.__
 
     I am a Career Coach that specializes in the tech sector because I am a forward-focused professional that thrives in creative environments that foster innovation. Having settled in the Greater Seattle Area I have loved travelling to support web developers and data scientists across the west coast from Seattle and Portland to San Fran and Los Angeles. 
 
