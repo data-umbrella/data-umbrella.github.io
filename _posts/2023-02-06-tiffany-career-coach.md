@@ -51,7 +51,7 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 - [Website](https://www.sacredtime.careers/ )
 - [Newsletter](https://sacred-time.com/newsletter/ ) 
 
-2. __When do you discuss pricing?  OR how much should people budget for coaching?__
+8. __When do you discuss pricing?  OR how much should people budget for coaching?__
 
     When it comes to pricing, I am finding some prefer to hear about it upfront but they are also looking for a one-and-done transaction. For those who are looking to have more of an impact in their work, are processing career trauma, or need to peel back a lot of layers to find clarity, it is better to have a couple of conversations before talking price to be sure you are truly investing in something you need.
 
