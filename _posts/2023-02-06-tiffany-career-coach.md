@@ -9,7 +9,7 @@ tags:   [datascience, career]
 
 Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
-1. __Tell us a bit about yourself. (where you are located, what you do, how long you have been coaching, anything else you would like to share about your background)__
+1. __Tell us about yourself.__
 
     I am a Career Coach that specializes in the tech sector because I am a forward-focused professional that thrives in creative environments that foster innovation. Having settled in the Greater Seattle Area I have loved travelling to support web developers and data scientists across the west coast from Seattle and Portland to San Fran and Los Angeles. 
 
@@ -35,27 +35,23 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
 4. __Do you have resources to share with people with a limited budget?__
 
-    While the [Discovery Call](https://sacred-time.thinkific.com/courses/discovery-call) is free, I do also offer a monthly [Career Q&A](https://live.vcita.com/site/sacredtime/online-scheduling?service=0pa1067d2ryymmot) session where those who sign up can come and ask me anything about anything job search or career-related. I do answer some questions in video form, so for that, I created a [YouTube channel](https://youtube.com/sacredtimecareercoaching)
+    While the [Discovery Call](https://sacred-time.thinkific.com/courses/discovery-call) is free, I do also offer a monthly [Career Q&A](https://live.vcita.com/site/sacredtime/online-scheduling?service=0pa1067d2ryymmot) session where those who sign up can come and ask me anything about anything job search or career-related. I do answer some questions in video form, so for that, I created a [YouTube channel](https://youtube.com/sacredtimecareercoaching).
 
 5. __How can people get in touch with you?__
 
     The best way to get in touch with me is through my [LinkedIn page](https://www.linkedin.com/in/tiffanydedeaux/) or through the [Sacred Time website](https://sacred-time.com/).
 
-## Other questions:
-
-1. __Do you have testimonials from other coachees we can link to?__
+6. __Do you have testimonials from other coachees we can link to?__
 
     In addition to the reviews on my [LinkedIn Services page](https://www.linkedin.com/services/page/8a90583078b2392231), I have begun to collect and share a series of [case studies](https://drive.google.com/drive/folders/1nQCdA-0nNUaQjLf0Aa2Dj08AOA4VzDdd?usp=share_link) that details how I partner with clients to achieve breakthroughs. 
 
-1. __Do you have a blog / website / newsletter?__
+7. __Do you have a blog / website / newsletter?__
 
-    [Blog](https://sacred-time.com/blog)
+- [Blog](https://sacred-time.com/blog)
+- [Website](https://www.sacredtime.careers/ )
+- [Newsletter](https://sacred-time.com/newsletter/ ) 
 
-    [Website](https://www.sacredtime.careers/ )
-
-    [Newsletter](https://sacred-time.com/newsletter/ ) 
-
-2. __When do you discuss pricing?  OR how much should people budget for coaching?__
+8. __When do you discuss pricing?  OR how much should people budget for coaching?__
 
     When it comes to pricing, I am finding some prefer to hear about it upfront but they are also looking for a one-and-done transaction. For those who are looking to have more of an impact in their work, are processing career trauma, or need to peel back a lot of layers to find clarity, it is better to have a couple of conversations before talking price to be sure you are truly investing in something you need.
 
