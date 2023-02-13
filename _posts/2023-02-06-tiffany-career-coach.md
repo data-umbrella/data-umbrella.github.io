@@ -41,8 +41,6 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
     The best way to get in touch with me is through my [LinkedIn page](https://www.linkedin.com/in/tiffanydedeaux/) or through the [Sacred Time website](https://sacred-time.com/).
 
-## Other questions:
-
 1. __Do you have testimonials from other coachees we can link to?__
 
     In addition to the reviews on my [LinkedIn Services page](https://www.linkedin.com/services/page/8a90583078b2392231), I have begun to collect and share a series of [case studies](https://drive.google.com/drive/folders/1nQCdA-0nNUaQjLf0Aa2Dj08AOA4VzDdd?usp=share_link) that details how I partner with clients to achieve breakthroughs. 
