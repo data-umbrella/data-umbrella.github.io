@@ -45,13 +45,11 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
     In addition to the reviews on my [LinkedIn Services page](https://www.linkedin.com/services/page/8a90583078b2392231), I have begun to collect and share a series of [case studies](https://drive.google.com/drive/folders/1nQCdA-0nNUaQjLf0Aa2Dj08AOA4VzDdd?usp=share_link) that details how I partner with clients to achieve breakthroughs. 
 
-1. __Do you have a blog / website / newsletter?__
+7. __Do you have a blog / website / newsletter?__
 
-    [Blog](https://sacred-time.com/blog)
-
-    [Website](https://www.sacredtime.careers/ )
-
-    [Newsletter](https://sacred-time.com/newsletter/ ) 
+- [Blog](https://sacred-time.com/blog)
+- [Website](https://www.sacredtime.careers/ )
+- [Newsletter](https://sacred-time.com/newsletter/ ) 
 
 2. __When do you discuss pricing?  OR how much should people budget for coaching?__
 
