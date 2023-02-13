@@ -35,7 +35,7 @@ Summary posted by: [Sangam SwadiK](https://www.linkedin.com/in/sangam-swadi-k/)
 
 4. __Do you have resources to share with people with a limited budget?__
 
-    While the [Discovery Call](https://sacred-time.thinkific.com/courses/discovery-call) is free, I do also offer a monthly [Career Q&A](https://live.vcita.com/site/sacredtime/online-scheduling?service=0pa1067d2ryymmot) session where those who sign up can come and ask me anything about anything job search or career-related. I do answer some questions in video form, so for that, I created a [YouTube channel](https://youtube.com/sacredtimecareercoaching)
+    While the [Discovery Call](https://sacred-time.thinkific.com/courses/discovery-call) is free, I do also offer a monthly [Career Q&A](https://live.vcita.com/site/sacredtime/online-scheduling?service=0pa1067d2ryymmot) session where those who sign up can come and ask me anything about anything job search or career-related. I do answer some questions in video form, so for that, I created a [YouTube channel](https://youtube.com/sacredtimecareercoaching).
 
 5. __How can people get in touch with you?__
 
