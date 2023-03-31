@@ -66,7 +66,7 @@ Photo not available.
 
 <p float="left">
    <a href="https://twitter.com/DataUmbrella/status/1555628870417661954"></a>
-  <img src="../images/2022-pymc/3_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
+  <img src="../images/2022-08-pymc/3_pymc.png" width="40%" height="40%" style="padding:1px;border:solid black;" align="top"/> 
 </p>
 
 ### [Post-Series Office Hours](https://twitter.com/DataUmbrella/status/1560644287943122947/)
@@ -168,12 +168,12 @@ These contributions were in the main code repository.
 ## Demographics
 Of the 74 people who registered, 38 attended. Of the 38 who attended, 24 submitted a pull request. This funnel graph shows the breakdown, by gender.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/funnel.html" height="500" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-08-pymc/plotly/funnel.html" height="500" width="1000">
 </iframe>	
 
 A total of 38 contributors attended at least one event of the working sessions, including office hours. 14 of 38 (37%) identified as she/her.  24 of 38 (63%) identified as he/him.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/gender.html" height="500" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-08-pymc/plotly/gender.html" height="500" width="1000">
 </iframe>	
 
 Contributors joined from **10 different countries**.  Country information was provided based on where participants were joining from.  
@@ -203,7 +203,7 @@ We had a channel for `#espanol_chat` which was utilized at a session when there 
 
 This barplot shows the primary spoken languages by the participants.
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-pymc/plotly/primary_spoken_language.html" height="1000" width="1000">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://data-umbrella.github.io/images/2022-08-pymc/plotly/primary_spoken_language.html" height="1000" width="1000">
 </iframe>	
 
 
