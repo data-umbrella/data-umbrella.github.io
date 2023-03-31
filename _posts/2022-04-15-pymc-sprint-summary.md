@@ -3,7 +3,7 @@ layout: post
 title:  "Reflections on the Data Umbrella PyMC February 2022 Sprint"
 description: PyMC & Data Umbrella share why and how the sprint was organized and outcomes.
 date:   2022-04-15 17:44:03 +0200
-image:  '/images/pymc-sprint/pymc-cover-insta.png'
+image:  '/images/2022-02-pymc/pymc-cover-insta.png'
 tags:   [opensource, pymc]
 ---
 
@@ -21,7 +21,7 @@ Data Umbrella and PyMC organized their first collaborative sprint in February 20
 
 <p float="left">
    <a href="https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt">
-  <img src="../images/pymc-sprint/pymc-playlist.png" width="60%" height="60%" style="border:0px;margin:0px">
+  <img src="../images/2022-02-pymc/pymc-playlist.png" width="60%" height="60%" style="border:0px;margin:0px">
 </a>
 </p>
 
@@ -29,7 +29,7 @@ The lead sprint organizers on the PyMC team were Meenal Jhajharia (India) and Or
 
 <p float="left">
    <a href="https://pymc-data-umbrella.xyz/en/latest/about/index.html">
-  <img src="../images/pymc-sprint/pymc-organizers.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/2022-02-pymc/pymc-organizers.png" width="99%" height="99%" style="border:0px;margin:0px">
 </a>
 </p>
 
@@ -43,7 +43,7 @@ The sprint was initiated by Meenal of the PyMC team (Documentation, Community) i
 
 <p float="left">
    <a href="https://numfocus.medium.com/45-gsoc-students-contributed-to-numfocus-projects-aeaebcbab339">
-  <img src="../images/pymc-sprint/meenal-gsoc.png" width="99%" height="99%" style="border:0px;margin:0px">
+  <img src="../images/2022-02-pymc/meenal-gsoc.png" width="99%" height="99%" style="border:0px;margin:0px">
 </a>
 </p>
  
@@ -98,7 +98,7 @@ Oriol states that Sandra’s pull request required expertise that is not held by
 
 <p float="left">
    <a href="https://blog.dataumbrella.org/sandra-sprints">
-  <img src="../images/pymc-sprint/sandra-pymc.png" width="75%" height="75%" style="border:0px;margin:0px">
+  <img src="../images/2022-02-pymc/sandra-pymc.png" width="75%" height="75%" style="border:0px;margin:0px">
 </a>
 </p>
 
@@ -119,7 +119,7 @@ Anonymous:
 
 <p float="left">
    <a href="https://blog.dataumbrella.org/pymc-sprint-summary">
-  <img src="../images/pymc-sprint/pymc-gsoc.png" width="85%" height="85%" style="border:0px;margin:0px">
+  <img src="../images/2022-02-pymc/pymc-gsoc.png" width="85%" height="85%" style="border:0px;margin:0px">
 </a>
 </p>
 
@@ -128,7 +128,7 @@ Anonymous:
 
 <p float="left">
    <a href="https://twitter.com/KimboChen/status/1495026320408940544">
-  <img src="../images/pymc-sprint/kimbo-tweet.png" width="80%" height="80%" style="border:0px;margin:0px">
+  <img src="../images/2022-02-pymc/kimbo-tweet.png" width="80%" height="80%" style="border:0px;margin:0px">
 </a>
 </p>
 
