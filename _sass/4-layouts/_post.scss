@@ -207,7 +207,16 @@
     font-weight: 400;
     color: var(--text-alt-color);
   }
+
+  .post__reading-time { 
+    position: absolute;
+    width: 762px;
+    height: 252px;
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
+
 
 .post,
 .page {
