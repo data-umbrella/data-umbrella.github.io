@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Let's Talk Community: with Beryl Kanali
+title:  Let's Talk Community with Beryl Kanali
 description: Discussion with Beryl on what makes a community
 date:   2023-07-20 10:01:35 +0300
 image:  '/images/blogs-community/beryl_comm.png'
