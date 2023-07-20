@@ -9,6 +9,10 @@ tags:   [opensource, community]
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
 
+### About Beryl Kanali
+
+[add bio here and include the communities you are a member of, including links to them?]
+
 ## Video
 <p>
 <iframe src="https://www.youtube.com/embed/oDXp6GIScOI" loading="lazy" frameborder="0" allowfullscreen></iframe>
