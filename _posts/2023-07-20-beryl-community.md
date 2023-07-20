@@ -9,12 +9,6 @@ tags:   [opensource, community]
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
 
-<p float="left">
-   <a href="https://youtu.be/oDXp6GIScOI"></a>
-  <img src="../images/blogs-community/beryl_comm.png" width="99%" height="99%" style="border:0px;margin:0px">
-</p>
-
-
 ## Video
 <p>
 <iframe src="https://www.youtube.com/embed/oDXp6GIScOI" loading="lazy" frameborder="0" allowfullscreen></iframe>
@@ -22,15 +16,19 @@ Author: [Reshama Shaikh](https://reshamas.github.io)
 
 
 Reshama  00:00
+
 Okay, great. Okay. You know, can you introduce yourself to, you know, tell us a bit about yourself what you currently do in the data space?
 
 Beryl  00:09
+
 My name is Beryl Kanali, I am a data scientist and community manager. I'm currently a master's student pursuing a master's in statistics. And apart from that, I volunteer as a Data Umbrella Community Manager, part time.
 
 Beryl  00:28
+
 What communities are you a member and a contributor of?
 
 Beryl  00:32
+
 I'm currently, I am a member and contributor of one at umbrella community, the Outreachy community, the Bioconductor community and the PyMC community.
 
 Reshama  00:47
