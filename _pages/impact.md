@@ -12,6 +12,13 @@ If you have a win to share, please:
 - Email us at:  info@dataumbrella .org
 - Twitter: tag us with "@DataUmbrella" & [#DataUmbrellaImpact](https://twitter.com/search?q=%23DataUmbrellaImpact&src=typed_query&f=top)
 
+## Daniel Saunders: 2023 Google Summer of Code Intern with PyMC
+Daniel Saunders participated in the July 2022 PyMC Open Source Working Sessions, and in June 2023, joined the PyMC project as a Google Summer of Code intern.
+
+Daniel shares in the [PyMC 2023 Interns blog](https://www.pymc.io/blog/blog_gsoc_2023.html
+>I participated in a PyMC sprint in July 2022, organized with Data Umbrella. I remember Reshama Shaikh, Ravin Kumar, Rowan Schaefer, and Oriol Abril Pla being really nice and super helpful. They taught me how git works and how to tidy up doc strings.
+Juan Martín Loyola joined the Data Umbrella Latin America sprint in June 2021, and he was an invited contributor to the Data Umbrella Africa and Middle East sprint in October 2021.  In this interview, learn more about Juan Martín's journey in open source. From a computer user to first contributing to PyMC, then Google Summer of Code, Data Umbrella's Latin America #ScikitLearnSprint, to Triage Team member with scikit-learn.
+
 ## Gloria Macia: Shared open source experience at PyData London
 
 [Gloria Macia](https://www.linkedin.com/in/gloriamacia/) presented a 5-minute lightning talk at PyData London in July 2022 entitled "Contributing to Open Source and Inclusiveness in Tech", for which she won the best prize award. 
