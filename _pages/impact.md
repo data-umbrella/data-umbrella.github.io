@@ -15,7 +15,7 @@ If you have a win to share, please:
 ## Daniel Saunders: 2023 Google Summer of Code Intern with PyMC
 Daniel Saunders participated in the July 2022 PyMC Open Source Working Sessions, and in June 2023, joined the PyMC project as a Google Summer of Code intern.
 
-Daniel shares in the [PyMC 2023 Interns blog](https://www.pymc.io/blog/blog_gsoc_2023.html
+Daniel shares in the [PyMC 2023 Interns blog](https://www.pymc.io/blog/blog_gsoc_2023.html)
 >I participated in a PyMC sprint in July 2022, organized with Data Umbrella. I remember Reshama Shaikh, Ravin Kumar, Rowan Schaefer, and Oriol Abril Pla being really nice and super helpful. They taught me how git works and how to tidy up doc strings.
 Juan Martín Loyola joined the Data Umbrella Latin America sprint in June 2021, and he was an invited contributor to the Data Umbrella Africa and Middle East sprint in October 2021.  In this interview, learn more about Juan Martín's journey in open source. From a computer user to first contributing to PyMC, then Google Summer of Code, Data Umbrella's Latin America #ScikitLearnSprint, to Triage Team member with scikit-learn.
 
