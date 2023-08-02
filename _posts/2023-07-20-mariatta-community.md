@@ -44,7 +44,7 @@ Wow. And we met via PyLadies, right?
 
 #### Mariatta 0:40
 
-Yes, PyLadies. I met PyLadies. 
+Yes, PyLadies. I mentioned PyLadies. 
 
 #### Reshama 0:50
 Okay, so yeah. And tell us a little bit about what kind of work you do and what your background is in terms of work and education. 
