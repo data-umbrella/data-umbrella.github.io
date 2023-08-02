@@ -126,7 +126,7 @@ Thanks for that. Can you give an example when an interaction with a community or
 
 #### Mariatta 16:57
 
-For me, one experience that I feel really proud about is the PyCascades community. PyCascades is a Python conference that we started myself and a few others from the people in the Pacific Northwest area. So the area of PC, Canada, Washington and Oregon, US. What I feel makes it successful is when we founded this community, when we said we want to have the PyCascades community, the organizers, the leaders, we have a clear vision, like we among ourselves, like what we want this conference to look like. Not only that, we want to grow the Python community in this area. 
+For me, one experience that I feel really proud about is the PyCascades community. PyCascades is a Python conference that we started myself and a few others from the people in the Pacific Northwest area. So the area of BC, Canada, Washington and Oregon, US. What I feel makes it successful is when we founded this community, when we said we want to have the PyCascades community, the organizers, the leaders, we have a clear vision, like we among ourselves, like what we want this conference to look like. Not only that, we want to grow the Python community in this area. 
 
 In the Pacific Northwest, we really focus a lot on being inclusive and that we care. We're going to care a lot about the diversity of the community, the attendees and the speakers. It's something we were very intentional about. It wasn't just hey, let's put another regional Python conference, but we have a vision and specific characteristics of what we want this community to be. And the whole organizing team, the leaders, we share the same common goal. 
 
