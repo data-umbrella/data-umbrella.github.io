@@ -13,7 +13,19 @@ We speak with [Mariatta Wijaya](https://www.linkedin.com/in/mariatta/) about her
 
 ### About Mariatta Wijaya
 
-[add bio here and include the communities you are a member of, including links to them?]
+Mariatta is a Python core developer where she focuses on improving the workflow and documentation. She is active in the Python community as an advisor for the Global PyLadies, co-founder of PyCascades, and is charing PyCon US conference for the years 2023 and 2024.
+
+For her contributions to the Python and community, she received the PSF Community Service Award in 2018 and Google Open Source Peer Bonus Award in 2017 and 2020.
+
+
+Links:
+- Mastodon profile: https://fosstodon.org/@mariatta
+- PyLadies: https://pyladies.com
+- PyCascades: https://pycascades.com
+- PyCon US: https://us.pycon.org
+- Python Software Foundation: https://python.org
+- IMDb: https://imdb.com/name/nm7641957/
+
 
 ## Video
 <p>
