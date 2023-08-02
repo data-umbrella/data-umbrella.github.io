@@ -80,7 +80,11 @@ So I felt, well, okay, maybe this time I will participate and see what I can do 
 That's amazing. That's wonderful. And you are the first woman core developer for the Python language, right? 
 
 #### Mariatta 7:20
+<<<<<<< HEAD
 Yeah, actually, I think about less than a year since I first emailed Guido, they decided they will have me as one of the core developers. And I was the first. And I think we have a few women now. Carol Willing is also a co-developer. We have Emily Morehouse, Lisa Roach, Irit Katriel, Cheryl Sabella. Joanna. We have Joanna Nanjekye. Probably mispronounce her name. I think that's all like, we have few women compared to I think we have work to do there. 
+=======
+Yeah, actually, I think about less than a year since I first emailed Guido, they decided they will have me as one of the core developers. And I was the first. And I think we have a few women now. Carol Willing is also a co-developer. We have Emily Morehouse, Lisa Roach, Erid Catrio, Cheryl Sabella. Joanna. We have Joanna Nanjikia. Probably mispronounce her name. I think that's all like, we have few women compared to I think we have work to do there. 
+>>>>>>> 0265848 (add section headers)
 
 #### Reshama 8:18
 Nice. It's definitely room for improvement, but it's also very impressive. So it's good to see the progress that's been made. What does community mean to you? 
@@ -126,7 +130,11 @@ Thanks for that. Can you give an example when an interaction with a community or
 
 #### Mariatta 16:57
 
+<<<<<<< HEAD
 For me, one experience that I feel really proud about is the PyCascades community. PyCascades is a Python conference that we started myself and a few others from the people in the Pacific Northwest area. So the area of BC, Canada, Washington and Oregon, US. What I feel makes it successful is when we founded this community, when we said we want to have the PyCascades community, the organizers, the leaders, we have a clear vision, like we among ourselves, like what we want this conference to look like. Not only that, we want to grow the Python community in this area. 
+=======
+For me, one experience that I feel really proud about is the PyCascades community. PyCascades is a Python conference that we started myself and a few others from the people in the Pacific Northwest area. So the area of PC, Canada, Washington and Oregon, US. What I feel makes it successful is when we founded this community, when we said we want to have the PyCascades community, the organizers, the leaders, we have a clear vision, like we among ourselves, like what we want this conference to look like. Not only that, we want to grow the Python community in this area. 
+>>>>>>> 0265848 (add section headers)
 
 In the Pacific Northwest, we really focus a lot on being inclusive and that we care. We're going to care a lot about the diversity of the community, the attendees and the speakers. It's something we were very intentional about. It wasn't just hey, let's put another regional Python conference, but we have a vision and specific characteristics of what we want this community to be. And the whole organizing team, the leaders, we share the same common goal. 
 
