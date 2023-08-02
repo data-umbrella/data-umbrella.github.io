@@ -2,7 +2,7 @@
 layout: post
 title:  Let's Talk Community with Mariatta Wijaya
 description: Discussion with Mariatta on what makes a community
-date:   2023-07-20 10:01:35 +0300
+date:   2023-08-02 10:01:35 +0300
 image:  '/images/blogs-community/mariatta_comm_sq.png'
 tags:   [opensource, community]
 ---
