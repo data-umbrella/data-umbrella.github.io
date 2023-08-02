@@ -50,7 +50,7 @@ Yes, PyLadies. I mentioned PyLadies.
 Okay, so yeah. And tell us a little bit about what kind of work you do and what your background is in terms of work and education. 
 
 #### Mariatta 1:02
-Yeah, so I studied computer science a long time ago, so I am, like, developer by training. In the past 15 years, I've worked in companies like startups and corporations. I've worked at Zapier, I've worked at Google most recently, and in the past, I also work at Sony Pictures Image Works. So if you watch some movies like the Angry Birds movie or think one of the Spiderman movie, I don't remember if you watch all the way till the end where the credits raw all the way till the end, and you'll probably find my name in those movies. 
+Yeah, so I studied computer science a long time ago, so I am, like, developer by training. In the past 15 years, I've worked in companies like startups and corporations. I've worked at Zapier, I've worked at Google most recently, and in the past, I also work at Sony Pictures Imageworks. So if you watch some movies like the Angry Birds movie, or I think one of the Spiderman movie, I don't remember if you watch all the way till the end where the credits roll all the way till the end, and you'll probably find my name in those movies. 
 
 #### Reshama 1:47
 
