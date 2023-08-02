@@ -80,7 +80,7 @@ So I felt, well, okay, maybe this time I will participate and see what I can do 
 That's amazing. That's wonderful. And you are the first woman core developer for the Python language, right? 
 
 #### Mariatta 7:20
-Yeah, actually, I think about less than a year since I first emailed Guido, they decided they will have me as one of the core developers. And I was the first. And I think we have a few women now. Carol Willing is also a co-developer. We have Emily Morehouse, Lisa Roach, Erid Catrio, Cheryl Sabella. Joanna. We have Joanna Nanjikia. Probably mispronounce her name. I think that's all like, we have few women compared to I think we have work to do there. 
+Yeah, actually, I think about less than a year since I first emailed Guido, they decided they will have me as one of the core developers. And I was the first. And I think we have a few women now. Carol Willing is also a co-developer. We have Emily Morehouse, Lisa Roach, Irit Katriel, Cheryl Sabella. Joanna. We have Joanna Nanjekye. Probably mispronounce her name. I think that's all like, we have few women compared to I think we have work to do there. 
 
 #### Reshama 8:18
 Nice. It's definitely room for improvement, but it's also very impressive. So it's good to see the progress that's been made. What does community mean to you? 
