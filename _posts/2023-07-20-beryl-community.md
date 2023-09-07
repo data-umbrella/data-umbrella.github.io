@@ -9,7 +9,7 @@ tags:   [opensource, community]
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
 
-We speak with [Beryl Kanali](https://www.linkedin.com/in/berylkanali/) about her exerience in communities since she first became involved in 2021 after participating in [scikit-learn sprint, October 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report) organized by Data Umbrella.
+We speak with [Beryl Kanali](https://www.linkedin.com/in/berylkanali/) about her experience in communities since she first became involved in 2021 after participating in [scikit-learn sprint, October 2021](https://blog.dataumbrella.org/data-umbrella-afme2-2021-scikit-learn-sprint-report) organized by Data Umbrella.
 
 ### About Beryl Kanali
 
