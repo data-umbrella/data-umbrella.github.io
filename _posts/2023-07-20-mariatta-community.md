@@ -9,7 +9,7 @@ tags:   [opensource, community]
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
 
-We speak with [Mariatta Wijaya](https://www.linkedin.com/in/mariatta/) about her exerience in communities.
+We speak with [Mariatta Wijaya](https://www.linkedin.com/in/mariatta/) about her experience in communities.
 
 ### About Mariatta Wijaya
 
