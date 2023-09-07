@@ -29,7 +29,7 @@ Okay, great. Okay. You know, can you introduce yourself to, you know, tell us a 
 
 My name is Beryl Kanali, I am a data scientist and community manager. I'm currently a master's student pursuing a master's in statistics. And apart from that, I volunteer as a Data Umbrella Community Manager, part time.
 
-#### Beryl  00:28
+#### Reshama  00:28
 
 What communities are you a member and a contributor of?
 
