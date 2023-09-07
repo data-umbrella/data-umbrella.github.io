@@ -19,12 +19,12 @@ For her contributions to the Python and community, she received the PSF Communit
 
 
 Links:
-- Mastodon profile: https://fosstodon.org/@mariatta
-- PyLadies: https://pyladies.com
-- PyCascades: https://pycascades.com
-- PyCon US: https://us.pycon.org
-- Python Software Foundation: https://python.org
-- IMDb: https://imdb.com/name/nm7641957/
+- Mastodon profile: [https://fosstodon.org/@mariatta](https://fosstodon.org/@mariatta)
+- PyLadies: [https://pyladies.com](https://pyladies.com)
+- PyCascades: [https://pycascades.com](https://pycascades.com)
+- PyCon US: [https://us.pycon.org](https://us.pycon.org)
+- Python Software Foundation: [https://python.org](https://python.org)
+- IMDb: [https://imdb.com/name/nm7641957/](https://imdb.com/name/nm7641957/)
 
 
 ## Video
