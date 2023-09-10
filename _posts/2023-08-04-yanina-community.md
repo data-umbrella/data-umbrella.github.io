@@ -112,7 +112,7 @@ For me it's a group of people who enjoy doing something and they get together to
 
 #### Reshama 12:00
 
-That's a great definition. So you belong to a lot of different communities. We can focus on the art community here. How do you contribute to the art community?
+That's a great definition. So you belong to a lot of different communities. We can focus on the R community here. How do you contribute to the R (Rstats) community?
 
 #### Yanina 12:13
 
