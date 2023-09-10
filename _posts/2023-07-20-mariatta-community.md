@@ -94,7 +94,7 @@ Do you think that your thoughts about community, how has it changed since the pa
 
 #### Mariatta 10:04
 
-If anything?...Since the Pandemic, it made me realize or it made me feel happy or glad that I have found this community, the Python community before the pandemic, that having connection, having connected with the Python community in person at conferences or online, through social channels helped me get through it because just last week I was talking to a friend. I think she felt burned out from the pandemic because she hasn't been going to work, she hasn't met a lot of new people. 
+If anything?...Since the pandemic, it made me realize or it made me feel happy or glad that I have found this community, the Python community before the pandemic, that having connection, having connected with the Python community in person at conferences or online, through social channels helped me get through it because just last week I was talking to a friend. I think she felt burned out from the pandemic because she hasn't been going to work, she hasn't met a lot of new people. 
 She felt stuck. Whereas for me, I feel like, well, thanks to the community, I continue to do the things I enjoy. I was still able to meet new friends online, I still attend Python conferences, even virtually, and it helps me with my own personal mental health. So that's what I felt about community. Like, I'm glad I found you.
 
 #### Mariatta 11:40
@@ -151,7 +151,7 @@ I'm sorry, I think I didn't answer your question.
 
 #### Reshama 21:54
 
-That's okay. I was going to ask you, what do you think with the Pandemic? There's a number of regional conferences that have gone dormant. And what do you think it is about Podcast Kids? Because I think they've continued to have their annual conference. Right? What do you think about it, let that happen? 
+That's okay. I was going to ask you, what do you think with the pandemic? There's a number of regional conferences that have gone dormant. And what do you think it is about Podcast Kids? Because I think they've continued to have their annual conference. Right? What do you think about it, let that happen? 
 
 #### Mariatta 22:10
 
