@@ -67,7 +67,9 @@ Number one. If you've ever heard of things like our markdown, Quarto could be th
 So importantly, this includes things like computation, so you can use data science languages like Python, R, 
 Julia, or even Observable JavaScript directly inside the notebook document itself. You can also write or mark up or mark down the kind of structure via Pandoc flavored markdown with a lot of enhancements that are provided through Quarto. And then you can create all sorts of different outputs. So from a single source you can create a document, a presentation like today that I'm giving that was created in Quarto entire websites, blogs, books, even manuscripts that you can submit to journals. 
 
-Overall, it's a literate programming system in this tradition of things like Org-Mode or Weave.jI, R Markdown, Jupyter Book, et cetera, where there's lots of different kind of frameworks, and we're trying to add to this community and combine a few different things where you have multiple languages available for them. 
+Overall, it's a literate programming system in this tradition of things like Org-Mode or Weave.jl, R Markdown, [iPyPublish], Jupyter Book, et cetera, where there's lots of different kind of frameworks, and we're trying to add to this community and combine a few different things where you have multiple languages available for them. 
+
+#### Origins of Quarto 07:13
 
 As far as the origins of where Quarto came from, it is an open source project sponsored by Posit Again, formerly known as RStudio Public Benefit Corp. So if you're trying to figure out where we came from, that's our history when we were founded over a decade ago. We have over ten years of experience with the R Markdown Open Source framework, which is a similar system to Quarto, but that was very R specific. Overall, though, this decade of experience with it convinced us that a lot of the core ideas were sound and could be applied to other languages. 
 
