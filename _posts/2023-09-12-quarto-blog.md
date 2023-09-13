@@ -115,6 +115,7 @@ And importantly, while I've talked a lot about plain text and .qmds, you can als
 
 Importantly, Quarto markdown documents are linear and they execute top to bottom cell one, cell two, cell three, all the way down. With a Jupyter notebook, you might actually have executed them out of order, and you want to store that as is and just use Quarto to convert it to a different format, like a presentation or a blog post, for example. 
 
+#### Render vs Preview [16:43]
 And then also the difference between render and preview for this example is Preview executes it. It writes the output to disk, but it also maintains this web server. So like, let's say when I was developing this presentation, I had Quarto preview running. So every time I made a change and click Save, I can see my results in real time and then be like, oh, oops, I messed up on this part. I need to make my bullet points a bit different or my code didn't execute as I expected.  So there are these different options for both Quarto and for Jupyter notebooks. 
 
 As far as executing code, Quarto uses knitter as the engine for R, but for Python, Quarto natively executes Python code with Jupyter kernels such as IPython, although you could define what other type of kernels you want to use. So the indicated or whatever the default Python kernel that is found or bound automatically is used whenever Python code chunks are present. And you can even define a specific kernel via the YAML header. 
