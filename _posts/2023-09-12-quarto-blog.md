@@ -58,7 +58,9 @@ So as far as Quarto, this presentation will be about 35 slides or slow and reall
 
 First thing I always want to mention is people may have not heard the name Posit, but you might have heard of the name RStudio. So RStudio is a public benefit corp and we recently became Posit as another company name as a rebrand. And we are still a public benefit corp. We mainly went through this rebrand so that people are aware that while we still are investing in tools for R and tools like RStudio, that for a long time we've also supported languages like Python. 
 
-So that's why part of why I'm giving this presentation today is talking about how Quarto is this multilingual tool for R, for Python, for Julia, for JavaScript and for future data science languages as they come up. As far as what is Quarto? 
+So that's why part of why I'm giving this presentation today is talking about how Quarto is this multilingual tool for R, for Python, for Julia, for JavaScript and for future data science languages as they come up. 
+
+#### As far as what is Quarto? 05:55 
 
 Number one. If you've ever heard of things like our markdown, Quarto could be thought of as like the next generation of our markdown. But again, this language agnostic idea, if you were to ask the Quarto team, they would say something like Quarto is an open source scientific and technical publishing system that builds on standard markdown with features essential for scientific communication. 
 
@@ -68,6 +70,7 @@ Julia, or even Observable JavaScript directly inside the notebook document itsel
 Overall, it's a literate programming system in this tradition of things like Org-Mode or Weave.jI, R Markdown, Jupyter Book, et cetera, where there's lots of different kind of frameworks, and we're trying to add to this community and combine a few different things where you have multiple languages available for them. 
 
 As far as the origins of where Quarto came from, it is an open source project sponsored by Posit Again, formerly known as RStudio Public Benefit Corp. So if you're trying to figure out where we came from, that's our history when we were founded over a decade ago. We have over ten years of experience with the R Markdown Open Source framework, which is a similar system to Quarto, but that was very R specific. Overall, though, this decade of experience with it convinced us that a lot of the core ideas were sound and could be applied to other languages. 
+
 We realized that, of course, the number of languages and computational runtimes that are used for science are very broad. And it's not just R, it's not just Python, it's not just Julia or JavaScript, it's some combination across all these different ecosystems. So Quarto is really this ground up reimagining of our Markdown modernized and made, multilingual and multi-engine so that you can use whatever language you want with it and have a consistent framework that is used across all of them. 
 
 Quarto absolutely gets inspiration from our Markdown as well as the Jupyter ecosystem. It can actually work directly with plain text documents like our Markdown, but we call them Quarto documents, as well as Jupyter notebooks in the IPython notebook structure itself. This overall goal, though, for Quarto is this computational document. So a document that includes the source code that creates it, as well as having a notebook format and a plain text flavor. We're really big fans of plain text, but there's lots of people who want to use, say, a Jupyter notebook or an IPython notebook as their entry point into Quarto, and that's absolutely supported as well. 
@@ -77,6 +80,7 @@ And importantly, you want to be able to use quarto to extend further, to make it
 So you're like, okay, well, maybe I'll switch to LaTeX. And it's like you start using LaTeX and you're like, wow, this is really hard to get started with. Really powerful, but maybe it's hard to collaborate with others on. And then you realize that even for something like Markdown, it's relatively easy to get started, but there's some unsupported syntax that you're trying to do more with it. It's not available. 
 
 So Quarto is trying to get the best of all these worlds, of as easy to use as Word, as powerful as things like Law, Tech and Markdown, but in a cohesive format that you can use across with computation as well. 
+
 And then lastly, there's a goal of this single source publishing. So at the most basic, Quarto can be used to create manuscripts and scientific communication. But you can also take a Quarto document and create again, a presentation, a website, a blog, all sorts of different things. And you can use that to have reproducibility across your publishing pipeline, as well as creating useful outputs beyond just a PDF or just an HTML, but really all these different formats all at once if you desire. 
 
 As far as what Quarto looks like and getting into some of the meat of it, here's a simple example using some Python code and a basic Quarto Markdown Document or a doc QMD. On the right, before we jump into the code, we can see a Matplotlib output. So this is what the rendered document would look like in HTML. It's got a nice title, it's got a hyperlink to the figure there, and it actually hides the code behind an expandable section where you can show the code or hide the code. 
