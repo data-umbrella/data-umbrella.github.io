@@ -139,11 +139,17 @@ So there's a couple different options there for all sorts of different things. I
 
 And then I have text or markdown that defines how I structure my document. I can add an image, I can add alt text for that image, along with headings and bold and italics text. So there's a lot of different things here with writing this in a way where it's still human readable even as it is now. But then we'll talk a little bit later about the visual output you can create in real time in editors such as RStudio and Visual Studio code. 
 
+#### Quarto doesn't have to be plain text [21:28]
+
 But importantly, Quarto doesn't have to be plain text. And if you're a Jupyter notebook super fan and you like using JupyterLab, you can actually use Quarto directly with that. So you can write in a Jupyter notebook, you can add a little bit of the front matter via YAML in the header as a raw code document, and then you can use from the terminal Quarto render to convert your Jupyter notebook into these beautiful outputs such as PDFs or HTML. 
 We've even released a Quarto extension for both JupyterLab and for Visual Studio code that allow you to go even further beyond the basics and actually add on to the command line interface to provide editor specific tooling that I'll show here in a little bit. 
 
+#### Rendering pipeline [22:12]
+
 So for the rendering pipeline, you can think of two options here I can have a plain text workflow where I use Quarto and I write all of my stuff in plain text. It still uses Jupyter kernels to execute things like Python. It converts this into an intermediary format and then eventually turns it into things like PDF or Word or websites. 
 But if I know and love Jupyter, I can just stay inside a notebook workflow. So I can use Jupyter natively, whether a classic Jupyter notebook or Jupyter lab, and then use Quarto to render it out and use the existing stored computation from within Jupyter. So there's multiple options here, especially when you're collaborating across folks. They might have differing opinions about what kind of structure they want to use. 
+
+#### What to do with my existing `.ipynb` [22:57]
 
 So you might ask, okay, well, I actually really like Jupyter notebooks. Can I keep using them? Like, what do I do with my existing notebooks? Keep using them, like you get to choose whether to use that stored computation or again re execute with Quarto the document in a linear fashion. Importantly, you know, for some folks, you might be interactively exploring with a Jupyter notebook and execute code cell three, then code one, then two, then five, then four. You're kind of playing around with it out of order and you need to store that computation to make sure it actually looks right. 
 
