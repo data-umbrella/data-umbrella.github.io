@@ -9,7 +9,7 @@ tags:   [opensource, community]
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
 
-We speak with [Yanina Belline Saibene](https://www.linkedin.com/in/yabellini/) about her exerience in communities.
+We speak with [Yanina Belline Saibene](https://www.linkedin.com/in/yabellini/) about her experience in communities.
 
 ### About Yanina Belline Saibene
 
