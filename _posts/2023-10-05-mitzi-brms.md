@@ -19,12 +19,6 @@ Mitzi Morris, a Stan developer, shows how you can quickly build robust models fo
 </p>
 
 ## Resources
-- [Event outline and notes](https://github.com/rochacbruno/rust-intro/blob/wip/script.md)
-- GitHub repo: [rust-intro](https://github.com/rochacbruno/rust-intro)
-- Data science libraries in Rust: [https://www.arewelearningyet.com/](https://www.arewelearningyet.com/)
-- Rust book:  [https://www.rust-lang.org/learn](https://www.rust-lang.org/learn)
-- micro (terminal editor): [https://micro-editor.github.io/](https://micro-editor.github.io/)
-
 - [slides](https://github.com/generable/workshop-materials/raw/master/presentations/Bayesian_Multilevel_Modeling_brms_Stan.pdf)
 - [repo: Mitzi's talk info](https://github.com/mitzimorris/brms_feb_28_2023)
 - [video: Mitzi's talk on Software Engineering](https://youtu.be/INXMncbt09g)
