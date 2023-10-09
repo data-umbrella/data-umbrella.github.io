@@ -10,7 +10,7 @@ tags:   [career]
 Summary posted by: [Reshama Shaikh](https://www.linkedin.com/in/reshamas/)
 
 ## Intro
-When starting your first data science job, you are equipped with a variety of technical skills that are necessary for the job. Coursework typically focuses on mathematical theory and how to write code. However, some of the most important skills being a data scientist do not only depend on this knowledge. In this talk, I’ll share three big lessons I’ve learned from working in data science and how you can use these lessons to improve your career.
+When starting your first data science job, you are equipped with a variety of technical skills that are necessary for the job. Coursework typically focuses on mathematical theory and how to write code. However, some of the most important skills being a data scientist do not only depend on this knowledge. In this talk, Megan Robertson shares three big lessons learned from working in data science and how you can use these lessons to improve your career.
 
 ## Video
 <p>
