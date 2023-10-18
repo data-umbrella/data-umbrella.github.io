@@ -3,7 +3,7 @@ layout: post
 title:  Data Umbrella PyMC 2022-2023 Study Group Report
 description: Summary of the PyMC Open Source Study Groups
 date:   2023-10-17 10:01:35 +0300
-image:  '/images/2023-03-pymc/2023_03_summary.png'
+image:  '/images/2022-2023-pymc-study-sessions/S01-pymc.png'
 tags:   [opensource, pymc, sprint-report]
 ---
 
