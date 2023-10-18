@@ -9,12 +9,11 @@ tags:   [opensource, pymc, sprint-report]
 
 Author: [Reshama Shaikh](https://reshamas.github.io)  
 
-<p float="left">
-   <a href=""> </a>
-  <img src="../images/2022-2023-pymc-study-sessions/S01-pymc.png" width="45%" height="45%" style="padding:1px;border:thick solid black;" align="top" />
-   <a href=""></a>
-  <img src="../images/2022-2023-pymc-study-sessions/S02-pymc.png" width="45%" height="45%" style="padding:1px;border:thick solid black;" align="top"/> 
+<p float="center">
+   <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/sponsors.html#data-umbrella-sponsors"> </a>
+  <img src="../images/2022-2023-pymc-study-sessions/S01-pymc.png" width="80%" height="80%" style="padding:0px;border:solid black;" align="top" />
 </p>
+
 
 ## Background
 Afer the July & August 2022 PyMC Open Source Working Sessions, Data Umbrella held monthly 2-hour sessions referred to as "Study Group" or "Open Source Sessions".  It was an opportunity for prior contributors from the Data Umbrella/PyMC OS Working Sessions to continue contributing with the presence of mentor(s) from the PyMC team.
