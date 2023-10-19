@@ -91,7 +91,7 @@ This event was supported by:
 ## Feedback / Lessons Learned / Challenges
 
 #### Challenges
-- We had contributors from the West Coast of United States and Canada over to India, which spans 13.5 hours.  It was challenging to find times which accommodated everyone's schedule.
+- We had contributors from the West Coast of United States and Canada over to India, which spans 13.5 hours.  It was challenging to find times which accommodated the schedule of all participants.
 
 
 ### References
