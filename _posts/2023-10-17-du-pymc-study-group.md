@@ -20,6 +20,11 @@ Afer the July & August 2022 PyMC Open Source Working Sessions, Data Umbrella hel
 
 From September 2022 to August 2023, we held a total of 12 sessions.
 
+## Contributions Statistics
+
+The contributions during the working sessions were tracked in this <span style="background-color: #CAE9F5;">[PyMC OS-WS spreadsheet](https://docs.google.com/spreadsheets/d/11aUZN_iqPF4-oWNvFKhkPIMYLizVE_EmoHugX7kGgHY/edit?usp=sharing)</span>.  Contributions included both submitting a pull request and opening an issue where observed. 
+
+This was a manual process and imperfect. Not all pull requests were recorded in this spreadsheet.
 
 ## Event Sponsors
 
@@ -82,6 +87,12 @@ This event was supported by:
    <a href=""></a>
   <img src="../images/2022-2023-pymc-study-sessions/S12-pymc.png" width="45%" height="45%" style="padding:1px;border:thick solid black;" align="top"/> 
 </p>
+
+## Feedback / Lessons Learned / Challenges
+
+#### Challenges
+- We had contributors from the West Coast of United States and Canada over to India, which spans 13.5 hours.  It was challenging to find times which accommodated everyone's schedule.
+
 
 ### References
 
