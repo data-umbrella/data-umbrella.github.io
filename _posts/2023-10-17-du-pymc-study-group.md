@@ -159,7 +159,7 @@ This event was supported by:
 
 ### References
 - [PyMC sprints organized by Data Umbrella](https://pymc-data-umbrella.xyz/en/latest/sprint_events.html)
-- [Data Umbrella / PyMC March 2023 Open Source Session Report](https://blog.dataumbrella.org/du-pymc-2023-sprint)
+- Report: [Data Umbrella / PyMC March 2023 Open Source Session Report](https://blog.dataumbrella.org/du-pymc-2023-sprint)
 - Report: [Data Umbrella & PyMC July-August 2022 Open Source Sessions](https://blog.dataumbrella.org/data-umbrella-pymc-2022-report)
 - Report: [Reflections on the Data Umbrella PyMC February 2022 Sprint](https://blog.dataumbrella.org/pymc-sprint-summary)
 - Interview with Sandra Meneses: [Contributing to PyMC](https://blog.dataumbrella.org/sandra-sprints)
