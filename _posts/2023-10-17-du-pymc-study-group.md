@@ -55,6 +55,11 @@ This event was supported by:
   <img src="../images/2022-2023-pymc-study-sessions/du-sponsors.png" width="80%" height="80%" style="padding:0px;border:solid black;" align="top" />
 </p>
 
+## PyMC Mentors
+A special thanks to the PyMC maintainers who consistently attended the study group sessions over the course of 12 months:  
+- [Christan Luhmann](https://www.linkedin.com/in/christian-luhmann-224591242/)
+- [Oriol Abril Pla](https://www.linkedin.com/in/oriol-abril-pla-1b9123180/)
+
 ---
 
 ### Sessions 1 & 2
