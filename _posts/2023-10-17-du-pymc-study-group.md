@@ -16,7 +16,7 @@ Author: [Reshama Shaikh](https://reshamas.github.io)
 
 
 ## Background
-Afer the July & August 2022 PyMC Open Source Working Sessions, Data Umbrella held monthly 2-hour sessions referred to as "Study Group" or "Open Source Sessions".  It was an opportunity for prior contributors from the Data Umbrella/PyMC OS Working Sessions to continue contributing with the presence of mentor(s) from the PyMC team.
+Data Umbrella organized a series of 5 sessions over two months: [July & August 2022 PyMC Open Source Working Sessions](https://blog.dataumbrella.org/data-umbrella-pymc-2022-report).  After that Data Umbrella held monthly 2-hour sessions referred to as "Study Group" or "Open Source Sessions".  It was an opportunity for prior contributors from the Data Umbrella/PyMC OS Working Sessions to continue contributing with the presence of mentor(s) from the PyMC team.
 
 From September 2022 to August 2023, we held a total of 12 sessions.
 
@@ -29,9 +29,8 @@ This was a manual process and imperfect. Not all pull requests were recorded in 
 ## Event Sponsors
 
 This event was supported by:  
-- [Google Open Source](https://opensource.google/)
 - [Chan Zuckerberg Initiative](https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/data-umbrella/) (2-year [Communities of Practice](https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/data-umbrella/) grant)
-
+- [Google Open Source](https://opensource.google/)
 
 <p float="center">
    <a href="https://pymc-data-umbrella.xyz/en/latest/2022-07_sprint/sprint_parties/sponsors.html#data-umbrella-sponsors"> </a>
@@ -90,9 +89,6 @@ This event was supported by:
 
 ## Feedback / Lessons Learned / Challenges
 
-#### Challenges
-- We had contributors from the West Coast of United States and Canada over to India, which spans 13.5 hours.  It was challenging to find times which accommodated the schedule of all participants.
-
 ### What worked well?
 
 - The sessions were well spaced and at a convenient time to accommodate various time zones.
@@ -121,7 +117,7 @@ This event was supported by:
 - Given that PyMC was a new territory and with my limited background in Bayesian modelling, the depth and pace of some discussions felt overwhelming.
 - What didn't work so well in my opinion was continuity. Only people from Data Umbrella or from PyMC attended the sessions regularly, which I think is a great opportunity loss as, in my opinion, attending twice the sessions translates in far more than twice the learnings. 
 - It was unfortunate that fewer people than expected attended the study groups.  However, it was an excellent time to get extended 1-on-1 time with a PyMC maintainer.
-
+- We had contributors from the West Coast of United States and Canada over to India, which spans 13.5 hours.  It was challenging to find times which accommodated the schedule of all participants.
 
 ### What pull requests did you work on?
 - [Beryl] I worked on rerunning and updating the notebooks for compatibility with the latest PyMC version. 
@@ -162,8 +158,8 @@ This event was supported by:
 
 
 ### References
-
 - [PyMC sprints organized by Data Umbrella](https://pymc-data-umbrella.xyz/en/latest/sprint_events.html)
+- [Data Umbrella / PyMC March 2023 Open Source Session Report](https://blog.dataumbrella.org/du-pymc-2023-sprint)
 - Report: [Data Umbrella & PyMC July-August 2022 Open Source Sessions](https://blog.dataumbrella.org/data-umbrella-pymc-2022-report)
 - Report: [Reflections on the Data Umbrella PyMC February 2022 Sprint](https://blog.dataumbrella.org/pymc-sprint-summary)
 - Interview with Sandra Meneses: [Contributing to PyMC](https://blog.dataumbrella.org/sandra-sprints)
