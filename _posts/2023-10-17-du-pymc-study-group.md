@@ -26,6 +26,17 @@ The contributions during the working sessions were tracked in this <span style="
 
 This was a manual process and imperfect. Not all pull requests were recorded in this spreadsheet.
 
+## Demographics
+Over the course of the year, we had contributors and mentors join the study sessions from the following countries:  
+- Brazil
+- Canada
+- Germany
+- India
+- Kenya
+- Spain
+- Switzerland
+- United States of America
+
 ## Event Sponsors
 
 This event was supported by:  
