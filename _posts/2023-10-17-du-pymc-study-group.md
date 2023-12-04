@@ -120,9 +120,9 @@ A special thanks to the PyMC maintainers who consistently attended the study gro
 - What worked well for me was the hands-on tasks like fixing notebook issues and ensuring their compatibility with recent PyMC versions. These tasks provided a clear direction and objective. However, given that PyMC was a new territory and with my limited background in Bayesian modelling, the depth and pace of some discussions felt overwhelming.
 - I thought the sessions themselves worked quite well, with fewish people attending a at least a couple mentors that could go jumping around and answering questions. In fact, in many of the sessions I was abpe to spend significant time working on my own PRs thanks to this high mentor/attendee ratio. 
 - I think the participants enjoyed the sessions because 
-  - 1) we had dedicated PyMC developers to help us and review our PRs, 
-  - 2) people in the sessions were welcoming and supportive, and 
-  - 3) there were simple issues to work on. 
+  - we had dedicated PyMC developers to help us and review our PRs, 
+  - people in the sessions were welcoming and supportive, and 
+  - there were simple issues to work on. 
 - Participants were enthusiastic, and the mentors were dedicated and passionate.
 - The core developers and the Data Umbrella team are extremely helpful and instructive and I felt welcomed and respected. I learned a lot on all fronts: about Bayesian inference theory, non-trivial functionalities of git etc.
 
