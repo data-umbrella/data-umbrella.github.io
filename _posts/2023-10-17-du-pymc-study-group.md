@@ -149,7 +149,6 @@ This event was supported by:
 - [Carlos] During the few meetings I attended (1 or 2), I did not create any new PRs. I spent time discussing open PRs with the core developers and gaining insight into some of the API decisions.
 
 ### Suggestions for improvement
-- During the few meetings I attended (1 or 2), I did not create any new PRs. I spent time discussing open PRs with the core developers and gaining insight into some of the API decisions.
 - Not completely sure how, but I think the best case scenario would be to have more regular attendance. Maybe an option could be to start with a ~15 min meeting with one of the mentors to work on a contribution plan that is specific to each person and builds their skills in a planned manner along the sessions until half the initiative or so when they'd be able to tackle a biggish PR of their choice (or partially their choice)
 - I think people joining would be interested in learning about Bayesian Statistics in general, which is not a topic most people know about. Having a 10-15 minutes explaining a topic which has open issues at the moment can help to get people working on those issues.
 - It would be nice that participants could have a sense of progression (for example, the ones closing a PR level 0 can move to level 1), this could help to keep attendants motivated.
