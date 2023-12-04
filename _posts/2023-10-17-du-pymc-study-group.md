@@ -2,7 +2,7 @@
 layout: post
 title:  Data Umbrella PyMC 2022-2023 Study Group Report
 description: Summary of the PyMC Open Source Study Groups
-date:   2023-10-17 10:01:35 +0300
+date:   2023-12-04 10:01:35 +0300
 image:  '/images/2022-2023-pymc-study-sessions/S01-pymc.png'
 tags:   [opensource, pymc, sprint-report]
 ---
@@ -16,15 +16,22 @@ Author: [Reshama Shaikh](https://reshamas.github.io)
 
 
 ## Background
-Data Umbrella organized a series of 5 sessions over two months: [July & August 2022 PyMC Open Source Working Sessions](https://blog.dataumbrella.org/data-umbrella-pymc-2022-report).  After that Data Umbrella held monthly 2-hour sessions referred to as "Study Group" or "Open Source Sessions".  It was an opportunity for prior contributors from the Data Umbrella/PyMC OS Working Sessions to continue contributing with the presence of mentor(s) from the PyMC team.
+Data Umbrella held monthly 2-hour sessions referred to as "Study Group" or "Open Source Sessions".  It was an opportunity for prior contributors from the Data Umbrella/PyMC OS Working Sessions to continue contributing with the presence of mentor(s) from the PyMC team.
 
-From September 2022 to August 2023, we held a total of 12 sessions.
+The "sprints" or open source contributing sessions from which participants funneled to the "study group" were:  
+- Data Umbrella organized a series of 5 sessions over two months: [July & August 2022 PyMC Open Source Working Sessions](https://blog.dataumbrella.org/data-umbrella-pymc-2022-report).  
+- [Data Umbrella / PyMC March 2023 Open Source Session Report](https://blog.dataumbrella.org/du-pymc-2023-sprint)
+
+From September 2022 to August 2023, we held a total of 12 study group sessions.
 
 ## Contributions Statistics
 
 The contributions during the working sessions were tracked in this <span style="background-color: #CAE9F5;">[PyMC OS-WS spreadsheet](https://docs.google.com/spreadsheets/d/11aUZN_iqPF4-oWNvFKhkPIMYLizVE_EmoHugX7kGgHY/edit?usp=sharing)</span>.  Contributions included both submitting a pull request and opening an issue where observed. 
 
 This was a manual process and imperfect. Not all pull requests were recorded in this spreadsheet.
+
+## Sessions
+The study sessions were officially held on Discord. Some participants would head over and use Google Meet because that was more suitable with the available internet bandwidth than Discord.
 
 ## Demographics
 Over the course of the year, we had contributors and mentors join the study sessions from the following countries:  
