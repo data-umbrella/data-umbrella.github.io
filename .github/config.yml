@@ -4,8 +4,8 @@
 
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
-  ![Welcome Banner](https://raw.githubusercontent.com/data-umbrella/info/main/images/welcome-bot/BannerCongratulations.jpg)]
-
+  ![Welcome Banner](https://raw.githubusercontent.com/data-umbrella/info/main/images/welcome-bot/BannerCongratulations.jpg)
+  
   :tada: Welcome to _Data Umbrella_! :tada:
   We're really excited to have your input into the project! :sparkling_heart:
 
@@ -16,7 +16,7 @@ newIssueWelcomeComment: >
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
-  ![Thank You Banner](https://github.com/data-umbrella/info/blob/main/images/welcome-bot/BannerThanks.jpg?raw=true)]
+  ![Thank You Banner](https://github.com/data-umbrella/info/blob/main/images/welcome-bot/BannerThanks.jpg?raw=true)
 
   :sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
   _Data Umbrella_ community really appreciates your time and effort to contribute to the project.
@@ -27,7 +27,7 @@ newPRWelcomeComment: >
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  ![Congratulations Banner](https://github.com/data-umbrella/info/blob/main/images/welcome-bot/BannerCongratulations.jpg?raw=true)]
+  ![Congratulations Banner](https://github.com/data-umbrella/info/blob/main/images/welcome-bot/BannerCongratulations.jpg?raw=true)
 
   Congrats on merging your first pull request! :tada:
   We here at _Data Umbrella_ are proud of you! :sparkling_heart:
