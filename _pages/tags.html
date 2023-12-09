@@ -77,3 +77,12 @@ permalink: /tags/
 
 </section>
 <!-- end tags -->
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(event) {
+      var target = this.getAttribute('href')
+      history.pushState(null, null, target);
+    });
+  });
+</script>
