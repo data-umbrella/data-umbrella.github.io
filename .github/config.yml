@@ -18,7 +18,7 @@ newIssueWelcomeComment: >
 newPRWelcomeComment: >
   ![Thank You Banner](https://github.com/data-umbrella/info/blob/main/images/welcome-bot/BannerThanks.jpg?raw=true)
 
-  :sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
+  :sparkling_heart: Thanks for opening this pull request! :sparkling_heart: 💖
   _Data Umbrella_ community really appreciates your time and effort to contribute to the project.
   Please make sure you have read our [Contributing Guidelines](https://github.com/data-umbrella/data-umbrella.github.io/blob/main/CONTRIBUTING.md) and filled in our pull request template to the best of your ability.
 
@@ -30,5 +30,5 @@ firstPRMergeComment: >
   ![Congratulations Banner](https://github.com/data-umbrella/info/blob/main/images/welcome-bot/BannerCongratulations.jpg?raw=true)
 
   Congrats on merging your first pull request! :tada:
-  We here at _Data Umbrella_ are proud of you! :sparkling_heart:
+  We here at _Data Umbrella_ are proud of you! :sparkling_heart: 💖
   Thank you so much for your contribution :gift:
