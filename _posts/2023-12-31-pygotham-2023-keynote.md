@@ -24,11 +24,23 @@ In 2023, the US Surgeon General issued a report on the [Our Epidemic of Loneline
 Reshama talks about Python and open source communities: the good parts (motivations of joining and contributing), and the bad (things that cause people to leave). She shared examples of communities that did great work but are now no longer operating.
 
 
-## Reference Links
+## Community Chats
 - [Videos](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir80szrIxzhEsHzQl-18QNHv) of community chats with Beryl Kanali, Mariatta Wijaya, Yanina Bellini Saibene
 - Transcript chat with [Beryl Kanali](https://blog.dataumbrella.org/beryl-community)
 - Transcript chat with [Mariatta Wijaya](https://blog.dataumbrella.org/mariatta-community)
 - Transcript chat with [Yanina Bellini Saibene](https://blog.dataumbrella.org/yanina-community)
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WOVSA9yrd0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L2vIaurMrGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDXp6GIScOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 
 ## About Reshama Shaikh
