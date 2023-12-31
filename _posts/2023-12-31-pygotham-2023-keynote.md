@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Let's Talk Community"
-description: PPyGotham 2023 Keynote
-date:   2023-12-32 17:44:03 +0200
+description: PyGotham 2023 Keynote
+date:   2023-12-30 17:44:03 +0200
 image:  '/images/blogs-community/pygotham-2023-keynote.png'
 tags:   [opensource, community]
 ---
