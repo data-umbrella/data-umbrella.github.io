@@ -30,7 +30,6 @@ Reshama talks about Python and open source communities: the good parts (motivati
 - Transcript chat with [Mariatta Wijaya](https://blog.dataumbrella.org/mariatta-community)
 - Transcript chat with [Yanina Bellini Saibene](https://blog.dataumbrella.org/yanina-community)
 
-<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WOVSA9yrd0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
