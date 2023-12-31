@@ -13,8 +13,10 @@ tags:   [opensource, community]
 - VIDEO: PyGotham 2023 [Keynote: Reshama Shaikh - Let's Talk Community](https://youtu.be/kmS2MRLicKc)
 
 ## Video
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kmS2MRLicKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br>
 
 ## Description
 In 2023, the US Surgeon General issued a report on the “Our Epidemic of Loneliness & Isolation: Healing Effects of Social Connection and Community.” In this talk, we examine the importance of community and the experiences of a few community organizers in the open source space. We explore getting started, staying involved and leaving communities.
