@@ -44,3 +44,9 @@ Sprints are hands-on hackathons where beginners learn how to contribute to open 
 - [Sprint Reports](https://www.dataumbrella.org/sprints/sprint-reports)
 - [Sprint Articles by Participants](https://www.dataumbrella.org/sprints/sprint-blogs)
 
+### 2021 [Community of Practice](https://chanzuckerberg.com/science/programs-resources/open-science/communitiesofpractice/) CZI Grant Awardees
+-  [Black in AI](https://chanzuckerberg.com/grants-ventures/grants/)
+-  [Out in STEM](https://chanzuckerberg.com/grants-ventures/grants/)
+-  [Outreachy](https://chanzuckerberg.com/grants-ventures/grants/)
+
+
