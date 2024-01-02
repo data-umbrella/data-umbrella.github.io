@@ -28,7 +28,7 @@ This article was recently published in the PLOS Journal by funders at CZI and th
 </a>
 </p>
 
-### [Data Umbrella, an Event Fund Grantee, Awarded CZI Grant](https://eventfund.codeforscience.org/data-umbrella-awarded-czi-grant/) (Oct 2021)
+### [Data Umbrella, an Event Fund Grantee, Awarded CZI Grant](https://www.codeforsociety.org/eventfund/updates/data-umbrella-an-event-fund-grantee-awarded-czi-grant) (Oct 2021)
 
 Data Umbrella, a Code for Science and Society Event Fund grantee, has been awarded a grant by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) as part of CZI Science efforts to support [diversity and inclusion in computational science](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b). 
 
