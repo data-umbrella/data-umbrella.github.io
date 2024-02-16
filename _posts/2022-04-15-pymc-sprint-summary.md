@@ -4,7 +4,7 @@ title:  "Reflections on the Data Umbrella PyMC February 2022 Sprint"
 description: PyMC & Data Umbrella share why and how the sprint was organized and outcomes.
 date:   2022-04-15 17:44:03 +0200
 image:  '/images/2022-02-pymc/pymc-cover-insta.png'
-tags:   [opensource, pymc]
+tags:   [opensource, pymc, sprint-report]
 ---
 
 Authors:  [Reshama Shaikh](https://reshamas.github.io), [Oriol Abril Pla](https://oriolabrilpla.cat), [Meenal Jhajharia](https://mjhajharia.com), [Thomas Wiecki](https://www.pymc-labs.io/team/thomas-wiecki/)
