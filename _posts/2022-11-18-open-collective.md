@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Open Collective Foundation, Open Source Collective and Open Collective, Explained
+title:  Open Collective Foundation, Open Source Collective and Open Collective Inc, Explained
 description: What is the difference between Open Collective Foundation and Open Source Collective?
 date:   2022-11-17 15:01:35 +0300
 image:  '/images/blog-oc/oc-explained.png'
@@ -12,7 +12,7 @@ Summary posted by: [Reshama Shaikh](https://www.linkedin.com/reshamas)
 ## Intro
 This article clarifies the difference between "Open Collective Foundation" and "Open Source Collective" and "Open Collective".
 
-| Item     | Open Collective Foundation                                                               | Open Source Collective                                                                                                                                                                                                                                                                                                                             | Open Collective |
+| Item     | Open Collective Foundation                                                               | Open Source Collective                                                                                                                                                                                                                                                                                                                             | Open Collective Inc. |
 |----------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
 | Website  | [opencollective.foundation](https://www.opencollective.foundation/)   | [oscollective.org](https://www.oscollective.org/)     |     [opencollective.com](https://opencollective.com/search)           |
 | Status   | 501(c)(3)                                                                                | 501(c)(6)     |  hosting platform               |
