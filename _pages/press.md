@@ -4,7 +4,21 @@ title: Press
 image: '/images/blogs/czi.png'
 ---
 
-### Data Umbrella receives mention in Gordon and Betty Moore Foundation article: [Cultivating and connecting global data science communities](https://www.moore.org/article-detail?newsUrlName=cultivating-and-connecting-global-data-science-communities) (April 14, 2023)
+### Data Umbrella receives a mention in this research publication: [Insights and Impact From Five Cycles of Essential Open Source Software for Science](https://zenodo.org/records/11201216)  (July 16, 2024)
+
+*Open source software (OSS) is crucial to advance scientific discovery. In particular, biomedical research increasingly depends on computational analysis, and OSS has become critical to making these methods broadly accessible. Despite a steady increase in demand from the scientific community for usable, scalable, secure, and reliable OSS, funding to support the needs of the communities that create it and maintain it has been limited.*  
+
+*For the past five years, the Chan Zuckerberg Initiative has supported the maintenance, growth, development, and community engagement for critical open source tools that are used globally in the life sciences through its Essential Open Source Software for Science (EOSS) program. To our knowledge at the time of writing, this program (193 grants with $51.8 million in funding) represents the largest initiative to meet these needs. Stories and data from this unique grantee community represent one of the best available accounts on the impact of the open source foundations of science, and the urgent need to continue and expand support for them. In this report, we set out to review the impact of the first five cycles of the EOSS program to date from multiple perspectives and a variety of data sources, highlighting the support required to sustain OSS as well as the successes of our community. Questions we addressed and associated key findings include:*
+
+1. *What Support Does the Scientific Open Source Community Need?*
+2. *What Activities Did the Program Fund?*
+3. *How Did the Program Impact Funded Software Projects?*
+4. *How Did the Program Impact the Broader Open Source Community?*   
+5. *How Did the Program Impact Diverse Participation in Scientific Open Source?* 
+6. *How Did EOSS-Funded Projects Impact Biomedical Research?* 
+
+
+### Data Umbrella receives a mention in Gordon and Betty Moore Foundation article: [Cultivating and connecting global data science communities](https://www.moore.org/article-detail?newsUrlName=cultivating-and-connecting-global-data-science-communities) (April 14, 2023)
 
 
 *Through this program, funders and grantees alike have been able to expand their global reach. To date, the Event Fund has awarded over $525,000 to three cohorts of grantees from 27 different countries. Examples include:*
