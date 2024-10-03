@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d4654a4-3b5a-41f3-b5ed-c64a6a7f45f4/deploy-status)](https://app.netlify.com/sites/amazing-borg-b90f51/deploys)
+
 # Menca personal blogging theme for Jekyll
 
 Menca is a super fast and clean blogging theme for Jekyll. One of the main features of this theme is video post support. You can easily add your favorite video from services like Youtube or Vimeo. This theme is fully compatible with Github Pages and has a light and dark mode for easy reading. If you want to start a creative personal blog and you create video content this theme is perfect for you.
