@@ -30,7 +30,7 @@ Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://gi
 
 5. __To which OSS projects and communities do you contribute?__
 
-	The Data Umbrella sprint showed me that not all valuable contributions are new features; there may be tests, documentation, or continuous integration modifications, for example. Lately, I’ve been identifying ways to leverage my professional application security experience to contribute security to projects. I started out with joining the Jupyter Security Subcouncil and have recently been contributing as the chair for the NumFOCUS Security Committee. Just like I learned during the Data Umbrella sprint, we can contribute to the security of the projects we use and appreciate through education, establishing standards, enhancing processes, technical reviews, and security services.
+	The Data Umbrella sprint showed me that not all valuable contributions are new features; there may be tests, documentation, or continuous integration modifications, for example. Lately, I’ve been identifying ways to leverage my professional application security experience to contribute security to projects. I started out with joining the Jupyter Security Subcouncil and have recently been contributing as the chair for the [NumFOCUS](https://numfocus.org/) Security Committee. Just like I learned during the Data Umbrella sprint, we can contribute to the security of the projects we use and appreciate through education, establishing standards, enhancing processes, technical reviews, and security services.
 
 6. __Any advice or tips you have for people starting out in open source?__
 
