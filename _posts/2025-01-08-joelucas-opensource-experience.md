@@ -7,7 +7,7 @@ image:  '/images/blogs/interview_image.jpg'
 tags:   [opensource]
 ---
 
-Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali]() & [Joe Lucas](https://github.com/JosephTLucas)
+Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://github.com/BerylKanali) & [Joe Lucas](https://github.com/JosephTLucas)
 
 
 1. __Tell us about yourself.__
