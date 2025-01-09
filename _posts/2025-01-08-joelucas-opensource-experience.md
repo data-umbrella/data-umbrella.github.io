@@ -3,7 +3,7 @@ layout: post
 title:  "Data Umbrella Interview: Joe Lucas"
 description: Joe Lucas shares his experience collaborating in open source.
 date:   2024-01-08 15:01:35 +0300
-image:  '/images/blogs/interview_image.jpg'
+image:  '/images/blogs/Joe-Lucas-blog.png'
 tags:   [opensource]
 ---
 
