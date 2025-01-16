@@ -43,7 +43,10 @@ Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://gi
 8. __What are your hobbies, outside of work and open source?__
 
 	I have too many hobbies… lately I’ve been spending a lot of time training my puppy and trying to learn how to skateboard (inspired by the Olympics).
+## Resources for Contributing to scikit-learn
 
+- xxx
+- xxx
 
 **REFERENCE:**
 
