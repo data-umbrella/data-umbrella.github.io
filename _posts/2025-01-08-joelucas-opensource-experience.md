@@ -7,8 +7,12 @@ image:  '/images/blogs/Joe-Lucas-blog.png'
 tags:   [opensource]
 ---
 
-Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://github.com/BerylKanali) & [Joe Lucas](https://github.com/JosephTLucas)
+Authors:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://github.com/BerylKanali) & [Joe Lucas](https://github.com/JosephTLucas)
 
+<p float="right">
+   <a href=""> </a>
+  <img src="../images/blogs/sprint_joelucas.png" width="45%" height="45%" style="padding:1px;border:thick solid black;" align="top" />
+</p>
 
 1. __Tell us about yourself.__
 
@@ -45,8 +49,8 @@ Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://gi
 	I have too many hobbies… lately I’ve been spending a lot of time training my puppy and trying to learn how to skateboard (inspired by the Olympics).
 ## Resources for Contributing to scikit-learn
 
-- xxx
-- xxx
+- [Contributing to scikit-learn blog](https://www.dataumbrella.org/open-source/contributing-to-scikit-learn)
+- [Scikit-learn develope's guide](https://scikit-learn.org/dev/developers/index.html)
 
 ## References
 
