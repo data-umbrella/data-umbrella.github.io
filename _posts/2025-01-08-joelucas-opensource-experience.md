@@ -48,6 +48,6 @@ Author:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://gi
 - xxx
 - xxx
 
-**REFERENCE:**
+## References
 
-https://josephtlucas.github.io/blog/content/sklearn_sprint.html
+- [Joe Lucas: scikit-learn Open Source Adventure](https://josephtlucas.github.io/blog/content/sklearn_sprint.html)
