@@ -148,7 +148,7 @@ while getopts "f:" opt; do
   esac
 done
 
-URL="https://github.com/rebeccaburway/data-umbrella-bash-talk/raw/main/data/stock_data.xlsx"
+URL="http://www.econ.yale.edu/~shiller/data/ie_data.xls"
 echo "Downloading data from $URL"
 curl -O "$URL"
 ssconvert -S stock_data.xlsx stock_data.csv
