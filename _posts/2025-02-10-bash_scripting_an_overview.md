@@ -28,11 +28,11 @@ Let's examine a simple script that performs an Extract, Transform, Load (ETL) pr
 # Description: Download data, convert to CSV, extract column, and clean up.
 # Options: None
 
-URL="https://github.com/rebeccaburway/data-umbrella-bash-talk/raw/main/data/stock_data.xlsx"
+URL="http://www.econ.yale.edu/~shiller/data/ie_data.xls"
 echo "Downloading data from $URL"  # Print a message indicating the download source.
-curl -O "$URL" # Download the file using curl. The -O option saves it with its original name.
-ssconvert -S stock_data.xlsx stock_data.csv # Convert the Excel file to multiple CSV files (one per sheet).
-cut -d, -f10 stock_data.csv.0 | head  # Extract the 10th column (using comma as delimiter) and display the first few lines.
+curl -O stock_data.xls "$URL" # Download the file using curl. The -O option saves it with its original name.
+ssconvert -S stock_data.xls stock_data.csv # Convert the Excel file to multiple CSV files (one per sheet).
+cut -d, -f10 stock_data.csv.4 | head  # Extract the 10th column (using comma as delimiter) and display the first few lines.
 rm stock_data* # Remove all downloaded and created files (using wildcard *).
 ```
 
