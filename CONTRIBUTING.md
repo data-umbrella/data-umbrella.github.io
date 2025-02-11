@@ -14,7 +14,7 @@ Please see instructions for [building the website locally](https://github.com/da
 #### Example of highlighting
 
 ```
-<span style="background-color: #CAE9F5;">
+<span style="background-color: #FFFFC5;">
 working sessions to contribute to the open source library.            
 </span>
 ```
