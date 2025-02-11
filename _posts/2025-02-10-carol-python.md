@@ -3,7 +3,7 @@ layout: post
 title:  Contributing to Core Python
 description: Carol Willing Shares How to Contribute to Core Python
 date:   2025-02-10 08:01:35 +0300
-image:  '/images/blogs/megan-career.png'
+image:  '/images/blogs/blog-carol-python.png'
 tags:   [python, opensource]
 ---
 
