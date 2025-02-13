@@ -11,7 +11,7 @@ Authors:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://g
 
 <p float="right">
    <a href=""> </a>
-  <img src="../images/blogs/sprint_joelucas.png" width="45%" height="45%" style="padding:1px;border:thick solid black;" align="top" />
+  <img src="../images/blogs/sprint_joelucas.png" width="75%" height="75%" style="padding:1px;border:thick solid black;" align="top" />
 </p>
 
 1. __Tell us about yourself.__
