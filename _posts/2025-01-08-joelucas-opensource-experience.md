@@ -50,7 +50,7 @@ Authors:  [Reshama Shaikh](https://reshamas.github.io), [Beryl Kanali](https://g
 ## Resources for Contributing to scikit-learn
 
 - [Contributing to scikit-learn blog](https://www.dataumbrella.org/open-source/contributing-to-scikit-learn)
-- [Scikit-learn develope's guide](https://scikit-learn.org/dev/developers/index.html)
+- [Scikit-learn developer's guide](https://scikit-learn.org/dev/developers/index.html)
 
 ## References
 
