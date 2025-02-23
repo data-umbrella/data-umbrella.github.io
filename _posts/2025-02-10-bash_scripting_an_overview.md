@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Started with Bash scripting"
 description: Linux
 date:   2025-01-22 18:57:00 +0300
-image:  '/images/blogs/rebecca_intro_to_bash_scripting.png'
+image:  '/images/blogs/rebecca_Intro_to_bash_scripting_square.png'
 tags:   [linux, bash, opensource]
 author: Reshama Shaikh
 ---
