@@ -3,9 +3,9 @@ layout: post
 title:  "Getting Started with Bash scripting"
 description: Linux
 date:   2025-01-22 18:57:00 +0300
-image:  '/images/blogs/rebecca_linux_image_at_1298.28.png'
+image:  '/images/blogs/rebecca_intro_to_bash_scripting.png'
 tags:   [linux, bash, opensource]
-author: Sangam SwadiK
+author: Reshama Shaikh
 ---
 
 
@@ -155,6 +155,7 @@ ssconvert -S stock_data.xlsx stock_data.csv
 cut -d, -f"$fields" stock_data.csv.0 | head
 rm stock_data*
 ```
+
 <a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=243.1s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_243.10.png" alt=" OK, so I've already prepared a script process with options that has options in them." width="450"/></a>
 
 This version uses `getopts "f:" opt` to parse the `-f` option. [ In line 16, that string f colon tells you about the valid options.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=537s) The colon after `f` indicates that it requires an argument.  The `case` statement handles the option: if `-f` is provided, its value (accessed via `$OPTARG`) is stored in the `fields` variable. [ So fields would be 10 or 10,1.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=564s) If an invalid option is provided, a usage message is printed, and the script exits. The `cut` command now uses `-f"$fields"` to extract the specified columns. The `esac` closes out the case statement. [ When you create a lot of these control structures, like you type case to start it, and then ESAC, which is case backwards, to end the case statement, to tell Bash, you know, case part is done.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=982s)
