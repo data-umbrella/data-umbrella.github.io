@@ -13,7 +13,7 @@ If you have a win to share, please:
 - Twitter: tag us with "@DataUmbrella" & [#DataUmbrellaImpact](https://twitter.com/search?q=%23DataUmbrellaImpact&src=typed_query&f=top)
 
 ## Joseph Lucas: 2020 Scikit-Learn Open Source Sprint
-Joseph Lucas participated in the 2020 Scikit Learn Open Source Sprint and shared his experience in his blog "[My OpenSource Adventure](https://blog.dataumbrella.org/joe-lucas-online-2020-my-open-source-adventure)". Since then, he has been using his professional application security experience to contribute security to projects.He has been part of the Jupyter Security Subcouncil and recently been contributing as the chair for the NumFOCUS Security Committee.
+Joseph Lucas participated in the [2020 scikit-learn Open Source Sprint](https://blog.dataumbrella.org/data-umbrella-global-online-2020-scikit-learn-sprint-report) and shared his experience in the blog "[My Open Source Adventure](https://blog.dataumbrella.org/joe-lucas-online-2020-my-open-source-adventure)". Since then, he has brought his security expertise to open source projects. He is a Security Council Member for [Project Jupyter](https://jupyter.org/security) and is the chair of the [NumFOCUS Security Committee](https://github.com/numfocus/Security-Best-Practices).
 
 Joe Lucas shares in his [interview with Data Umbrella]:(https://blog.dataumbrella.org/joelucas-opensource-experience)
 >The sprint gave me the experience and confidence to continue engaging with open source projects. I learned more about maintainers’ perspectives and challenges and now understand that there is a wide spectrum of valuable contributions.
