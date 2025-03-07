@@ -12,6 +12,12 @@ If you have a win to share, please:
 - Email us at:  info@dataumbrella .org
 - Twitter: tag us with "@DataUmbrella" & [#DataUmbrellaImpact](https://twitter.com/search?q=%23DataUmbrellaImpact&src=typed_query&f=top)
 
+## Joseph Lucas: 2020 Scikit-Learn Open Source Sprint
+Joseph Lucas participated in the 2020 Scikit Learn Open Source Sprint and shared his experience in his blog "[My OpenSource Adventure](https://blog.dataumbrella.org/joe-lucas-online-2020-my-open-source-adventure)". Since then, he has been using his professional application security experience to contribute security to projects.He has been part of the Jupyter Security Subcouncil and recently been contributing as the chair for the NumFOCUS Security Committee.
+
+Joe Lucas shares in his [interview with Data Umbrella]:(https://blog.dataumbrella.org/joelucas-opensource-experience)
+>The sprint gave me the experience and confidence to continue engaging with open source projects. I learned more about maintainers’ perspectives and challenges and now understand that there is a wide spectrum of valuable contributions.
+
 ## Daniel Saunders: 2023 Google Summer of Code Intern with PyMC
 Daniel Saunders participated in the July 2022 PyMC Open Source Working Sessions, and in June 2023, joined the PyMC project as a Google Summer of Code intern.
 
