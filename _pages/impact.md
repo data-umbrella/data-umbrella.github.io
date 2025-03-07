@@ -15,7 +15,8 @@ If you have a win to share, please:
 ## Joseph Lucas: 2020 Scikit-Learn Open Source Sprint
 Joseph Lucas participated in the [2020 scikit-learn Open Source Sprint](https://blog.dataumbrella.org/data-umbrella-global-online-2020-scikit-learn-sprint-report) and shared his experience in the blog "[My Open Source Adventure](https://blog.dataumbrella.org/joe-lucas-online-2020-my-open-source-adventure)". Since then, he has brought his security expertise to open source projects. He is a Security Council Member for [Project Jupyter](https://jupyter.org/security) and is the chair of the [NumFOCUS Security Committee](https://github.com/numfocus/Security-Best-Practices).
 
-Joe Lucas shares in his [interview with Data Umbrella]:(https://blog.dataumbrella.org/joelucas-opensource-experience)
+He shares his open source experiences in this [Joe Lucas Interview with Data Umbrella](https://blog.dataumbrella.org/joelucas-opensource-experience)
+
 >The sprint gave me the experience and confidence to continue engaging with open source projects. I learned more about maintainers’ perspectives and challenges and now understand that there is a wide spectrum of valuable contributions.
 
 ## Daniel Saunders: 2023 Google Summer of Code Intern with PyMC
