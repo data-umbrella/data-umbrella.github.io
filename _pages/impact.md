@@ -12,6 +12,16 @@ If you have a win to share, please:
 - Email us at:  info@dataumbrella .org
 - Twitter: tag us with "@DataUmbrella" & [#DataUmbrellaImpact](https://twitter.com/search?q=%23DataUmbrellaImpact&src=typed_query&f=top)
 
+## Lauren Burke-McCarthy: [Gives her first solo presentation](https://blog.dataumbrella.org/lburke)
+In March 2022, as part of a special series of Data Umbrella events to celebrate [Women’s Month](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir9dIg5voCwc6FSFlkpAXYFH), Lauren Burke presented on how to [Create a Free Data Blog with Jekyll & GitHub Pages](https://youtu.be/7SBXl94xNl8) which was her first solo talk.
+
+She shares her experience and shares tips for fist time speakers in the blog [Interview with Lauren Burke: Giving Her First Solo Presentation](https://blog.dataumbrella.org/lburke)
+
+>Even if you feel like you don’t have as much experience as others or haven’t been in a field long enough, your perspective is important and sharing your knowledge can benefit others. Always remember that right now, someone is at the stage you were 1, 5, or 10 years ago. What you share could help them!
+
+While sharing the benefits of public speaking, Lauren said: 
+>Giving this presentation definitely improved my confidence in my ability to speak publicly in front of larger audiences. It was also nice to have positive feedback on the talk content itself! As a data scientist, communication skills are so important and it was great to hear from attendees what they found interesting and beneficial. I’ve been thinking about applying to speak at larger events and conferences - taking what I’ve learned from the experience and applying it to other topics.
+
 ## Joseph Lucas: 2020 Scikit-Learn Open Source Sprint
 Joseph Lucas participated in the [2020 scikit-learn Open Source Sprint](https://blog.dataumbrella.org/data-umbrella-global-online-2020-scikit-learn-sprint-report) and shared his experience in the blog "[My Open Source Adventure](https://blog.dataumbrella.org/joe-lucas-online-2020-my-open-source-adventure)". Since then, he has brought his security expertise to open source projects. He is a Security Council Member for [Project Jupyter](https://jupyter.org/security) and is the chair of the [NumFOCUS Security Committee](https://github.com/numfocus/Security-Best-Practices).
 
