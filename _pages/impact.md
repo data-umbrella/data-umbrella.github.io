@@ -15,7 +15,7 @@ If you have a win to share, please:
 ## Lauren Burke-McCarthy: Gives her first solo presentation
 In March 2022, as part of a special series of Data Umbrella events to celebrate [Women’s Month](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir9dIg5voCwc6FSFlkpAXYFH), Lauren Burke presented on how to [Create a Free Data Blog with Jekyll & GitHub Pages](https://youtu.be/7SBXl94xNl8) which was her first solo talk.
 
-She shares her experience and some tips for fist time speakers in the blog [Interview with Lauren Burke: Giving Her First Solo Presentation](https://blog.dataumbrella.org/lburke)
+She shares her experience and some tips for first time speakers in the blog [Interview with Lauren Burke: Giving Her First Solo Presentation](https://blog.dataumbrella.org/lburke)
 
 >Even if you feel like you don’t have as much experience as others or haven’t been in a field long enough, your perspective is important and sharing your knowledge can benefit others. Always remember that right now, someone is at the stage you were 1, 5, or 10 years ago. What you share could help them!
 
