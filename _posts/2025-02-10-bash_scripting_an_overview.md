@@ -5,11 +5,52 @@ description: Linux
 date:   2025-01-22 18:57:00 +0300
 image:  '/images/blogs/rebecca_Intro_to_bash_scripting_square.png'
 tags:   [linux, bash, opensource]
-author: Reshama Shaikh
+author: Sangam Swadi K
 ---
 
 
-This post explores the fundamentals of Bash scripting, focusing on how it's used in data science workflows and how to write more effective scripts. It builds upon the core concepts presented in the Data Umbrella webinar. [ Intro to Bash Scripting](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=189s)
+This post explores the fundamentals of Bash scripting, focusing on how it's used in data science workflows and how to write more effective scripts. It builds upon the core concepts presented in the Data Umbrella webinar, [ Intro to Bash Scripting](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=189s)
+
+## Video
+<p>
+<iframe src="https://www.youtube.com/embed/1pQ527fGhVQ" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
+
+## Resources
+- Repo: [https://github.com/rebecca-burwei/intro-to-bash-scripting/](https://github.com/rebecca-burwei/intro-to-bash-scripting/)
+- Slides: [https://docs.google.com/presentation/d/1X9pOOEFOIK2oI26VvuNKRBC8psIM8HnGqOZ6fOUF8jM/edit#slide=id.p](https://docs.google.com/presentation/d/1X9pOOEFOIK2oI26VvuNKRBC8psIM8HnGqOZ6fOUF8jM/edit#slide=id.p)
+- Bash file examples: [https://github.com/rebecca-burwei/intro-to-bash-scripting/tree/main/bin](https://github.com/rebecca-burwei/intro-to-bash-scripting/tree/main/bin)
+
+## Section Timestamps of Video 
+
+- [00:00](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=0s) Data Umbrella Introduction
+- [04:05](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=245s) Rebecca begins presentation
+- [05:24](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=324s) Agenda
+- [05:39](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=339s) What is bash? A brief history of shells
+- [06:56](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=416s) What is bash used for?
+- [07:58](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=476s) Scripting basics + resources
+- [09:36](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=576s) What does this code do? Analyzing an ETL script
+- [11:20](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=680s) (three min. of quiet time begins)
+- [14:24](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=864s) Begin code walkthrough
+- [15:33](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=933s) Deeper dive on curl and ssconvert
+- [18:33](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1113s) Continuing code walkthrough
+- [20:16](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1216s) Quick summary
+- [20:45](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1245s) Making the code into a script
+- [22:45](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1365s) Making the script executable
+- [24:17](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1457s) Running the script
+- [25:52](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1552s) Turning code into a script - best practices
+- [26:01](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1561s) Ways to customize your bash environment
+- [26:54](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1614s) Customize bash environment - .bashrc example
+- [28:36](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1716s) Song break + interactive chat time
+- [33:06](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1986s) Returning from break, reviewing chat
+- [34:27](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=2067s) Improving the script - error handling + demo
+- [41:04](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=2464s) Error handling - more resources
+- [41:24](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=2484s) Improving the script - logging + demo
+- [46:15](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=2775s) Improving the script - options + demo
+- [50:00](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=3000s) (two min of quiet time begins)
+- [52:05](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=3125s) Continuing options demo
+- [54:16](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=3256s) Summary + mentorship/collaboration
+- [55:07](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=3307s) Q&A - ssconvert/gnumeric, GNU, esac
 
 ## What is Bash and Why Use It?
 
