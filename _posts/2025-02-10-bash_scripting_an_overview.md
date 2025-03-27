@@ -18,7 +18,7 @@ This post explores the fundamentals of Bash scripting, focusing on how it's used
 
 ## Resources
 - Repo: [https://github.com/rebecca-burwei/intro-to-bash-scripting/](https://github.com/rebecca-burwei/intro-to-bash-scripting/)
-- Slides: [https://docs.google.com/presentation/d/1X9pOOEFOIK2oI26VvuNKRBC8psIM8HnGqOZ6fOUF8jM/edit#slide=id.p](https://docs.google.com/presentation/d/1X9pOOEFOIK2oI26VvuNKRBC8psIM8HnGqOZ6fOUF8jM/edit#slide=id.p)
+- Slides: [https://docs.google.com/presentation/d/1X9pOOEFOIK2oI26VvuNKRBC8psIM8HnGqOZ6fOUF8jM/](https://docs.google.com/presentation/d/1X9pOOEFOIK2oI26VvuNKRBC8psIM8HnGqOZ6fOUF8jM/)
 - Bash file examples: [https://github.com/rebecca-burwei/intro-to-bash-scripting/tree/main/bin](https://github.com/rebecca-burwei/intro-to-bash-scripting/tree/main/bin)
 
 ## Section Timestamps of Video 
