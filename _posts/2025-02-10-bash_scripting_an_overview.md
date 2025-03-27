@@ -206,3 +206,13 @@ rm stock_data*
 This version uses `getopts "f:" opt` to parse the `-f` option. [ In line 16, that string f colon tells you about the valid options.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=537s) The colon after `f` indicates that it requires an argument.  The `case` statement handles the option: if `-f` is provided, its value (accessed via `$OPTARG`) is stored in the `fields` variable. [ So fields would be 10 or 10,1.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=564s) If an invalid option is provided, a usage message is printed, and the script exits. The `cut` command now uses `-f"$fields"` to extract the specified columns. The `esac` closes out the case statement. [ When you create a lot of these control structures, like you type case to start it, and then ESAC, which is case backwards, to end the case statement, to tell Bash, you know, case part is done.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=982s)
 
 These examples show how to build upon a simple Bash script to add functionality, improve robustness, and make it more user-friendly.
+
+
+## About the Speaker
+### Bio
+Rebecca BurWei is a Staff Data Scientist at Mozilla. She has a patent in computer vision and a PhD in mathematics. She learned to code in open-source communities, and is passionate about developing the technical leadership of others.
+
+### Connect with the Speaker
+- GitHub: [rebecca-burwei](https://github.com/rebecca-burwei)
+- LinkedIn: [Rebecca BurWei](https://www.linkedin.com/in/rebecca-burwei/)
+
