@@ -127,8 +127,10 @@ cut -d, -f10 stock_data.csv.0 | head
 rm stock_data*
 
 ```
-
+<figure>
 <a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=895.0s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_895.00.png" alt=" OK, so in this file we have the comments at the top as before." width="450"/></a>
+<figcaption>Figure 1: Screenshot from the Rebecca Linux tutorial at 895 seconds.</figcaption>
+</figure>
 
 In this modified script, `handle_error` is a function that prints an error message including the line number (`$1`, passed from `$LINENO`) and the exit status (`$?`). [ $1 refers to the first argument or the first positional parameter and $? refers to the status code or the exit status of the last command that was run.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1071s) The `trap` command associates this function with the `ERR` signal. Setting `URL` to an invalid value demonstrates the error handling in action.
 
