@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting Started with Bash scripting"
+title:  "Getting Started with Bash Scripting"
 description: Linux
 date:   2025-01-22 18:57:00 +0300
 image:  '/images/blogs/rebecca_Intro_to_bash_scripting_square.png'
