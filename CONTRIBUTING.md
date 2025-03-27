@@ -11,6 +11,14 @@ Please see instructions for [building the website locally](https://github.com/da
 - Images can be placed in this folder:  https://github.com/data-umbrella/data-umbrella.github.io/tree/main/images
 - We suggest putting images related to one blog in its own folder to keep the files organized.
 
+#### Example of highlighting
+
+```
+<span style="background-color: #FFFFC5;">
+working sessions to contribute to the open source library.            
+</span>
+```
+
 #### Example of adjusting image sizes
 
 ```
