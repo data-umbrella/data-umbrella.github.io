@@ -78,8 +78,10 @@ rm stock_data* # Remove all downloaded and created files (using wildcard *).
 ```
 
 The script begins with a shebang (`#!/bin/bash`), which specifies the interpreter. [ The first comment is a special one. It's a special type of comment called a shebang or a hashbang.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1304s) It then defines a variable `URL` containing the download link. The `echo` command prints a message to the console. The `curl` command downloads the file, and `ssconvert` converts it into multiple CSV files. [ So I think this will not work if you don't have SS convert installed.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1016s) The `cut` command extracts the 10th column, using a comma (`,`) as the delimiter, and `head` displays the first few lines of the output. Finally, `rm` removes the downloaded and created files.
-
+<figure>
 <a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=505.82s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_505.82.png" alt=" So here's some code." width="450"/></a>
+  <figcaption>Figure 1: Resources</figcaption>
+</figure>
 
 To make this code executable as a script, save it in a file (e.g., `process.sh`), and use the `chmod` command to grant execute permissions:
 
@@ -129,7 +131,7 @@ rm stock_data*
 ```
 <figure>
 <a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=895.0s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_895.00.png" alt=" OK, so in this file we have the comments at the top as before." width="450"/></a>
-<figcaption>Figure 1: Screenshot from the Rebecca Linux tutorial at 895 seconds.</figcaption>
+<figcaption>Figure 2: Code explanation</figcaption>
 </figure>
 
 In this modified script, `handle_error` is a function that prints an error message including the line number (`$1`, passed from `$LINENO`) and the exit status (`$?`). [ $1 refers to the first argument or the first positional parameter and $? refers to the status code or the exit status of the last command that was run.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1071s) The `trap` command associates this function with the `ERR` signal. Setting `URL` to an invalid value demonstrates the error handling in action.
@@ -163,8 +165,10 @@ To encapsulate the logging within a separate script, you can use a wrapper scrip
 
 "$1" > "${1}_output.txt" 2> "${1}_errors.txt"
 ```
-<a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1298.28s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_1298.28.png" alt=" OK, so I've already prepared an example of logging in a script called logger." width="450"/></a>
-
+<figure>
+  <a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=1298.28s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_1298.28.png" alt=" OK, so I've already prepared an example of logging in a script called logger." width="450"/></a>
+  <figcaption>Figure 3: Making the code into script</figcaption>
+</figure>
 This `logger.sh` script takes the path to another script (passed as the first positional parameter, `$1`) and executes it, redirecting output and errors to files with appropriate names.
 
 ## Enhancing the Script: Adding Options
@@ -198,8 +202,6 @@ ssconvert -S stock_data.xlsx stock_data.csv
 cut -d, -f"$fields" stock_data.csv.0 | head
 rm stock_data*
 ```
-
-<a href="https://www.youtube.com/watch?v=1pQ527fGhVQ&t=243.1s" target="_blank"><img src="/images/blogs/rebecca_linux_image_at_243.10.png" alt=" OK, so I've already prepared a script process with options that has options in them." width="450"/></a>
 
 This version uses `getopts "f:" opt` to parse the `-f` option. [ In line 16, that string f colon tells you about the valid options.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=537s) The colon after `f` indicates that it requires an argument.  The `case` statement handles the option: if `-f` is provided, its value (accessed via `$OPTARG`) is stored in the `fields` variable. [ So fields would be 10 or 10,1.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=564s) If an invalid option is provided, a usage message is printed, and the script exits. The `cut` command now uses `-f"$fields"` to extract the specified columns. The `esac` closes out the case statement. [ When you create a lot of these control structures, like you type case to start it, and then ESAC, which is case backwards, to end the case statement, to tell Bash, you know, case part is done.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=982s)
 
