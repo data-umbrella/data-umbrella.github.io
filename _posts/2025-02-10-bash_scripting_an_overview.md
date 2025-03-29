@@ -144,7 +144,7 @@ Instead of printing output directly to the terminal, it's often beneficial to re
 You can achieve this using redirection operators:
 
 *   `>` redirects standard output (stdout) to a file.
-*   `2>` redirects standard error (stderr) to a file.
+*   `>>` redirects standard error (stderr) to a file.
 
 Here's how to modify the script execution to implement logging:
 
