@@ -2,7 +2,7 @@
 layout: post
 title:  "Interview with Sam Miyamoto: Giving My First Talk"
 description: "Discussion with Sam Miyamoto on giving her first talk"
-date:   2023-03-31 10:00:35 +0300
+date:   2025-03-31 10:00:35 +0300
 image:  '/images/blogs/interview_sam_miyamoto.png'
 tags:   [opensource, community]
 ---
