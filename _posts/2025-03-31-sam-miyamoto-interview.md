@@ -49,7 +49,7 @@ We speak with [Sam Miyamoto](https://www.linkedin.com/in/e-samantha-miyamoto/) a
 
 7. __Anything else you would like to share?__
 
-    Thank you and the Data Umbrella community for the time. Presenting was a special and challenging experience that I valued, and I look forward to tuning into additional events.
+    Thank you and the Data Umbrella community for the time. Presenting was a special and challenging experience that I valued, and I look forward to tuning in to additional events.
 
 <figure>
     <img src="/images/blogs/sam_screenshot.png" alt="Sam Miyamoto  on git branching" max-width="50%" max-height="50%" />
