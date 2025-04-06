@@ -25,7 +25,7 @@ We speak with [Sam Miyamoto](https://www.linkedin.com/in/e-samantha-miyamoto/) a
 
 3. __When was your first talk?__
 
-    Tuesday, December 10, 2024
+    My first talk was with the Data Umbrella community. I reached out to Data Umbrella, as I often contribute to [timestamps](https://github.com/data-umbrella/event-transcripts/issues/92) for their webinars. The talk was [Intro to Git](https://youtu.be/edCiPBn_dj8) in December 2024.
 
 4. __What inspired you to do that presentation:__
 
