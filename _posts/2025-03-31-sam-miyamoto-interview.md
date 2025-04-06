@@ -57,3 +57,10 @@ We speak with [Sam Miyamoto](https://www.linkedin.com/in/e-samantha-miyamoto/) a
     <a href="https://youtu.be/edCiPBn_dj8"> Sam Miyamoto presenting to the Data Umbrella community </a>
     </figcaption>
 </figure>
+
+### Connecting with Sam Miyamoto
+
+- LinkedIn: [Sam Miyamoto](https://www.linkedin.com/in/e-samantha-miyamoto/) 
+- Website: [www.smiyamoto.dev](https://www.smiyamoto.dev/) 
+- GitHub: [@samvmdev](https://github.com/samvmdev)
+
