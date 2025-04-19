@@ -211,7 +211,7 @@ This version uses `getopts "f:" opt` to parse the `-f` option. [ In line 16, tha
 These examples show how to build upon a simple Bash script to add functionality, improve robustness, and make it more user-friendly.
 
 
-## About the Speaker
+## About the Speaker: Rebecca BurWei
 
 Rebecca BurWei is a Staff Data Scientist at Mozilla. She has a patent in computer vision and a PhD in mathematics. She learned to code in open-source communities, and is passionate about developing the technical leadership of others.
 
