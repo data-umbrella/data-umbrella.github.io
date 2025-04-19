@@ -98,7 +98,7 @@ source process.sh
 
 Bash provides several files to [customize your environment](https://youtu.be/1pQ527fGhVQ?si=lGkFFhyLODqmZLEP&t=1559).  Key files include:
 
-1.  **`.bash_profile`**:  Executed upon login (opening a new terminal). [ There's a bash profile and this will run on login.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=262s)
+1.  **`.bash_profile`**:  Executed upon login (opening a new terminal). There's a bash profile and this will run on login.
 2.  **`.bashrc`**: Executed when a new subshell is started.
 3.  **`.bash_logout`**: Executed upon logout, useful for cleanup tasks.
 
