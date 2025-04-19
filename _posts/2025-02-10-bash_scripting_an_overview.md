@@ -210,7 +210,7 @@ These examples show how to build upon a simple Bash script to add functionality,
 
 
 ## About the Speaker
-### Bio
+
 Rebecca BurWei is a Staff Data Scientist at Mozilla. She has a patent in computer vision and a PhD in mathematics. She learned to code in open-source communities, and is passionate about developing the technical leadership of others.
 
 ### Connect with the Speaker
