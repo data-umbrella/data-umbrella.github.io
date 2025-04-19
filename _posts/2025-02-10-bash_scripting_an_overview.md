@@ -56,7 +56,7 @@ This post explores the fundamentals of Bash scripting, focusing on how it's used
 
 ## What is Bash and Why Use It?
 
-Bash, short for "Born Again Shell," is a command-line interpreter that allows users to interact with Unix-like operating systems (e.g., macOS, Linux). [ A fun fact, Bash stands for Born Again Shell, which is just a play on the name of that first shell.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=387s) It's a powerful tool for tasks like file management, process control, and job automation.  While not typically used for core data analysis tasks like model building or statistical analysis, Bash is invaluable for setting up environments, managing files, and automating repetitive tasks.
+Bash is a command-line interpreter that allows users to interact with Unix-like operating systems (e.g., macOS, Linux). [A fun fact, Bash stands for "Born Again Shell", which is just a play on the name of that first shell](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=387s). It's a powerful tool for tasks like file management, process control, and job automation.  While not typically used for core data analysis tasks like model building or statistical analysis, Bash is invaluable for setting up environments, managing files, and automating repetitive tasks.
 
 ## A Basic ETL Script in Bash
 
