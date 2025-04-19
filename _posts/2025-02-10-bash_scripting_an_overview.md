@@ -93,7 +93,8 @@ chmod u+x process.sh
 
 You can run the script using either `source process.sh` (runs in the current shell) or `./process.sh` (runs in a subshell). [ If you type just the name on then the current shell will create a subshell and run your script in just that subshell.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=178s) The latter is generally preferred for cleaner execution.
 
-## Customizing Your Bash Environment
+```bash
+source process.sh
 
 Bash provides several files to customize your environment.  Key files include:
 
