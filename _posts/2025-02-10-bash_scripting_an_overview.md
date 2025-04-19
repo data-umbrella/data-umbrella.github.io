@@ -89,7 +89,7 @@ To make this code executable as a script, save it in a file (e.g., `process.sh`)
 ```bash
 chmod u+x process.sh
 ```
-[ so I'm going to give the owner execute permissions so that the script can be run by using CH mod.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=119s)
+[ so I'm going to give the owner execute permissions so that the script can be run by using `chmod`.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=119s)
 
 You can run the script using either `source process.sh` (runs in the current shell) or `./process.sh` (runs in a subshell). [ If you type just the name on then the current shell will create a subshell and run your script in just that subshell.](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=178s) The latter is generally preferred for cleaner execution.
 
