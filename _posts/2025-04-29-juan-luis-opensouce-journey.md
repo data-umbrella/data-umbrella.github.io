@@ -10,7 +10,7 @@ tags:   [opensource, community]
 Summary by: [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
 
 
-📺 Watch the Full Webinar!
+## 📺 Watch the Full Webinar!
 
 This blog post is based on a thought-provoking Data Umbrella webinar featuring Juan Luis, a product manager at QuantumBlack AI by McKinsey. In this talk, Juan takes us on a journey through the cultural, philosophical, and technical milestones of open source software—from its hacker roots to its current role in the age of AI.
 
