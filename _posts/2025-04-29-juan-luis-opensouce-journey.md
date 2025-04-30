@@ -3,7 +3,7 @@ layout: post
 title:  "A Journey Through Open Source: From Hacker Culture to the Age of AI"
 description: "A Journey Through Open Source: From Hacker Culture to the Age of AI"
 date:   2025-04-29 10:00:35 +0300
-image:  '/images/blogs/interview_sam_miyamoto.png'
+image:  '/images/blogs/blog-placeholder.png'
 tags:   [opensource, community]
 ---
 
