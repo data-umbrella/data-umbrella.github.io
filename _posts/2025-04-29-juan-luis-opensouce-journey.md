@@ -2,14 +2,24 @@
 layout: post
 title:  "A Journey Through Open Source: From Hacker Culture to the Age of AI"
 description: "A Journey Through Open Source: From Hacker Culture to the Age of AI"
-date:   2025-04-29 10:00:35 +0300
-image:  '/images/blogs/interview_sam_miyamoto.png'
+date:   2025-04-30 10:00:35 +0300
+image:  '/images/blogs/open-source-history-Juan.png'
 tags:   [opensource, community]
 ---
 
-Author: [Reshama Shaikh](https://reshamas.github.io)  
+Summary by: [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
 
-# A Journey Through Open Source: From Hacker Culture to the Age of AI
+
+📺 Watch the Full Webinar!
+
+This blog post is based on a thought-provoking Data Umbrella webinar featuring Juan Luis, a product manager at QuantumBlack AI by McKinsey. In this talk, Juan takes us on a journey through the cultural, philosophical, and technical milestones of open source software—from its hacker roots to its current role in the age of AI.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLciYo3rqTQ" title="A Journey Through Open Source - Webinar by Juan Luis" frameborder="0" allowfullscreen></iframe>
+
+
+> Building on the themes discussed in the webinar, this post explores how open source software has revolutionized technology, collaboration, and innovation over the past seventy years.
+
 
 Open source software has revolutionized technology, collaboration, and innovation over the past seventy years. But its story is much more than a timeline of programming languages and licenses—it's a story about people, ideals, communities, and the evolving meaning of "freedom" in the digital world.
 
