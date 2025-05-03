@@ -16,6 +16,7 @@ layout: default
       </div>
       {% else %}
 
+      <!-- Post image handling -->
       {%if page.image %}
       <div class="col col-6 col-d-12">
         <div class="post-image">
@@ -26,7 +27,10 @@ layout: default
 
       {% endif %}
       
-      {% if page.video_embed %} {% assign videoInfo = 'post__info-video' %} {% endif %}
+      {% if page.video_embed %} 
+      {% assign videoInfo = 'post__info-video' %} 
+      {% endif %}
+
       <div class="col {% if page.video_embed %}col-12{% else %}col-6 col-d-12{% endif %}">
         <div class="post__info {{videoInfo}}">
   
@@ -40,6 +44,19 @@ layout: default
   
           <h1 class="post__title">{{ page.title | escape }}</h1>
   
+          {%if page.author-name %}
+          <div class="post__meta">
+            <a href="{{page.author-linkedin}}" class="post__author-image">
+              <img class="lazy" data-src="{{page.author-image}}" alt="{{site.author.author__name}}">
+            </a>
+              
+            <div class="post__meta-bottom">
+              <a class="post__author" href="{{page.author-website}}">{{page.author-name}}</a>
+              <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+            </div>
+          </div>
+
+          {% else %}
           <div class="post__meta">
             <a href="{{site.baseurl}}/about/" class="post__author-image">
               <img class="lazy" data-src="{{site.author.author__avatar}}" alt="{{site.author.author__name}}">
@@ -50,7 +67,8 @@ layout: default
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
             </div>
           </div>
-  
+          {%endif %}
+
         </div>
       </div>
     </div>
