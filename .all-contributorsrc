@@ -1,4 +1,21 @@
 {
   "projectName": "data-umbrella.github.io",
-  "projectOwner": "data-umbrella"
+  "projectOwner": "data-umbrella",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Cristinamulas",
+      "name": "Cristina Mulas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43222117?v=4",
+      "profile": "https://www.cristinamulas.com",
+      "contributions": [
+        "eventOrganizing"
+      ]
+    }
+  ]
 }
