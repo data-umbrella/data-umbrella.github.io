@@ -15,6 +15,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/gloriamacia"><img src="https://avatars.githubusercontent.com/u/17580456?v=4?s=100" width="100px;" alt="Gloria Macia"/><br /><sub><b>Gloria Macia</b></sub></a><br /><a href="#promotion-gloriamacia" title="Promotion">📣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://purnamansingh.com/"><img src="https://avatars.githubusercontent.com/u/42216008?v=4?s=100" width="100px;" alt="Purna Chandra Mansingh"/><br /><sub><b>Purna Chandra Mansingh</b></sub></a><br /><a href="#code-purna135" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://jmloyola.github.io/"><img src="https://avatars.githubusercontent.com/u/2133361?v=4?s=100" width="100px;" alt="Juan Martin Loyola"/><br /><sub><b>Juan Martin Loyola</b></sub></a><br /><a href="#code-jmloyola" title="Code">💻</a> <a href="#talk-jmloyola" title="Talks">📢</a> <a href="#blog-jmloyola" title="Blogposts">📝</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/BerylKanali"><img src="https://avatars.githubusercontent.com/u/50364045?v=4?s=100" width="100px;" alt="BerylKanali"/><br /><sub><b>BerylKanali</b></sub></a><br /><a href="#eventOrganizing-BerylKanali" title="Event Organizing">📋</a> <a href="#talk-BerylKanali" title="Talks">📢</a> <a href="#blog-BerylKanali" title="Blogposts">📝</a> <a href="#projectManagement-BerylKanali" title="Project Management">📆</a></td>
     </tr>
   </tbody>
 </table>
