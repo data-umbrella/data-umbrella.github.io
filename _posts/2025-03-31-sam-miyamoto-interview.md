@@ -4,11 +4,11 @@ title:  "Interview with Sam Miyamoto: Giving My First Talk"
 description: "Discussion with Sam Miyamoto on giving her first talk"
 date:   2025-03-31 10:00:35 +0300
 image:  '/images/blogs/interview_sam_miyamoto.png'
+tags:   [opensource, community]
 author-name: "Reshama Shaikh"
 author-image:  "/images/people/reshama.jpg"
 author-linkedin: "https://www.linkedin.com/in/reshamas/"
-author-website: "https://reshamas.github.io"
-tags:   [opensource, community]
+author-website: "https://github.com/reshamas"
 ---
 
 We speak with [Sam Miyamoto](https://www.linkedin.com/in/e-samantha-miyamoto/) about her experience giving her first talk.
