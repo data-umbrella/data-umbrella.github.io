@@ -45,6 +45,18 @@
         "talk",
         "blog"
       ]
+    },
+    {
+      "login": "BerylKanali",
+      "name": "BerylKanali",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50364045?v=4",
+      "profile": "https://github.com/BerylKanali",
+      "contributions": [
+        "eventOrganizing",
+        "talk",
+        "blog",
+        "projectManagement"
+      ]
     }
   ]
 }
