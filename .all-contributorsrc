@@ -68,6 +68,16 @@
         "blog",
         "code"
       ]
+    },
+    {
+      "login": "jtorreggiani",
+      "name": "Joe Torreggiani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4009178?v=4",
+      "profile": "http://jtorreggiani.github.io/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ]
 }
