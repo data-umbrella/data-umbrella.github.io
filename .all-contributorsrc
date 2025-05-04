@@ -4,9 +4,12 @@
   "files": [
     "README.md"
   ],
+  "imageSize": 100,
+  "commit": true,
+  "contributorsPerLine": 6,
+  "contributorsSortAlphabetically": true,
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributorsPerLine": 7,
   "contributors": [
     {
       "login": "Cristinamulas",
