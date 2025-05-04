@@ -11,7 +11,7 @@ author-linkedin: "https://www.linkedin.com/in/sangam-swadi-k/"
 author-website: "https://github.com/SangamSwadiK"
 ---
 
-This post explores the fundamentals of Bash scripting, focusing on how it's used in data science workflows and how to write more effective scripts. It builds upon the core concepts presented in the Data Umbrella webinar, [ Intro to Bash Scripting](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=189s).
+This post explores the fundamentals of Bash scripting, focusing on how it's used in data science workflows and how to write more effective scripts. It builds upon the core concepts presented in the Data Umbrella webinar, [Intro to Bash Scripting](https://www.youtube.com/watch?v=1pQ527fGhVQ&t=189s).
 
 ## Intro to Bash Scripting: by Rebecca BurWei
 
