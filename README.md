@@ -1,9 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9d4654a4-3b5a-41f3-b5ed-c64a6a7f45f4/deploy-status)](https://app.netlify.com/sites/amazing-borg-b90f51/deploys)
 
-![All Contributors](https://img.shields.io/github/all-contributors/data-umbrella/data-umbrella.github.io?color=ee8449&style=flat-square)
 
 
 ## Contributors
+![All Contributors](https://img.shields.io/github/all-contributors/data-umbrella/data-umbrella.github.io?color=ee8449&style=flat-square)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
