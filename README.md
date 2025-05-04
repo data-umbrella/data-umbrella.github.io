@@ -13,6 +13,7 @@
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.cristinamulas.com"><img src="https://avatars.githubusercontent.com/u/43222117?v=4?s=100" width="100px;" alt="Cristina Mulas"/><br /><sub><b>Cristina Mulas</b></sub></a><br /><a href="#eventOrganizing-Cristinamulas" title="Event Organizing">📋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/gloriamacia"><img src="https://avatars.githubusercontent.com/u/17580456?v=4?s=100" width="100px;" alt="Gloria Macia"/><br /><sub><b>Gloria Macia</b></sub></a><br /><a href="#promotion-gloriamacia" title="Promotion">📣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://purnamansingh.com/"><img src="https://avatars.githubusercontent.com/u/42216008?v=4?s=100" width="100px;" alt="Purna Chandra Mansingh"/><br /><sub><b>Purna Chandra Mansingh</b></sub></a><br /><a href="#code-purna135" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
