@@ -11,8 +11,6 @@ author-website: "https://reshamas.github.io"
 tags:   [opensource, community]
 ---
 
-Author: [Reshama Shaikh](https://reshamas.github.io)  
-
 We speak with [Sam Miyamoto](https://www.linkedin.com/in/e-samantha-miyamoto/) about her experience giving her first talk.
 <p>
 <iframe src="https://www.youtube.com/embed/edCiPBn_dj8" loading="lazy" frameborder="0" allowfullscreen></iframe>
