@@ -5,6 +5,10 @@ description: "A Journey Through Open Source: From Hacker Culture to the Age of A
 date:   2025-04-30 10:00:35 +0300
 image:  '/images/blogs/open-source-history-Juan.png'
 tags:   [opensource, community]
+author-name: "Sangam Swadi K"
+author-image:  "/images/people/sangam.jpeg"
+author-linkedin: "https://www.linkedin.com/in/sangam-swadi-k/"
+author-website: "https://github.com/SangamSwadiK"
 ---
 
 Summary by: [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
