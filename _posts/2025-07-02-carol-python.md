@@ -11,14 +11,13 @@ author-linkedin: "https://www.linkedin.com/in/reshamas/"
 author-website: "https://github.com/reshamas"
 ---
 
-## Intro
+## Resources
 Learn about contributing to Python:  
+- [Python Developer's Guide](https://devguide.python.org)
+- Discourse: [discuss.python.org](https://discuss.python.org)
 - [Python GitHub Issue Tracker](https://github.com/python/cpython/issues)
-    - prior - [Python List of Issues](https://bugs.python.org)
-- 3 Mailing Lists to sign up for to get started with contributing to Python:  
-    - [Python Ideas](https://mail.python.org/mailman3/lists/python-ideas.python.org/)
-    - [Python dev](https://cpython-core-tutorial.readthedocs.io/en/latest/python_dev.html)
-    - [Python core mentorship](https://www.python.org/dev/core-mentorship/)
+    - for bug list: [Python List of Issues](https://bugs.python.org)
+- [Python core mentorship](https://www.python.org/dev/core-mentorship/)
 
 ## Video
 <p>
