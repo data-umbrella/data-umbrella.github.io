@@ -2,11 +2,11 @@
 layout: post
 title:  Contributing to Core Python
 description: Carol Willing Shares How to Contribute to Core Python
-date:   2025-07-02 08:01:35 +0300
-image:  '/images/blogs/blog-carol-python.png'
-tags:   [python, opensource]
+date: 2025-07-02 08:01:35 +0300
+image: '/images/blogs/blog-carol-python.png'
+tags: [python, opensource]
 author-name: "Reshama Shaikh"
-author-image:  "/images/people/reshama.jpg"
+author-image: "/images/people/reshama.jpg"
 author-linkedin: "https://www.linkedin.com/in/reshamas/"
 author-website: "https://github.com/reshamas"
 ---
@@ -14,7 +14,7 @@ author-website: "https://github.com/reshamas"
 ## Intro
 Learn about contributing to Python:  
 - [Python GitHub Issue Tracker](https://github.com/python/cpython/issues)
-    - old: [Python List of Issues](https://bugs.python.org)
+    - prior - [Python List of Issues](https://bugs.python.org)
 - 3 Mailing Lists to sign up for to get started with contributing to Python:  
     - [Python Ideas](https://mail.python.org/mailman3/lists/python-ideas.python.org/)
     - [Python dev](https://cpython-core-tutorial.readthedocs.io/en/latest/python_dev.html)
@@ -32,7 +32,7 @@ Carol Willing is a member of Python’s Steering Council and a core developer of
 - LinkedIn: [carolwilling](https://www.linkedin.com/in/carolwilling)
 
 ## Video Outline
-Note:  the timestamps are marked in the [video description](https://youtu.be/Pkg-DKkObKs).
+Note:  the timestamps are included in the [video description](https://youtu.be/Pkg-DKkObKs).
 
 [00:00](https://www.youtube.com/watch?v=Pkg-DKkObKs) Reshama introduces Data Umbrella  
 [04:20](https://www.youtube.com/watch?v=Pkg-DKkObKs&t=260s) Reshama introduces Carol Willing  
