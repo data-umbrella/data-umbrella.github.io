@@ -13,7 +13,8 @@ author-website: "https://github.com/reshamas"
 
 ## Intro
 Learn about contributing to Python:  
-- [Python List of Issues](https://bugs.python.org)
+- [Python GitHub Issue Tracker](https://github.com/python/cpython/issues)
+    - old: [Python List of Issues](https://bugs.python.org)
 - 3 Mailing Lists to sign up for to get started with contributing to Python:  
     - [Python Ideas](https://mail.python.org/mailman3/lists/python-ideas.python.org/)
     - [Python dev](https://cpython-core-tutorial.readthedocs.io/en/latest/python_dev.html)
@@ -104,7 +105,7 @@ Right now, we're split our code bases on GitHub. But our bug issue tracker is on
 - Maintain projects, 
 - Giving talks, 
 - Writing blog posts, 
-- Organizig or attending meetups,
+- Organizing or attending meetups,
 that is a contribution to core Python. So, congratulations. You've all made your first contribution to core Python. Or at least the Python ecosystem.
 
 ### [14:44](https://www.youtube.com/watch?v=Pkg-DKkObKs&t=884s) Contributing to Data/Scientific projects vs to CPython  
