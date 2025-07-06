@@ -39,7 +39,8 @@ Let's begin at the dawn of computing, exploring what we might call ["the rise an
 
 Crucially, early programming was largely an academic pursuit. At the very [beginning of this story](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=636s) programming was mostly an academic activity. Languages were low-level, with some code even written directly in assembly language. Debugging cycles were extremely long, and computing wasn't yet ready for widespread business applications. 
 
-[ We're talking about very low level languages](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=644s), some programs were still written in assembly, and the limitations of the time meant that development was slow and labor-intensive. But the interesting thing is that this academic notion of sharing knowledge, publishing articles, and exchanging ideas permeated the world of computing, having a profound effect on everything that followed.
+[We're talking about very low level languages](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=644s), some programs were still written in 
+[Assembly](https://en.wikipedia.org/wiki/Assembly_language), and the limitations of the time meant that development was slow and labor-intensive. But the interesting thing is that this academic notion of sharing knowledge, publishing articles, and exchanging ideas permeated the world of computing, having a profound effect on everything that followed.
 
 Sharing code was common practice in the 60s and early 70s, even through physical means. While "open source" or "free software" weren't yet defined terms, the ethos of sharing was the prevailing norm. So interestingly it was very normal in the 60s and beginning of the 70s to just [share the codes](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=683s), you know, with analog methods back then—but even though there was no notion yet of open source or free software, it was still pretty much the norm.
 
