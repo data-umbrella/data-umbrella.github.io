@@ -24,6 +24,49 @@ This blog post is based on a thought-provoking Data Umbrella webinar featuring J
 
 
 Open source software has revolutionized technology, collaboration, and innovation over the past seventy years. But its story is much more than a timeline of programming languages and licenses—it's a story about people, ideals, communities, and the evolving meaning of "freedom" in the digital world.
+### Timestamps  
+[00:00](https://www.youtube.com/watch?v=LLciYo3rqTQ) Data Umbrella introduction  
+[03:38](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=218s) Juan Luis introduction  
+[05:14](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=314s) Juan Luis begins presentation  
+[06:11](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=371s) About Juan Luis  
+[07:25](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=445s) disclaimer  
+[09:20](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=560s) 1979: the rise and fall of hacker culture  
+[11:44](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=704s) 1969: Bell Labs, Unix, C  
+[14:15](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=855s) 1976: Copyright Act (in USA)  
+[17:09](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1029s) 1979: Scribe markup language  
+[18:05](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1085s) 1980-1989: GNU Project and Four Freedoms  
+[18:45](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1125s) Richard Stallman printer incident at MIT  
+[22:00](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1320s) Four Freedoms  
+[25:24](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1524s) Switzerland, CERN  
+[25:55](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1555s) 1990-1998: The Linux bazaar and the Open Source definition  
+[26:20](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1580s) 1991: World Wide Web  
+[27:00](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1620s) 1993: Mosaic: first web browser  
+[27:45](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1665s) Linux (Ref: video, [   • \[94\] Intro to the Linux Operating System (...](https://www.youtube.com/watch?v=mWadao1brts)  )  
+[31:11](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1871s) Python and more (R, Vim, Lua, Java, etc)  
+[33:04](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=1984s) 1997: The Cathedral and the Bazaar (an essay)  
+[34:43](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2083s) Netscape, JavaScript  
+[35:45](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2145s) 1998: Open Source initiative  
+[37:55](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2275s) The Divide: why open source misses the point of free software  
+[38:55](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2335s) Digital age and the Big Data Explosion  
+[40:10](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2410s) dot com bubble  
+[41:15](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2475s) 2001: animosity towards open source  
+[42:00](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2520s) orgs, Foundations: Apache, Linux, Python Software Foundation, Eclipse  
+[44:04](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2644s) 2003: Google File System  
+[44:45](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2685s) 2005: a new era of collaborative software development (Git, GitHub)  
+[47:08](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2828s) 2011: Why software is eating the world  
+[47:41](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2861s) 2012-2018: what do open source maintainers eat?  
+[48:44](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2924s) Growth of Python  
+[49:30](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=2970s) open source is not sustainable (OpenSSL, Heartbleed, left-pad)  
+[51:43](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3103s) Nadia Eghbal, Roads and Bridges  
+[52:17](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3137s) open source system begins to fragment (licenses)  
+[56:15](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3375s) 2019-2023: Post-open source and the Gen AI volcano  
+[01:00:04](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3604s) a new kind of open source license  
+[01:00:55](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3655s) 2024: What’s next?  
+[01:04:00](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3840s) Q: Do you think the open source divide was avoidable?  
+[01:05:36](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=3936s) Q: Are you optimistic about the future of open source in terms of funding?  
+[01:07:45](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=4065s) Q: Web 3 and Blockchain  
+[01:09:25](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=4165s) Q: Can you discuss OSPO’s? (Open Source Program Office)  
+[01:12:30](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=4350s) Q: What do you think of the potential for the UFDA (user friendly developers association) model?
 
 In this blog, we trace the history of open source software, starting from the early days of room-sized computers and academic code sharing, through the founding of the GNU project and the free software movement, the explosive growth of Linux and the World Wide Web in the 1990s, the rise of GitHub and big data in the 2000s, to the complex challenges of sustainability, ethics, and generative AI that define today’s landscape.
 
