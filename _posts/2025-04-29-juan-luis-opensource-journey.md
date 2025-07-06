@@ -11,8 +11,6 @@ author-linkedin: "https://www.linkedin.com/in/sangam-swadi-k/"
 author-website: "https://github.com/SangamSwadiK"
 ---
 
-Summary by: [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
-
 
 ## 📺 Watch the Full Webinar!
 
