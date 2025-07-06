@@ -16,7 +16,7 @@ author-website: "https://github.com/SangamSwadiK"
 
 This blog post is based on a thought-provoking Data Umbrella webinar featuring Juan Luis, a product manager at QuantumBlack, AI by McKinsey. In this talk, Juan takes us on a journey through the cultural, philosophical, and technical milestones of open source software—from its hacker roots to its current role in the age of AI.
 
-
+This 75-minute video is a must-watch! It provides the evolution of open source, with all its values and challenges.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LLciYo3rqTQ" title="A Journey Through Open Source - Webinar by Juan Luis" frameborder="0" allowfullscreen></iframe>
 
 
