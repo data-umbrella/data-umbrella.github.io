@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Journey Through Open Source: From Hacker Culture to the Age of AI"
-description: "A Journey Through Open Source: From Hacker Culture to the Age of AI"
+description: "Explore how open source software has revolutionized technology, collaboration and innovation over the past 70 years."
 date:   2025-04-30 10:00:35 +0300
 image:  '/images/blogs/open-source-history-Juan.png'
 tags:   [opensource, community]
