@@ -23,7 +23,7 @@ This blog post is based on a thought-provoking Data Umbrella webinar featuring J
 > Building on the themes discussed in the webinar, this post explores how open source software has revolutionized technology, collaboration, and innovation over the past seventy years.
 
 
-Open source software has revolutionized technology, collaboration, and innovation over the past seventy years. But its story is much more than a timeline of programming languages and licenses—it's a story about people, ideals, communities, and the evolving meaning of "freedom" in the digital world.
+Open source software has revolutionized technology, collaboration, and innovation over the past seventy years. **But its story is much more than a timeline of programming languages and licenses— <span style="background-color: #FFFFC5;">it's a story about people, ideals, communities, and the evolving meaning of "freedom" in the digital world.</span>**
 ### Timestamps  
 [00:00](https://www.youtube.com/watch?v=LLciYo3rqTQ) Data Umbrella introduction  
 [03:38](https://www.youtube.com/watch?v=LLciYo3rqTQ&t=218s) Juan Luis introduction  
