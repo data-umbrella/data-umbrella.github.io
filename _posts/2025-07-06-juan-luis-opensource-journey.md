@@ -20,6 +20,8 @@ This blog post is based on a thought-provoking Data Umbrella webinar featuring J
 This 75-minute video is a must-watch! It provides the evolution of open source, with all its values and challenges.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LLciYo3rqTQ" title="A Journey Through Open Source - Webinar by Juan Luis" frameborder="0" allowfullscreen></iframe>
 
+Slides: [on Zenodo](https://zenodo.org/records/15845513)
+
 ## Timestamps  
   
 [00:00](https://www.youtube.com/watch?v=LLciYo3rqTQ) Data Umbrella introduction  
