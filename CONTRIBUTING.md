@@ -83,6 +83,14 @@ working sessions to contribute to the open source library.
 </span>
 ```
 
+### Adding timestamps to Blog
+
+1) Copy the timestamps from the video into a Google doc
+2) Download the Google doc as a markdown file
+3) Upload the markdown file to the GitHub repo
+4) Copy the timestamps in markdown format into the markdown file you are working with in VSC
+
+
 #### Example of adjusting image sizes
 
 ```html
