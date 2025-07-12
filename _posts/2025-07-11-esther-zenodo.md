@@ -155,61 +155,13 @@ And if you're still not convinced, I would say that it's not in accordance with 
 Now that we've discussed a bit about why and what, I want to go into how do I actually use Zenodo. And for that, I'll show this on Zenodo itself as well in a bit. But you do need to make an account which they made very easily. You can sign up with an existing GitHub account with Orkits, or you can also sign up with an email so you have some options. I would personally really recommend that if you don't haven't yet and you're researcher set up an ORCID ID, because this is a persistent identifier for you as a researcher. And it makes logging into a lot of scholarly system platforms, etc, a lot easier for you. So it's not just making your research outputs more findable for yourself, but also very much improving your life in terms of accessing all of these systems. So I'll sign in using ORCID in a bit. But do sign up yourself for an ORxxxID if you haven't done so yet. All right. Then I'll show you how to create a new item. So I'm going to stop sharing my presentation and hopefully still sharing my screen. Let's see. Can I see that? I think I'll just re-share, just to be sure that you actually see my browser. 
 
 So this is the homepage of Zenodo. So here you see, again, this block about why should you use Zenodo. So that's the exact same information. I just copy-pasted that in my presentation. And here you can see recent uploads. So if I click on this, I've never clicked on this before, but apparently this is something about Brazilian flora. So this is a dataset I assume about flora, which is very exciting. We won't look into that too much, but this is actually already a very nice example about how you can actually version these different versions of this research data, actually. You see this is version number seven already. 
-So they've been working on this for quite some time, I assume. And you can actually browse in between all of these versions, which is very nice. And then Zenodo will also let you know, like, hey, there's a newer version of this record available, but you can still access all of the previous versions as well. So here's the older dataset. I can go back in time. They named it exactly the same. You can see all of the versions that will take you to a different page. But if I scroll down, let's see, when did they start the project? 2014 August. Very nice. And so you can download each of these versions. If you press the download button, sometimes there's also previews, then you can see that a little bit more. But this is how
+So they've been working on this for quite some time, I assume. And you can actually browse in between all of these versions, which is very nice. And then Zenodo will also let you know, like, hey, there's a newer version of this record available, but you can still access all of the previous versions as well. So here's the older dataset. I can go back in time. They named it exactly the same. You can see all of the versions that will take you to a different page. But if I scroll down, let's see, when did they start the project? 2014 August. Very nice. And so you can download each of these versions. If you press the download button, sometimes there's also previews, then you can see that a little bit more. But this is how a record looks like once you've published it on Zenodo. And you can see that you can also see how many times people viewed it or how many times people downloaded it. So it's quite a nice way to keep track of what it is that is happening to your research outputs. 
 
-a record looks like once you've published it on Zenodo. And you can see that you can also see how
+**Reshama:**  
+Esther, in the views and downloads, what's under show more details? 
 
-many times people viewed it or how many times people downloaded it. So it's quite a nice way
-
-to keep track of what it is that is happening to your research outputs. Esther, in the views and
-
-downloads, what's under show more details? Let's go there. A little bit more detail about this
-
-version, apparently, which is very cool that you can distinguish if the views are for this particular
-
-version or whether it's accumulated. Very cool. We can also maybe press this one. So here they
-
-explain a little bit more about what they actually track. I'll skip that for now. I think it's just
-
-indeed a unique view, visiting person or a robot. But yeah, it doesn't work to reload the page
-
-hundreds of times of your own research objects and then see what happens. So for example,
-
-if I refresh now, then that doesn't mean that the views go up. So it's a little bit more robust
-
-than just me refreshing the page a hundred times. Yeah. All right. So this is how it looks on
-
-Sunnodo. And right. Let me log in first. So log in is here. And if this is your first time sign up,
-
-this is the sign up page as mentioned. So you can see that I use both an email of the data
-
-stewards at TU Delft where I no longer work, unfortunately. So I shouldn't access that. Instead,
-
-I will use the orchids. So this is how the sign up page looks like. Because I already signed up,
-
-I'm going to go back to Sunnodo and use the login button instead. And so here you see,
-
-again, very similarly, I can sign in with orchids, GitHub, or an email address. But I'll use the
-
-orchids since I'm no longer a data steward at Delft. So here you see my orchids. So that's a
-
-number string. And I'll use that to sign into orchids. And then I'm signed in to Sunnodo. And
-
-you can see my username here or my email address. And in order to make a new upload, I'm pressing
-
-this plus sign. I'm selecting new uploads. And then if it's both, you see this interface. And
-
-what you see here is that you can drag and drop files or use the computer or the, how do you say
-
-that? Not sure. You browse in your computer to get to the file. So it's quite easy to get a file
-
-onto Sunnodo. And they start with some basic information. And what you'll notice is that
-
-some of these basic information questions have red asterisks behind them. And that means that
-
-these fields are mandatory. So if you try to publish something on Sunnodo while not filling
-
-out these fields, Sunnodo will let you know, like, hey, this is a mandatory field, you should fill
+**Esther:**  
+Let's go there. A little bit more detail about this version, apparently, which is very cool that you can distinguish if the views are for this particular version or whether it's accumulated. Very cool. We can also maybe press this one. So here they explain a little bit more about what they actually track. I'll skip that for now. I think it's just indeed a unique view, visiting person or a robot. But yeah, it doesn't work to reload the page hundreds of times of your own research objects and then see what happens. So for example, if I refresh now, then that doesn't mean that the views go up. So it's a little bit more robust than just me refreshing the page a hundred times. Yeah. All right. So this is how it looks on Zenodo. And right. Let me log in first. So log in is here. And if this is your first time sign up, this is the sign up page as mentioned. So you can see that I use both an email of the data stewards at TU Delft where I no longer work, unfortunately. So I shouldn't access that. Instead, I will use the ORxxID's. So this is how the sign up page looks like. Because I already signed up, I'm going to go back to Zenodo and use the login button instead. And so here you see, again, very similarly, I can sign in with ORCIDs, GitHub, or an email address. But I'll use the ORCIDs's since I'm no longer a data steward at Delft. So here you see my ORCIDs. So that's a number string. And I'll use that to sign into ORCIDs. And then I'm signed in to Zenodo. And you can see my username here or my email address. And in order to make a new upload, I'm pressing this plus sign. I'm selecting new uploads. And then if it's both, you see this interface. And what you see here is that you can drag and drop files or use the computer or the, how do you say that? Not sure. You browse in your computer to get to the file. So it's quite easy to get a file onto Zenodo. And they start with some basic information. And what you'll notice is that some of these basic information questions have red asterisks behind them. And that means that these fields are mandatory. So if you try to publish something on Zenodo while not filling out these fields, Zenodo will let you know, like, hey, this is a mandatory field, you should fill
 
 this in. And here you can see the question, digital object identifier, do you already have
 
@@ -255,7 +207,7 @@ it automatically sets it to today. You can change that. So it uses the year, mon
 
 I will keep this the same for testing purposes. And then it is asking about creators. So here you can
 
-I can add my own name. So that's Plump and Esther. If I use my orchids, I would need to copy paste that.
+I can add my own name. So that's Plump and Esther. If I use my ORCIDs, I would need to copy paste that.
 
 And you can add your affiliation, as well as your role in the construction of the research output.
 
@@ -687,17 +639,17 @@ go to the top right menu, so where your profile or your email is listed, you can
 
 here as one of the options, I go there. And then for me, you will already see that I linked my
 
-accounts to GitHub and orchids. So I'm connected with both of these services. Not with open air,
+accounts to GitHub and ORCIDs. So I'm connected with both of these services. Not with open air,
 
 I'm not actually sure what that actually does. So I'll skip that for now. But I'm connected with
 
-GitHub and orchids. But if you do this for the very first time, you will need to select the
+GitHub and ORCIDs. But if you do this for the very first time, you will need to select the
 
 service. So I, for example, if I do that for open air, I'll probably get directed to their platform,
 
 and then I'll need to indicate or log in in order to integrate my accounts there. Yeah,
 
-so I should sign in with GitHub or orchids, for example. I won't do that for now. But this is
+so I should sign in with GitHub or ORCIDs, for example. I won't do that for now. But this is
 
 how it would look like for GitHub as well. So you will be redirected to GitHub. And you need to make
 
@@ -987,38 +939,21 @@ But you will see the actual upload here. And then you can download the slides he
 
 And because there's a CC by 4.0 license attached to it, which you can see here,
 
-feel free to reuse any of the slides and to use that for your own purposes. And with that,
+feel free to reuse any of the slides and to use that for your own purposes. 
 
-I think I would like to conclude with a couple of resources from other people
+### [1:11:50](https://www.youtube.com/watch?v=eChOfh8t04k&t=4310s) Resources 
 
-that you can also watch. And perhaps they explain more clearly how you can use the
+And with that, I think I would like to conclude with a couple of resources from other people that you can also watch. And perhaps they explain more clearly how you can use the notice to upload your research, as well as some information in Spanish, which I don't master. So this is why the presentation is in English. But if you prefer to have that information available in Spanish, there's different resources available to you. And I think with that, that's what I wanted to show. But perhaps you have some questions or clarifications or other things you wanted to know from Zenodo that we know.
 
-notice to upload your research, as well as some information in Spanish, which I don't
-
-master. So this is why the presentation is in English. But if you prefer to have that
-
-information available in Spanish, there's different resources available to you.
-
-And I think with that, that's what I wanted to show. But perhaps you have some questions
-
-or clarifications or other things you wanted to know from Zenodo that we know.
-
-Esther, thank you so much for your presentation. We have a very comprehensive presentation.
-
-And when the video is posted, we will link to your Zenodo slides. And in the past,
-
-we haven't done that. Sometimes we just link to Google Slides, which you never know that
-
-might be deleted or access might be changed. So we will link to your Zenodo slides in the
-
-video description. 
+**Reshama:**  
+Esther, thank you so much for your presentation. We have a very comprehensive presentation. And when the video is posted, we will link to your Zenodo slides. And in the past, we haven't done that. Sometimes we just link to Google Slides, which you never know that might be deleted or access might be changed. So we will link to your Zenodo slides in the video description. 
 
 ### [1:12:48](https://www.youtube.com/watch?v=eChOfh8t04k&t=4368s) Q: Where can we find the images/illustrations used in your presentation?  
 
-Reshama:  
+**Reshama:**  
 I do have one question, which is, I love the illustrations that you showed in your presentation from the touring way. And can you show us where people can find them on Zenodo? I notice you link to a DOI on Zenodo, so I assume that's where they are. 
 
-Esther:  
+**Esther:**  
 Yes, indeed. And that's why I skipped my thank you slide because I actually wanted to thank the Turing Way community for all of these images, indeed, in my slides, which you can also reuse for any purposes because CC by license, as long as you cite them, which is why I indeed refer to them in my slides, saying something along the lines of, let's see, where's an image? Should not take me long to find one. Yes, the data repository tree. So as long as I refer to this 
 image, where it's available on Zenodo, let's see if that link clicks. I think they don't allow that for the preview versions of Zenodo outputs. But here you can see illustrations from the Turing Way shared on the CC by 4.0 for reuse. And here you can find all of these images, which are very strange backgrounds for me, and it should probably be white instead of black. But yeah, here you can now see all of these images on Zenodo. And you can now preview them separately here. This looks more like what I would be expecting with the white background. I think that's probably because my computer is on dark mode or something.
 
