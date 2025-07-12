@@ -27,7 +27,6 @@ author-website: "https://github.com/reshamas"
 <iframe src="https://www.youtube.com/embed/-miwX7EsaQI" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-
 ## About the Speaker
 
 Zenodo is a general data repository where any research output (data, presentations, research articles, software, and much more!) can be shared and preserved for the long term, increasing their visibility and impact.
@@ -75,12 +74,13 @@ The benefits of Zenodo include
 ## Full transcript of Esther Plomp's presentation
 
 ### [00:00](https://www.youtube.com/watch?v=eChOfh8t04k) Introduce Esther 
-Reshama:  
+
+**Reshama:**  
 Hello, welcome to today's talk. Today's presentation is Intro to Zenodo by Esther Plomp. Esther is an open science enthusiast and contributes to a more equitable way of knowledge generation, facilitating others and working more transparently. She currently works as a postdoc/research developer at the University of Aruba and is working on an East Science Fellowship project on tracking research objects other than peer-reviewed articles, as well as software, as well as being a Software Sustainability Institute fellowship, on facilitating contributions to open source science communities with a focus on the Turing Way.
 
 Esther particularly cares about open data in the field of isotope archaeology, and she also does some advisory board stuff for open science communities on the side. You can find Esther on LinkedIn. Welcome Esther.
 
-Esther:
+**Esther:**  
 Thank you so much for the introduction and thank you so much for letting me talk about Zenodo on the Data Umbrella Series, which I've been following for quite some time. So it's been very exciting that I'm now finally a part of this whole series, so thank you very much. As mentioned, I'll be talking about Zenodo, why, what and how. So we'll dive into those details right now. And I like to start any talk by discussing why Zenodo and also perhaps why me. I don't necessarily work for Zenodo, I don't represent Zenodo, I'm just a frequent user of Zenodo and a big fan, so that's why I'm talking about this. I'm sure other people can also talk
 a lot about Zenodo, but I'll just show you why I'm using Zenodo and how I'm using that.
 
@@ -124,7 +124,8 @@ And I would just also like to highlight that Zenodo is actually open source. So 
 
 <p>
 <iframe src="https://www.youtube.com/embed/ed_lrNGF_70" loading="lazy" frameborder="0" allowfullscreen></iframe>
-</p
+</p>
+
 
 And if FAIR is the first time you've heard about that today, I'll briefly explain FAIR. It's an acronym for Findable, Accessible, Interoperable, and Reusable. So it has not a lot to do with FAIR in the sense of ethics, or FAIR as an equal, and so forth. But it's an acronym for these terms. And I'll explain very 
 briefly what each of them mean. So data can be **findable** when it has descriptive metadata, so information about the data, as well as this persistent identifier, such as the DOI that we discussed earlier. It is **accessible** when it is openly available, or there is an authentication process or procedure in place so that people don't necessarily can access it immediately, but there is a process in place so that they eventually can access it if they fulfill the 
@@ -1010,91 +1011,29 @@ we haven't done that. Sometimes we just link to Google Slides, which you never k
 
 might be deleted or access might be changed. So we will link to your Zenodo slides in the
 
-video description. I do have one question, which is, I love the illustrations that you
+video description. 
 
-showed in your presentation from the touring way. And can you show us where people can find them on
+### [1:12:48](https://www.youtube.com/watch?v=eChOfh8t04k&t=4368s) Q: Where can we find the images/illustrations used in your presentation?  
 
-Zenodo? I notice you link to a DOI on Zenodo, so I assume that's where they are.
+Reshama:  
+I do have one question, which is, I love the illustrations that you showed in your presentation from the touring way. And can you show us where people can find them on Zenodo? I notice you link to a DOI on Zenodo, so I assume that's where they are. 
 
-Yes, indeed. And that's why I skipped my thank you slide because I actually wanted to thank the
+Esther:  
+Yes, indeed. And that's why I skipped my thank you slide because I actually wanted to thank the Turing Way community for all of these images, indeed, in my slides, which you can also reuse for any purposes because CC by license, as long as you cite them, which is why I indeed refer to them in my slides, saying something along the lines of, let's see, where's an image? Should not take me long to find one. Yes, the data repository tree. So as long as I refer to this 
+image, where it's available on Zenodo, let's see if that link clicks. I think they don't allow that for the preview versions of Zenodo outputs. But here you can see illustrations from the Turing Way shared on the CC by 4.0 for reuse. And here you can find all of these images, which are very strange backgrounds for me, and it should probably be white instead of black. But yeah, here you can now see all of these images on Zenodo. And you can now preview them separately here. This looks more like what I would be expecting with the white background. I think that's probably because my computer is on dark mode or something.
 
-touring way community for all of these images, indeed, in my slides, which you can also reuse
+But yeah, this is how you find them on Zenodo. You can also, again, go to previous versions, because every time there's a new version released, I think what that looks like is also here that you can go to previous versions. But that's how you can find them on Zenodo. For some of them, it will be easier to go to the Turing Way. So that's book.thetouringway.org with what's that little stripe called again? Sorry, I keep confusing that. But these little separations in the link. But if you Google the touring way, it's also the first hit. So that's where you can also find, for example, the data repository image should be somewhere in research data management. Data repository, where do we put that? Here, the one above. And there you can then also find them. So for some of it, it will be easier to 
+directly copy paste it from the actual book instead of browsing to Zenodo, which if I go back, did I use that here? Yeah. So it's not that great to browse through it on Zenodo. One of our community members is actually working on it with our shiny app tool to make this a little bit more browsable and also search only for keywords, et cetera. But it's not yet there. Something very, very much needed. Anyway, rambling on too much about the touring way. I'm very excited about the Turing Way. 
 
-for any purposes because CC by license, as long as you cite them, which is why I indeed refer
+### [1:16:16](https://www.youtube.com/watch?v=eChOfh8t04k&t=4576s) Q: How does Zenodo prevent people from uploading spam? 
 
-to them in my slides, saying something along the lines of, let's see, where's an image?
+**Reshama:**  
+Thanks, Esther. I have another question, which is how does Zenodo, and I don't know if you're the right person to ask this too, but how does Zenodo prevent 
+people from uploading spam? 
 
-Should not take me long to find one. Yes, the data repository tree. So as long as I refer to this
+**Esther:**  
+It doesn't necessarily prevent people from doing that, but it will remove things that are not related to scientific output. So I've never encountered spam, but indeed, basically anyone, as long as you make an account and you fill in the mandatory fields, you can put up that spam, but there are some monitoring going on which will have that removed, because otherwise, if we go to the main page, otherwise this page would probably be flooded with people trying to spam it. But there's a mechanism in place, but I'm not 100% sure about the details, unfortunately. Okay. And I guess also if people connect their GitHub or their fork ID, then that is a verification that it is legitimate content that people want to share. So that probably helps as well. Yeah. Exactly. Imagine. Okay. 
 
-image, where it's available on Zenodo, let's see if that link clicks.
-
-I think they don't allow that for the preview versions of Zenodo outputs. But here you can see
-
-illustrations from the touring way shared on the CC by 4.0 for reuse. And here you can find
-
-all of these images, which are very strange backgrounds for me, and it should probably be
-
-white instead of black. But yeah, here you can now see all of these images on Zenodo.
-
-And you can now preview them separately here. This looks more like what I would be expecting
-
-with the white background. I think that's probably because my computer is on dark mode or something.
-
-But yeah, this is how you find them on Zenodo. You can also, again, go to previous versions,
-
-because every time there's a new version released, I think what that looks like is
-
-also here that you can go to previous versions. But that's how you can find them on Zenodo.
-
-For some of them, it will be easier to go to the touring way.
-
-So that's book.thetouringway.org with what's that little stripe called again? Sorry,
-
-I keep confusing that. But these little separations in the link. But if you Google the touring way,
-
-it's also the first hit. So that's where you can also find, for example, the data repository image
-
-should be somewhere in research data management. Data repository, where do we put that? Here,
-
-the one above. And there you can then also find them. So for some of it, it will be easier to
-
-directly copy paste it from the actual book instead of browsing to Zenodo, which if I go back,
-
-did I use that here? Yeah. So it's not that great to browse through it on Zenodo.
-
-One of our community members is actually working on it with our shiny app tool to make this a little
-
-bit more browsable and also search only for keywords, et cetera. But it's not yet there.
-
-Something very, very much needed. Anyway, rambling on too much about the touring way. I'm very excited
-
-about the touring way. Thanks, Esther. I have another question, which is how does Zenodo, and
-
-I don't know if you're the right person to ask this too, but how does Zenodo prevent
-
-people from uploading spam? It doesn't necessarily prevent people from doing that, but it will
-
-remove things that are not related to scientific output. So I've never encountered spam, but
-
-indeed, basically anyone, as long as you make an account and you fill in the mandatory fields,
-
-you can put up that spam, but there are some monitoring going on which will have that removed,
-
-because otherwise, if we go to the main page, otherwise this page would probably be flooded
-
-with people trying to spam it. But there's a mechanism in place, but I'm not 100% sure about
-
-the details, unfortunately. Okay. And I guess also if people connect their GitHub or their
-
-fork ID, then that is a verification that it is legitimate content that people want to share. So
-
-that probably helps as well. Yeah. Exactly. Imagine. Okay. And that is, thank you for being
-
-patient with all my questions along the way. And that is the end of my questions. So thank you so
-
-much. This recording is going to be up soon. If you have any questions, please ask on the video
-
-description. There's a comment section, and we will be in touch with Esther to get those questions
-
-answered. Thank you so much, Esther. Thank you.
+**Reshama:**  
+And that is, thank you for being patient with all my questions along the way. And that is the end of my questions. So thank you so much. This recording is going to be up soon. If you have any questions, please ask on the video description. There's a comment section, and we will be in touch with Esther to get those questions answered. Thank you so much, Esther. Thank you.
 
