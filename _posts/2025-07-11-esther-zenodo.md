@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Intro to Zenodo - Advancing Open Science
-description: general data repository where any research output (data, presentations, research articles, software, and much more!) can be shared and preserved for the long term, increasing their visibility and impact.
+description: Learn about a eneral data repository where any research output can be shared and preserved for the long term, increasing their visibility and impact.
 date: 2025-07-11 08:01:35 +0300
 image: '/images/blogs/blog-placeholder.png'
 tags: [opensource]
@@ -18,6 +18,7 @@ author-website: "https://github.com/reshamas"
 - Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70)
 
 ## Video
+
 <p>
 <iframe src="https://www.youtube.com/embed/eChOfh8t04k" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
@@ -25,6 +26,7 @@ author-website: "https://github.com/reshamas"
 <p>
 <iframe src="https://www.youtube.com/embed/-miwX7EsaQI" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p
+
 
 ## About the Speaker
 
