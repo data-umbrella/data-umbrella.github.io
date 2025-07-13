@@ -161,199 +161,35 @@ So they've been working on this for quite some time, I assume. And you can actua
 Esther, in the views and downloads, what's under show more details? 
 
 **Esther:**  
-Let's go there. A little bit more detail about this version, apparently, which is very cool that you can distinguish if the views are for this particular version or whether it's accumulated. Very cool. We can also maybe press this one. So here they explain a little bit more about what they actually track. I'll skip that for now. I think it's just indeed a unique view, visiting person or a robot. But yeah, it doesn't work to reload the page hundreds of times of your own research objects and then see what happens. So for example, if I refresh now, then that doesn't mean that the views go up. So it's a little bit more robust than just me refreshing the page a hundred times. Yeah. All right. So this is how it looks on Zenodo. And right. Let me log in first. So log in is here. And if this is your first time sign up, this is the sign up page as mentioned. So you can see that I use both an email of the data stewards at TU Delft where I no longer work, unfortunately. So I shouldn't access that. Instead, I will use the ORxxID's. So this is how the sign up page looks like. Because I already signed up, I'm going to go back to Zenodo and use the login button instead. And so here you see, again, very similarly, I can sign in with ORCIDs, GitHub, or an email address. But I'll use the ORCIDs's since I'm no longer a data steward at Delft. So here you see my ORCIDs. So that's a number string. And I'll use that to sign into ORCIDs. And then I'm signed in to Zenodo. And you can see my username here or my email address. And in order to make a new upload, I'm pressing this plus sign. I'm selecting new uploads. And then if it's both, you see this interface. And what you see here is that you can drag and drop files or use the computer or the, how do you say that? Not sure. You browse in your computer to get to the file. So it's quite easy to get a file onto Zenodo. And they start with some basic information. And what you'll notice is that some of these basic information questions have red asterisks behind them. And that means that these fields are mandatory. So if you try to publish something on Zenodo while not filling out these fields, Zenodo will let you know, like, hey, this is a mandatory field, you should fill
+Let's go there. A little bit more detail about this version, apparently, which is very cool that you can distinguish if the views are for this particular version or whether it's accumulated. Very cool. We can also maybe press this one. So here they explain a little bit more about what they actually track. I'll skip that for now. I think it's just indeed a unique view, visiting person or a robot. But yeah, it doesn't work to reload the page hundreds of times of your own research objects and then see what happens. So for example, if I refresh now, then that doesn't mean that the views go up. So it's a little bit more robust than just me refreshing the page a hundred times. Yeah. All right. So this is how it looks on Zenodo. And right. Let me log in first. So log in is here. And if this is your first time sign up, this is the sign up page as mentioned. So you can see that I use both an email of the data stewards at TU Delft where I no longer work, unfortunately. So I shouldn't access that. Instead, I will use the ORxxID's. So this is how the sign up page looks like. Because I already signed up, I'm going to go back to Zenodo and use the login button instead. And so here you see, again, very similarly, I can sign in with ORCIDs, GitHub, or an email address. But I'll use the ORCIDs's since I'm no longer a data steward at Delft. So here you see my ORCIDs. So that's a number string. And I'll use that to sign into ORCIDs. And then I'm signed in to Zenodo. And you can see my username here or my email address. 
 
-this in. And here you can see the question, digital object identifier, do you already have
+### [20:20](https://www.youtube.com/watch?v=eChOfh8t04k&t=1220s) Start step-by-step walk through of Zenodo: how to add (or upload) a file 
 
-a DOI for this upload? So sometimes when you share a version of a research article, for example,
+And in order to make a new upload, I'm pressing this plus sign. I'm selecting new uploads. And then if it's both, you see this interface. And what you see here is that you can drag and drop files or use the computer or the, how do you say that? Not sure. You browse in your computer to get to the file. So it's quite easy to get a file onto Zenodo. And they start with some basic information. And what you'll notice is that some of these basic information questions have red asterisks behind them. And that means that these fields are mandatory. So if you try to publish something on Zenodo while not filling out these fields, Zenodo will let you know, like, hey, this is a mandatory field, you should fill this in. And here you can see the question, digital object identifier, do you already have a DOI for this upload? So sometimes when you share a version of a research article, for example, it could be possible that you already have a DOI. And in that case, it's better to use the existing DOI because otherwise we have multiple DUIs for the same types of research outputs. And that's not very helpful because then you have multiple things in multiple spaces. And it will all be going very messy. It's also more difficult to keep track of how things are reused. So then you can copy paste existing DOI here. Or in the majority of the cases when I'm using Zenodo, I say, no, I need a DOI because I don't have one. And then I can press this button here for getting a DOI now.  
 
-it could be possible that you already have a DOI. And in that case, it's better to use the existing
+And I am not actually going to upload this file. But you can just request a DOI. And that will also be visible in the browser where you see the same number as is listed here. So now it's already saving what it is that I'm doing. And I can use this DOI and it will be stable until I delete this 
+record. And then, yeah, someone else can probably reuse my DOI if I delete it. But this is nothing. Nothing is published yet. So nothing is official yet. But we've reserved this DOI. I'll get back to that at the end of the presentation as well, how you can use that. Then it's asking about research 
+type. So you can upload a data set, event type, related information, images, lessons, presentations, physical objects, lots of options here. Lots of different types of publications that you can also share here. And so lots of options. And if you're not sure, there's always the option other. So I'm 
+going to go for that right now. And for my title, I'm just going to say test one, which is a very uninformative title. And as a data steward, I should warn you that this is not the best title to use.  
 
-DOI because otherwise we have multiple DUIs for the same types of research outputs. And that's
+But just for you to see what's an order looks like, I'll use test one. The publication dates, it automatically sets it to today. You can change that. So it uses the year, month, and day formats. I will keep this the same for testing purposes. And then it is asking about creators. So here you can I can add my own name. So that's Plomp and Esther. If I use my ORCIDs, I would need to copy paste that. And you can add your affiliation, as well as your role in the construction of the research output. So for example, I'm the data manager of this research output. So I'll skip my ORCID for now because I unfortunately still don't notice from the top of my head. But I would recommend you to add your ORCID here for actual purposes of creating a Sonoda output. And so that's what it looks like now. So creators, it's Liz myself, and you can just add creators. There's also a save and add another creator in this add creator form. So you can add lots of creators, which is very helpful if you're working together with a lot of people.
 
-not very helpful because then you have multiple things in multiple spaces. And it will all be
+### [29:15](https://www.youtube.com/watch?v=eChOfh8t04k&t=1755s) Q: If you were to upload a paper, dataset and code, would they have the same or separate Digital Object Identifier (DOI)?  
 
-going very messy. It's also more difficult to keep track of how things are reused. So then you can
+**Reshama:**  
+Now, I had a quick question. If you were to upload, say, a paper, data sets, and code, would they each have a separate DOI or would it be under one?  
 
-copy paste existing DOI here. Or in the majority of the cases when I'm using Sunnodo, I say, no,
+**Esther:**  
+It depends a little bit. I would recommend you to have separate DOIs for data sets and code unless it's... Yes, it's really dependent on your own preferences. So your publication gets assigned a DOI anyway, so it's important to keep that the same for the publication. But I would assign a different DOI for, for example, the data and software together if the software is very closely related to the data and it's underlying a research article. And you don't really plan for the software to be reused in other purposes, if that makes sense. So then it can make more sense to put data and software together. But in some of the cases, it makes more sense to also split those apart also because I mentioned that data and software use different licenses. So then you would need to attach two licenses to the same upload if you're uploading them together. So it can actually be easier to upload them separately so that you can share the data, provide context about the data, choose a data license, and then for the same for software that you...
 
-I need a DOI because I don't have one. And then I can press this button here for getting a DOI now.
+We will go about how, especially if you also share it via GitHub, it might be easier to have the software as a separate output, if that makes sense. And then it is important to link them all together and make sure that all of these DOIs are referred to in all of these separate uploads and that you can actually do using Zenodo as well. If you scroll down a little bit to the related works, you can also add, for example, that this one, this research outputs is supplemented by another research output. And so you can enter the DOI here. I'm not really sure which DOI that is, but it's a DOI. It's a DOI. So we'll add that here for the scheme. And then here, I can also indicate what is it? Is it a presentation? Is it software? Is it data, et cetera? So then you can all put that together and everything is linking to each other. And that's also a very important thing, your research article. And since you've mentioned that, maybe I should go to that slide for the presentation already. Yeah, no, let's do the upload form first and I'll get back to that. 
 
-And I am not actually going to upload this file. But you can just request a DOI. And that will also
+How do you link them all together in the research article as well? But you can link them all together on Zenodo. So that's in the related works section. I hope that makes sense. Please do interrupt me if I'm not making any sense. Scrolling. Yeah. No, I was going to say, that's a great explanation. And I see now that the datasets can be connected to the paper. So thank you. Yeah, yeah, exactly. So that's actually where my eScience fellowships project comes in. It's a lot of frustration about how people do not connect all of these different research outputs. And then it becomes really difficult to find all of your research outputs, especially from an institutional perspective, then we have no idea what it is that you're doing. And we cannot count it. But also for people trying to find the data underlying a publication. If you don't actually share in the publication 
+where you've stored the data, where you're sharing the data, then it's almost as bad as data available upon request because then people need to search and look for these datasets everywhere. So it's very important indeed to bring that all together to increase findability of these datasets yourself. Yeah. So back to the upload form. So the basic information is the section which is most important. So we've already set up the digital identifier research type, the title, publication date, and the creator, which is myself. So those are the mandatory fields. So those you need to fill out. But then it's also very helpful to add a short description. So for example, this is a desk deposit. So there's a very short description, not super helpful. But hopefully I'll remember in six months time that this is my test deposit. 
 
-be visible in the browser where you see the same number as is listed here. So now it's already
+And then what you see here is the license section. And so what you see here is a creative commons attribution 4.0 international. And that means that anyone who will come across this work can then redistribute and reuse this work as long as the original creator is appropriately credited. And what that means is just that you cite the original work, you refer to it in the redistribution. So it is quite similar to a research paper. You don't just take someone else's conclusions and claim to measure on, you refer to the original publication where they mentioned this first, or at least you should. So that's this particular license. So they already assign you a license. That doesn't mean that you need to keep this license. It's one of my favorite licenses. So I'll keep it for now. But you can press the edit button. And here you can choose between several licenses. And these, all of them, starting with creative commons are actually data licenses. And all of these other ones, Apache and MIT, for example, those are for software. And so in these descriptions, you also see a bit about what it is that they require you to do and whether it is for software or not. So for example, this one from the creative commons actually says not recommended for software. So yeah, different licenses for data and for software. So I'll keep it as it is for now, because we can do a whole different presentation about licenses. But I'll skip that for now. 
 
-saving what it is that I'm doing. And I can use this DOI and it will be stable until I delete this
-
-record. And then, yeah, someone else can probably reuse my DOI if I delete it. But this is nothing.
-
-Nothing is published yet. So nothing is official yet. But we've reserved this DOI. I'll get back to
-
-that at the end of the presentation as well, how you can use that. Then it's asking about research
-
-type. So you can upload a data set, event type, related information, images, lessons, presentations,
-
-physical objects, lots of options here. Lots of different types of publications that you can also
-
-share here. And so lots of options. And if you're not sure, there's always the option other. So I'm
-
-going to go for that right now. And for my title, I'm just going to say test one, which is a very
-
-uninformative title. And as a data steward, I should warn you that this is not the best title to use.
-
-But just for you to see what's an order looks like, I'll use test one. The publication dates,
-
-it automatically sets it to today. You can change that. So it uses the year, month, and day formats.
-
-I will keep this the same for testing purposes. And then it is asking about creators. So here you can
-
-I can add my own name. So that's Plump and Esther. If I use my ORCIDs, I would need to copy paste that.
-
-And you can add your affiliation, as well as your role in the construction of the research output.
-
-So for example, I'm the data manager of this research output. So I'll skip my orchid for
-
-now because I unfortunately still don't notice from the top of my head. But I would recommend
-
-you to add your orchid here for actual purposes of creating a Sonoda output. And so that's what
-
-it looks like now. So creators, it's Liz myself, and you can just add creators. There's also a
-
-save and add another creator in this add creator form. So you can add lots of creators, which is
-
-very helpful if you're working together with a lot of people.
-
-Now, I had a quick question. If you were to upload, say, a paper, data sets, and code,
-
-would they each have a separate DOI or would it be under one?
-
-It depends a little bit. I would recommend you to have separate
-
-DOIs for data sets and code unless it's...
-
-Yes, it's really dependent on your own preferences. So your publication gets assigned a DOI anyway,
-
-so it's important to keep that the same for the publication. But I would assign a different
-
-DOI for, for example, the data and software together if the software is very closely related
-
-to the data and it's underlying a research article. And you don't really plan for the
-
-software to be reused in other purposes, if that makes sense. So then it can make more sense to
-
-put data and software together. But in some of the cases, it makes more sense to also split those
-
-apart also because I mentioned that data and software use different licenses. So then you
-
-would need to attach two licenses to the same upload if you're uploading them together. So it
-
-can actually be easier to upload them separately so that you can share the data, provide context
-
-about the data, choose a data license, and then for the same for software that you...
-
-We will go about how, especially if you also share it via GitHub, it might be easier to have
-
-the software as a separate output, if that makes sense. And then it is important to link them all
-
-together and make sure that all of these DOIs are referred to in all of these separate uploads
-
-and that you can actually do using Zenodo as well. If you scroll down a little bit to the
-
-related works, you can also add, for example, that this one, this research outputs is
-
-supplemented by another research output. And so you can enter the DOI here.
-
-I'm not really sure which DOI that is, but it's a DOI. It's a DOI. So we'll add that here for the
-
-scheme. And then here, I can also indicate what is it? Is it a presentation? Is it software? Is it
-
-data, et cetera? So then you can all put that together and everything is linking to each other.
-
-And that's also a very important thing, your research article. And since you've mentioned
-
-that, maybe I should go to that slide for the presentation already. Yeah, no, let's do the
-
-upload form first and I'll get back to that. How do you link them all together in the research
-
-article as well? But you can link them all together on Zenodo. So that's in the related works section.
-
-I hope that makes sense. Please do interrupt me if I'm not making any sense. Scrolling. Yeah.
-
-No, I was going to say, that's a great explanation. And I see now that
-
-the datasets can be connected to the paper. So thank you. Yeah, yeah, exactly. So that's
-
-actually where my eScience fellowships project comes in. It's a lot of frustration about how
-
-people do not connect all of these different research outputs. And then it becomes really
-
-difficult to find all of your research outputs, especially from an institutional perspective,
-
-then we have no idea what it is that you're doing. And we cannot count it. But also for people
-
-trying to find the data underlying a publication. If you don't actually share in the publication
-
-where you've stored the data, where you're sharing the data, then it's almost as bad as data available
-
-upon request because then people need to search and look for these datasets everywhere. So it's
-
-very important indeed to bring that all together to increase findability of these datasets yourself.
-
-Yeah. So back to the upload form. So the basic information is the section which is most
-
-important. So we've already set up the digital identifier research type, the title, publication
-
-date, and the creator, which is myself. So those are the mandatory fields. So those you need to
-
-fill out. But then it's also very helpful to add a short description. So for example, this is a
-
-desk deposit. So there's a very short description, not super helpful. But hopefully I'll remember in
-
-six months time that this is my test deposit. And then what you see here is the license section.
-
-And so what you see here is a creative commons attribution 4.0 international. And that means
-
-that anyone who will come across this work can then redistribute and reuse this work
-
-as long as the original creator is appropriately credited. And what that means is just that you
-
-cite the original work, you refer to it in the redistribution. So it is quite similar to a
-
-research paper. You don't just take someone else's conclusions and claim to measure on,
-
-you refer to the original publication where they mentioned this first, or at least you should.
-
-So that's this particular license. So they already assign you a license. That doesn't mean that you
-
-need to keep this license. It's one of my favorite licenses. So I'll keep it for now. But you can
-
-press the edit button. And here you can choose between several licenses. And these, all of them,
-
-starting with creative commons are actually data licenses. And all of these other ones, Apache
-
-and MIT, for example, those are for software. And so in these descriptions, you also see a bit about
-
-what it is that they require you to do and whether it is for software or not. So for example, this one
-
-from the creative commons actually says not recommended for software. So yeah, different
-
-licenses for data and for software. So I'll keep it as it is for now, because we can do a
-
-whole different presentation about licenses. But I'll skip that for now. For now, I'll continue
-
-in the upload form a little bit, because they let you add a lot more extra information. And so
-
-particularly keywords and subjects is very important. If people are searching in the search
-
-button on Zenodo, etc., that you actually put some information here. So for example, fare,
-
-I press enter in order to get that shown up as a keyword. I do a little bit of data management
-
-things. Again, enter. And then you can also select three existing keywords. Language can be helpful.
-
-My majority of my outputs are in English. So I'll select English for this, even though it's a test
-
-output. So you can basically select any language. And I can select a date. I'll just use the date,
+For now, I'll continue in the upload form a little bit, because they let you add a lot more extra information. And so particularly keywords and subjects is very important. If people are searching in the search button on Zenodo, etc., that you actually put some information here. So for example, fare, I press enter in order to get that shown up as a keyword. I do a little bit of data management things. Again, enter. And then you can also select three existing keywords. Language can be helpful. My majority of my outputs are in English. So I'll select English for this, even though it's a test output. So you can basically select any language. And I can select a date. I'll just use the date,
 
 which I already used. So that will be 2025, 14 of February. And
 
@@ -759,187 +595,23 @@ even have to copy-paste everything. Which is probably why that URL is there for 
 
 Right. So I think that's all I wanted to show for GitHub and Zenodo.
 
-Yes. So the slides also contain a bit of examples of how that then looks on Zenodo, et cetera,
 
-because we actually just went through the whole process. I won't be going over these slides,
+Yes. So the slides also contain a bit of examples of how that then looks on Zenodo, et cetera, because we actually just went through the whole process. I won't be going over these slides, but just for your reference, I also describe again how you can copy-paste this DOI button. But for now, I wanted to go to the point made earlier that it's very important to link all of these research objects together. And so hopefully you still see my screen and the presentation. But yeah, how do you then actually link all of these data and codes and research article together, because this is all over the place and very confusing. I referred earlier to the Turing Way about the citation CFF file, but the Turing Way also has some information about how do you now link all of these research objects together. So you can go there for a bit more detail. But the best way to do this is to do things. 
 
-but just for your reference, I also describe again how you can copy-paste this DOI button.
+### [1:01:42](https://www.youtube.com/watch?v=eChOfh8t04k&t=3702s) Using Zenodo in research articles  
 
-But for now, I wanted to go to the point made earlier that it's very important to link all of
-
-these research objects together. And so hopefully you still see my screen and the presentation.
-
-But yeah, how do you then actually link all of these data and codes and research article together,
-
-because this is all over the place and very confusing. I referred earlier to the Turing
-
-way about the citation CFF file, but the Turing way also has some information about how do you
-
-now link all of these research objects together. So you can go there for a bit more detail.
-
-But the best way to do this is to do things. Publications nowadays have a data availability
-
-statement or software availability statement, where you can say, well, the data is underlying
-
-the research article is available on Zenodo, and here's the DOI. And then it becomes very important
-
-that for two, you also put that DOI to your data set in the references, because otherwise we cannot
-
-automatically pick up that you shared the data and we can't automatically link from the publication
-
+Publications nowadays have a data availability statement or software availability statement, where you can say, well, the data is underlying the research article is available on Zenodo, and here's the DOI. And then it becomes very important that for two, you also put that DOI to your data set in the references, because otherwise we cannot automatically pick up that you shared the data and we can't automatically link from the publication 
 data to the other research outputs. So please, please cite your data and your software outputs.
 
-Also, if you reuse other people's data and software outputs. So it's very important to do that. And
+Also, **if you reuse other people's data and software outputs. So it's very important to do that.** And what that looks like. So this is a very nice example, where they say, actually, we don't have additional data available for the article. So all of the data underlying the results are available as part of the article, which is perfectly fine. Not every research article needs data, but they do have a great software availability statement. So here they say that software is available from by a conductor platform. It's a package. The source code is available from a GitHub link. And they archive the source code at the time of the publication. So they really indicate this particular version of the code on GitHub is available on Zenodo. So what we just did, we released a particular version on Zenodo. And then they cite it because the 26th at the end is actually the reference to their own software. So it's both available in this software availability statement, as well as in the references. So this is perfect. This is more than perfect because they also list the license. So now you know exactly what it is that you can do with the software, which is a lot because the MIT license doesn't place a lot of restrictions on software use. So yeah, you can have a look at this example on the link from the DOI in the slide. And yeah, please, please, please do link all of your research outputs together.
 
-what that looks like. So this is a very nice example, where they say, actually, we don't have
+### [1:04:29](https://www.youtube.com/watch?v=eChOfh8t04k&t=3869s) Using Zenodo to share presentations  
 
-additional data available for the article. So all of the data underlying the results
+And then one of the last things that I wanted to share with you is how do I use Zenodo to share the presentations? And this is also something that I'm currently doing and what I would like to show again. So we reserved the DOI when we were in the upload form in the basic information. This is one of the first things you do actually, where I said, no, I do not have a DOI yet. I need one. And I press the button, get a DOI now. You saw on the upload form how it magically appeared. And then I can use that DOI. So what that means, and what you also saw, is in that upload form, I didn't need it to put any files in there. So Zenodo complained a little bit about there's no file here and we can preview it. But you don't need to put a file in the upload form in order to already get that DOI. So that means that you can copy paste that DOI and put it into your slides or put that DOI into your research article before you already publish the data and the codes. So that's why reserving this DOI works really great to combine all of these research outputs, but particularly for presentations. And just a note that I wanted to make, because in the presentation, you also see just the DOI and not the link in front of it. So if you just copy paste the DOI and not the URL, it's not a link. But I don't want to put the HTTPS/DUI.org in front of all of these numbers, because then it's longer, it takes up more space in my presentation. So I embed that link into the DOI.  
 
-are available as part of the article, which is perfectly fine. Not every research article needs
+But just to keep in mind that if you add the DOI.org in front of your any DOI, it will automatically go to the landing page of the DOI. And so it is also important to make sure that if you're presenting your slides, to make sure to have that difference there available before people just start typing over the number of the DOI, etc. So it's not a direct link unless you put that DOI.org in front of it. All right, so I reserved this DOI for the presentation. So if I now go to this link, because I reserved the DOI, it comes to this page where it says, "DOI is not found." That's because my presentation is actually not shared yet. So we'll go to that now. I'll go to some nodal. Yes, I'm going to leave this page because I don't want to save that. I already had a citation file. I'll go to my dashboard, because my dashboard is where all of my draft uploads are. You see the tests that we used before. But you also see the Zenodo, the why, what, and how presentation. And you see that this is still in draft stage. So this is a draft. It's marked as a draft. It has a red upload file instead of this green tick, which means that it's probably available. So I'll go there and do edits. And so here you see I already uploaded the slides so that you don't have to wait for me waiting for things to be uploaded. But again, you don't have to upload your slides in order to get this DOI. So we saw that in the test form. So I can just copy paste that. And I can go to the slides. And then I can copy paste this DOI into the slides. And I tend to put that onto any of my slides, just in case someone wants to reuse just a single slide. I tend to just put that DOI into all of them. Yeah. So what we'll do now is we'll upload this version of the presentation that I made and publish it so that we actually have a working DOI at the time where you'll be watching this recording. So I checked this deposit carefully. So I very carefully filled out the basic information. It's a presentation. The title is Zenodo, Why, What and How. Publication date is today. This is me. I've put in the description. Thanks, Reshama, for helping with the description here because that's all your work and not mine. So thanks for making my life a lot easier for the description. And I've added some keywords to make it more visible. I've added the language. But I did not add any of the other identifiers. So I kept everything else here. I kept that empty. This is not part of conference. Well, I could actually put in a data umbrella. I might do that later because it is part of a webinar series. So that would be good to link back to that to make it more clear what this output is actually about. 
 
-data, but they do have a great software availability statement. So here they say that software is
-
-available from by a conductor platform. It's a package. The source code is available from a
-
-GitHub link. And they archive the source code at the time of the publication. So they really
-
-indicate this particular version of the code on GitHub is available on Zenodo. So what we just did,
-
-we released a particular version on Zenodo. And then they cite it because the 26th at the end is
-
-actually the reference to their own software. So it's both available in this software availability
-
-statement, as well as in the references. So this is perfect. This is more than perfect because they
-
-also list the license. So now you know exactly what it is that you can do with the software,
-
-which is a lot because the MIT license doesn't place a lot of restrictions on software use.
-
-So yeah, you can have a look at this example on the link from the DOI in the slide.
-
-And yeah, please, please, please do link all of your research outputs together.
-
-And then one of the last things that I wanted to share with you is how do I use Zenodo to share
-
-the presentations? And this is also something that I'm currently doing and what I would like to show
-
-again. So we reserved the DOI when we were in the upload form in the basic information. This is one
-
-of the first things you do actually, where I said, no, I do not have a DOI yet. I need one. And I
-
-press the button, get a DOI now. You saw on the upload form how it magically appeared. And then
-
-I can use that DOI. So what that means, and what you also saw, is in that upload form, I didn't
-
-need it to put any files in there. So Zenodo complained a little bit about there's no file
-
-here and we can preview it. But you don't need to put a file in the upload form in order to already
-
-get that DOI. So that means that you can copy paste that DOI and put it into your slides or put that
-
-DOI into your research article before you already publish the data and the codes. So that's why
-
-reserving this DOI works really great to combine all of these research outputs, but particularly
-
-for presentations. And just a note that I wanted to make, because in the presentation, you also see
-
-just the DOI and not the link in front of it. So if you just copy paste the DOI and not the URL,
-
-it's not a link. But I don't want to put the HTTPS/DUI.org in front of all of these numbers,
-
-because then it's longer, it takes up more space in my presentation. So I embed that link into the DOI.
-
-But just to keep in mind that if you add the DOI.org in front of your any DOI, it will
-
-automatically go to the landing page of the DOI. And so it is also important to make sure that if
-
-you're presenting your slides, to make sure to have that difference there available before
-
-people just start typing over the number of the DOI, etc. So it's not a direct link unless you
-
-put that DOI.org in front of it. All right, so I reserved this DOI for the presentation.
-
-So if I now go to this link, because I reserved the DOI, it comes to this page where it says,
-
-"DUI is not found." That's because my presentation is actually not shared yet.
-
-So we'll go to that now. I'll go to some nodal. Yes, I'm going to leave this page because I don't
-
-want to save that. I already had a citation file. I'll go to my dashboard, because my dashboard is
-
-where all of my draft uploads are. You see the tests that we used before. But you also see the
-
-zonodo, the why, what, and how presentation. And you see that this is still in draft stage. So this
-
-is a draft. It's marked as a draft. It has a red upload file instead of this green tick, which means
-
-that it's probably available. So I'll go there and do edits. And so here you see I already uploaded
-
-the slides so that you don't have to wait for me waiting for things to be uploaded. But again,
-
-you don't have to upload your slides in order to get this DOI. So we saw that in the test form.
-
-So I can just copy paste that. And I can go to the slides. And then I can copy paste this DOI
-
-into the slides. And I tend to put that onto any of my slides, just in case someone wants to reuse
-
-just a single slide. I tend to just put that DOI into all of them. Yeah. So what we'll do now
-
-is we'll upload this version of the presentation that I made and publish it so that we actually
-
-have a working DOI at the time where you'll be watching this recording. So I checked this
-
-deposit carefully. So I very carefully filled out the basic information. It's a presentation.
-
-The title is Zenodo, Why, What and How. Publication date is today. This is me. I've put in the
-
-description. Thanks, Reshma, for helping with the description here because that's all your work and
-
-not mine. So thanks for making my life a lot easier for the description. And I've added some keywords
-
-to make it more visible. I've added the language. But I did not add any of the other identifiers.
-
-So I kept everything else here. I kept that empty. This is not part of conference. Well, I could
-
-actually put in a data umbrella. I might do that later because it is part of a webinar series. So
-
-that would be good to link back to that to make it more clear what this output is actually about.
-
-All right. So that's what the upload form looks like. I am now just going to publish this.
-
-And then again, the warning, you can't change the files. You can
-
-update the records metadata later. So I might do that. I add data umbrella there.
-
-I press publish. And now the slides are available.
-
-And no one has viewed them yet. Yeah. So this is what that then looks like. And now,
-
-and it might take a couple of seconds, but now if you actually use this UI
-
-in my presentation slides, so if we go back to the presentation and I will go open the link.
-
-Ah, because of my cookie history is probably still saying, "DUI not found."
-
-So this might take a couple of seconds. It's also good to remember if you're uploading a
-
-presentation on the note of five seconds before you do the presentation, you might want to do it
-
-a little bit longer. But in general, it should work almost immediately. Maybe I can open it in
-
-Chrome actually. Maybe then it, I did not install Chrome on this laptop. So we're going to go to
-
-Microsoft. Let's see if that works. And let me copy paste that. copy this link. And then I'm hoping.
-
-No. Okay. So it will take longer than a couple of seconds, but it is really there. So hopefully,
-
-when you watch this recording, you will not see this DUI not found window anymore.
-
-But you will see the actual upload here. And then you can download the slides here.
-
-And because there's a CC by 4.0 license attached to it, which you can see here,
-
-feel free to reuse any of the slides and to use that for your own purposes. 
+All right. So that's what the upload form looks like. I am now just going to publish this. And then again, the warning, you can't change the files. You can update the records metadata later. So I might do that. I add Data Umbrella there. I press publish. And now the slides are available. And no one has viewed them yet. Yeah. So this is what that then looks like. And now, and it might take a couple of seconds, but now if you actually use this UI in my presentation slides, so if we go back to the presentation and I will go open the link. Ah, because of my cookie history is probably still saying, "DOI not found." So this might take a couple of seconds. It's also good to remember if you're uploading a presentation on the note of five seconds before you do the presentation, you might want to do it a little bit longer. But in general, it should work almost immediately. Maybe I can open it in Chrome actually. Maybe then it, I did not install Chrome on this laptop. So we're going to go to Microsoft. Let's see if that works. And let me copy paste that. copy this link. And then I'm hoping. No. Okay. So it will take longer than a couple of seconds, but it is really there. So hopefully, when you watch this recording, you will not see this DOI not found window anymore. But you will see the actual upload here. And then you can download the slides here. And because there's a CC by 4.0 license attached to it, which you can see here, feel free to reuse any of the slides and to use that for your own purposes. 
 
 ### [1:11:50](https://www.youtube.com/watch?v=eChOfh8t04k&t=4310s) Resources 
 
