@@ -13,23 +13,21 @@ author-website: "https://github.com/reshamas"
 
 ## Resources
 - [Slides on Zenodo](https://zenodo.org/records/14852437)
-- Video Part 1 [110a]: the full tutorial, [Intro to Zenodo: Advancing Open Science](https://youtu.be/eChOfh8t04k) (~75 minutes)
-- Video Part 2 [110b]: [Step-by-step tutorial: Upload research files (documents, datasets, code, etc) to Zenodo](https://youtu.be/-miwX7EsaQI) (~20 minutes)
-- Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70) (~2 minutes)
+- [The Turing Way](https://book.the-turing-way.org)
 
 ## Videos
 
-#### Video Part 1 [110a]: The full tutorial [Intro to Zenodo: Advancing Open Science](https://youtu.be/eChOfh8t04k) (~75 minutes)
+### Video Part 1 [110a]: The full tutorial [Intro to Zenodo: Advancing Open Science](https://youtu.be/eChOfh8t04k) (~75 minutes)
 <p>
 <iframe src="https://www.youtube.com/embed/eChOfh8t04k" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-#### Video Part 2 [110b]: [Step-by-step tutorial: Upload research files (documents, datasets, code, etc) to Zenodo](https://youtu.be/-miwX7EsaQI) (~20 minutes)
+### Video Part 2 [110b]: [Step-by-step tutorial: Upload research files (documents, datasets, code, etc) to Zenodo](https://youtu.be/-miwX7EsaQI) (~20 minutes)
 <p>
 <iframe src="https://www.youtube.com/embed/-miwX7EsaQI" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-#### Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70) (~2 minutes)
+### Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70) (~2 minutes)
 <p>
 <iframe src="https://www.youtube.com/embed/ed_lrNGF_70" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
