@@ -2,7 +2,7 @@
 layout: post
 title:  Intro to Zenodo - Advancing Open Science
 description: Learn about a eneral data repository where any research output can be shared and preserved for the long term, increasing their visibility and impact.
-date: 2025-07-11 08:01:35 +0300
+date: 2025-07-15 08:01:35 +0300
 image: '/images/blogs/blog-zenodo.png'
 tags: [opensource]
 author-name: "Reshama Shaikh"
@@ -129,9 +129,7 @@ And I would just also like to highlight that Zenodo is actually open source. So 
 </p>
 
 
-And if FAIR is the first time you've heard about that today, I'll briefly explain FAIR. It's an acronym for Findable, Accessible, Interoperable, and Reusable. So it has not a lot to do with FAIR in the sense of ethics, or FAIR as an equal, and so forth. But it's an acronym for these terms. And I'll explain very 
-briefly what each of them mean. So data can be **findable** when it has descriptive metadata, so information about the data, as well as this persistent identifier, such as the DOI that we discussed earlier. It is **accessible** when it is openly available, or there is an authentication process or procedure in place so that people don't necessarily can access it immediately, but there is a process in place so that they eventually can access it if they fulfill the 
-requirements. So that's also the restricted access option on Zenodo. And data is **interoperable** when you can integrate it with other data or applications and workflows. And it's **reusable** when it's shared with sufficient documentation explaining what the data is about, as well as a license. 
+And if FAIR is the first time you've heard about that today, I'll briefly explain FAIR. It's an acronym for Findable, Accessible, Interoperable, and Reusable. So it has not a lot to do with FAIR in the sense of ethics, or FAIR as an equal, and so forth. But it's an acronym for these terms. And I'll explain very briefly what each of them mean. So data can be **findable** when it has descriptive metadata, so information about the data, as well as this persistent identifier, such as the DOI that we discussed earlier. It is **accessible** when it is openly available, or there is an authentication process or procedure in place so that people don't necessarily can access it immediately, but there is a process in place so that they eventually can access it if they fulfill the requirements. So that's also the restricted access option on Zenodo. And data is **interoperable** when you can integrate it with other data or applications and workflows. And it's **reusable** when it's shared with sufficient documentation explaining what the data is about, as well as a license. 
 
 ### [12:34](https://www.youtube.com/watch?v=eChOfh8t04k&t=754s) Licenses  
 
@@ -142,13 +140,11 @@ for your type of data that you're working with. So you can find out about other 
 
 ### [15:32](https://www.youtube.com/watch?v=eChOfh8t04k&t=932s) Using Zenodo over supplementary materials  
 
-And before we go more into depth about why Sonoda, how to use it, I just want to go into a question that I frequently get asked by researchers. Why is it not sufficient enough to just put all of the data and software in the supplementary materials of my research article? Because then it's available, right? And there's even a license associated with it because it's the same license as the research article. And the first rebuttal to that is that not all research outputs are 
-always associated with a research article. So data repositories can also be used when you don't necessarily have a research article, but you just want to share a small subset of the data or a script that really helps you, but you can't really write a software article about it. 
+And before we go more into depth about why Sonoda, how to use it, I just want to go into a question that I frequently get asked by researchers. Why is it not sufficient enough to just put all of the data and software in the supplementary materials of my research article? Because then it's available, right? And there's even a license associated with it because it's the same license as the research article. And the first rebuttal to that is that not all research outputs are always associated with a research article. So data repositories can also be used when you don't necessarily have a research article, but you just want to share a small subset of the data or a script that really helps you, but you can't really write a software article about it. 
 
 Sometimes the publisher actually requires you to use a data repository instead of the supplementary materials. And another thing about supplementary materials is that you actually give up a lot of the control that you have over data. Because just like publications, once you have an update, you can't really update the publication anymore. So then you would need to write a new article, or you need to make a new data article, etc. So you can't really update that yourself.
 
-And I will show later how you can actually update an existing research output on Zenodo as well. Then a more of a data stewards answer to this question is that, yeah, research is not just about research articles. Data and code are also primary research outputs. So they really shouldn't be hidden away in the supplementary materials. And this is quite literally hidden away sometimes. Particularly when articles are published behind the paywall, it's very difficult to then also get 
-access to the supplementary materials. And that's not great for availability, and particularly not because supplementary materials themselves don't have this persistent identifier assigned to them in the majority of the cases. So that means that it's actually liable to being lost or to have broken links in order to access supplementary materials. And sometimes it is also not great to use the supplementary materials if there are restrictions in place about which file formats or which sizes you're allowed to use. So sometimes data repositories like Zenodo are more inclusive of all of these types of file formats. And so that would be better to use in some of these cases.
+And I will show later how you can actually update an existing research output on Zenodo as well. Then a more of a data stewards answer to this question is that, yeah, research is not just about research articles. Data and code are also primary research outputs. So they really shouldn't be hidden away in the supplementary materials. And this is quite literally hidden away sometimes. Particularly when articles are published behind the paywall, it's very difficult to then also get access to the supplementary materials. And that's not great for availability, and particularly not because supplementary materials themselves don't have this persistent identifier assigned to them in the majority of the cases. So that means that it's actually liable to being lost or to have broken links in order to access supplementary materials. And sometimes it is also not great to use the supplementary materials if there are restrictions in place about which file formats or which sizes you're allowed to use. So sometimes data repositories like Zenodo are more inclusive of all of these types of file formats. And so that would be better to use in some of these cases.
 
 And if you're still not convinced, I would say that it's not in accordance with FAIR principles primarily because of this, there's no persistent identifier associated with the supplementary materials. So it already fails at the findable part of FAIR. Yeah, so plenty of reasons to not use the supplementary materials for this. Although I suppose that using the supplementary materials is still better than saying data is available upon request. All right. 
 
@@ -191,412 +187,47 @@ where you've stored the data, where you're sharing the data, then it's almost as
 
 And then what you see here is the license section. And so what you see here is a creative commons attribution 4.0 international. And that means that anyone who will come across this work can then redistribute and reuse this work as long as the original creator is appropriately credited. And what that means is just that you cite the original work, you refer to it in the redistribution. So it is quite similar to a research paper. You don't just take someone else's conclusions and claim to measure on, you refer to the original publication where they mentioned this first, or at least you should. So that's this particular license. So they already assign you a license. That doesn't mean that you need to keep this license. It's one of my favorite licenses. So I'll keep it for now. But you can press the edit button. And here you can choose between several licenses. And these, all of them, starting with creative commons are actually data licenses. And all of these other ones, Apache and MIT, for example, those are for software. And so in these descriptions, you also see a bit about what it is that they require you to do and whether it is for software or not. So for example, this one from the creative commons actually says not recommended for software. So yeah, different licenses for data and for software. So I'll keep it as it is for now, because we can do a whole different presentation about licenses. But I'll skip that for now. 
 
-For now, I'll continue in the upload form a little bit, because they let you add a lot more extra information. And so particularly keywords and subjects is very important. If people are searching in the search button on Zenodo, etc., that you actually put some information here. So for example, fare, I press enter in order to get that shown up as a keyword. I do a little bit of data management things. Again, enter. And then you can also select three existing keywords. Language can be helpful. My majority of my outputs are in English. So I'll select English for this, even though it's a test output. So you can basically select any language. And I can select a date. I'll just use the date,
+For now, I'll continue in the upload form a little bit, because they let you add a lot more extra information. And so particularly keywords and subjects is very important. If people are searching in the search button on Zenodo, etc., that you actually put some information here. So for example, fare, I press enter in order to get that shown up as a keyword. I do a little bit of data management things. Again, enter. And then you can also select three existing keywords. Language can be helpful. My majority of my outputs are in English. So I'll select English for this, even though it's a test output. So you can basically select any language. And I can select a date. I'll just use the date, which I already used. So that will be 2025, 14 of February. And it is available on this date. I can add a version. So for most of the outputs, that might not be relevant. But again, if like the Brazilian flora data set, you need to assign a particular version to the data set. You can also do it here. And publisher Zenodo, or if you are sharing an existing research article, then here you might have to change the publisher. You can add information about funding. So if you have a funding agency, recommend you to add that information here.
 
-which I already used. So that will be 2025, 14 of February. And
+It can also be done using persistent identifiers nowadays. There's alternative identifiers. If your research output also has different DYs associated with it, we can link it with related works, which we just did. So you can say that your data set is a part of a research article, or it's part of software, or the data set is another version of a data set. So there's lots of relations between these DYs that you can have. You can also add any references that your research output has separately here. That's recommendable because then it becomes machine readable. 
 
-it is available on this date. I can add a version. So for most of the outputs, that might not be
+Whereas if you put it in a PDF file, Zenodo does not take that up and then makes that automatically available in a machine readable way. So publishers do this for you. Zenodo does not do this for you. So it's helpful to do this yourself. Here they particularly ask about software. So you can link to a repository, which language you're using, what the status is of the software project. But also the publishing information. If this is for a journal, you can fill out all of these details regarding where it's published, which volume, what is the book chapter, etc. And if it's a thesis, which university it's been awarded for. And it also means that if this is not relevant, so you can't have both information about software and about publishing, etc., you don't need to fill it out because there's no red asterisks behind it. So if any of this is not relevant for you, you can just skip it. So for the test, I'm also going to skip it. Conference, if it's part of a conference. And you can also add more information about which fields you are working in. 
 
-relevant. But again, if like the Brazilian flora data set, you need to assign a particular version
+So I'll skip that for now, because there's so many field options. But there's really an opportunity for you to really fill this out as detailed as possible, which will enhance the findability of your research. All right. A quick question. Can you go back in, for example, if we forget to put in the conference that a content was presented at, can you go back and add it later? Yeah. Yeah. So, yeah, no, it's great. So if you want to fill that out later, you can actually do that. So the only thing that you can't edit once it's been published is actually the file that you've uploaded. So if you want to make any changes there, you can. But then it will be a new version of the record. But all of the metadata information, that you can actually change later. So it's not too bad in that sense. I can show you for a different output in a bit. For now, I will just save this draft. And I will show -- I already didn't do some things. Yeah. So I screwed something up with the date. Please provide a valid date or an interval. So I probably 
+should have put an ending in that date file. And I didn't upload any files, which I won't be doing. So it's saved, but it has some errors. So it's a note that will let you know whenever you need to improve some of your upload information. But for now, because I want to move on to making changes and making sure that you see how this looks, I need to fix that before I can do the preview. Let me see if I can remove the dates. I think the issue with the date is the formatting, I think. But I haven't done this before. So I don't know.
 
-to the data set. You can also do it here. And publisher Zenodo, or if you are sharing an
+I'll remove it for now and I'll see if I can get to the preview. No. I need to upload a file. Okay. I will -- well, we already looked at an existing upload. And then I can show you what it looks like if you try to update it. And as mentioned, visibility. Also, red asterisk. It's on public automatically. But you can also put it on restricted. So -- or you can apply an embargo and then you need to fill out the date in the correct format until the embargo lasts. And then it can -- I think it will be automatically lifted. But similarly to other changes, you can also extend 
+the embargo if you change that date. Yeah. Normally, you can make your research outputs publicly available. So I'll select this for now. I'll save it. What that looks like in your dashboards. So moving to my dashboard now. Something like this. So I already have some uploads. So it looks a bit more populated than if you've never used it. So this is where you can go back to your uploads. So this is my test one, which is a terrible name again.
 
-existing research article, then here you might have to change the publisher. You can add information
+But if I click on it, I can then go back and make any changes. And again, this is a draft. So no one else will see this. Here you can see there is a draft. Going back to my dashboard. Then here you will, for example, see one of my more recent uploads. A data management plan and section templates for the faculty that I worked at. And so here, if I want to edit any information. So for example, this link is not clickable. That's not super helpful. So let me see if I can edit that using the edit button. So only I can do that because I created this record. So this is not something that you can do for other people's outputs. Because that would be a mess. So we'll select edit. And then we'll go into the same form. But here you can see I've uploaded some files. And all of this information is already filled out. Now let's see if we can actually make this link linkable. So I'm pasting the URL here. And I want a new window for that. I press save. And then now that should be linkable. So I think that's the only edit that I want to make. I'll just press save draft. And then I'll do publish. Let's see what happens. And here you see this warning, which we'll see again at some point as well. Which is asking you whether you're sure you want to publish this record. Because once the record is published, you will no longer be able to change the files in the upload. So again, the files. Yes. Can we see the preview first before you publish? Yeah. Let's see if it works for this one. Yeah. So no longer be able to change the files. So that's what it's warning me about. Let's go to preview, indeed. 
 
-about funding. So if you have a funding agency, recommend you to add that information here.
+So here it says I'm in preview mode. You are previewing changes that have not yet been published. So it looks almost the same as the page that it would have normally. And that we previously accessed. But here you can already see this is the change. I can now if I click this link, it's actually a link. And people don't have to copy paste that. So it's displaying the change that I've just made. And everything else just, yeah, it looks the same as it would look like whenever you've published it. Let's go back to the edits. All right. Okay. So try to publish this now. Again, the warning. No longer be able to change the files. However, you will still be able to update the records metadata later. And that's exactly what we did. We updated the records metadata. So if we now publish, then here we can see this change in the link. And again, it looks almost the same as the preview version. Other than that here, you can now see the added a new version buttons. And this is still the same version. So it's still version one. Because I didn't touch any of the files. So you can just very easily adjust any of that information without it having an effect on the version of your file. So it will have an effect if you update the files. Let's see if I can get to one of my -- so I'm moving to my dashboard again. So this looks different whenever you upload a new version of the files in your uploads. And so here you can see the date and the version. So I have a lot of version ones in all of my files.
 
-It can also be done using persistent identifiers nowadays. There's alternative identifiers. If your
+But here we have a tree. So I'm going to assume that this has three versions. I know. I mentioned that this is a version three. Because it's actually based upon a previously set up guidance document. Which I should hopefully also indicate in the related works. Yes. So I indicate it here. This is actually an alternative version of a different output. Which is also on the node-own. So this is how you link them together. And if I link click to this. Then this is version one. I actually called my previous version version three. Because, yeah, we made multiple iterations of this. So this is how you conversion things. I did that because it's quite different. And the contributor authors were quite different. So that's why I made a separate upload. But going back to my dashboards, there should also be an upload where I use the same uploads. Let's see.
 
-research output also has different DYs associated with it, we can link it with related works,
+Yeah. So as you see, the majority of the times you just have one version of your output. Particularly if this is slides. Aha. But this one has four versions. So we'll go to this one for now. So this is a data carpentry lesson on spreadsheets. I've done that a couple of times. So I have multiple versions. So version one looks like this. And I use completely different slides, I think, in this version if it loads. Yeah. So completely different slides. Quite old. Old picture, et cetera. And each of these versions, as you'll see, has a different DOI. So you can link directly to this different DOI for each of the versions that you have. And if you use that DOI, you get directed to that particular version. But it's also possible to use this overarching DOI. Like an umbrella DOI of some sorts. And that's listed here. So if you want to cite all of the versions, you can use this DOI. So for example, if we use that one, you get automatically redirected to the latest version of the record. Also, if I now upload a new version, version five, 
+then it will automatically go to that one. But if I want to link to a particular version, because I want to mention this version to my course participants for this particular course in 2021, then I should be using one of the older DYs. And you can just copy that link from these different versions. And you'll also see that I used these links in the presentations themselves. So here I didn't use the overarching DOI link. But for example, for a data set, that might make more sense. Or again, up to your personal preferences. So that's what it looks like when you edit things and you actually edit your file and you get a new version. All right.  
 
-which we just did. So you can say that your data set is a part of a research article,
+Yeah, let me check my presentation in terms of did I cover everything that I wanted to cover. I think you can see my slides as well. We created a new item. We did the basic information. Right. So now I showed you a test upload. And I -- let me see if I can stop sharing and also reshare this screen. So I showed you a test upload that I didn't upload. And I made an edit and an existing work that was actually already uploaded. But I didn't share a new one yet. 
 
-or it's part of software, or the data set is another version of a data set. So there's lots
+### The Sandbox Environment
 
-of relations between these DYs that you can have. You can also add any references that your research
+And I can imagine that it's also very daunting to upload something for the very first time if you've never used Zenodo. So there is a way around this. Zenodo has a sandbox environment, actually, which you can also use. So I won't be using that for today's webinar. But if you're very scared about putting something online permanently for the very first time, you can use sandbox.Zenodo.org. And just have a go and see how it feels. But when you go to the sandbox, it's also saying that it's only for testing purposes. So anything you do on there will actually not be assigned an actual DOI. And no one will be able to see that, which is the whole purpose of the test service. But so if you then want to really upload something, you would have to do it again on the real Zenodo version of the platform, the actual version. Yeah, this is a nice way for you to get started if you're really scared about putting something out there online. Okay, let's see. Yes. 
 
-output has separately here. That's recommendable because then it becomes machine readable.
+### GitHub and Zenodo
 
-Whereas if you put it in a PDF file, Zenodo does not take that up and then makes that automatically
+So the next thing that I wanted to discuss briefly is how do you actually use Zenodo and GitHub together if you want to share some software. And that is important to do because again, putting software on GitHub alone is not following the fair principles in the sense that GitHub does not assign a DOI to your research output. And it's also not a great place for long term preservation, because you can decide to just delete your GitHub repository at any moment, or perhaps Microsoft will decide that your repository has some type of word that they don't like in there, and then they might decide that they will delete it for you. So it's important to use GitHub alongside a data repository to ensure long term preservation of your software. And so it's quite easy to use Zenodo with GitHub. I've linked to a couple of guides and a video that also explain it in more detail if you want to see that. But we'll go over it in a little bit in this webinar as well. 
 
-available in a machine readable way. So publishers do this for you. Zenodo does not do this for you.
+So for you to use GitHub and Zenodo integration, you would first need to link your accounts. So in the menu, and let's see. Yeah, I'll share my screen again. Sorry about that. I pressed this game. So I will show you how that works on Zenodo as well. Let's see. So if I now go to the top right menu, so where your profile or your email is listed, you can see linked accounts here as one of the options, I go there. And then for me, you will already see that I linked my accounts to GitHub and ORCIDs. So I'm connected with both of these services. Not with open air, I'm not actually sure what that actually does. So I'll skip that for now. But I'm connected with GitHub and ORCIDs. But if you do this for the very first time, you will need to select the service. So I, for example, if I do that for open air, I'll probably get directed to their platform, and then I'll need to indicate or log in in order to integrate my accounts there. Yeah, so I should sign in with GitHub or ORCIDs, for example. I won't do that for now. But this is how it would look like for GitHub as well. So you will be redirected to GitHub. And you need to make sure that everything is connected. Before you can now go to the menu, select GitHub. So again, menu GitHub. And this is how it looks like once you've linked your accounts. So you see this big header where it says get started, flip the switch, create a release and get the badge. So this is their way of the three step process that you can you can use using Zenodo. So what they mean with flip the switch. 
 
-So it's helpful to do this yourself. Here they particularly ask about software. So you can link
+So here you see a couple of repositories of mine that have already been published on both GitHub and Zenodo. So if I switch this flip on or off, that means that if I then publish a release on GitHub, so you don't actually use Zenodo for that, but you use GitHub to publish a release of a new version, then it automatically will get pushed to Zenodo. So for example, if I now publish a new version of this figures, and the data on GitHub, then it will also automatically publish a new version on Zenodo because I have this switch flipped on, I can also turn that off at any point in time. And this could be because you don't want all of the versions on GitHub archived on Zenodo. And again, that's up to your personal preferences. If you don't want 50 versions of your software on Zenodo and only major changes, then you can slip it off. And then at any point, you can flip that back on. So that's you're fully in control of that. Here you for example, see some of my repositories below which are not switched on. And I can then switch those on at any point. And then whenever I'm reloading the page, it says, please reload the page. Then they will be listed here. And so here you can see that this one is not yet published on Zenodo because it doesn't have this batch yet. Whereas the other repositories do have this batch.
 
-to a repository, which language you're using, what the status is of the software project.
+I'll turn that off for now because that's not something I would like to put on Zenodo. But yeah, you get a batch. And how that looks like on GitHub. So going to this repository on GitHub. So this is the homepage of the repository. So here you see again, this this DOI batch that I put it there. So you do need to do that manually. But you will see that. Yeah. It has one release. So I literally only wrote a release for this repository. So it would go on GitHub. So if you go there on releases, let's see, should be able to make a new one. We go back to releases. If I draft now a new release, I can put a release title, write some descriptions about changes that I didn't make. So we're not actually going to do this. And then here I can publish the
+release. And then any changes that I've made in this GitHub repository will also be pushed to Zenodo. Right now I don't have a really good example for code. So I won't be doing that.
 
-But also the publishing information. If this is for a journal, you can fill out all of these details
+But that's how that would work on GitHub. So you need to go to the releases and draft a new release. But for now, I won't be doing that. Because I don't have a new release of this code because this is my PhD research. And I hope to never touch that again. No, just kidding. But yeah, in order to get this batch on your readme page, you can use markdown text to just add the batch to your readme. And Zenodo is very kind with that. You can actually, if I go to the Zenodo page of this output, so here's what it looks like on Zenodo. So it doesn't provide a lot of information. So this you need to edit the Zenodo page yourself. But this is what it looks like from GitHub. So all of the files from GitHub are there. And yeah, and it looks quite similar to the deposits that we've already seen. You see me as a creator, etc. But in order to get this nice DOI button, we can go a little bit below. Here you see this DOI button. If you press on it, then here you see the markdown text. So you don't need to remember anything. You can just go to this DOI button, copy paste the markdown text or just the URL or the HTML output if that is needed. Copy paste that and then put it into your readme file. And then you have this nice button.
 
-regarding where it's published, which volume, what is the book chapter, etc. And if it's a thesis,
-
-which university it's been awarded for. And it also means that if this is not relevant,
-
-so you can't have both information about software and about publishing, etc., you don't need to fill
-
-it out because there's no red asterisks behind it. So if any of this is not relevant for you,
-
-you can just skip it. So for the test, I'm also going to skip it. Conference, if it's part of
-
-a conference. And you can also add more information about which fields you are working in.
-
-So I'll skip that for now, because there's so many field options. But there's really an opportunity
-
-for you to really fill this out as detailed as possible, which will enhance the findability of
-
-your research. All right. A quick question. Can you go back in, for example, if we forget to put
-
-in the conference that a content was presented at, can you go back and add it later? Yeah.
-
-Yeah. So, yeah, no, it's great. So if you want to fill that out later, you can actually do that.
-
-So the only thing that you can't edit once it's been published is actually the file
-
-that you've uploaded. So if you want to make any changes there, you can. But then it will be a new
-
-version of the record. But all of the metadata information, that you can actually change later.
-
-So it's not too bad in that sense. I can show you for a different output in a bit.
-
-For now, I will just save this draft. And I will show -- I already didn't do some things. Yeah.
-
-So I screwed something up with the date. Please provide a valid date or an interval. So I probably
-
-should have put an ending in that date file. And I didn't upload any files, which I won't be doing.
-
-So it's saved, but it has some errors. So it's a note that will let you know whenever you need
-
-to improve some of your upload information. But for now, because I want to move on to making
-
-changes and making sure that you see how this looks, I need to fix that before I can do the
-
-preview. Let me see if I can remove the dates. I think the issue with the date is the formatting,
-
-I think. But I haven't done this before. So I don't know.
-
-I'll remove it for now and I'll see if I can get to the preview. No. I need to upload a file.
-
-Okay. I will -- well, we already looked at an existing upload. And then I can show you what
-
-it looks like if you try to update it. And as mentioned, visibility. Also, red asterisk.
-
-It's on public automatically. But you can also put it on restricted. So -- or you can apply an embargo
-
-and then you need to fill out the date in the correct format until the embargo lasts. And then
-
-it can -- I think it will be automatically lifted. But similarly to other changes, you can also extend
-
-the embargo if you change that date. Yeah. Normally, you can make your research outputs
-
-publicly available. So I'll select this for now. I'll save it. What that looks like
-
-in your dashboards. So moving to my dashboard now. Something like this. So I already have
-
-some uploads. So it looks a bit more populated than if you've never used it. So this is where
-
-you can go back to your uploads. So this is my test one, which is a terrible name again.
-
-But if I click on it, I can then go back and make any changes. And again, this is a draft.
-
-So no one else will see this. Here you can see there is a draft. Going back to my dashboard.
-
-Then here you will, for example, see one of my more recent uploads.
-
-A data management plan and section templates for the faculty that I worked at.
-
-And so here, if I want to edit any information. So for example, this link is not clickable.
-
-That's not super helpful. So let me see if I can edit that using the edit button. So only I can do
-
-that because I created this record. So this is not something that you can do for other people's
-
-outputs. Because that would be a mess. So we'll select edit. And then we'll go into the same form.
-
-But here you can see I've uploaded some files. And all of this information is already filled out.
-
-Now let's see if we can actually make this link linkable. So I'm pasting the URL here.
-
-And I want a new window for that. I press save. And then now that should be linkable.
-
-So I think that's the only edit that I want to make. I'll just press save draft.
-
-And then I'll do publish. Let's see what happens. And here you see this warning,
-
-which we'll see again at some point as well. Which is asking you whether you're sure you want to
-
-publish this record. Because once the record is published, you will no longer be able to change
-
-the files in the upload. So again, the files. Yes. Can we see the preview first before you publish?
-
-Yeah. Let's see if it works for this one. Yeah. So no longer be able to change the files.
-
-So that's what it's warning me about. Let's go to preview, indeed.
-
-So here it says I'm in preview mode. You are previewing changes that have not yet been published.
-
-So it looks almost the same as the page that it would have normally. And that we previously
-
-accessed. But here you can already see this is the change. I can now if I click this link,
-
-it's actually a link. And people don't have to copy paste that. So it's displaying the change
-
-that I've just made. And everything else just, yeah, it looks the same as it would look like
-
-whenever you've published it. Let's go back to the edits. All right.
-
-Okay. So try to publish this now. Again, the warning. No longer be able to change the files.
-
-However, you will still be able to update the records metadata later. And that's exactly what
-
-we did. We updated the records metadata. So if we now publish, then here we can see this change in
-
-the link. And again, it looks almost the same as the preview version. Other than that here,
-
-you can now see the added a new version buttons. And this is still the same version. So it's still
-
-version one. Because I didn't touch any of the files. So you can just very easily adjust any
-
-of that information without it having an effect on the version of your file. So it will have an
-
-effect if you update the files. Let's see if I can get to one of my -- so I'm moving to my dashboard
-
-again. So this looks different whenever you upload a new version of the files in your uploads. And
-
-so here you can see the date and the version. So I have a lot of version ones in all of my files.
-
-But here we have a tree. So I'm going to assume that this has three versions. I know. I mentioned
-
-that this is a version three. Because it's actually based upon a previously set up guidance document.
-
-Which I should hopefully also indicate in the related works. Yes. So I indicate it here. This
-
-is actually an alternative version of a different output. Which is also on the node-own. So this is
-
-how you link them together. And if I link click to this. Then this is version one. I actually
-
-called my previous version version three. Because, yeah, we made multiple iterations of this. So this
-
-is how you conversion things. I did that because it's quite different. And the contributor authors
-
-were quite different. So that's why I made a separate upload. But going back to my dashboards,
-
-there should also be an upload where I use the same uploads. Let's see.
-
-Yeah. So as you see, the majority of the times you just have one version of your
-
-output. Particularly if this is slides. Aha. But this one has four versions. So we'll go to this
-
-one for now. So this is a data carpentry lesson on spreadsheets. I've done that a couple of times.
-
-So I have multiple versions. So version one looks like this. And I use completely different slides,
-
-I think, in this version if it loads. Yeah. So completely different slides. Quite old. Old
-
-picture, et cetera. And each of these versions, as you'll see, has a different DOI. So you can
-
-link directly to this different DOI for each of the versions that you have. And if you use that
-
-DOI, you get directed to that particular version. But it's also possible to use this overarching
-
-DOI. Like an umbrella DOI of some sorts. And that's listed here. So if you want to cite all of the
-
-versions, you can use this DOI. So for example, if we use that one, you get automatically redirected
-
-to the latest version of the record. Also, if I now upload a new version, version five,
-
-then it will automatically go to that one. But if I want to link to a particular version, because
-
-I want to mention this version to my course participants for this particular
-
-course in 2021, then I should be using one of the older DYs. And you can just copy that link
-
-from these different versions. And you'll also see that I used these links in the presentations
-
-themselves. So here I didn't use the overarching DOI link. But for example, for a data set,
-
-that might make more sense. Or again, up to your personal preferences. So that's what it looks like
-
-when you edit things and you actually edit your file and you get a new version.
-
-All right. Yeah, let me check my presentation in terms of did I cover everything that I wanted to
-
-cover. I think you can see my slides as well. We created a new item. We did the basic information.
-
-Right. So now I showed you a test upload. And I -- let me see if I can stop sharing and also
-
-reshare this screen. So I showed you a test upload that I didn't upload. And I made an
-
-edit and an existing work that was actually already uploaded. But I didn't share a new one yet.
-
-And I can imagine that it's also very daunting to upload something for the very first time if you've
-
-never used Zenodo. So there is a way around this. Zenodo has a sandbox environment, actually,
-
-which you can also use. So I won't be using that for today's webinar. But if you're very scared
-
-about putting something online permanently for the very first time, you can use sandbox.Zenodo.org.
-
-And just have a go and see how it feels. But when you go to the sandbox, it's also saying that it's
-
-only for testing purposes. So anything you do on there will actually not be assigned an actual
-
-DUI. And no one will be able to see that, which is the whole purpose of the test service. But
-
-so if you then want to really upload something, you would have to do it again on the real Zenodo
-
-version of the platform, the actual version. Yeah, this is a nice way for you to get started
-
-if you're really scared about putting something out there online. Okay, let's see. Yes. So the
-
-next thing that I wanted to discuss briefly is how do you actually use Zenodo and GitHub together
-
-if you want to share some software. And that is important to do because again, putting software
-
-on GitHub alone is not following the fair principles in the sense that GitHub does not
-
-assign a DUI to your research output. And it's also not a great place for long term preservation,
-
-because you can decide to just delete your GitHub repository at any moment, or perhaps Microsoft
-
-will decide that your repository has some type of word that they don't like in there, and then
-
-they might decide that they will delete it for you. So it's important to use GitHub alongside
-
-a data repository to ensure long term preservation of your software. And so it's quite easy to use
-
-Zenodo with GitHub. I've linked to a couple of guides and a video that also explain it in more
-
-detail if you want to see that. But we'll go over it in a little bit in this webinar as well.
-
-So for you to use GitHub and Zenodo integration, you would first need to link your accounts.
-
-So in the menu, and let's see. Yeah, I'll share my screen again. Sorry about that. I
-
-pressed this game. So I will show you how that works on Zenodo as well. Let's see. So if I now
-
-go to the top right menu, so where your profile or your email is listed, you can see linked accounts
-
-here as one of the options, I go there. And then for me, you will already see that I linked my
-
-accounts to GitHub and ORCIDs. So I'm connected with both of these services. Not with open air,
-
-I'm not actually sure what that actually does. So I'll skip that for now. But I'm connected with
-
-GitHub and ORCIDs. But if you do this for the very first time, you will need to select the
-
-service. So I, for example, if I do that for open air, I'll probably get directed to their platform,
-
-and then I'll need to indicate or log in in order to integrate my accounts there. Yeah,
-
-so I should sign in with GitHub or ORCIDs, for example. I won't do that for now. But this is
-
-how it would look like for GitHub as well. So you will be redirected to GitHub. And you need to make
-
-sure that everything is connected. Before you can now go to the menu, select GitHub. So again,
-
-menu GitHub. And this is how it looks like once you've linked your accounts. So you see this big
-
-header where it says get started, flip the switch, create a release and get the badge. So this is
-
-their way of the three step process that you can you can use using Zenodo. So what they mean with
-
-flip the switch. So here you see a couple of repositories of mine that have already been
-
-published on both GitHub and Zenodo. So if I switch this flip on or off, that means that if I then
-
-publish a release on GitHub, so you don't actually use Zenodo for that, but you use GitHub to publish
-
-a release of a new version, then it automatically will get pushed to Zenodo. So for example, if I
-
-now publish a new version of this figures, and the data on GitHub, then it will also automatically
-
-publish a new version on Zenodo because I have this switch flipped on, I can also turn that off at any
-
-point in time. And this could be because you don't want all of the versions on GitHub archived on
-
-Zenodo. And again, that's up to your personal preferences. If you don't want 50 versions of
-
-your software on Zenodo and only major changes, then you can slip it off. And then at any point,
-
-you can flip that back on. So that's you're fully in control of that. Here you for example, see some
-
-of my repositories below which are not switched on. And I can then switch those on at any point.
-
-And then whenever I'm reloading the page, it says, please reload the page.
-
-Then they will be listed here. And so here you can see that this one is not yet published on
-
-Zenodo because it doesn't have this batch yet. Whereas the other repositories do have this batch.
-
-I'll turn that off for now because that's not something I would like to put on Zenodo.
-
-But yeah, you get a batch. And how that looks like on GitHub. So going to this repository
-
-on GitHub. So this is the homepage of the repository. So here you see again, this
-
-this DOI batch that I put it there. So you do need to do that manually. But you will see that. Yeah.
-
-It has one release. So I literally only wrote a release for this repository. So it would go on
-
-GitHub. So if you go there on releases, let's see, should be able to make a new one. We go back to
-
-releases. If I draft now a new release, I can put a release title, write some descriptions about
-
-changes that I didn't make. So we're not actually going to do this. And then here I can publish the
-
-release. And then any changes that I've made in this GitHub repository will also be pushed to
-
-Zenodo. Right now I don't have a really good example for code. So I won't be doing that.
-
-But that's how that would work on GitHub. So you need to go to the releases and draft a new release.
-
-But for now, I won't be doing that. Because I don't have a new release of this code because
-
-this is my PhD research. And I hope to never touch that again. No, just kidding. But yeah,
-
-in order to get this batch on your readme page, you can use markdown text to just add the batch
-
-to your readme. And Zenodo is very kind with that. You can actually, if I go to the Zenodo page of this
-
-output, so here's what it looks like on Zenodo. So it doesn't provide a lot of information. So this
-
-you need to edit the Zenodo page yourself. But this is what it looks like from GitHub. So all
-
-of the files from GitHub are there. And yeah, and it looks quite similar to the
-
-deposits that we've already seen. You see me as a creator, etc. But in order to get this nice
-
-DOI button, we can go a little bit below. Here you see this DOI button. If you press on it,
-
-then here you see the markdown text. So you don't need to remember anything. You can just go to this
-
-DOI button, copy paste the markdown text or just the URL or the HTML output if that is needed.
-
-Copy paste that and then put it into your readme file. And then you have this nice button.
-
-On your GitHub repository. And then because I apparently did very well, I also made the citation
-
-file. So here you can see that adequate citation. I actually did this very well. I'm impressed by
-
-2021 Esther. So I'm pasting the URL, for example, but also the DOI from Zenodo. So here for the
-
-citation, it's very important to add in the DOI because otherwise it becomes less trackable.
-
-And all of the author information is there as well. And if you want to learn more about citations,
-
-CFF, there's more information on the Turing way as well. But if you create a new file in your
-
-repository, let's see. Yes, I'm logged in. Great. If you do a citation.cff, yeah, it should provide
-
-you with a template and then you can insert that example and then you can fill out all of that
-
-information. And then here they also use a template Zenodo DOI, but that's how you then use that
-
-by copy-pacing your own DOI in there. And they also pre-fill some of the information so you don't
-
-even have to copy-paste everything. Which is probably why that URL is there for me.
-
-Right. So I think that's all I wanted to show for GitHub and Zenodo.
-
+On your GitHub repository. And then because I apparently did very well, I also made the citation file. So here you can see that adequate citation. I actually did this very well. I'm impressed by 2021 Esther. So I'm pasting the URL, for example, but also the DOI from Zenodo. So here for the citation, it's very important to add in the DOI because otherwise it becomes less trackable. And all of the author information is there as well. And if you want to learn more about citations, CFF, there's more information on the Turing way as well. But if you create a new file in your repository, let's see. Yes, I'm logged in. Great. If you do a citation.cff, yeah, it should provide you with a template and then you can insert that example and then you can fill out all of that information. And then here they also use a template Zenodo DOI, but that's how you then use that by copy-pacing your own DOI in there. And they also pre-fill some of the information so you don't even have to copy-paste everything. Which is probably why that URL is there for me. Right. So I think that's all I wanted to show for GitHub and Zenodo.
 
 Yes. So the slides also contain a bit of examples of how that then looks on Zenodo, et cetera, because we actually just went through the whole process. I won't be going over these slides, but just for your reference, I also describe again how you can copy-paste this DOI button. But for now, I wanted to go to the point made earlier that it's very important to link all of these research objects together. And so hopefully you still see my screen and the presentation. But yeah, how do you then actually link all of these data and codes and research article together, because this is all over the place and very confusing. I referred earlier to the Turing Way about the citation CFF file, but the Turing Way also has some information about how do you now link all of these research objects together. So you can go there for a bit more detail. But the best way to do this is to do things. 
 
@@ -645,4 +276,3 @@ It doesn't necessarily prevent people from doing that, but it will remove things
 
 **Reshama:**  
 And that is, thank you for being patient with all my questions along the way. And that is the end of my questions. So thank you so much. This recording is going to be up soon. If you have any questions, please ask on the video description. There's a comment section, and we will be in touch with Esther to get those questions answered. Thank you so much, Esther. Thank you.
-
