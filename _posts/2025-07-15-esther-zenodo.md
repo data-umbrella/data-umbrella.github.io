@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Intro to Zenodo - Advancing Open Science
-description: Learn about a eneral data repository where any research output can be shared and preserved for the long term, increasing their visibility and impact.
+description: Learn about a general data repository where any research output can be shared and preserved for the long term, increasing its visibility and impact.
 date: 2025-07-15 08:01:35 +0300
 image: '/images/blogs/blog-zenodo.png'
 tags: [opensource]
@@ -13,23 +13,28 @@ author-website: "https://github.com/reshamas"
 
 ## Resources
 - [Slides on Zenodo](https://zenodo.org/records/14852437)
-- Video Part 1 [110a]: a full tutorial, [Intro to Zenodo: Advancing Open Science](https://youtu.be/eChOfh8t04k) (~75 minutes)
+- Video Part 1 [110a]: the full tutorial, [Intro to Zenodo: Advancing Open Science](https://youtu.be/eChOfh8t04k) (~75 minutes)
 - Video Part 2 [110b]: [Step-by-step tutorial: Upload research files (documents, datasets, code, etc) to Zenodo](https://youtu.be/-miwX7EsaQI) (~20 minutes)
 - Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70) (~2 minutes)
 
 ## Videos
 
-#### Video Part 2 [110b]: [Step-by-step tutorial: Upload research files (documents, datasets, code, etc) to Zenodo](https://youtu.be/-miwX7EsaQI) (~20 minutes)
+#### Video Part 1 [110a]: The full tutorial [Intro to Zenodo: Advancing Open Science](https://youtu.be/eChOfh8t04k) (~75 minutes)
 <p>
 <iframe src="https://www.youtube.com/embed/eChOfh8t04k" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-#### Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70) (~2 minutes)
+#### Video Part 2 [110b]: [Step-by-step tutorial: Upload research files (documents, datasets, code, etc) to Zenodo](https://youtu.be/-miwX7EsaQI) (~20 minutes)
 <p>
 <iframe src="https://www.youtube.com/embed/-miwX7EsaQI" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-## About the Speaker
+#### Video Part 3 [110c]: [What are FAIR Principles?](https://youtu.be/ed_lrNGF_70) (~2 minutes)
+<p>
+<iframe src="https://www.youtube.com/embed/ed_lrNGF_70" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
+
+## About Zenodo
 
 Zenodo is a general data repository where any research output (data, presentations, research articles, software, and much more!) can be shared and preserved for the long term, increasing their visibility and impact.
 
@@ -42,7 +47,7 @@ The benefits of Zenodo include
 - Preserving knowledge: deleted website content (Research shows 25% of web pages posted between 2013 and 2023 have vanished.)
 - Sharing content accelerates research, this supports Open Science and reproducibility principles 
 
-#### Connect with the Speaker
+### Connect with the Speaker: Esther Plomp
 - LinkedIn: [@estherplomp](https://www.linkedin.com/in/estherplomp/)
 - GitHub: [@estherplomp](https://github.com/estherplomp)
 
@@ -73,7 +78,7 @@ The benefits of Zenodo include
 [1:16:16](https://www.youtube.com/watch?v=eChOfh8t04k&t=4576s) Q: How does Zenodo prevent people from uploading spam?  
 [1:17:25](https://www.youtube.com/watch?v=eChOfh8t04k&t=4645s) Thank you\!
 
-## Full transcript of Esther Plomp's presentation
+## Full transcript of Esther Plomp's Zenodo Tutorial
 
 ### [00:00](https://www.youtube.com/watch?v=eChOfh8t04k) Introduce Esther 
 
