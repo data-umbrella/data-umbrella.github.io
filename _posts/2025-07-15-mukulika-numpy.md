@@ -50,7 +50,9 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 <iframe src="https://www.youtube.com/embed/oud3Jd1FJ7c" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-## Resources (+ all the links from the slides)
+---
+
+## Resources (+ all the links from the [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf))
 - <span>Slides: </span> [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
 - NumPy: [https://numpy.org](https://numpy.org/)
 - video: [Intro to NumPy Array Operations](https://www.youtube.com/watch?v=oud3Jd1FJ7c)
