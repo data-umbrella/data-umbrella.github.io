@@ -2,7 +2,7 @@
 layout: post
 title:  Contributing to the NumPy Documentation
 description: Learn about a general data repository where any research output can be shared and preserved for the long term, increasing its visibility and impact.
-date: 2025-07-14 10:01:35 +0300
+date: 2025-07-15 10:01:35 +0300
 image: '/images/blogs/blog-numpy.png'
 tags: [opensource]
 author-name: "Reshama Shaikh"
