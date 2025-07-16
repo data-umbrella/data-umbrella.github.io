@@ -1,0 +1,92 @@
+---
+layout: post
+title:  Contributing to the NumPy Documentation
+description: A rich list of demos and resources to get started in contributing to NumPy.
+date: 2025-07-15 10:01:35 +0300
+image: '/images/blogs/blog-numpy.png'
+tags: [opensource]
+author-name: "Reshama Shaikh"
+author-image: "/images/people/reshama.jpg"
+author-linkedin: "https://www.linkedin.com/in/reshamas/"
+author-website: "https://github.com/reshamas"
+---
+
+
+### Video: [Contributing to the NumPy Documentation](https://youtu.be/wZmTzfhiu34) (~50 minutes)
+
+[Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
+
+<p>
+<iframe src="https://www.youtube.com/embed/wZmTzfhiu34" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## About NumPy
+
+NumPy is a fundamental, open-source Python library for N-dimensional array programming used extensively for data analysis and scientific programming. As a community-driven project, NumPy is mainly sustained by open-source contributions. This talk focuses on avenues of contribution to the project documentation, an integral part of the software.
+ 
+ 
+## NumPy Video Playlist
+
+### [NumPy: Its History, Governance & How to Contribute](https://youtu.be/lHJqOE5j6xE)  (~60 min)
+<p>
+<iframe src="https://www.youtube.com/embed/lHJqOE5j6xE" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
+
+### Live demo of contributing to NumPy (~25 min)
+
+[00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) <span style="background-color: #FFFFC5;">Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request) </span>
+
+### [Sphinx for Python Documentation Tutorial](https://youtu.be/tXWscUSYdBs)  (~75 min)
+<p>
+<iframe src="https://www.youtube.com/embed/tXWscUSYdBs" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
+
+### Live demo of contributing to NumPy (~15 min)
+[00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) <span style="background-color: #FFFFC5;">An example pull request to the NumPy documentation </span>
+
+### [Intro to NumPy Array Operations](https://youtu.be/oud3Jd1FJ7c)  (~45 min)
+<p>
+<iframe src="https://www.youtube.com/embed/oud3Jd1FJ7c" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
+
+---
+
+## Resources (+ all the links from the [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf))
+- <span>Slides: </span> [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
+- NumPy: [https://numpy.org](https://numpy.org/)
+- video: [Intro to NumPy Array Operations](https://www.youtube.com/watch?v=oud3Jd1FJ7c)
+- video: [NumPy: Its History, Governance and How to Contribute](https://www.youtube.com/watch?v=lHJqOE5j6xE&feature=youtu.be)
+- video: [Sphinx for Python Documentation Tutorial](https://youtu.be/tXWscUSYdBs)
+- [NumPy tutorials](https://numpy.org/numpy-tutorials/)
+- [NumPy tutorials on GitHub](https://github.com/numpy/numpy-tutorials)
+- [Style Guide](https://numpydoc.readthedocs.io/en/latest/format.html)
+- [NumPy development](https://numpy.org/doc/stable/dev/index.html)
+- [Documentation as a way to build community](https://labs.quansight.org/blog/2020/03/documentation-as-a-way-to-build-community)
+- [NumPy community](https://numpy.org/contribute/) (link to <span style="background-color: #FFFFC5;">slack </span> is on this page) 
+- [NumPy playlist](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir8OuaqsdemyJD5hqQJt-Tl6): these videos have examples of contributing to the NumPy documentation 
+- [NEP 44 — Restructuring the NumPy documentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)
+- [Diátaxis - A systematic approach to technical documentation authoring](https://diataxis.fr/)
+- [NumPy Contributor's Comic](https://heyzine.com/flip-book/3e66a13901.html)
+- [NumPy YouTube](https://www.youtube.com/@NumPy_team)
+- [NumPy Community](https://numpy.org/community/)
+- [Setting up your development environment – Building the NumPy API and reference docs](https://numpy.org/devdocs/dev/howto_build_docs.html#building-the-numpy-api-and-reference-docs)
+   - [See Also: Setting up with GitHub Codespaces – Using GitHub Codespaces for NumPy development](https://numpy.org/devdocs/dev/development_ghcodespaces.html#faqs-and-troubleshooting)
+   - [Reading the style guide – How to contribute to the NumPy documentation](https://numpy.org/devdocs/dev/howto-docs.html#documentation-style)
+   - [Familiarizing yourself with the development workflow – Development workflow](https://numpy.org/devdocs/dev/development_workflow.html)
+   - [See Also: Reviewer guidelines – Reviewer guidelines](https://numpy.org/devdocs/dev/reviewer_guidelines.html)
+
+
+### Connect with the Speaker: Mukulika Pahari
+
+Mukulika is a maintainer for the NumPy documentation and has been involved in the community since 2021. She is also studying to be an oceanographer and likes working on scientific software. She was a Technical Writer via Google Season of Docs in 2021.
+
+- LinkedIn: [@mukulikapahari](https://www.linkedin.com/in/mukulikapahari/)
+- GitHub: [@Mukulikaa](https://github.com/Mukulikaa)
+
+
+## Video Outline
+- [00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Data Umbrella introduction
+- [03:15](https://youtu.be/wZmTzfhiu34?si=uBClAtqJegeqNfg3&t=195) Mukulika begins her presentation
+
+[Note: The remaining timestamps will be completed at a later date.]
