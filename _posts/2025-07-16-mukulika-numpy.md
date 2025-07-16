@@ -18,6 +18,12 @@ author-website: "https://github.com/reshamas"
 <iframe src="https://www.youtube.com/embed/wZmTzfhiu34" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
+### Live demo of contributing to NumPy (~25 min)
+[00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request)
+
+### Live demo of contributing to NumPy (~15 min)
+[00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) A pull request to the NumPy documentation
+
 
 ## About NumPy
 
