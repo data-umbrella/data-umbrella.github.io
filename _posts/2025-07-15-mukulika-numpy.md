@@ -50,7 +50,7 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 <iframe src="https://www.youtube.com/embed/oud3Jd1FJ7c" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-## Resources
+## Resources (+ all the links from the slides)
 - <span>Slides: </span> [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
 - NumPy: [https://numpy.org](https://numpy.org/)
 - video: [Intro to NumPy Array Operations](https://www.youtube.com/watch?v=oud3Jd1FJ7c)
@@ -63,6 +63,16 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 - [Documentation as a way to build community](https://labs.quansight.org/blog/2020/03/documentation-as-a-way-to-build-community)
 - [NumPy community](https://numpy.org/contribute/) (link to <span style="background-color: #FFFFC5;">slack </span> is on this page) 
 - [NumPy playlist](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir8OuaqsdemyJD5hqQJt-Tl6): these videos have examples of contributing to the NumPy documentation 
+- [NEP 44 — Restructuring the NumPy documentation](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html)
+- [Diátaxis - A systematic approach to technical documentation authoring](https://diataxis.fr/)
+- [NumPy Contributor's Comic](https://heyzine.com/flip-book/3e66a13901.html)
+- [NumPy YouTube](https://www.youtube.com/@NumPy_team)
+- [NumPy Community](https://numpy.org/community/)
+- [Setting up your development environment – Building the NumPy API and reference docs](https://numpy.org/devdocs/dev/howto_build_docs.html#building-the-numpy-api-and-reference-docs)
+   - [See Also: Setting up with GitHub Codespaces – Using GitHub Codespaces for NumPy development](https://numpy.org/devdocs/dev/development_ghcodespaces.html#faqs-and-troubleshooting)
+   - [Reading the style guide – How to contribute to the NumPy documentation](https://numpy.org/devdocs/dev/howto-docs.html#documentation-style)
+   - [Familiarizing yourself with the development workflow – Development workflow](https://numpy.org/devdocs/dev/development_workflow.html)
+   - [See Also: Reviewer guidelines – Reviewer guidelines](https://numpy.org/devdocs/dev/reviewer_guidelines.html)
 
 
 ### Connect with the Speaker: Mukulika Pahari
