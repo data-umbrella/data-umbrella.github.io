@@ -27,9 +27,10 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 
 
 ## Video Outline
-[00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Introduce Data Umbrella
+[00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Data Umbrella introduction
+[03:15](https://youtu.be/wZmTzfhiu34?si=uBClAtqJegeqNfg3&t=195) Mukulika begins her presentation
 
-The remaining timestamps will be completed at a later date.
+[Note: The remaining timestamps will be completed at a later date.]
  
  
 ## NumPy Video Playlist
@@ -39,7 +40,7 @@ The remaining timestamps will be completed at a later date.
 <iframe src="https://www.youtube.com/embed/lHJqOE5j6xE" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
-#### Live demo of contributing (setting up virtual environment, working on an issue, submitting a pull request) (~25 min)
+### Live demo of contributing to NumPy (~25 min)
 
 [00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request)
 
@@ -56,23 +57,28 @@ The remaining timestamps will be completed at a later date.
 <iframe src="https://www.youtube.com/embed/tXWscUSYdBs" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
+### Live demo of contributing to NumPy (~15 min)
+[00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) A pull request to the NumPy documentation
+
+
 ## Resources
 - <span>Slides: </span> [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
 - NumPy: [https://numpy.org](https://numpy.org/)
 - video: [Intro to NumPy Array Operations](https://www.youtube.com/watch?v=oud3Jd1FJ7c)
 - video: [NumPy: Its History, Governance and How to Contribute](https://www.youtube.com/watch?v=lHJqOE5j6xE&feature=youtu.be)
 - video: [Sphinx for Python Documentation Tutorial](https://youtu.be/tXWscUSYdBs)
-- https://numpy.org/numpy-tutorials/
-- https://github.com/numpy/numpy-tutorials
-- style guide: https://numpydoc.readthedocs.io/en/latest/format.html
-- development: https://numpy.org/doc/stable/dev/index.html
+- [NumPy tutorials](https://numpy.org/numpy-tutorials/)
+- [NumPy tutorials on GitHub](https://github.com/numpy/numpy-tutorials)
+- [Style Guide](https://numpydoc.readthedocs.io/en/latest/format.html)
+- [NumPy development](https://numpy.org/doc/stable/dev/index.html)
 - [Documentation as a way to build community](https://labs.quansight.org/blog/2020/03/documentation-as-a-way-to-build-community)
-- [NumPy community](https://numpy.org/contribute/) (link to slack is on this page) 
-- Data Umbrella NumPy playlist: these videos have examples of contributing to numpy documentation: 
-https://www.youtube.com/playlist?list=PLBKcU7Ik-ir8OuaqsdemyJD5hqQJt-Tl6
+- [NumPy community](https://numpy.org/contribute/) (link to <span style="background-color: #FFFFC5;">slack </span> is on this page) 
+- videos: [NumPy playlist](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir8OuaqsdemyJD5hqQJt-Tl6): these videos have examples of contributing to the NumPy documentation 
 
- 
 
 ### Connect with the Speaker: Mukulika Pahari
+
+Mukulika is a maintainer for the NumPy documentation and has been involved in the community since 2021. She is also studying to be an oceanographer and likes working on scientific software. She was a Technical Writer via Google Season of Docs in 2021.
+
 - LinkedIn: [@mukulikapahari](https://www.linkedin.com/in/mukulikapahari/)
 - GitHub: [@Mukulikaa](https://github.com/Mukulikaa)
