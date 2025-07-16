@@ -74,7 +74,7 @@ Mukulika is a maintainer for the NumPy documentation and has been involved in th
 
 
 ## Video Outline
-[00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Data Umbrella introduction
-[03:15](https://youtu.be/wZmTzfhiu34?si=uBClAtqJegeqNfg3&t=195) Mukulika begins her presentation
+- [00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Data Umbrella introduction
+- [03:15](https://youtu.be/wZmTzfhiu34?si=uBClAtqJegeqNfg3&t=195) Mukulika begins her presentation
 
 [Note: The remaining timestamps will be completed at a later date.]
