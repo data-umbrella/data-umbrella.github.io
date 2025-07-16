@@ -35,7 +35,7 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 
 ### Live demo of contributing to NumPy (~25 min)
 
-[00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request)
+[00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) <span style="background-color: #FFFFC5;">Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request) </span>
 
 ### [Sphinx for Python Documentation Tutorial](https://youtu.be/tXWscUSYdBs)  (~75 min)
 <p>
@@ -43,7 +43,7 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 </p>
 
 ### Live demo of contributing to NumPy (~15 min)
-[00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) A pull request to the NumPy documentation
+[00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) <span style="background-color: #FFFFC5;">An example pull request to the NumPy documentation </span>
 
 ### [Intro to NumPy Array Operations](https://youtu.be/oud3Jd1FJ7c)  (~45 min)
 <p>
