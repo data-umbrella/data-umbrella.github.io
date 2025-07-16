@@ -14,22 +14,16 @@ author-website: "https://github.com/reshamas"
 
 ### Video: [Contributing to the NumPy Documentation](https://youtu.be/wZmTzfhiu34) (~50 minutes)
 
+[Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
+
 <p>
 <iframe src="https://www.youtube.com/embed/wZmTzfhiu34" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
-
-### Live demo of contributing to NumPy (~25 min)
-[00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request)
-
-### Live demo of contributing to NumPy (~15 min)
-[00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) A pull request to the NumPy documentation
 
 
 ## About NumPy
 
 NumPy is a fundamental, open-source Python library for N-dimensional array programming used extensively for data analysis and scientific programming. As a community-driven project, NumPy is mainly sustained by open-source contributions. This talk focuses on avenues of contribution to the project documentation, an integral part of the software.
-
-
 
 
 ## Video Outline
@@ -50,22 +44,18 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 
 [00:22:41](https://youtu.be/lHJqOE5j6xE?si=pNOPVNuxPBSn7KnJ) Live demo of contributing (setting up virtual environment, working on an issue, submit a pull request)
 
-
-### [Intro to NumPy Array Operations](https://youtu.be/oud3Jd1FJ7c)  (~45 min)
-
-<p>
-<iframe src="https://www.youtube.com/embed/oud3Jd1FJ7c" loading="lazy" frameborder="0" allowfullscreen></iframe>
-</p>
-
 ### [Sphinx for Python Documentation Tutorial](https://youtu.be/tXWscUSYdBs)  (~75 min)
- 
- <p>
+<p>
 <iframe src="https://www.youtube.com/embed/tXWscUSYdBs" loading="lazy" frameborder="0" allowfullscreen></iframe>
 </p>
 
 ### Live demo of contributing to NumPy (~15 min)
 [00:43:27](https://youtu.be/tXWscUSYdBs?si=jRzChY2eZxMMPKU3&t=2607) A pull request to the NumPy documentation
 
+### [Intro to NumPy Array Operations](https://youtu.be/oud3Jd1FJ7c)  (~45 min)
+<p>
+<iframe src="https://www.youtube.com/embed/oud3Jd1FJ7c" loading="lazy" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ## Resources
 - <span>Slides: </span> [Slides](https://github.com/numpy/archive/blob/main/presentations/NumPy-Documentation-DataUmbrella-MPahari.pdf)
@@ -79,7 +69,7 @@ NumPy is a fundamental, open-source Python library for N-dimensional array progr
 - [NumPy development](https://numpy.org/doc/stable/dev/index.html)
 - [Documentation as a way to build community](https://labs.quansight.org/blog/2020/03/documentation-as-a-way-to-build-community)
 - [NumPy community](https://numpy.org/contribute/) (link to <span style="background-color: #FFFFC5;">slack </span> is on this page) 
-- videos: [NumPy playlist](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir8OuaqsdemyJD5hqQJt-Tl6): these videos have examples of contributing to the NumPy documentation 
+- [NumPy playlist](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir8OuaqsdemyJD5hqQJt-Tl6): these videos have examples of contributing to the NumPy documentation 
 
 
 ### Connect with the Speaker: Mukulika Pahari
