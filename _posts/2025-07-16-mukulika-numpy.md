@@ -3,7 +3,7 @@ layout: post
 title:  Contributing to the NumPy Documentation
 description: Learn about a general data repository where any research output can be shared and preserved for the long term, increasing its visibility and impact.
 date: 2025-07-14 10:01:35 +0300
-image: '/images/blogs/blog-placeholder.png'
+image: '/images/blogs/blog-numpy.png'
 tags: [opensource]
 author-name: "Reshama Shaikh"
 author-image: "/images/people/reshama.jpg"
@@ -24,13 +24,6 @@ author-website: "https://github.com/reshamas"
 ## About NumPy
 
 NumPy is a fundamental, open-source Python library for N-dimensional array programming used extensively for data analysis and scientific programming. As a community-driven project, NumPy is mainly sustained by open-source contributions. This talk focuses on avenues of contribution to the project documentation, an integral part of the software.
-
-
-## Video Outline
-[00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Data Umbrella introduction
-[03:15](https://youtu.be/wZmTzfhiu34?si=uBClAtqJegeqNfg3&t=195) Mukulika begins her presentation
-
-[Note: The remaining timestamps will be completed at a later date.]
  
  
 ## NumPy Video Playlist
@@ -78,3 +71,10 @@ Mukulika is a maintainer for the NumPy documentation and has been involved in th
 
 - LinkedIn: [@mukulikapahari](https://www.linkedin.com/in/mukulikapahari/)
 - GitHub: [@Mukulikaa](https://github.com/Mukulikaa)
+
+
+## Video Outline
+[00:00](https://www.youtube.com/watch?v=wZmTzfhiu34) Data Umbrella introduction
+[03:15](https://youtu.be/wZmTzfhiu34?si=uBClAtqJegeqNfg3&t=195) Mukulika begins her presentation
+
+[Note: The remaining timestamps will be completed at a later date.]
