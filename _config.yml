@@ -1,27 +1,27 @@
-#-------------------------------
-# Site Settings
-title: Data Umbrella
-logo: '/images/logo/du-logo.jpg' 
-description: Data Umbrella Blogs and Resources
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.dataumbrella.org" # the base hostname & protocol for your site, e.g. http://example.com
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+# #-------------------------------
+# # Site Settings
+# title: Data Umbrella
+# logo: '/images/logo/du-logo.jpg' 
+# description: Data Umbrella Blogs and Resources
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://blog.dataumbrella.org" # the base hostname & protocol for your site, e.g. http://example.com
+# color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
-#-------------------------------
-# Author Settings
-author:
-  author__name: Data Umbrella
-  author__bio: We organize data science and open source events for the community. 
-  author__avatar: '/images/logo/umb-trans.png'
+# #-------------------------------
+# # Author Settings
+# author:
+#   author__name: Data Umbrella
+#   author__bio: We organize data science and open source events for the community. 
+#   author__avatar: '/images/logo/umb-trans.png'
 
-social:
-- {icon: "ion-logo-twitter", link: " https://twitter.com/DataUmbrella"}
-- {icon: "ion-logo-youtube", link: "https://www.youtube.com/c/dataumbrella"}
-- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/company/dataumbrella/"}
-- {icon: "ion-logo-facebook", link: "https://www.facebook.com/data.umbrella.dei"}
-- {icon: "ion-logo-instagram", link: "https://www.instagram.com/data.umbrella/"}
-#- {icon: "ion-logo-meetup", link: "https://www.meetup.com/data-umbrella/"}
+# social:
+# - {icon: "ion-logo-twitter", link: " https://twitter.com/DataUmbrella"}
+# - {icon: "ion-logo-youtube", link: "https://www.youtube.com/c/dataumbrella"}
+# - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/company/dataumbrella/"}
+# - {icon: "ion-logo-facebook", link: "https://www.facebook.com/data.umbrella.dei"}
+# - {icon: "ion-logo-instagram", link: "https://www.instagram.com/data.umbrella/"}
+# #- {icon: "ion-logo-meetup", link: "https://www.meetup.com/data-umbrella/"}
 
 
 
@@ -29,66 +29,66 @@ social:
 # Other icons can be found at https://ionicons.com/v4/
 
 
-#-------------------------------
-# Hero Settings
-hero:
-  hero__title: Data Umbrella 
-  hero__description: Community for underrepresented persons in data science.
-  hero__image: '/images/bayes/du-background-img.jpg'
+# #-------------------------------
+# # Hero Settings
+# hero:
+#   hero__title: Data Umbrella 
+#   hero__description: Community for underrepresented persons in data science.
+#   hero__image: '/images/bayes/du-background-img.jpg'
 
 
-#-------------------------------
-# Newsletter
-mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp__identifier:  dataumbrella.substack.com/ # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-mailchimp__input__text: Subscribe here
-mailchimp__button__text: Subscribe to our newsletter
+# #-------------------------------
+# # Newsletter
+# mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+# mailchimp__identifier:  dataumbrella.substack.com/ # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+# mailchimp__input__text: Subscribe here
+# mailchimp__button__text: Subscribe to our newsletter
 
 
-#-------------------------------
-# Gallery Footer Section
-gallery:
-  gallery__title: Gallery
-  gallery__columns: 3
-  gallery__images:
-    - alt: 'Rest'
-      url: '/images/bayes/bayes1.jpg'
-    - alt: 'Bayes'
-      url: '/images/bayes/bayes2.JPG'
-    - alt: 'Bayes2'
-      url: '/images/bayes/bayes3.JPG'
-    - alt: 'Bayes3'
-      url: '/images/bayes/bayes4.jpg'
-    - alt: 'Rest'
-      url: '/images/bayes/du-background-img.jpg'
-    - alt: 'Hobby'
-      url: '/images/timeseries/ts4.jpg'
-    - alt: 'Fashion'
-      url: '/images/timeseries/ts2.jpeg'
-    - alt: 'Notes'
-      url: '/images/timeseries/ts3.jpg'
-    - alt: 'Rest'
-      url: '/images/timeseries/ts1.jpeg'
+# #-------------------------------
+# # Gallery Footer Section
+# gallery:
+#   gallery__title: Gallery
+#   gallery__columns: 3
+#   gallery__images:
+#     - alt: 'Rest'
+#       url: '/images/bayes/bayes1.jpg'
+#     - alt: 'Bayes'
+#       url: '/images/bayes/bayes2.JPG'
+#     - alt: 'Bayes2'
+#       url: '/images/bayes/bayes3.JPG'
+#     - alt: 'Bayes3'
+#       url: '/images/bayes/bayes4.jpg'
+#     - alt: 'Rest'
+#       url: '/images/bayes/du-background-img.jpg'
+#     - alt: 'Hobby'
+#       url: '/images/timeseries/ts4.jpg'
+#     - alt: 'Fashion'
+#       url: '/images/timeseries/ts2.jpeg'
+#     - alt: 'Notes'
+#       url: '/images/timeseries/ts3.jpg'
+#     - alt: 'Rest'
+#       url: '/images/timeseries/ts1.jpeg'
 
 
-#-------------------------------
-# Contact Settings
-contact:
-  email: https://formspree.io/f/mgerdblk # Add your email for contant form
-  description: 
+# #-------------------------------
+# # Contact Settings
+# contact:
+#   email: https://formspree.io/f/mgerdblk # Add your email for contant form
+#   description: 
 
-# NOTE
-# Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
-
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: demo-menca # Add your shortname for Disqus Comment. For example demo-menca
+# # NOTE
+# # Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
 
 
-#-------------------------------
-# Google Analytics
-google-analytics: G-LRFB0L7E0Z # Add your GA Tracking Id
+# #-------------------------------
+# # Comment Section (Disqus)
+# disqus-identifier: demo-menca # Add your shortname for Disqus Comment. For example demo-menca
+
+
+# #-------------------------------
+# # Google Analytics
+# google-analytics: G-LRFB0L7E0Z # Add your GA Tracking Id
 
 
 #-------------------------------
