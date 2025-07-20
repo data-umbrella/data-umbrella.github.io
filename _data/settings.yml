@@ -25,7 +25,7 @@ menu_settings:
     - title: "Press"
       url: "/press/"
     - title: "dataumbrella.org"
-      url: "https://dataumbrella.org"
+      url: "https://www.dataumbrella.org"
     - title: "RSS"
       url: "/feed.xml"
 
