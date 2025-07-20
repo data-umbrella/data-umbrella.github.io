@@ -6,10 +6,11 @@
 
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
-          {% if site.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
+          {% if site.data.settings.logo or site.data.settings.logo_dark %}
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+            <img class="logo__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site.data.settings.title }}">
           {% else %}
-            {{ site.title }}
+            {{ site.data.settings.title }}
           {% endif %}
           </a>
         </div>
@@ -17,41 +18,56 @@
         <nav class="main-nav">
           <div class="main-nav__box">
             <div class="nav__icon-close">
-              <i class="ion ion-md-close"></i>
+              <i class="fa-solid fa-xmark"></i>
             </div>
             <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
-              </li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-                  {% if page.title %}
-                  <li class="nav__item">
-                    <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-                  </li>
-                  {% endif %}
-                {% endunless %}
+              {% for item in site.data.settings.menu_settings.menu_items %}
+                {% if item %}
+                <li class="nav__item">
+                  <a href="{{ item.url | relative_url }}" class="nav__link">{{ item.title }}</a>
+                </li>
+                {% endif %}
               {% endfor %}
-              <li class="nav__item">
-                <a href="https://www.dataumbrella.org" class="nav__link">dataumbrella.org</a>
-              </li>
-              <li class="nav__item">
-                </a><a class="btn btn-rss" style="font-size:16px" href="/feed.xml" target="_blank"><b>RSS</b></a>
-              </li>
-              {% if site.color_scheme == "auto" %}
+              {% if site.data.settings.color_scheme == "auto" %}
               <li class="nav__item nav__item-icon">
                 <div class="toggle-theme">
-                  <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
-                  <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
+                  <div class="toggle-moon" title="Enable dark mode">
+                    <svg width="15" height="15" viewBox="0 0 1472 1536" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="currentColor" d="M1464 1090q-94 203-283 323.5T768 1536q-157-1-299-62t-244.5-163.5T61 1066T0 768q0-205 97.5-378t267-276.5T738 2q43-2 62 38q17 42-16 72q-176 164-176 400q0 111 43 211.5t115 173t172.5 116T1151 1056q119 0 228-51q41-18 72 13t13 72"/>
+                    </svg>
+                  </div>
+                  <div class="toggle-sun" title="Enable light mode">
+                    <svg width="15" height="15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                        <path stroke-linecap="round"
+                          d="m9.15 9.15l2.228 2.228M3 24h3.15m3 14.85l2.228-2.228M38.85 38.85l-2.228-2.228M45 24h-3.15m-3-14.85l-2.228 2.228M24 3v3.15" />
+                        <path fill="currentColor" d="M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12Z" />
+                        <path stroke-linecap="round" d="M24 45v-3.15" />
+                      </g>
+                    </svg>
+                  </div>
                 </div>
               </li>
-              {% elsif site.color_scheme == "light" or site.color_scheme == "dark" %}
+              {% elsif site.data.settings.color_scheme == "light" or site.data.settings.color_scheme == "dark" %}
               {% else %}
               <li class="nav__item nav__item-icon">
                 <div class="toggle-theme">
-                  <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
-                  <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
+                  <div class="toggle-moon" title="Enable dark mode">
+                    <svg width="15" height="15" viewBox="0 0 1472 1536" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="currentColor" d="M1464 1090q-94 203-283 323.5T768 1536q-157-1-299-62t-244.5-163.5T61 1066T0 768q0-205 97.5-378t267-276.5T738 2q43-2 62 38q17 42-16 72q-176 164-176 400q0 111 43 211.5t115 173t172.5 116T1151 1056q119 0 228-51q41-18 72 13t13 72"/>
+                    </svg>
+                  </div>
+                  <div class="toggle-sun" title="Enable light mode">
+                    <svg width="15" height="15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                        <path stroke-linecap="round"
+                          d="m9.15 9.15l2.228 2.228M3 24h3.15m3 14.85l2.228-2.228M38.85 38.85l-2.228-2.228M45 24h-3.15m-3-14.85l-2.228 2.228M24 3v3.15" />
+                        <path fill="currentColor" d="M24 36c6.627 0 12-5.373 12-12s-5.373-12-12-12s-12 5.373-12 12s5.373 12 12 12Z" />
+                        <path stroke-linecap="round" d="M24 45v-3.15" />
+                      </g>
+                    </svg>
+                  </div>
                 </div>
               </li>
               {% endif %}
@@ -60,8 +76,8 @@
         </nav>
 
         <div class="nav-button">
-          <i class="nav__icon icon__menu ion ion-md-menu"></i>
-          <i class="nav__icon icon__search ion ion-md-search"></i>
+          <i class="nav__icon icon__menu fa-solid fa-bars"></i>
+          <i class="nav__icon icon__search fa-solid fa-magnifying-glass"></i>
         </div>
 
       </div>

@@ -1,0 +1,107 @@
+#-------------------------------
+# Site Settings
+title: Menca
+description: Menca personal blogging theme for Jekyll
+logo: # You can add own logo. For example '/images/logo.png'.
+logo_dark:
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+    - title: "Elements"
+      url: "/elements/"
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_title: Hey, I’m Camelia Mendes
+  hero_description: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
+  hero_image: '/images/01.jpg'
+
+
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: true
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Subscribe here
+  mailchimp_button_text: Get a new tip
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: Camelia Mendes
+  author_bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
+  author_avatar: '/images/01-1.jpg'
+
+
+social:
+- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+- {icon: "fa-brands fa-square-facebook", name: "Facebook", link: "https://facebook.com"}
+- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
+- {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://youtube.com"}
+
+# Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  enable: true
+  gallery_title: Gallery
+  gallery_columns: 3
+  gallery_images:
+    - alt: 'Rest'
+      url: '/images/100.jpg'
+    - alt: 'Lifestyle'
+      url: '/images/101.jpg'
+    - alt: 'Hobby'
+      url: '/images/102.jpg'
+    - alt: 'Notes'
+      url: '/images/103.jpg'
+    - alt: 'Rest'
+      url: '/images/104.jpg'
+    - alt: 'Hobby'
+      url: '/images/105.jpg'
+    - alt: 'Fashion'
+      url: '/images/106.jpg'
+    - alt: 'Notes'
+      url: '/images/107.jpg'
+    - alt: 'Rest'
+      url: '/images/108.jpg'
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: your@email.com # Add your form_id
+  description: Menca comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Menca theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus_identifier: demo-menca # Add your shortname for Disqus Comment. For example demo-menca
+
+
+#-------------------------------
+# Google Analytics
+google_analytics: # Add your GA Tracking Id

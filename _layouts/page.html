@@ -21,7 +21,7 @@ layout: default
       {%if page.image %}
       <div class="col col-12">
         <div class="page-image">
-          <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+          <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
         </div>
       </div>
       {% endif %}

@@ -1,23 +1,34 @@
+{% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
 <section class="hero">
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
-    
+
           <div class="hero__left">
-            <h1 class="hero__title">{{ site.hero.hero__title }}</h1>
-            <p class="hero__description">{{ site.hero.hero__description }}</p>
-            {% if site.mailchimp == "enable" %}
+            {% if site.data.settings.hero.hero_title %}
+            <h1 class="hero__title">{{ site.data.settings.hero.hero_title }}</h1>
+            {% endif %}
+            {% if site.data.settings.hero.hero_description %}
+            <p class="hero__description">{{ site.data.settings.hero.hero_description }}</p>
+            {% endif %}
+            {% if site.data.settings.mailchimp.enable == true %}
             <div class="hero__subscribe">
-              <iframe src="https://dataumbrella.substack.com/embed" width="360" height="240" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+              <form class="subscribe-form validate"
+                action="{% if site.data.settings.mailchimp.mailchimp_identifier %}//{{site.data.settings.mailchimp.mailchimp_identifier}}{% else %}#{% endif %}" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+                <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+                <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
+                  placeholder="{% if site.data.settings.mailchimp.mailchimp_input_text %}{{ site.data.settings.mailchimp.mailchimp_input_text }}{% else %}Email address{% endif %}">
+                <button class="button button--primary subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{ site.data.settings.mailchimp.mailchimp_button_text }}</button>
+              </form>
             </div>
             {% endif %}
           </div>
 
           <div class="hero__right">
             <div class="hero__image">
-              <img class="lazy" data-src="{{ site.hero.hero__image }}" alt="{{site.author.name}}'s Picture">
+              <img class="lazy" data-src="{{ site.data.settings.hero.hero_image }}" alt="{{ site.data.settings.author.author_name }}'s Picture">
             </div>
           </div>
 
@@ -26,4 +37,5 @@
     </div>
   </div>
 </section>
-
+<!-- end hero -->
+{% endif %}
