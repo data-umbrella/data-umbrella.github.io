@@ -52,7 +52,7 @@ mailchimp:
 author:
   author_name: Data Umbrella
   author_bio: We organize data science and open source events for the community.
-  author__avatar: '../images/logo/umb-trans.png'
+  author_avatar: '../images/logo/umb-trans.png'
 
 # new code (theme version 1.2.0)
 social:
