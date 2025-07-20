@@ -63,6 +63,7 @@ social:
 - {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/company/dataumbrella/"}
 - {icon: "fa-brands fa-github", name: "GitHub", link: "https://github.com/data-umbrella"}
 - {icon: "fa-brands fa-meetup", name: "Meetup", link: "https://meetup.com/data-umbrella"}
+- {icon: "fa-brands fa-substack", name: "Substack", link: "https://dataumbrella.substack.com"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -74,7 +75,7 @@ gallery:
   gallery__title: Gallery
   gallery__columns: 3
   gallery__images:
-    - alt: 'Rest'
+    - alt: 'Bayes 1'
       url: '../images/bayes/bayes1.jpg'
     - alt: 'Bayes'
       url: '../images/bayes/bayes2.JPG'
