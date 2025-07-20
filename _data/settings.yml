@@ -19,7 +19,7 @@ menu_settings:
     - title: "About"
       url: "/about/"
     - title: "Contact"
-      url: "about/contact/"
+      url: "/about/contact/"
     - title: "Impact"
       url: "/impact/"
     - title: "Press"
