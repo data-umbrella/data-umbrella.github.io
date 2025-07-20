@@ -56,14 +56,14 @@ author:
 
 # new code (theme version 1.2.0)
 social:
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com/DataUmbrella"}
-- {icon: "fa-brands fa-square-facebook", name: "Facebook", link: "https://www.facebook.com/data.umbrella.dei"}
-- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/data.umbrella/"}
 - {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://www.youtube.com/c/dataumbrella"}
 - {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/company/dataumbrella/"}
 - {icon: "fa-brands fa-github", name: "GitHub", link: "https://github.com/data-umbrella"}
 - {icon: "fa-brands fa-meetup", name: "Meetup", link: "https://meetup.com/data-umbrella"}
 - {icon: "fa-brands fa-substack", name: "Substack", link: "https://dataumbrella.substack.com"}
+- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com/DataUmbrella"}
+- {icon: "fa-brands fa-square-facebook", name: "Facebook", link: "https://www.facebook.com/data.umbrella.dei"}
+- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/data.umbrella/"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/icons
