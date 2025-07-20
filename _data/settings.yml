@@ -73,9 +73,9 @@ social:
 # Gallery Footer Section
 gallery:
   enable: true
-  gallery__title: Gallery
-  gallery__columns: 3
-  gallery__images:
+  gallery_title: Gallery
+  gallery_columns: 3
+  gallery_images:
     - alt: 'Bayes 1'
       url: '../images/bayes/bayes1.jpg'
     - alt: 'Bayes'
