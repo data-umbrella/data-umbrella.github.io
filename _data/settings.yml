@@ -35,7 +35,7 @@ hero:
   enable: true
   hero_title: Data Umbrella
   hero_description: We organize data science and open source events for the community.
-  hero_image: '/images/bayes/du-background-img.jpg'
+  hero_image: '../images/bayes/du-background-img.jpg'
 
 
 #-------------------------------
@@ -52,7 +52,7 @@ mailchimp:
 author:
   author_name: Data Umbrella
   author_bio: We organize data science and open source events for the community.
-  author__avatar: '/images/logo/umb-trans.png'
+  author__avatar: '../images/logo/umb-trans.png'
 
 # new code (theme version 1.2.0)
 social:
