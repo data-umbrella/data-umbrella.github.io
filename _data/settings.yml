@@ -72,6 +72,7 @@ social:
 #-------------------------------
 # Gallery Footer Section
 gallery:
+  enable: true
   gallery__title: Gallery
   gallery__columns: 3
   gallery__images:
