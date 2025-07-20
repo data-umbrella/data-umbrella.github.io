@@ -2,8 +2,8 @@
 #-------------------------------
 # Site Settings
 title: Data Umbrella
-logo: '/images/logo/du-logo.jpg' # transparent background
-logo_dark: '/images/logo/du-logo.jpg' # white background
+logo: '../images/logo/du-logo.jpg' # transparent background
+logo_dark: '../images/logo/du-logo.jpg' # white background
 description: Data Umbrella Blogs and Resources
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dataumbrella.org" # the base hostname & protocol for your site, e.g. http://example.com
