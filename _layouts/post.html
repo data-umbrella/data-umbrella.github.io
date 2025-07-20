@@ -39,8 +39,21 @@ layout: default
           {% endif %}
 
           <h1 class="post__title">{{ page.title | escape }}</h1>
-
+            
+          {%if page.author-name %}
           <div class="post__meta">
+            <a href="{{page.author-linkedin}}" class="post__author-image">
+              <img class="lazy" data-src="{{page.author-image}}" alt="{{page.author-name}}">
+            </a>
+
+            <div class="post__meta-bottom">
+              <a class="post__author" href="{{page.author-website}}">{{page.author-name}}</a>
+              <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+            </div>
+          </div>
+          {% else %}
+
+          <!-- <div class="post__meta">
             <a href="{{ '/about/' |relative_url }}" class="post__author-image">
               <img class="lazy" data-src="{{ site.data.settings.author.author_avatar }}" alt="{{ site.data.settings.author.author_name }}">
             </a>
@@ -49,7 +62,7 @@ layout: default
               <a class="post__author" href="{{ '/about/' |relative_url }}">{{ site.data.settings.author.author_name }}</a>
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
