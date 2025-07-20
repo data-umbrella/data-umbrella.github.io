@@ -19,8 +19,6 @@ menu_settings:
     - title: "About"
       url: "/about/"
       submenu:
-        - title: "About"
-          url: "/about/about/"
         - title: "Contact"
           url: "/about/contact/"
     - title: "Contact"
