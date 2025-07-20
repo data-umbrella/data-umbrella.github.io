@@ -61,7 +61,8 @@ social:
 - {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/data.umbrella/"}
 - {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://www.youtube.com/c/dataumbrella"}
 - {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/company/dataumbrella/"}
-
+- {icon: "fa-brands fa-github", name: "GitHub", link: "https://github.com/data-umbrella"}
+- {icon: "fa-brands fa-meetup", name: "Meetup", link: "https://meetup.com/data-umbrella"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -74,23 +75,23 @@ gallery:
   gallery__columns: 3
   gallery__images:
     - alt: 'Rest'
-      url: '/images/bayes/bayes1.jpg'
+      url: '../images/bayes/bayes1.jpg'
     - alt: 'Bayes'
-      url: '/images/bayes/bayes2.JPG'
+      url: '../images/bayes/bayes2.JPG'
     - alt: 'Bayes2'
-      url: '/images/bayes/bayes3.JPG'
+      url: '../images/bayes/bayes3.JPG'
     - alt: 'Bayes3'
-      url: '/images/bayes/bayes4.jpg'
-    - alt: 'Rest'
-      url: '/images/bayes/du-background-img.jpg'
-    - alt: 'Hobby'
-      url: '/images/timeseries/ts4.jpg'
-    - alt: 'Fashion'
-      url: '/images/timeseries/ts2.jpeg'
-    - alt: 'Notes'
-      url: '/images/timeseries/ts3.jpg'
-    - alt: 'Rest'
-      url: '/images/timeseries/ts1.jpeg'
+      url: '../images/bayes/bayes4.jpg'
+    - alt: 'Hugo Bayes event'
+      url: '../images/bayes/du-background-img.jpg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts4.jpg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts2.jpeg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts3.jpg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts1.jpeg'
 
 #-------------------------------
 # Contact Settings
