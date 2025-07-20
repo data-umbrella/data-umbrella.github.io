@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Elements
-permalink: /elements/
+title: 
+permalink:
 image: '/images/17.jpg'
 ---
+
+permalink: /elements/
 
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
 
@@ -68,53 +70,11 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 ***
 
-## Callouts
 
-{: .note }
-Useful information that users should know, even when skimming content.
-
-{: .tip }
-Helpful advice for doing things better or more easily.
-
-{: .important }
-Key information users need to know to achieve their goal.
-
-{: .warning }
-Urgent info that needs immediate user attention to avoid problems.
-
-{: .caution }
-Advises about risks or negative outcomes of certain actions.
-
-```markdown
-{: .note }
-Useful information that users should know, even when skimming content.
-```
-
-```markdown
-{: .tip }
-Helpful advice for doing things better or more easily.
-```
-
-```markdown
-{: .important }
-Key information users need to know to achieve their goal.
-```
-
-```markdown
-{: .warning }
-Urgent info that needs immediate user attention to avoid problems.
-```
-
-```markdown
-{: .caution }
-Advises about risks or negative outcomes of certain actions.
-```
-
-***
 
 ## Syntax Highlighter
 
-```css
+{% highlight css %}
 body {
   margin: 0;
   display: flex;
@@ -133,9 +93,9 @@ li {
   vertical-align: top;
   margin: 5px;
 }
-```
+{% endhighlight %}
 
-```js
+{% highlight js %}
   $('.top').click(function () {
     $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
   });
@@ -146,7 +106,7 @@ li {
       $('.top').removeClass("top-active");
     };
   });
-```
+{% endhighlight %}
 
 ***
 
