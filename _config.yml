@@ -12,7 +12,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Author Settings
 author:
   author__name: Data Umbrella
-  author__bio: Community for underrepresented persons in data science. 
+  author__bio: We organize data science and open source events for the community. 
   author__avatar: '/images/logo/umb-trans.png'
 
 social:
