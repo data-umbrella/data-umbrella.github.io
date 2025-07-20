@@ -51,8 +51,8 @@ layout: default
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
             </div>
           </div>
-          {% else %}
-
+          {% endif %}
+          <!-- {% else %} -->
           <!-- <div class="post__meta">
             <a href="{{ '/about/' |relative_url }}" class="post__author-image">
               <img class="lazy" data-src="{{ site.data.settings.author.author_avatar }}" alt="{{ site.data.settings.author.author_name }}">
