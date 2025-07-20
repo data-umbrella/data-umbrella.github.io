@@ -24,6 +24,8 @@ menu_settings:
       url: "/impact/"
     - title: "Press"
       url: "/press/"
+    - title: "Calendar"
+      url: "/calendar/"
     - title: "dataumbrella.org"
       url: "https://www.dataumbrella.org"
     - title: "RSS"
