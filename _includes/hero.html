@@ -13,6 +13,9 @@
             {% if site.data.settings.hero.hero_description %}
             <p class="hero__description">{{ site.data.settings.hero.hero_description }}</p>
             {% endif %}
+            {% if site.data.settings.substack.enable == true %}
+              <iframe src="https://dataumbrella.substack.com/embed" width="360" height="240" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+            {% endif %}
             {% if site.data.settings.mailchimp.enable == true %}
             <div class="hero__subscribe">
               <form class="subscribe-form validate"

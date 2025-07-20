@@ -46,6 +46,10 @@ mailchimp:
   mailchimp_input_text: #Subscribe here
   mailchimp_button_text: #Get a new tip
 
+#-------------------------------
+# Substack
+substack:
+  enable: true
 
 #-------------------------------
 # Author Settings
