@@ -80,7 +80,11 @@
           <i class="nav__icon icon__menu fa-solid fa-bars"></i>
           <i class="nav__icon icon__search fa-solid fa-magnifying-glass"></i>
         </div>
-
+            {% if site.data.settings.global_website %}
+            <p class="hero__description">
+                  <a href="{{ site.data.settings.global_website }}" class="nav__link">dataumbrella.org</a>
+            </p>
+            {% endif %}
       </div>
     </div>
   </div>
@@ -88,7 +92,3 @@
 <!-- end header -->
 
 {% include search.html %}
-
-<li class="nav__item">
-    <a href="https://www.dataumbrella.org" class="nav__link">dataumbrella.org</a>
-</li>
