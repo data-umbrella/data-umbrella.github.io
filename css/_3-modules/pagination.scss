@@ -69,7 +69,7 @@
   }
 
   i {
-    font-size: 15px;
+    font-size: 12px;
     transition: transform .15s ease;
     will-change: transform;
   }
@@ -78,7 +78,7 @@
     opacity: 0.64;
     cursor: not-allowed;
     color: inherit;
-    
+
     &:hover {
       i {
         transform: none;
@@ -106,7 +106,7 @@
   }
 
   i {
-    margin-left: 5px;
+    margin-left: 4px;
   }
 }
 
@@ -118,6 +118,6 @@
   }
 
   i {
-    margin-right: 5px;
+    margin-right: 4px;
   }
 }

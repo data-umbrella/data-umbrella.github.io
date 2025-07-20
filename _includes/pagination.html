@@ -8,17 +8,17 @@
 
           <div class="pagination__list">
             {% if paginator.previous_page %}
-              <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination__prev pagination__item"><i class="ion ion-ios-arrow-back"></i> Prev</a>
+              <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination__prev pagination__item"><i class="fa-solid fa-chevron-left"></i> Prev</a>
             {% else %}
-              <span class="pagination__prev pagination__item disabled"><i class="ion ion-ios-arrow-back"></i> Prev</span>
+              <span class="pagination__prev pagination__item disabled"><i class="fa-solid fa-chevron-left"></i> Prev</span>
             {% endif %}
-      
+
             <div class="pagination__count pagination__item">Page {{ paginator.page }} of {{paginator.total_pages}}</div>
-      
+
             {% if paginator.next_page %}
-              <a href="{{ paginator.next_page_path | relative_url }}" class="pagination__next pagination__item">Next <i class="ion ion-ios-arrow-forward"></i></a>
+              <a href="{{ paginator.next_page_path | relative_url }}" class="pagination__next pagination__item">Next <i class="fa-solid fa-chevron-right"></i></a>
             {% else %}
-              <span class="pagination__next pagination__item disabled">Next <i class="ion ion-ios-arrow-forward"></i></span>
+              <span class="pagination__next pagination__item disabled">Next <i class="fa-solid fa-chevron-right"></i></span>
             {% endif %}
           </div>
 

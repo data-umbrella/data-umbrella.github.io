@@ -12,10 +12,10 @@
 
   --background-color: var(--white);
   --background-alt-color: var(--light-blue);
-  
+
   --text-color: var(--dark-blue);
   --text-alt-color: var(--blue-gray);
-  
+
   --heading-font-color: var(--dark-blue);
 
   --link-color: var(--dark-blue);
@@ -31,6 +31,12 @@
   --th-color: var(--light-gray);
   --tr-color: var(--light-gray);
 
+  --callout-note: #e5f5fd;
+  --callout-tip: #e7f6e9;
+  --callout-important: #efeafb;
+  --callout-warning: #fdf3e4;
+  --callout-caution: #fae6e6;
+
   --syntax-highlighting-background: #f3f3f3;
 }
 
@@ -43,10 +49,10 @@
 
   --background-color: var(--dark);
   --background-alt-color: #1a1a1f;
-  
+
   --text-color: var(--gray);
   --text-alt-color: var(--gray);
-  
+
   --heading-font-color: var(--light-gray);
 
   --link-color: var(--light-gray);
@@ -61,6 +67,12 @@
 
   --th-color: #18181d;;
   --tr-color: #080b12;
+
+  --callout-note: #12284a;
+  --callout-tip: #152d24;
+  --callout-important: #271a49;
+  --callout-warning: #624213;
+  --callout-caution: #5d1414;
 
   --syntax-highlighting-background: #080b12;
 }

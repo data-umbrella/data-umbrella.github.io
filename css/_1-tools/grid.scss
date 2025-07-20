@@ -53,22 +53,21 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   flex: auto;
 }
 
-
 @for $i from 0 through $columns {
   .col-#{$i} {
-    width: percentage( $i / $columns );
+    width: calc( #{$i} / #{$columns} * 100% );
   }
 }
 
 @for $i from 0 through $columns {
   .push-#{$i} {
-    margin-left: percentage( $i / $columns );
+    margin-left: calc( #{$i} / #{$columns} * 100% );
   }
 }
 
 @for $i from 0 through $columns {
   .pull-#{$i} {
-    margin-right: percentage( $i / $columns );
+    margin-right: calc( #{$i} / #{$columns} * 100% );
   }
 }
 
@@ -80,19 +79,19 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
     @for $i from 0 through $columns {
       .col-d-#{$i} {
-        width: percentage( $i / $columns );
+        width: calc( #{$i} / #{$columns} * 100% );
       }
     }
 
     @for $i from 0 through $columns {
       .push-d-#{$i} {
-        margin-left: percentage( $i / $columns );
+        margin-left: calc( #{$i} / #{$columns} * 100% );
       }
     }
 
     @for $i from 0 through $columns {
       .pull-d-#{$i} {
-        margin-right: percentage( $i / $columns );
+        margin-right: calc( #{$i} / #{$columns} * 100% );
       }
     }
   }
@@ -103,19 +102,19 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
     @for $i from 0 through $columns {
       .col-t-#{$i} {
-        width: percentage( $i / $columns );
+        width: calc( #{$i} / #{$columns} * 100% );
       }
     }
 
     @for $i from 0 through $columns {
       .push-t-#{$i} {
-        margin-left: percentage( $i / $columns );
+        margin-left: calc( #{$i} / #{$columns} * 100% );
       }
     }
 
     @for $i from 0 through $columns {
       .pull-t-#{$i} {
-        margin-right: percentage( $i / $columns );
+        margin-right: calc( #{$i} / #{$columns} * 100% );
       }
     }
   }
@@ -125,19 +124,19 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
     @for $i from 0 through $columns {
       .col-m-#{$i} {
-        width: percentage( $i / $columns );
+        width: calc( #{$i} / #{$columns} * 100% );
       }
     }
 
     @for $i from 0 through $columns {
       .push-m-#{$i} {
-        margin-left: percentage( $i / $columns );
+        margin-left: calc( #{$i} / #{$columns} * 100% );
       }
     }
 
     @for $i from 0 through $columns {
       .pull-m-#{$i} {
-        margin-right: percentage( $i / $columns );
+        margin-right: calc( #{$i} / #{$columns} * 100% );
       }
     }
   }

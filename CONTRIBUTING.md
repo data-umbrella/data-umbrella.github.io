@@ -73,6 +73,13 @@ For problems related to the blog site please create a [new issue](https://github
 - Images can be placed in this folder: [data-umbrella.github.io/images](https://github.com/data-umbrella/data-umbrella.github.io/tree/main/images)
 - We suggest putting images related to one blog in its own folder to keep the files organized.
 
+Example text:  
+```
+![Mountains]({{site.baseurl}}/images/template_images/06-2.jpg)
+*Photo by [Oleg Chursin](https://unsplash.com/photos/vaPoJZB9Mzg) on [Unsplash](https://unsplash.com/)*
+```
+
+
 ### Syntax Examples
 
 #### Example of highlighting

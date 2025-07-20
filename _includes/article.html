@@ -16,8 +16,8 @@
       {% endif %}
 
       {% if post.image %}
-      <a class="article__image" href="{{post.url | prepend: site.baseurl}}">
-        <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+      <a class="article__image" href="{{ post.url | relative_url }}">
+        <img class="lazy" data-src="{{ post.image | relative_url }}" alt="{{ post.title }}">
       </a>
       {% endif %}
 
@@ -26,7 +26,7 @@
     <div class="article__content">
 
       <h2 class="article__title">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
 
       {% if post.description %}

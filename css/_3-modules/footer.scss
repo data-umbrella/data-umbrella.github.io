@@ -81,7 +81,7 @@
   .social__item {
     margin-bottom: 0;
     margin-right: 16px;
-  
+
     &:last-child {
       margin-right: 0;
     }
@@ -91,7 +91,7 @@
     display: flex;
     align-items: center;
     padding: 4px;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--heading-font-color);
 
     &:hover {
@@ -109,12 +109,13 @@
   }
 
   .gallery__image {
+    border-radius: 8px;
 
     img {
       height: 100%;
       border-radius: 8px;
       overflow: hidden;
-  
+
       &.lightense-open {
         border-radius: 0;
       }
@@ -159,8 +160,8 @@
 .top {
   min-width: 36px;
   height: 36px;
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 15px;
+  line-height: 38px;
   text-align: center;
   border-radius: 8px;
   color: var(--heading-font-color);

@@ -4,8 +4,7 @@
 {% include head.html %}
 
 <body>
-
-  {% if site.google-analytics %}
+  {% if site.data.settings.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
 
@@ -19,8 +18,8 @@
 
   {% include footer.html %}
 
-  <script src="{{ site.baseurl }}/js/scripts.js"></script>
-  <script src="{{ site.baseurl }}/js/common.js"></script>
+  <script src="{{ '/js/scripts.js' | relative_url }}"></script>
+  <script src="{{ '/js/common.js' | relative_url }}"></script>
 </body>
 
 </html>

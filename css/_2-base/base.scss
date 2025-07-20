@@ -97,6 +97,48 @@ pre {
   word-wrap: break-word;
   word-break: break-all;
   color: var(--heading-font-color);
+
+  &.highlight {
+    &:hover {
+      button {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.highlight>button {
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+      color: var(--white);
+      background: var(--brand-color);
+    }
+  }
+
+  &.highlight>button:active,
+  &.highlight>button:focus {
+    opacity: 1;
+  }
+
+  button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding: 8px 12px;
+    border-radius: 2px;
+    font-family: $base-font-family;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    color: var(--background-color);
+    background: var(--heading-font-color);
+    opacity: 0;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
 }
 
 img,
@@ -118,7 +160,7 @@ img,
     font-weight: normal;
     text-align: center;
     color: var(--heading-font-color);
-  
+
     a {
       font-weight: 500;
       border-bottom: 1px solid var(--border-color);
@@ -129,7 +171,7 @@ img,
         border-color: var(--link-color-hover);
       }
     }
-  
+
     @media only screen and (max-width: $mobile) {
       margin-top: 12px;
     }

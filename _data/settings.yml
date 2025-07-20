@@ -1,0 +1,121 @@
+
+#-------------------------------
+# Site Settings
+title: Data Umbrella
+logo: '../images/logo/du-logo.jpg' # transparent background
+logo_dark: '../images/logo/du-logo.jpg' # white background
+description: Data Umbrella Blogs and Resources
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.dataumbrella.org" # the base hostname & protocol for your site, e.g. http://example.com
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+global_website: "https://www.dataumbrella.org"
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+    - title: "Impact"
+      url: "/impact/"
+    - title: "Press"
+      url: "/press/"
+    - title: "dataumbrella.org"
+      url: "https://www.dataumbrella.org"
+    - title: "RSS"
+      url: "/feed.xml"
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_title: Data Umbrella
+  hero_description: We organize data science and open source events for the community.
+  hero_image: '../images/bayes/du-background-img.jpg'
+
+
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: false
+  mailchimp_identifier: #gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: #Subscribe here
+  mailchimp_button_text: #Get a new tip
+
+#-------------------------------
+# Substack
+substack:
+  enable: true
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: Data Umbrella
+  author_bio: We organize data science and open source events for the community.
+  author_avatar: '../images/logo/umb-trans.png'
+
+# new code (theme version 1.2.0)
+social:
+- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://www.youtube.com/c/dataumbrella"}
+- {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/company/dataumbrella/"}
+- {icon: "fa-brands fa-github", name: "GitHub", link: "https://github.com/data-umbrella"}
+- {icon: "fa-brands fa-meetup", name: "Meetup", link: "https://meetup.com/data-umbrella"}
+- {icon: "fa-brands fa-substack", name: "Substack", link: "https://dataumbrella.substack.com"}
+- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com/DataUmbrella"}
+- {icon: "fa-brands fa-square-facebook", name: "Facebook", link: "https://www.facebook.com/data.umbrella.dei"}
+- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/data.umbrella/"}
+
+# Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  enable: true
+  gallery_title: Gallery
+  gallery_columns: 3
+  gallery_images:
+    - alt: 'Bayes 1'
+      url: '../images/bayes/bayes1.jpg'
+    - alt: 'Bayes'
+      url: '../images/bayes/bayes2.JPG'
+    - alt: 'Bayes2'
+      url: '../images/bayes/bayes3.JPG'
+    - alt: 'Bayes3'
+      url: '../images/bayes/bayes4.jpg'
+    - alt: 'Hugo Bayes event'
+      url: '../images/bayes/du-background-img.jpg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts4.jpg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts2.jpeg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts3.jpg'
+    - alt: 'Time series event'
+      url: '../images/timeseries/ts1.jpeg'
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: https://formspree.io/f/mgerdblk # Add your form_id
+  description: # Menca comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+
+# NOTE
+# Menca theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus_identifier: demo-menca # Add your shortname for Disqus Comment. For example demo-menca
+
+
+#-------------------------------
+
+google-analytics: G-LRFB0L7E0Z # Add your GA Tracking Id

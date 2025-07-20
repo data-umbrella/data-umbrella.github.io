@@ -42,7 +42,7 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 1;
     border-radius: 50%;
     color: var(--heading-font-color);
@@ -53,10 +53,6 @@
 
     &:hover {
       transform: translateY(-50%) rotate(90deg);
-    }
-
-    .ion-md-close {
-      vertical-align: middle;
     }
   }
 

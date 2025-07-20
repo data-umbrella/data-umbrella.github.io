@@ -115,7 +115,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  
+
   .post__tag {
     padding: 12px 16px;
     margin: 4px 8px 4px 0;
@@ -128,7 +128,7 @@
     color: var(--heading-font-color);
     transition: none;
     background-color: var(--background-alt-color);
-  
+
     &:last-child {
       margin-right: 0;
     }
@@ -217,8 +217,8 @@
 
   a {
     font-weight: 500;
-    color: #004CFF; 
     border-bottom: 1px solid var(--border-color);
+    color: #356ef3;
 
     &:hover {
       /* color: var(--link-color); */
@@ -251,6 +251,41 @@
     border: none;
     text-decoration: none;
   }
+
+  .note, .tip, .important, .warning, .caution {
+    position: relative;
+    padding: 32px 32px 32px 64px;
+    font-family: $base-font-family;
+    color: var(--heading-font-color);
+
+    &::after {
+      content: "\1F4A1";
+      position: absolute;
+      top: 32px;
+      left: 32px;
+      display: block;
+    }
+  }
+
+  .note {
+    background: var(--callout-note);
+  }
+
+  .tip {
+    background: var(--callout-tip);
+  }
+
+  .important {
+    background: var(--callout-important);
+  }
+
+  .warning {
+    background: var(--callout-warning);
+  }
+
+  .caution {
+    background: var(--callout-caution);
+  }
 }
 
 .post__share {
@@ -278,7 +313,7 @@
     align-items: center;
     width: 100%;
     height: 54px;
-    font-size: 18px;
+    font-size: 17px;
     text-transform: uppercase;
     border: none;
     border-radius: 8px;
@@ -375,7 +410,7 @@
     margin-bottom: 0;
     color: var(--text-alt-color);
   }
-  
+
   @media only screen and (max-width: $mobile) {
     .error__title {
       font-size: 68px;
